@@ -1,0 +1,1829 @@
+\input texinfo  @c -*- coding: utf-8 -*-
+@c ===========================================================================
+@c
+@c This file was generated with po4a. Translate the source file.
+@c
+@c ===========================================================================
+
+
+@setfilename ../../info/emacs.info
+@settitle GNU Emacs手册
+@include docstyle.texi
+@include emacsver.texi
+
+@c When printing, define EDITION to be the printed edition number, in
+@c the preferred style for ordinal edition numbers.  E.g., run the
+@c shell command "texi2any -D 'EDITION Nineteenth'" for the 19th
+@c printed edition where the edition number is spelled out in English.
+@c This relates mainly to the published book sold by the FSF.
+
+@copying
+@ifset EDITION
+这是@cite {GNU Emacs手册}的@value {EDITION}版本，@ *
+@end ifset
+@ifclear EDITION
+这是@cite {GNU Emacs手册}，
+@end ifclear
+已针对Emacs版本@value {EMACSVER}更新。
+
+Copyright @copyright{} 1985--1987, 1993--2020 Free Software Foundation, Inc.
+
+@quotation
+根据GNU自由文档许可版本1.3或自由软件基金会发布的任何更高版本，授予复制，分发和/或修改本文档的权限；不变部分为``GNU宣言''，``发行版''和``GNU一般公共许可证''，封面文本为``A
+GNU手册''，而封底文本为如下（a）所示。许可证的副本包含在标题为``GNU自由文档许可证''的部分中。
+
+（a）FSF的封底文本是：``您可以自由复制和修改本GNU手册。从FSF购买副本可以支持它开发GNU和促进软件自由。''
+@end quotation
+@end copying
+
+@dircategory Emacs
+@direntry
+* Emacs: (emacs).            可扩展的自文档文本编辑器。
+@end direntry
+
+@c in general, keep the following line commented out, unless doing a
+@c copy of this manual that will be published.  The manual should go
+@c onto the distribution in the full, 8.5 x 11" size.
+@c @set smallbook
+
+@ifset smallbook
+@smallbook
+@end ifset
+
+@c per rms and peterb, use 10pt fonts for the main text, mostly to
+@c save on paper cost.
+@c Do this inside @tex for now, so current makeinfo does not complain.
+@tex
+@ifset smallbook
+@fonttextsize 10
+@end ifset
+\global\hbadness=6666 % don't worry about not-too-underfull boxes
+@end tex
+
+@defcodeindex op
+@synindex pg cp
+
+@iftex
+@kbdinputstyle code
+
+@shorttitlepage GNU Emacs手册
+@end iftex
+
+@titlepage
+@sp 6
+@center @titlefont{GNU Emacs手册}
+@sp 4
+@ifset EDITION
+@center @value {EDITION}版，已针对Emacs版本@value {EMACSVER}更新。
+@end ifset
+@ifclear EDITION
+@center 已更新为Emacs版本@value {EMACSVER}
+@end ifclear
+@sp 5
+@center 理查德·斯托曼（Richard Stallman）等。
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+
+@sp 2
+Published by the Free Software Foundation @* 51 Franklin Street, Fifth Floor
+@* Boston, MA 02110-1301 USA @* ISBN 978-0-9831592-5-4
+
+@sp 2
+Etienne Suvasa的封面艺术；封面设计由Matt Lee设计。
+
+@end titlepage
+
+
+@summarycontents
+@contents
+
+
+@ifnottex
+@node Top
+@top Emacs编辑器
+
+Emacs是可扩展的，可自定义的，自记录的实时显示编辑器。本手册介绍了如何使用Emacs进行编辑以及一些自定义方式；它对应于GNU
+Emacs版本@value {EMACSVER}。
+
+@c See 'manual-html-mono' and 'manual-html-node' in admin/admin.el.
+@ifset WWW_GNU_ORG
+@html GNU Emacs的主页位于<a
+href="/software/emacs/">https://www.gnu.org/software/emacs/</a>.<br>要以其他格式查看本手册，请点击<a
+href="/software/emacs/manual/emacs.html">此处</a>。<br>您还可以从<a
+href="https://shop.fsf.org/product/emacs-manual/"> FSF商店</a>购买印刷版。
+@end html
+@end ifset
+
+@ifinfo
+如果要在Emacs中阅读此内容，请键入@kbd {h}以阅读Info文档系统的基本介绍。
+@end ifinfo
+
+有关扩展Emacs的信息，请参见@ref {Top, Emacs Lisp,, elisp, Emacs Lisp参考手册}。
+
+@insertcopying
+@end ifnottex
+
+@c Note that the TeX version generates its own TOC, so the ifnottex's
+@c here are not really necessary.
+@menu
+* 发行::                   如何获得最新的Emacs发行版。
+* 介绍::                   Emacs概念简介。
+
+重要的一般概念
+* 屏幕::                   如何解读你在屏幕上看到的东西。
+* 用户输入::             各种输入事件(字符、按钮、功能按键)。
+* 按键::                   键序列：您键入的内容以请求一个编辑操作。
+* 命令::                   由键序列运行的函数可以命名以进行编辑。
+* 进入Emacs::              从Shell启动Emacs。
+* 退出::                   退出或终止Emacs。
+
+基本编辑命令
+* 基础::                   最基本的编辑命令。
+* 迷你缓冲区::          输入提示的参数。
+* M-x::                      通过命令名称调用命令。
+* 帮助::                   用于向Emacs询问其命令的命令。
+
+重要的文本更改命令
+* 标记::                   标记：如何界定文本区域。
+* Killing::                  Killing (cutting) and yanking (copying) text.
+* Registers::                Saving a text string or a location in the 
+                               buffer.
+* Display::                  Controlling what text is displayed.
+* Search::                   Finding or replacing occurrences of a string.
+* Fixit::                    Commands especially useful for fixing typos.
+* Keyboard Macros::          Recording a sequence of keystrokes to be 
+                               replayed.
+
+Major Structures of Emacs
+* Files::                    All about handling files.
+* Buffers::                  Multiple buffers; editing several files at 
+                               once.
+* Windows::                  Viewing multiple pieces of text in one frame.
+* Frames::                   Using multiple windows on your display.
+* International::            Using non-@acronym{ASCII} character sets.
+
+Advanced Features
+* Modes::                    Major and minor modes alter Emacs's basic 
+                               behavior.
+* Indentation::              Editing the white space at the beginnings of 
+                               lines.
+* Text::                     Commands and modes for editing human languages.
+* Programs::                 Commands and modes for editing programs.
+* Building::                 Compiling, running and debugging programs.
+* Maintaining::              Features for maintaining large programs.
+* Abbrevs::                  Defining text abbreviations to reduce typing.
+* Dired::                    Directory and file manager.
+* Calendar/Diary::           Calendar and diary facilities.
+* Sending Mail::             Sending mail in Emacs.
+* Rmail::                    Reading mail in Emacs.
+* Gnus::                     A flexible mail and news reader.
+* Host Security::            Security issues on a single computer.
+* Network Security::         Managing the network security.
+* Document View::            Viewing PDF, PS and DVI files.
+* Shell::                    Executing shell commands from Emacs.
+* Emacs Server::             Using Emacs as an editing server.
+* Printing::                 Printing hardcopies of buffers or regions.
+* Sorting::                  Sorting lines, paragraphs or pages within 
+                               Emacs.
+@ifnottex
+* Picture Mode:: Editing pictures made up of text characters.
+@end ifnottex
+* Editing Binary Files::     Editing binary files with Hexl mode.
+* Saving Emacs Sessions::    Saving Emacs state from one session to the 
+                               next.
+* Recursive Edit::           Performing edits while within another command.
+* Hyperlinking::             Following links in buffers.
+* Amusements::               Various games and hacks.
+* Packages::                 Installing additional features.
+* Customization::            Modifying the behavior of Emacs.
+
+Recovery from Problems
+* Quitting::                 Quitting and aborting.
+* Lossage::                  What to do if Emacs is hung or malfunctioning.
+* Bugs::                     How and when to report a bug.
+* Contributing::             How to contribute improvements to Emacs.
+* Service::                  How to get help for your own Emacs needs.
+
+Appendices
+* Copying::                  The GNU General Public License gives you 
+                               permission to redistribute GNU Emacs on certain 
+                               terms; it also explains that there is no 
+                               warranty.
+* GNU Free Documentation License::  The license for this documentation.
+* Emacs Invocation::         Hairy startup options.
+* X Resources::              X resources for customizing Emacs.
+* Antinews::                 Information about Emacs version 26.
+* Mac OS / GNUstep::         Using Emacs under macOS and GNUstep.
+* Microsoft Windows::        Using Emacs on Microsoft Windows and MS-DOS.
+* Manifesto::                What's GNU? Gnu's Not Unix!
+
+* Glossary::                 Terms used in this manual.
+@ifnottex
+* Acknowledgments:: Major contributors to GNU Emacs.
+@end ifnottex
+
+
+Indexes (each index contains a large menu)
+* Key Index::                An item for each standard Emacs key sequence.
+* Option Index::             An item for every command-line option.
+* Command Index::            An item for each standard command name.
+* Variable Index::           An item for each variable documented in this 
+                               manual.
+* Concept Index::            An item for concepts and other general 
+                               subjects.
+
+@c Do NOT modify the following 3 lines!  They must have this form to
+@c be correctly identified by 'texinfo-multiple-files-update'.  In
+@c particular, the detailed menu header line MUST be identical to the
+@c value of 'texinfo-master-menu-header'.  See texnfo-upd.el.
+
+
+@detailmenu
+ --- 详细节点列表 --- ---------------------------------
+
+
+
+下面是一些其他节点，它们实际上是已经列出的节点的子节点，在这里提到，这样您就可以在一个步骤中找到它们：
+
+
+
+屏幕的组织方式
+
+
+
+* 游标::                   文本中操作编辑命令的位置。
+* 回显区::                显示在屏幕底部的短消息。
+* 状态栏::                状态栏的解释。
+* 菜单栏::                如何使用菜单栏。
+
+基本编辑命令
+
+
+
+* 插入文本::             只需键入文本即可插入文本。
+* 移动游标::             将光标移动到要更改某些内容的位置。
+* 擦除::                   删除文本。
+* 基础撤销操作::       撤消文本中最近的更改。
+* 基础文件操作::       访问、创建和保存文件。
+* 基础帮助操作::       询问一个字符是做什么的。
+* 空行::                   选择和删除空行。
+* 延续行::                Emacs如何显示对于屏幕而言太宽的行。
+* 位置信息::             游标处于哪一行、那一列？
+* 参数::                   用于将命令重复N次的数字参数。
+* 重复::                   快速重复前面的命令。
+
+迷你缓冲区
+
+
+
+* 基础迷你缓冲区操作::  迷你缓冲区的基本用法。
+* 迷你缓冲区文件::    使用迷你缓冲区输入文件名。
+* 迷你缓冲区编辑::    如何在迷你缓冲区中编辑。
+* 补全::                   一种用于迷你缓冲区输入的缩写工具。
+* 迷你缓冲区历史::    重用最近的迷你缓冲区参数。
+* 重复::                   重新执行使用迷你缓冲区的命令。
+* 密码::                   在回显区输入密码。
+* 是/否的确认提示::   在回显区回答是或否。
+
+补全
+
+
+
+* 补全示例::             使用补全的示例。
+* 补全命令::             补全命令的列表。
+* 补全退出::             补全并且提交迷你缓冲区文本。
+* 补全风格::             选择补全匹配的方式。
+* 补全选项::             补全的选项。
+
+帮助
+
+
+
+* 帮助概述::             所有帮助命令的简短列表。
+* 按键帮助::             询问指定快捷键在Emacs中的作用。
+* 名称帮助::             询问命令、变量或函数名的作用。
+* 主题搜索::             询问与给定主题有关的内容。
+* 帮助模式::             帮助模式和帮助缓冲区的特殊功能。
+* 包关键字::             通过关键字(主题)查找Lisp库。
+* 语言帮助::             与国际语言支持相关的帮助。
+* 其它帮助::             其它帮助命令。
+* 帮助文件::             用于显示辅助帮助文件的命令。
+* 帮助信息回显::       有关交互文本和工具提示的帮助。
+
+标记与选区
+
+
+
+* 设置标记::             设置标记的命令。
+* 标记对象::             在文本单元周围设置选区的命令。
+* 使用选区::             对选区内容进行操作的方法摘要。
+* 标记环::                以前的标记位置已保存，以便您可以回到那里。
+* 全局标记环::          各个缓冲区中的先前标记位置。
+* Shift选择::              使用Shift修饰的光标移动键。
+* 禁用选区高亮::       默认情况下不高亮显示选区。
+
+删除和移动文本
+
+
+
+* 清除和删除::          删除文本的命令。
+* Yanking::                  Commands that insert text.
+* Cut and Paste::            Clipboard and selections on graphical displays.
+* Accumulating Text::        Other methods to add text to the buffer.
+* Rectangles::               Operating on text in rectangular areas.
+* CUA Bindings::             Using @kbd{C-x}/@kbd{C-c}/@kbd{C-v} to kill and 
+                               yank.
+
+清除和删除
+
+
+
+* Deletion::                 Commands for deleting small amounts of text and 
+                               blank areas.
+* Killing by Lines::         How to kill entire lines of text at one time.
+* Other Kill Commands::      Commands to kill large regions of text and 
+                               syntactic units such as words and sentences.
+* Kill Options::             Options that affect killing.
+
+Yanking
+
+
+
+* Kill Ring::                Where killed text is stored.
+* Earlier Kills::            Yanking something killed some time ago.
+* Appending Kills::          Several kills in a row all yank together.
+
+Cut and Paste Operations on Graphical Displays
+
+
+
+* Clipboard::                How Emacs uses the system clipboard.
+* Primary Selection::        The temporarily selected text selection.
+* Secondary Selection::      Cutting without altering point and mark.
+
+Registers
+
+
+
+* Position Registers::       Saving positions in registers.
+* Text Registers::           Saving text in registers.
+* Rectangle Registers::      Saving rectangles in registers.
+* Configuration Registers::  Saving window configurations in registers.
+* Number Registers::         Numbers in registers.
+* File Registers::           File names in registers.
+* Keyboard Macro Registers::  Keyboard macros in registers.
+* Bookmarks::                Bookmarks are like registers, but persistent.
+
+Controlling the Display
+
+
+
+* Scrolling::                Commands to move text up and down in a window.
+* Recentering::              A scroll command that centers the current line.
+* Auto Scrolling::           Redisplay scrolls text automatically when 
+                               needed.
+* Horizontal Scrolling::     Moving text left and right in a window.
+* Narrowing::                Restricting display and editing to a portion of 
+                               the buffer.
+* View Mode::                Viewing read-only buffers.
+* Follow Mode::              Follow mode lets two windows scroll as one.
+* Faces::                    How to change the display style using faces.
+* Colors::                   Specifying colors for faces.
+* Standard Faces::           The main predefined faces.
+* Text Scale::               Increasing or decreasing text size in a buffer.
+* Font Lock::                Minor mode for syntactic highlighting using 
+                               faces.
+* Highlight Interactively::  Tell Emacs what text to highlight.
+* Fringes::                  Enabling or disabling window fringes.
+* Displaying Boundaries::    Displaying top and bottom of the buffer.
+* Useless Whitespace::       Showing possibly spurious trailing whitespace.
+* Selective Display::        Hiding lines with lots of indentation.
+* Optional Mode Line::       Optional mode line display features.
+* Text Display::             How text characters are normally displayed.
+* Cursor Display::           Features for displaying the cursor.
+* Line Truncation::          Truncating lines to fit the screen width 
+                               instead of continuing them to multiple screen 
+                               lines.
+* Visual Line Mode::         Word wrap and screen line-based editing.
+* Display Custom::           Information on variables for customizing 
+                               display.
+
+Searching and Replacement
+
+
+
+* Incremental Search::       Search happens as you type the string.
+* Nonincremental Search::    Specify entire string and then search.
+* Word Search::              Search for sequence of words.
+* Symbol Search::            Search for a source code symbol.
+* Regexp Search::            Search for match for a regexp.
+* Regexps::                  Syntax of regular expressions.
+* Regexp Backslash::         Regular expression constructs starting with 
+                               `\'.
+* Regexp Example::           A complex regular expression explained.
+* Lax Search::               Search ignores some distinctions between 
+                               similar characters, like letter-case.
+* Replace::                  Search, and replace some or all matches.
+* Other Repeating Search::   Operating on all matches for some regexp.
+* Search Customizations::    Various search customizations.
+
+Incremental Search
+
+
+
+* Basic Isearch::            Basic incremental search commands.
+* Repeat Isearch::           Searching for the same string again.
+* Isearch Yank::             Commands that grab text into the search string 
+                               or else edit the search string.
+* Error in Isearch::         When your string is not found.
+* Special Isearch::          Special input in incremental search.
+* Not Exiting Isearch::      Prefix argument and scrolling commands.
+* Isearch Minibuffer::       Incremental search of the minibuffer history.
+
+Replacement Commands
+
+
+
+* Unconditional Replace::    Replacing all matches for a string.
+* Regexp Replace::           Replacing all matches for a regexp.
+* Replacement and Lax Matches::  Lax searching for text to replace.
+* Query Replace::            How to use querying.
+
+Commands for Fixing Typos
+
+
+
+* Undo::                     The Undo commands.
+* Transpose::                Exchanging two characters, words, lines, 
+                               lists...
+* Fixing Case::              Correcting case of last word entered.
+* Spelling::                 Apply spelling checker to a word, or a whole 
+                               file.
+
+Keyboard Macros
+
+
+
+* Basic Keyboard Macro::     Defining and running keyboard macros.
+* Keyboard Macro Ring::      Where previous keyboard macros are saved.
+* Keyboard Macro Counter::   Inserting incrementing numbers in macros.
+* Keyboard Macro Query::     Making keyboard macros do different things each 
+                               time.
+* Save Keyboard Macro::      Giving keyboard macros names; saving them in 
+                               files.
+* Edit Keyboard Macro::      Editing keyboard macros.
+* Keyboard Macro Step-Edit::  Interactively executing and editing a keyboard 
+                                macro.
+
+File Handling
+
+
+
+* File Names::               How to type and edit file-name arguments.
+* Visiting::                 Visiting a file prepares Emacs to edit the 
+                               file.
+* Saving::                   Saving makes your changes permanent.
+* Reverting::                Reverting cancels all the changes not saved.
+* Auto Revert::              Keeping buffers automatically up-to-date.
+* Auto Save::                Auto Save periodically protects against loss of 
+                               data.
+* File Aliases::             Handling multiple names for one file.
+* Directories::              Creating, deleting, and listing file 
+                               directories.
+* Comparing Files::          Finding where two files differ.
+* Diff Mode::                Mode for editing file differences.
+* Copying and Naming::       Copying, naming and renaming files.
+* Misc File Ops::            Other things you can do on files.
+* Compressed Files::         Accessing compressed files.
+* File Archives::            Operating on tar, zip, jar etc. archive files.
+* Remote Files::             Accessing files on other machines.
+* Quoted File Names::        Quoting special characters in file names.
+* File Name Cache::          Completion against a list of files you often 
+                               use.
+* File Conveniences::        Convenience features for finding files.
+* Image Mode::               Viewing image files.
+* Filesets::                 Handling sets of files.
+
+Saving Files
+
+
+
+* Save Commands::            Commands for saving files.
+* Backup::                   How Emacs saves the old version of your file.
+* Customize Save::           Customizing the saving of files.
+* Interlocking::             How Emacs protects against simultaneous editing 
+                               of one file by two users.
+* File Shadowing::           Copying files to shadows automatically.
+* Time Stamps::              Emacs can update time stamps on saved files.
+
+Backup Files
+
+
+
+* Backup Names::             How backup files are named.
+* Backup Deletion::          Emacs deletes excess numbered backups.
+* Backup Copying::           Backups can be made by copying or renaming.
+
+@ifnottex
+Auto Reverting Non-File Buffers
+
+* Auto Reverting the Buffer Menu:: Auto Revert of the Buffer Menu.  * Auto
+Reverting Dired:: Auto Revert of Dired buffers.
+@end ifnottex
+
+
+Auto-Saving: Protection Against Disasters
+
+
+
+* Auto Save Files::          The file where auto-saved changes are actually 
+                               made until you save the file.
+* Auto Save Control::        Controlling when and how often to auto-save.
+* Recover::                  Recovering text from auto-save files.
+
+Using Multiple Buffers
+
+
+
+* Select Buffer::            Creating a new buffer or reselecting an old 
+                               one.
+* List Buffers::             Getting a list of buffers that exist.
+* Misc Buffer::              Renaming; changing read-only status; copying 
+                               text.
+* Kill Buffer::              Killing buffers you no longer need.
+* Several Buffers::          How to go through the list of all buffers and 
+                               operate variously on several of them.
+* Indirect Buffers::         An indirect buffer shares the text of another 
+                               buffer.
+* Buffer Convenience::       Convenience and customization features for 
+                               buffer handling.
+
+Convenience Features and Customization of Buffer Handling
+
+
+
+* Uniquify::                 Making buffer names unique with directory 
+                               parts.
+* Icomplete::                Fast minibuffer selection.
+* Buffer Menus::             Configurable buffer menu.
+
+Multiple Windows
+
+
+
+* Basic Window::             Introduction to Emacs windows.
+* Split Window::             New windows are made by splitting existing 
+                               windows.
+* Other Window::             Moving to another window or doing something to 
+                               it.
+* Pop Up Window::            Finding a file or buffer in another window.
+* Change Window::            Deleting windows and changing their sizes.
+* Displaying Buffers::       How Emacs picks a window for displaying a 
+                               buffer.
+* Temporary Displays::       Displaying non-editable buffers.
+* Window Convenience::       Convenience functions for window handling.
+* Tab Line::                 Window tab line.
+
+Displaying a Buffer in a Window
+
+
+
+* Window Choice::            How @code{display-buffer} works.
+
+Frames and Graphical Displays
+
+
+
+* Mouse Commands::           Moving, cutting, and pasting, with the mouse.
+* Word and Line Mouse::      Mouse commands for selecting whole words or 
+                               lines.
+* Mouse References::         Using the mouse to select an item from a list.
+* Menu Mouse Clicks::        Mouse clicks that bring up menus.
+* Mode Line Mouse::          Mouse clicks on the mode line.
+* Creating Frames::          Creating additional Emacs frames with various 
+                               contents.
+* Frame Commands::           Iconifying, deleting, and switching frames.
+* Fonts::                    Changing the frame font.
+* Speedbar::                 How to make and use a speedbar frame.
+* Multiple Displays::        How one Emacs instance can talk to several 
+                               displays.
+* Frame Parameters::         Changing the colors and other modes of frames.
+* Scroll Bars::              How to enable and disable scroll bars; how to 
+                               use them.
+* Window Dividers::          Window separators that can be dragged with the 
+                               mouse.
+* Drag and Drop::            Using drag and drop to open files and insert 
+                               text.
+* Menu Bars::                Enabling and disabling the menu bar.
+* Tool Bars::                Enabling and disabling the tool bar.
+* Tab Bars::                 Enabling and disabling the tab bar.
+* Dialog Boxes::             Controlling use of dialog boxes.
+* Tooltips::                 Displaying information at the current mouse 
+                               position.
+* Mouse Avoidance::          Preventing the mouse pointer from obscuring 
+                               text.
+* Non-Window Terminals::     Multiple frames on terminals that show only 
+                               one.
+* Text-Only Mouse::          Using the mouse in text terminals.
+
+International Character Set Support
+
+
+
+* International Chars::      Basic concepts of multibyte characters.
+* Language Environments::    Setting things up for the language you use.
+* Input Methods::            Entering text characters not on your keyboard.
+* Select Input Method::      Specifying your choice of input methods.
+* Coding Systems::           Character set conversion when you read and 
+                               write files, and so on.
+* Recognize Coding::         How Emacs figures out which conversion to use.
+* Specify Coding::           Specifying a file's coding system explicitly.
+* Output Coding::            Choosing coding systems for output.
+* Text Coding::              Choosing conversion to use for file text.
+* Communication Coding::     Coding systems for interprocess communication.
+* File Name Coding::         Coding systems for file @emph{names}.
+* Terminal Coding::          Specifying coding systems for converting 
+                               terminal input and output.
+* Fontsets::                 Fontsets are collections of fonts that cover 
+                               the whole spectrum of characters.
+* Defining Fontsets::        Defining a new fontset.
+* Modifying Fontsets::       Modifying an existing fontset.
+* Undisplayable Characters::When characters don't display.
+* Unibyte Mode::             You can pick one European character set to use 
+                               without multibyte characters.
+* Charsets::                 How Emacs groups its internal character codes.
+* Bidirectional Editing::    Support for right-to-left scripts.
+
+Major and Minor Modes
+
+
+
+* Major Modes::              Text mode vs. Lisp mode vs. C mode...
+* Minor Modes::              Each minor mode is a feature you can turn on 
+                               independently of any others.
+* Choosing Modes::           How modes are chosen when visiting files.
+
+Indentation
+
+
+
+* Indentation Commands::     More commands for performing indentation.
+* Tab Stops::                Stop points for indentation in Text modes.
+* Just Spaces::              Using only space characters for indentation.
+* Indent Convenience::       Optional indentation features.
+
+Commands for Human Languages
+
+
+
+* Words::                    Moving over and killing words.
+* Sentences::                Moving over and killing sentences.
+* Paragraphs::               Moving over paragraphs.
+* Pages::                    Moving over pages.
+* Quotation Marks::          Inserting quotation marks.
+* Filling::                  Filling or justifying text.
+* Case::                     Changing the case of text.
+* Text Mode::                The major modes for editing text files.
+* Outline Mode::             Editing outlines.
+* Org Mode::                 The Emacs organizer.
+* TeX Mode::                 Editing TeX and LaTeX files.
+* HTML Mode::                Editing HTML and SGML files.
+* Nroff Mode::               Editing input to the nroff formatter.
+* Enriched Text::            Editing text enriched with fonts, colors, etc.
+* Text Based Tables::        Commands for editing text-based tables.
+* Two-Column::               Splitting text columns into separate windows.
+
+Filling Text
+
+
+
+* Auto Fill::                Auto Fill mode breaks long lines automatically.
+* Fill Commands::            Commands to refill paragraphs and center lines.
+* Fill Prefix::              Filling paragraphs that are indented or in a 
+                               comment, etc.
+* Adaptive Fill::            How Emacs can determine the fill prefix 
+                               automatically.
+
+Outline Mode
+
+
+
+* Outline Format::           What the text of an outline looks like.
+* Outline Motion::           Special commands for moving through outlines.
+* Outline Visibility::       Commands to control what is visible.
+* Outline Views::            Outlines and multiple views.
+* Foldout::                  Folding means zooming in on outlines.
+
+Org Mode
+
+
+
+* Org Organizer::            Managing TODO lists and agendas.
+* Org Authoring::            Exporting Org buffers to various formats.
+
+@TeX{} Mode
+
+
+
+* TeX Editing::              Special commands for editing in TeX mode.
+* LaTeX Editing::            Additional commands for LaTeX input files.
+* TeX Print::                Commands for printing part of a file with TeX.
+* TeX Misc::                 Customization of TeX mode, and related 
+                               features.
+
+Enriched Text
+
+
+
+* Enriched Mode::            Entering and exiting Enriched mode.
+* Hard and Soft Newlines::   There are two different kinds of newlines.
+* Editing Format Info::      How to edit text properties.
+* Enriched Faces::           Bold, italic, underline, etc.
+* Enriched Indentation::     Changing the left and right margins.
+* Enriched Justification::   Centering, setting text flush with the left or 
+                               right margin, etc.
+* Enriched Properties::      The ``Special text properties'' submenu.
+
+@c The automatic texinfo menu update inserts some duplicate items here
+@c (faces, colors, indentation, justification, properties), because
+@c they are listed in two menus.  But we already have them above, no
+@c need to list them twice.
+
+
+Editing Text-based Tables
+
+
+
+* Table Definition::         What is a text based table.
+* Table Creation::           How to create a table.
+* Table Recognition::        How to activate and deactivate tables.
+* Cell Commands::            Cell-oriented commands in a table.
+* Cell Justification::       Justifying cell contents.
+* Table Rows and Columns::   Inserting and deleting rows and columns.
+* Table Conversion::         Converting between plain text and tables.
+* Table Misc::               Table miscellany.
+
+Editing Programs
+
+
+
+* Program Modes::            Major modes for editing programs.
+* Defuns::                   Commands to operate on major top-level parts of 
+                               a program.
+* Program Indent::           Adjusting indentation to show the nesting.
+* Parentheses::              Commands that operate on parentheses.
+* Comments::                 Inserting, killing, and aligning comments.
+* Documentation::            Getting documentation of functions you plan to 
+                               call.
+* Hideshow::                 Displaying blocks selectively.
+* Symbol Completion::        Completion on symbol names of your program or 
+                               language.
+* MixedCase Words::          Dealing with identifiersLikeThis.
+* Semantic::                 Suite of editing tools based on source code 
+                               parsing.
+* Misc for Programs::        Other Emacs features useful for editing 
+                               programs.
+* C Modes::                  Special commands of C, C++, Objective-C, Java, 
+                               IDL, Pike and AWK modes.
+* Asm Mode::                 Asm mode and its special features.
+@ifnottex
+* Fortran:: Fortran mode and its special features.
+@end ifnottex
+
+
+Top-Level Definitions, or Defuns
+
+
+
+* Left Margin Paren::        An open-paren or similar opening delimiter 
+                               starts a defun if it is at the left margin.
+* Moving by Defuns::         Commands to move over or mark a major 
+                               definition.
+* Imenu::                    Making buffer indexes as menus.
+* Which Function::           Which Function mode shows which function you 
+                               are in.
+
+Indentation for Programs
+
+
+
+* Basic Indent::             Indenting a single line.
+* Multi-line Indent::        Commands to reindent many lines at once.
+* Lisp Indent::              Specifying how each Lisp function should be 
+                               indented.
+* C Indent::                 Extra features for indenting C and related 
+                               modes.
+* Custom C Indent::          Controlling indentation style for C and related 
+                               modes.
+
+Commands for Editing with Parentheses
+
+
+
+* Expressions::              Expressions with balanced parentheses.
+* Moving by Parens::         Commands for moving up, down and across in the 
+                               structure of parentheses.
+* Matching::                 Insertion of a close-delimiter flashes matching 
+                               open.
+
+Manipulating Comments
+
+
+
+* Comment Commands::         Inserting, killing, and aligning comments.
+* Multi-Line Comments::      Commands for adding and editing multi-line 
+                               comments.
+* Options for Comments::Customizing the comment features.
+
+
+
+Documentation Lookup
+
+
+
+* Info Lookup::              Looking up library functions and commands in 
+                               Info files.
+* Man Page::                 Looking up man pages of library functions and 
+                               commands.
+* Lisp Doc::                 Looking up Emacs Lisp functions, etc.
+
+C and Related Modes
+
+
+
+* Motion in C::              Commands to move by C statements, etc.
+* Electric C::               Colon and other chars can automatically 
+                               reindent.
+* Hungry Delete::            A more powerful DEL command.
+* Other C Commands::         Filling comments, viewing expansion of macros, 
+                               and other neat features.
+
+@ifnottex
+Fortran Mode
+
+* Fortran Motion:: Moving point by statements or subprograms.  * Fortran
+Indent:: Indentation commands for Fortran.  * Fortran Comments:: Inserting
+and aligning comments.  * Fortran Autofill:: Auto fill support for Fortran.
+* Fortran Columns:: Measuring columns for valid Fortran.  * Fortran Abbrev::
+Built-in abbrevs for Fortran keywords.
+
+Fortran Indentation
+
+* ForIndent Commands:: Commands for indenting and filling Fortran.  *
+ForIndent Cont:: How continuation lines indent.  * ForIndent Num:: How line
+numbers auto-indent.  * ForIndent Conv:: Conventions you must obey to avoid
+trouble.  * ForIndent Vars:: Variables controlling Fortran indent style.
+@end ifnottex
+
+
+Compiling and Testing Programs
+
+
+
+* Compilation::              Compiling programs in languages other than Lisp 
+                               (C, Pascal, etc.).
+* Compilation Mode::         The mode for visiting compiler errors.
+* Compilation Shell::        Customizing your shell properly for use in the 
+                               compilation buffer.
+* Grep Searching::           Searching with grep.
+* Flymake::                  Finding syntax errors on the fly.
+* Debuggers::                Running symbolic debuggers for non-Lisp 
+                               programs.
+* Executing Lisp::           Various modes for editing Lisp programs, with 
+                               different facilities for running the Lisp 
+                               programs.
+* Lisp Libraries::           How Lisp programs are loaded into Emacs.
+* Lisp Eval::                Executing a single Lisp expression in Emacs.
+* Lisp Interaction::         Executing Lisp in an Emacs buffer.
+* External Lisp::            Communicating through Emacs with a separate 
+                               Lisp.
+
+Running Debuggers Under Emacs
+
+
+
+* Starting GUD::             How to start a debugger subprocess.
+* Debugger Operation::       Connection between the debugger and source 
+                               buffers.
+* Commands of GUD::          Key bindings for common commands.
+* GUD Customization::        Defining your own commands for GUD.
+* GDB Graphical Interface::  An enhanced mode that uses GDB features to 
+                               implement a graphical debugging environment.
+
+GDB Graphical Interface
+
+
+
+* GDB User Interface Layout::  Control the number of displayed buffers.
+* Source Buffers::           Use the mouse in the fringe/margin to control 
+                               your program.
+* Breakpoints Buffer::       A breakpoint control panel.
+* Threads Buffer::           Displays your threads.
+* Stack Buffer::             Select a frame from the call stack.
+* Other GDB Buffers::        Other buffers for controlling the GDB state.
+* Watch Expressions::        Monitor variable values in the speedbar.
+* Multithreaded Debugging::  Debugging programs with several threads.
+
+Maintaining Large Programs
+
+
+
+* Version Control::          Using version control systems.
+* Projects::                 Commands for handling source files in a 
+                               project.
+* Change Log::               Maintaining a change history for your program.
+* Xref::                     Find definitions and references of any 
+                               function, method, struct, macro, @dots{} in 
+                               your program.
+* EDE::                      An integrated development environment for 
+                               Emacs.
+@ifnottex
+* Emerge:: A convenient way of merging two versions of a program.
+@end ifnottex
+
+
+Version Control
+
+
+
+* Introduction to VC::       How version control works in general.
+* VC Mode Line::             How the mode line shows version control status.
+* Basic VC Editing::         How to edit a file under version control.
+* Log Buffer::               Features available in log entry buffers.
+* Registering::              Putting a file under version control.
+* Old Revisions::            Examining and comparing old versions.
+* VC Change Log::            Viewing the VC Change Log.
+* VC Undo::                  Canceling changes before or after committing.
+* VC Ignore::                Ignore files under version control system.
+* VC Directory Mode::        Listing files managed by version control.
+* Branches::                 Multiple lines of development.
+@ifnottex
+* Miscellaneous VC:: Various other commands and features of VC.  *
+Customizing VC:: Variables that change VC's behavior.
+@end ifnottex
+
+
+Introduction to Version Control
+
+
+
+* Why Version Control?::     Understanding the problems it addresses.
+* Version Control Systems::  Supported version control back-end systems.
+* VCS Concepts::             Words and concepts related to version control.
+* VCS Merging::              How file conflicts are handled.
+* VCS Changesets::           How changes are grouped.
+* VCS Repositories::         Where version control repositories are stored.
+* Types of Log File::        The VCS log in contrast to the ChangeLog.
+
+Basic Editing under Version Control
+
+
+
+* VC With A Merging VCS::    Without locking: default mode for CVS.
+* VC With A Locking VCS::    RCS in its default mode, SCCS, and optionally 
+                               CVS.
+* Advanced C-x v v::         Advanced features available with a prefix 
+                               argument.
+
+VC Directory Mode
+
+
+
+* VC Directory Buffer::      What the buffer looks like and means.
+* VC Directory Commands::    Commands to use in a VC directory buffer.
+
+Version Control Branches
+
+
+
+* Switching Branches::       How to get to another existing branch.
+* Pulling / Pushing::        Receiving/sending changes from/to elsewhere.
+* Merging::                  Transferring changes between branches.
+* Creating Branches::        How to start a new branch.
+
+@ifnottex
+Miscellaneous Commands and Features of VC
+
+* Change Logs and VC:: Generating a change log file from log entries.  * VC
+Delete/Rename:: Deleting and renaming version-controlled files.  * Revision
+Tags:: Symbolic names for revisions.  * Version Headers:: Inserting version
+control headers into working files.
+
+Customizing VC
+
+* General VC Options:: Options that apply to multiple back ends.  * RCS and
+SCCS:: Options for RCS and SCCS.  * CVS Options:: Options for CVS.
+@end ifnottex
+
+
+Change Logs
+
+
+
+* Change Log Commands::      Commands for editing change log files.
+* Format of ChangeLog::      What the change log file looks like.
+
+Xref
+
+
+
+* Find Identifiers::         Commands to find where an identifier is defined 
+                               or referenced, to list identifiers, etc.
+* Tags Tables::              Tags table records which file defines a symbol.
+* Select Tags Table::        How to visit a specific tags table.
+
+Find Identifiers
+
+
+
+* Looking Up Identifiers::   Commands to find the definition of a specific 
+                               tag.
+* Xref Commands::            Commands in the @file{*xref*} buffer.
+* Identifier Search::        Searching and replacing identifiers.
+* List Identifiers::         Listing identifiers and completing on them.
+
+Tags Tables
+
+
+
+* Tag Syntax::               Tag syntax for various types of code and text 
+                               files.
+* Create Tags Table::        Creating a tags table with @command{etags}.
+* Etags Regexps::            Create arbitrary tags using regular 
+                               expressions.
+
+@ifnottex
+Merging Files with Emerge
+
+* Overview of Emerge:: How to start Emerge.  Basic concepts.  * Submodes of
+Emerge:: Fast mode vs. Edit mode.  Skip Prefers mode and Auto Advance mode.
+* State of Difference:: You do the merge by specifying state A or B for each
+difference.  * Merge Commands:: Commands for selecting a difference,
+changing states of differences, etc.  * Exiting Emerge:: What to do when
+you've finished the merge.  * Combining in Emerge:: How to keep both
+alternatives for a difference.  * Fine Points of Emerge:: Miscellaneous
+issues.
+@end ifnottex
+
+
+Abbrevs
+
+
+
+* Abbrev Concepts::          Fundamentals of defined abbrevs.
+* Defining Abbrevs::         Defining an abbrev, so it will expand when 
+                               typed.
+* Expanding Abbrevs::        Controlling expansion: prefixes, canceling 
+                               expansion.
+* Editing Abbrevs::          Viewing or editing the entire list of defined 
+                               abbrevs.
+* Saving Abbrevs::           Saving the entire list of abbrevs for another 
+                               session.
+* Dynamic Abbrevs::          Abbreviations for words already in the buffer.
+* Dabbrev Customization::    What is a word, for dynamic abbrevs.  Case 
+                               handling.
+
+@ifnottex
+Editing Pictures
+
+* Basic Picture:: Basic concepts and simple commands of Picture Mode.  *
+Insert in Picture:: Controlling direction of cursor motion after
+self-inserting characters.  * Tabs in Picture:: Various features for tab
+stops and indentation.  * Rectangles in Picture:: Clearing and superimposing
+rectangles.
+@end ifnottex
+
+
+Dired, the Directory Editor
+
+
+
+* Dired Enter::              How to invoke Dired.
+* Dired Navigation::         Special motion commands in the Dired buffer.
+* Dired Deletion::           Deleting files with Dired.
+* Flagging Many Files::      Flagging files based on their names.
+* Dired Visiting::           Other file operations through Dired.
+* Marks vs Flags::           Flagging for deletion vs marking.
+* Operating on Files::       How to copy, rename, print, compress, etc.  
+                               either one file or several files.
+* Shell Commands in Dired::  Running a shell command on the marked files.
+* Transforming File Names::  Using patterns to rename multiple files.
+* Comparison in Dired::      Running @code{diff} by way of Dired.
+* Subdirectories in Dired::  Adding subdirectories to the Dired buffer.
+@ifnottex
+* Subdir Switches:: Subdirectory switches in Dired.
+@end ifnottex
+* Subdirectory Motion::      Moving across subdirectories, and up and down.
+* Hiding Subdirectories::    Making subdirectories visible or invisible.
+* Dired Updating::           Discarding lines for files of no interest.
+* Dired and Find::           Using @code{find} to choose the files for 
+                               Dired.
+* Wdired::                   Operating on files by editing the Dired buffer.
+* Image-Dired::              Viewing image thumbnails in Dired.
+* Misc Dired Features::      Various other features.
+
+The Calendar and the Diary
+
+
+
+* Calendar Motion::          Moving through the calendar; selecting a date.
+* Scroll Calendar::          Bringing earlier or later months onto the 
+                               screen.
+* Counting Days::            How many days are there between two dates?
+* General Calendar::         Exiting or recomputing the calendar.
+* Writing Calendar Files::   Writing calendars to files of various formats.
+* Holidays::                 Displaying dates of holidays.
+* Sunrise/Sunset::           Displaying local times of sunrise and sunset.
+* Lunar Phases::             Displaying phases of the moon.
+* Other Calendars::          Converting dates to other calendar systems.
+* Diary::                    Displaying events from your diary.
+* Daylight Saving::          How to specify when daylight saving time is 
+                               active.
+* Time Intervals::           Keeping track of time intervals.
+@ifnottex
+* Advanced Calendar/Diary Usage:: Advanced Calendar/Diary customization.
+@end ifnottex
+
+
+Movement in the Calendar
+
+
+
+* Calendar Unit Motion::     Moving by days, weeks, months, and years.
+* Move to Beginning or End::  Moving to start/end of weeks, months, and 
+                                years.
+* Specified Dates::          Moving to the current date or another specific 
+                               date.
+
+Conversion To and From Other Calendars
+
+
+
+* Calendar Systems::         The calendars Emacs understands (aside from 
+                               Gregorian).
+* To Other Calendar::        Converting the selected date to various 
+                               calendars.
+* From Other Calendar::      Moving to a date specified in another calendar.
+
+The Diary
+
+
+
+* Format of Diary File::     Entering events in your diary.
+* Displaying the Diary::     Viewing diary entries and associated calendar 
+                               dates.
+* Date Formats::             Various ways you can specify dates.
+* Adding to Diary::          Commands to create diary entries.
+* Special Diary Entries::    Anniversaries, blocks of dates, cyclic entries, 
+                               etc.
+* Appointments::             Reminders when it's time to do something.
+* Importing Diary::          Converting diary events to/from other formats.
+
+@ifnottex
+More advanced features of the Calendar and Diary
+
+* Calendar Customizing:: Calendar layout and hooks.  * Holiday Customizing::
+Defining your own holidays.  * Mayan Calendar:: Moving to a date specified
+in a Mayan calendar.  * Date Display Format:: Changing the format.  * Time
+Display Format:: Changing the format.  * Diary Customizing:: Defaults you
+can set.  * Non-Gregorian Diary:: Diary entries based on other calendars.  *
+Diary Display:: A choice of ways to display the diary.  * Fancy Diary
+Display:: Sorting diary entries, using included diary files.  * Sexp Diary
+Entries:: More flexible diary entries.
+@end ifnottex
+
+
+Sending Mail
+
+
+
+* Mail Format::              Format of a mail message.
+* Mail Headers::             Details of some standard mail header fields.
+* Mail Aliases::             Abbreviating and grouping mail addresses.
+* Mail Commands::            Special commands for editing mail being 
+                               composed.
+* Mail Signature::           Adding a signature to every message.
+* Mail Amusements::          Distracting the NSA; adding fortune messages.
+* Mail Methods::             Using alternative mail-composition methods.
+
+Mail Commands
+
+
+
+* Mail Sending::             Commands to send the message.
+* Header Editing::           Commands to move to header fields and edit 
+                               them.
+* Citing Mail::              Quoting a message you are replying to.
+* Mail Misc::                Attachments, spell checking, etc.
+
+Reading Mail with Rmail
+
+
+
+* Rmail Basics::             Basic concepts of Rmail, and simple use.
+* Rmail Scrolling::          Scrolling through a message.
+* Rmail Motion::             Moving to another message.
+* Rmail Deletion::           Deleting and expunging messages.
+* Rmail Inbox::              How mail gets into the Rmail file.
+* Rmail Files::              Using multiple Rmail files.
+* Rmail Output::             Copying message out to files.
+* Rmail Labels::             Classifying messages by labeling them.
+* Rmail Attributes::         Certain standard labels, called attributes.
+* Rmail Reply::              Sending replies to messages you are viewing.
+* Rmail Summary::            Summaries show brief info on many messages.
+* Rmail Sorting::            Sorting messages in Rmail.
+* Rmail Display::            How Rmail displays a message; customization.
+* Rmail Coding::             How Rmail handles decoding character sets.
+* Rmail Editing::            Editing message text and headers in Rmail.
+* Rmail Digest::             Extracting the messages from a digest message.
+* Rmail Rot13::              Reading messages encoded in the rot13 code.
+* Movemail::                 More details of fetching new mail.
+* Remote Mailboxes::         Retrieving mail from remote mailboxes.
+* Other Mailbox Formats::    Retrieving mail from local mailboxes in various 
+                               formats.
+
+Rmail Summaries
+
+
+
+* Rmail Make Summary::       Making various sorts of summaries.
+* Rmail Summary Edit::       Manipulating messages from the summary.
+
+Gnus
+
+
+
+* Buffers of Gnus::          The group, summary, and article buffers.
+* Gnus Startup::             What you should know about starting Gnus.
+* Gnus Group Buffer::        A short description of Gnus group commands.
+* Gnus Summary Buffer::      A short description of Gnus summary commands.
+
+Document Viewing
+
+
+
+* DocView Navigation::       Navigating DocView buffers.
+* DocView Searching::        Searching inside documents.
+* DocView Slicing::          Specifying which part of a page is displayed.
+* DocView Conversion::       Influencing and triggering conversion.
+
+Running Shell Commands from Emacs
+
+
+
+* Single Shell::             How to run one shell command and return.
+* Interactive Shell::        Permanent shell taking input via Emacs.
+* Shell Mode::               Special Emacs commands used with permanent 
+                               shell.
+* Shell Prompts::            Two ways to recognize shell prompts.
+* Shell History::            Repeating previous commands in a shell buffer.
+* Directory Tracking::       Keeping track when the subshell changes 
+                               directory.
+* Shell Options::            Options for customizing Shell mode.
+* Terminal emulator::        An Emacs window as a terminal emulator.
+* Term Mode::                Special Emacs commands used in Term mode.
+* Remote Host::              Connecting to another computer.
+* Serial Terminal::          Connecting to a serial port.
+
+Shell Command History
+
+
+
+* Shell Ring::               Fetching commands from the history list.
+* Shell History Copying::Moving to a command and then copying it.
+* History References::       Expanding @samp{!}-style history references.
+
+Using Emacs as a Server
+
+
+
+* TCP Emacs server::         Listening to a TCP socket.
+* Invoking emacsclient::     Connecting to the Emacs server.
+* emacsclient Options::      Emacs client startup options.
+
+Printing Hard Copies
+
+
+
+* PostScript::               Printing buffers or regions as PostScript.
+* PostScript Variables::     Customizing the PostScript printing commands.
+* Printing Package::         An optional advanced printing interface.
+
+Hyperlinking and Navigation Features
+
+
+
+* EWW::                      A web browser in Emacs.
+* Embedded WebKit Widgets::  Embedding browser widgets in Emacs buffers.
+* Browse-URL::               Following URLs.
+* Goto Address mode::        Activating URLs.
+* FFAP::                     Finding files etc. at point.
+
+Emacs Lisp Packages
+
+
+
+* Package Menu::             Buffer for viewing and managing packages.
+* Package Statuses::         Which statuses a package can have.
+* Package Installation::     Options for package installation.
+* Package Files::            Where packages are installed.
+
+Customization
+
+
+
+* Easy Customization::       Convenient way to browse and change settings.
+* Variables::                Many Emacs commands examine Emacs variables to 
+                               decide what to do; by setting variables, you 
+                               can control their functioning.
+* Key Bindings::             The keymaps say what command each key runs.  By 
+                               changing them, you can redefine keys.
+* Init File::                How to write common customizations in the 
+                               initialization file.
+* Authentication::           Keeping persistent authentication information.
+
+Easy Customization Interface
+
+
+
+* Customization Groups::     How settings are classified.
+* Browsing Custom::          Browsing and searching for settings.
+* Changing a Variable::      How to edit an option's value and set the 
+                               option.
+* Saving Customizations::    Saving customizations for future Emacs 
+                               sessions.
+* Face Customization::       How to edit the attributes of a face.
+* Specific Customization::   Customizing specific settings or groups.
+* Custom Themes::            Collections of customization settings.
+* Creating Custom Themes::   How to create a new custom theme.
+
+Variables
+
+
+
+* Examining::                Examining or setting one variable's value.
+* Hooks::                    Hook variables let you specify programs for 
+                               parts of Emacs to run on particular occasions.
+* Locals::                   Per-buffer values of variables.
+* File Variables::           How files can specify variable values.
+* Directory Variables::      How variable values can be specified by 
+                               directory.
+* Connection Variables::     Variables which are valid for buffers with a 
+                               remote default directory.
+
+Local Variables in Files
+
+
+
+* Specifying File Variables::  Specifying file local variables.
+* Safe File Variables::      Making sure file local variables are safe.
+
+Customizing Key Bindings
+
+
+
+* Keymaps::                  Generalities.  The global keymap.
+* Prefix Keymaps::           Keymaps for prefix keys.
+* Local Keymaps::            Major and minor modes have their own keymaps.
+* Minibuffer Maps::          The minibuffer uses its own local keymaps.
+* Rebinding::                How to redefine one key's meaning conveniently.
+* Init Rebinding::           Rebinding keys with your initialization file.
+* Modifier Keys::            Using modifier keys in key bindings.
+* Function Keys::            Rebinding terminal function keys.
+* Named ASCII Chars::        Distinguishing @key{TAB} from @kbd{C-i}, and so 
+                               on.
+* Mouse Buttons::            Rebinding mouse buttons in Emacs.
+* Disabling::                Disabling a command means confirmation is 
+                               required before it can be executed.  This is 
+                               done to protect beginners from surprises.
+
+The Emacs Initialization File
+
+
+
+* Init Syntax::              Syntax of constants in Emacs Lisp.
+* Init Examples::            How to do some things with an init file.
+* Terminal Init::            Each terminal type can have an init file.
+* Find Init::                How Emacs finds the init file.
+* Init Non-ASCII::           Using non-@acronym{ASCII} characters in an init 
+                               file.
+* Early Init File::          Another init file, which is read early on.
+
+Dealing with Emacs Trouble
+
+
+
+* DEL Does Not Delete::      What to do if @key{DEL} doesn't delete.
+* Stuck Recursive::          '[...]' in mode line around the parentheses.
+* Screen Garbled::           Garbage on the screen.
+* Text Garbled::             Garbage in the text.
+* Memory Full::              How to cope when you run out of memory.
+* Crashing::                 What Emacs does when it crashes.
+* After a Crash::            Recovering editing in an Emacs session that 
+                               crashed.
+* Emergency Escape::         What to do if Emacs stops responding.
+* Long Lines::               Mitigating slowness due to extremely long 
+                               lines.
+
+Reporting Bugs
+
+
+
+* Known Problems::           How to read about known problems and bugs.
+* Bug Criteria::             Have you really found a bug?
+* Understanding Bug Reporting::  How to report a bug effectively.
+* Checklist::                Steps to follow for a good bug report.
+* Sending Patches::          How to send a patch for GNU Emacs.
+
+Contributing to Emacs Development
+
+
+
+* Coding Standards::         GNU Emacs coding standards.
+* Copyright Assignment::     Assigning copyright to the FSF.
+
+Command Line Arguments for Emacs Invocation
+
+
+
+* Action Arguments::         Arguments to visit files, load libraries, and 
+                               call functions.
+* Initial Options::          Arguments that take effect while starting 
+                               Emacs.
+* Command Example::          Examples of using command line arguments.
+* Environment::              Environment variables that Emacs uses.
+* Display X::                Changing the default display and using remote 
+                               login.
+* Font X::                   Choosing a font for text, under X.
+* Colors X::                 Choosing display colors.
+* Window Size X::            Start-up window size, under X.
+* Borders X::                Internal and outer borders, under X.
+* Title X::                  Specifying the initial frame's title.
+* Icons X::                  Choosing what sort of icon to use, under X.
+* Misc X::                   Other display options.
+
+Environment Variables
+
+
+
+* General Variables::        Environment variables that all versions of 
+                               Emacs use.
+* Misc Variables::           Certain system-specific variables.
+* MS-Windows Registry::      An alternative to the environment on 
+                               MS-Windows.
+
+X Options and Resources
+
+
+
+* Resources::                Using X resources with Emacs (in general).
+* Table of Resources::       Table of specific X resources that affect 
+                               Emacs.
+* Lucid Resources::          X resources for Lucid menus.
+* Motif Resources::          X resources for Motif and LessTif menus.
+* GTK resources::            Resources for GTK widgets.
+
+GTK resources
+
+
+
+* GTK Resource Basics::      Basic usage of GTK+ resources.
+* GTK Widget Names::         How GTK+ widgets are named.
+* GTK Names in Emacs::       GTK+ widgets used by Emacs.
+* GTK styles::               What can be customized in a GTK+ widget.
+
+Emacs and macOS / GNUstep
+
+
+
+* Mac / GNUstep Basics::     Basic Emacs usage under GNUstep or macOS.
+* Mac / GNUstep Customization::  Customizations under GNUstep or macOS.
+* Mac / GNUstep Events::     How window system events are handled.
+* GNUstep Support::          Details on status of GNUstep support.
+
+Emacs and Microsoft Windows/MS-DOS
+
+
+
+* Windows Startup::          How to start Emacs on Windows.
+* Text and Binary::          Text files use CRLF to terminate lines.
+* Windows Files::            File-name conventions on Windows.
+* ls in Lisp::               Emulation of @code{ls} for Dired.
+* Windows HOME::             Where Emacs looks for your @file{.emacs} and 
+                               where it starts up.
+* Windows Keyboard::         Windows-specific keyboard features.
+* Windows Mouse::            Windows-specific mouse features.
+* Windows Processes::        Running subprocesses on Windows.
+* Windows Printing::         How to specify the printer on MS-Windows.
+* Windows Fonts::            Specifying fonts on MS-Windows.
+* Windows Misc::             Miscellaneous Windows features.
+@ifnottex
+* MS-DOS:: Using Emacs on MS-DOS.
+
+Emacs and MS-DOS
+
+* MS-DOS Keyboard:: Keyboard conventions on MS-DOS.  * MS-DOS Mouse:: Mouse
+conventions on MS-DOS.  * MS-DOS Display:: Fonts, frames and display size on
+MS-DOS.  * MS-DOS File Names:: File name conventions on MS-DOS.  * MS-DOS
+Printing:: Printing specifics on MS-DOS.  * MS-DOS and MULE:: Support for
+internationalization on MS-DOS.  * MS-DOS Processes:: Running subprocesses
+on MS-DOS.
+@end ifnottex
+
+
+@end detailmenu
+@end menu
+
+@iftex
+@unnumbered 前言
+
+  本手册记录了Emacs编辑器的使用和简单自定义。简单的Emacs定制不需要您成为程序员，但是如果您对定制​​不感兴趣，则可以忽略定制提示。
+
+  这主要是参考手册，但也可以用作入门手册。如果您是Emacs的新手，我们建议您从综合的“边做边学”教程开始，然后再阅读手册。要运行该教程，请启动Emacs并输入@kbd
+{C-h t}。本教程描述了命令，告诉您何时使用它们，并解释了结果。该教程有多种语言版本。
+
+  初读时，只需略读第1章和第2章，它们描述了手册的符号约定以及Emacs显示屏的一般外观。请注意在这些章节中回答了哪些问题，因此您以后可以参考。阅读第4章后，应练习此处显示的命令。接下来的几章介绍了不断使用的基本技术和概念。您需要彻底了解它们，因此请尝试使用它们直到您流利。
+
+  第14章至第19章介绍了对多种编辑有用的中级功能。第20章及其后各章介绍了可选的但有用的功能。需要时阅读这些章节。
+
+  如果Emacs似乎无法正常工作，请阅读“常见问题”一章。它说明了如何解决几个常见问题（@pxref
+{Lossage，处理Emacs故障}），以及何时以及如何报告Emacs错误（@pxref {Bugs}）。
+
+  要查找特定命令的文档，请查看索引。键（字符命令）和命令名称具有单独的索引。还有一个术语表，每个术语都有交叉参考。
+
+  该手册既可以作为印刷书籍也可以作为Info文件获得。Info文件用于从Emacs本身或通过Info程序读取。Info是GNU系统中文档编制的主要格式。Info文件和印刷书籍基本上包含相同的文本，并且是从相同的源文件生成的，这些源文件也随GNU
+Emacs一起分发。
+
+  GNU
+Emacs是Emacs编辑器家族的成员。Emacs编辑器很多，都具有共同的组织原则。有关Emacs的基本原理以及从其开发中学到的经验教训的信息，请参阅@cite
+{Emacs，可扩展的，可定制的自文档显示编辑器}，可从@url
+{https://dspace.mit.edu/handle/1721.1/5736}。
+
+该手册的主要版本旨在与安装在GNU和Unix系统上的GNU Emacs一起使用。GNU Emacs也可以在MS-DOS，Microsoft
+Windows和Macintosh系统上使用。本手册的Info文件版本包含有关在这些系统上使用Emacs的更多信息。这些系统使用不同的文件名语法。此外，MS-DOS不支持所有GNU
+Emacs功能。@xref {Microsoft Windows}, 以获取有关在Windows上使用Emacs的信息。@xref {Mac OS /
+GNUstep}, 以获取有关在Macintosh（和GNUstep）上使用Emacs的信息。
+@end iftex
+
+@node 发行
+@unnumbered 发行版
+
+GNU Emacs是@dfn {自由软件}；这意味着每个人都可以自由使用它，并可以在一定条件下自由地重新发行它。GNU
+Emacs不属于公共领域；它是受版权保护的，并且对其发行有限制，但这些限制旨在允许好的合作公民想要做的一切。不允许的是试图阻止其他人进一步分享他们可能从您那里获得的任何版本的GNU
+Emacs。确切的条件可以在Emacs随附的GNU通用公共许可证中找到，也可以在此manual @footnote {此手册本身由GNU Free
+Documentation License涵盖。该许可证在精神上与通用公共许可证类似，但更适合用于文档。@xref{GNU Free
+Documentation License}}中找到。。@xref{Copying}.
+
+获得GNU
+Emacs副本的一种方式是从其他拥有它的人那里。你不需要征得我们的许可，也不需要告诉任何人，只需拷贝就行了。如果可以访问Internet，则可以通过匿名FTP获得最新版本的GNU
+Emacs；有关更多信息，请参见我们网站上的@url {https://www.gnu.org/software/emacs}。
+
+您还可以在购买计算机时收到GNU
+Emacs。计算机制造商可以按照适用于其他所有人的相同条款自由发行副本。这些条款要求他们向您提供完整的源代码，包括他们可能做出的任何更改，并允许您根据通用公共许可证的通常条款重新分发从他们那里收到的GNU
+Emacs。换句话说，当您获得程序时，程序必须对您免费，而不仅仅是制造商免费。
+
+如果您觉得GNU
+Emacs有用，请向自由软件基金会@strong{捐赠}以支持我们的工作。在美国，对自由软件基金会的捐款是免税的。如果您在工作场所使用GNU
+Emacs，请建议公司捐款。要捐款，请参阅@url{https://my.fsf.org/donate/}.  有关其他帮助方法，请参阅@url
+{https://www.gnu.org/help/help.html}。
+
+@c The command view-order-manuals uses this anchor.
+@anchor{Printed Books}
+我们还出售该手册的印刷版和Robert J. Chassell的@cite {Emacs Lisp中的编程简介}。您可以通过@url
+{https://shop.fsf.org/}访问我们的在线商店。销售收入将用于支持基金会的目标：开发新的自由软件，并改进我们现有的程序，包括GNU
+Emacs。
+
+如果您需要联系自由软件基金会，请参阅@url {https://www.fsf.org/about/contact/}，或写信给
+
+@display
+Free Software Foundation
+51 Franklin Street, Fifth Floor
+Boston, MA 02110-1301
+USA
+@end display
+
+@iftex
+@node 致谢
+@unnumberedsec 致谢
+
+@c It's hard to update this fairly.
+@c I wonder if it would be better to drop it in favor of AUTHORS?
+Contributors to GNU Emacs include Jari Aalto, Per Abrahamsen, Tomas
+Abrahamsson, Jay K. Adams, Alon Albert, Michael Albinus, Nagy Andras,
+Benjamin Andresen, Ralf Angeli, Dmitry Antipov, Joe Arceneaux, Emil Åström,
+Miles Bader, David Bakhash, Juanma Barranquero, Eli Barzilay, Thomas
+Baumann, Steven L. Baur, Jay Belanger, Alexander L. Belikoff, Thomas
+Bellman, Scott Bender, Boaz Ben-Zvi, Sergey Berezin, Stephen Berman, Karl
+Berry, Anna M. Bigatti, Ray Blaak, Martin Blais, Jim Blandy, Johan Bockgård,
+Jan Böcker, Joel Boehland, Lennart Borgman, Per Bothner, Terrence Brannon,
+Frank Bresz, Peter Breton, Emmanuel Briot, Kevin Broadey, Vincent Broman,
+Michael Brouwer, David M. Brown, Ken Brown, Stefan Bruda, Daniel Colascione,
+Georges Brun-Cottan, Joe Buehler, Scott Byer, Włodek Bzyl, Tino Calancha,
+Bill Carpenter, Per Cederqvist, Hans Chalupsky, Chris Chase, Bob Chassell,
+Andrew Choi, Chong Yidong, Sacha Chua, Stewart Clamen, James Clark, Mike
+Clarkson, Glynn Clements, Andrew Cohen, Daniel Colascione, Christoph Conrad,
+Ludovic Courtès, Andrew Csillag, Toby Cubitt, Baoqiu Cui, Doug Cutting,
+Mathias Dahl, Julien Danjou, Satyaki Das, Vivek Dasmohapatra, Dan Davison,
+Michael DeCorte, Gary Delp, Nachum Dershowitz, Dave Detlefs, Matthieu Devin,
+Christophe de Dinechin, Eri Ding, Jan Djärv, Lawrence R. Dodd, Carsten
+Dominik, Scott Draves, Benjamin Drieu, Viktor Dukhovni, Jacques Duthen,
+Dmitry Dzhus, John Eaton, Rolf Ebert, Carl Edman, David Edmondson, Paul
+Eggert, Stephen Eglen, Christian Egli, Torbjörn Einarsson, Tsugutomo Enami,
+David Engster, Hans Henrik Eriksen, Michael Ernst, Ata Etemadi, Frederick
+Farnbach, Oscar Figueiredo, Fred Fish, Steve Fisk, Karl Fogel, Gary Foster,
+Eric S. Fraga, Romain Francoise, Noah Friedman, Andreas Fuchs, Shigeru
+Fukaya, Xue Fuqiao, Hallvard Furuseth, Keith Gabryelski, Peter S.
+Galbraith, Kevin Gallagher, Fabián E. Gallina, Kevin Gallo, Juan León Lahoz
+García, Howard Gayle, Daniel German, Stephen Gildea, Julien Gilles, David
+Gillespie, Bob Glickstein, Deepak Goel, David De La Harpe Golden, Boris
+Goldowsky, David Goodger, Chris Gray, Kevin Greiner, Michelangelo Grigni,
+Odd Gripenstam, Kai Großjohann, Michael Gschwind, Bastien Guerry, Henry
+Guillaume, Dmitry Gutov, Doug Gwyn, Bruno Haible, Ken'ichi Handa, Lars
+Hansen, Chris Hanson, Jesper Harder, Alexandru Harsanyi, K. Shane Hartman,
+John Heidemann, Jon K. Hellan, Magnus Henoch, Markus Heritsch, Dirk
+Herrmann, Karl Heuer, Manabu Higashida, Konrad Hinsen, Anders Holst, Jeffrey
+C. Honig, Tassilo Horn, Kurt Hornik, Khaled Hosny, Tom Houlder, Joakim Hove,
+Denis Howe, Lars Ingebrigtsen, Andrew Innes, Seiichiro Inoue, Philip
+Jackson, Martyn Jago, Pavel Janik, Paul Jarc, Ulf Jasper, Thorsten Jolitz,
+Michael K. Johnson, Kyle Jones, Terry Jones, Simon Josefsson, Alexandre
+Julliard, Arne Jørgensen, Tomoji Kagatani, Brewster Kahle, Tokuya Kameshima,
+Lute Kamstra, Ivan Kanis, David Kastrup, David Kaufman, Henry Kautz, Taichi
+Kawabata, Taro Kawagishi, Howard Kaye, Michael Kifer, Richard King, Peter
+Kleiweg, Karel Klíč, Shuhei Kobayashi, Pavel Kobyakov, Larry K. Kolodney,
+David M. Koppelman, Koseki Yoshinori, Robert Krawitz, Sebastian Kremer,
+Ryszard Kubiak, Igor Kuzmin, David Kågedal, Daniel LaLiberte, Karl
+Landstrom, Mario Lang, Aaron Larson, James R. Larus, Vinicius Jose Latorre,
+Werner Lemberg, Frederic Lepied, Peter Liljenberg, Christian Limpach, Lars
+Lindberg, Chris Lindblad, Anders Lindgren, Thomas Link, Juri Linkov, Francis
+Litterio, Sergey Litvinov, Leo Liu, Emilio C. Lopes, Martin Lorentzon, Dave
+Love, Eric Ludlam, Károly Lőrentey, Sascha Lüdecke, Greg McGary, Roland
+McGrath, Michael McNamara, Alan Mackenzie, Christopher J. Madsen, Neil
+M. Mager, Artur Malabarba, Ken Manheimer, Bill Mann, Brian Marick, Simon
+Marshall, Bengt Martensson, Charlie Martin, Yukihiro Matsumoto, Tomohiro
+Matsuyama, David Maus, Thomas May, Will Mengarini, David Megginson, Jimmy
+Aguilar Mena, Stefan Merten, Ben A. Mesander, Wayne Mesard, Brad Miller,
+Lawrence Mitchell, Richard Mlynarik, Gerd Möllmann, Dani Moncayo, Stefan
+Monnier, Keith Moore, Jan Moringen, Morioka Tomohiko, Glenn Morris, Don
+Morrison, Diane Murray, Riccardo Murri, Sen Nagata, Erik Naggum, Gergely
+Nagy, Nobuyoshi Nakada, Thomas Neumann, Mike Newton, Thien-Thi Nguyen,
+Jurgen Nickelsen, Dan Nicolaescu, Hrvoje Nikšić, Jeff Norden, Andrew Norman,
+Theresa O'Connor, Kentaro Ohkouchi, Christian Ohler, Kenichi Okada,
+Alexandre Oliva, Bob Olson, Michael Olson, Takaaki Ota, Mark Oteiza, Pieter
+E. J. Pareit, Ross Patterson, David Pearson, Juan Pechiar, Jeff Peck, Damon
+Anton Permezel, Tom Perrine, William M. Perry, Per Persson, Jens Petersen,
+Nicolas Petton, Daniel Pfeiffer, Justus Piater, Richard L.  Pieri, Fred
+Pierresteguy, François Pinard, Daniel Pittman, Christian Plaunt, Alexander
+Pohoyda, David Ponce, Noam Postavsky, Francesco A. Potortì, Michael
+D. Prange, Mukesh Prasad, Ken Raeburn, Marko Rahamaa, Ashwin Ram, Eric
+S. Raymond, Paul Reilly, Edward M. Reingold, David Reitter, Alex Rezinsky,
+Rob Riepel, Lara Rios, Adrian Robert, Nick Roberts, Roland B. Roberts, John
+Robinson, Denis B. Roegel, Danny Roozendaal, Sebastian Rose, William
+Rosenblatt, Markus Rost, Guillermo J. Rozas, Martin Rudalics, Ivar
+Rummelhoff, Jason Rumney, Wolfgang Rupprecht, Benjamin Rutt, Kevin Ryde,
+Phil Sainty, James B. Salem, Masahiko Sato, Timo Savola, Jorgen Schäfer,
+Holger Schauer, William Schelter, Ralph Schleicher, Gregor Schmid, Michael
+Schmidt, Ronald S. Schnell, Philippe Schnoebelen, Jan Schormann, Alex
+Schroeder, Stefan Schoef, Rainer Schöpf, Raymond Scholz, Eric Schulte,
+Andreas Schwab, Randal Schwartz, Oliver Seidel, Manuel Serrano, Paul Sexton,
+Hovav Shacham, Stanislav Shalunov, Marc Shapiro, Richard Sharman, Olin
+Shivers, Tibor Šimko, Espen Skoglund, Rick Sladkey, Lynn Slater, Chris
+Smith, David Smith, Paul D. Smith, Wilson Snyder, William Sommerfeld, Simon
+South, Andre Spiegel, Michael Staats, Thomas Steffen, Ulf Stegemann, Reiner
+Steib, Sam Steingold, Ake Stenhoff, Philipp Stephani, Peter Stephenson, Ken
+Stevens, Andy Stewart, Jonathan Stigelman, Martin Stjernholm, Kim F.  Storm,
+Steve Strassmann, Christopher Suckling, Olaf Sylvester, Naoto Takahashi,
+Steven Tamm, Jan Tatarik, João Távora, Luc Teirlinck, Jean-Philippe
+Theberge, Jens T.@: Berger Thielemann, Spencer Thomas, Jim Thompson, Toru
+Tomabechi, David O'Toole, Markus Triska, Tom Tromey, Eli Tziperman, Daiki
+Ueno, Masanobu Umeda, Rajesh Vaidheeswarran, Neil W. Van Dyke, Didier Verna,
+Joakim Verona, Ulrik Vieth, Geoffrey Voelker, Johan Vromans, Inge Wallin,
+John Paul Wallington, Colin Walters, Barry Warsaw, Christoph Wedler, Ilja
+Weis, Zhang Weize, Morten Welinder, Joseph Brian Wells, Rodney Whitby, John
+Wiegley, Sascha Wilde, Ed Wilkinson, Mike Williams, Roland Winkler, Bill
+Wohler, Steven A. Wood, Dale R. Worley, Francis J. Wright, Felix S. T. Wu,
+Tom Wurgler, Yamamoto Mitsuharu, Katsumi Yamaoka, Masatake Yamato, Jonathan
+Yavner, Ryan Yeske, Ilya Zakharevich, Milan Zamazal, Victor Zandy, Eli
+Zaretskii, Jamie Zawinski, Andrew Zhilin, Shenghuo Zhu, Piotr Zieliński, Ian
+T. Zimmermann, Reto Zimmermann, Neal Ziring, Teodor Zlatanov, and Detlev
+Zundel.
+@end iftex
+
+@node 介绍
+@unnumbered 介绍
+
+@c Workaround makeinfo 4 bug.
+@c https://lists.gnu.org/r/bug-texinfo/2004-08/msg00009.html
+  您正在阅读关于GNU Emacs的文章，GNU Emacs是高级的、自文档化的、可定制的、可扩展的编辑器Emacs的GNU版本。(The
+@samp{G} in
+@iftex
+@acronym{GNU, @acronym{GNU}'s Not Unix}
+@end iftex
+@ifnottex
+@acronym{GNU, GNU's Not Unix}
+@end ifnottex
+is not silent.)
+
+  我们称Emacs @dfn
+{advanced}是因为它不仅可以简单地插入和删除文本，还可以做更多的事情。它可以控制子进程，自动缩进程序，一次显示多个文件，编辑远程文件，就像编辑本地文件一样，等等。Emacs编辑命令根据字符、单词、行、句子、段落和页面以及各种编程语言的表达式和注释进行操作。
+
+  @dfn {Self-documenting}意味着您可以随时使用特殊命令（称为@dfn
+{help命令}）来查找您的选项，或者查找任何命令的功能，或者查找所有与给定主题有关的命令。@xref{帮助}.
+
+  @dfn {Customizable}意味着您可以通过简单的方式轻松地更改Emacs命令的行为。例如，如果您使用一种编程语言，其中注释以@samp
+{<**}开头并以@samp {**>}结尾，则可以告诉Emacs的注释操作命令使用这些字符串（@pxref {Comments}
+）。再举一个例子，您可以将基本光标移动命令(上、下、左和右)重新绑定到键盘上您觉得舒服的任何键上。@xref{Customization}.
+
+  @dfn
+{Extensible}意味着您可以超越简单的自定义并创建全新的命令。新命令只是用Lisp语言编写的程序，由Emacs自己的Lisp解释器运行。甚至可以在编辑会话过程中重新定义现有命令，而不必重新启动Emacs。Emacs中的大多数编辑命令都是用Lisp编写的；少数例外可能是用Lisp编写的，但为了提高效率改用C语言实现。编写扩展就是编程，但非程序员可以在之后使用它。如果您想学习Emacs
+Lisp编程，请@xref {Top, Emacs Lisp简介, 序言, eintr, Emacs Lisp编程简介}.
+
+@include screen.texi
+@include commands.texi
+@include entering.texi
+@include basic.texi
+@include mini.texi
+@include m-x.texi
+@include help.texi
+@include mark.texi
+@include killing.texi
+@include regs.texi
+@include display.texi
+@include search.texi
+@include fixit.texi
+@include kmacro.texi
+@c Includes arevert-xtra.
+@include files.texi
+@include buffers.texi
+@include windows.texi
+@include frames.texi
+@include mule.texi
+@include modes.texi
+@include indent.texi
+@include text.texi
+@c Includes fortran-xtra.
+@include programs.texi
+@include building.texi
+@c Includes vc1-xtra, emerge-xtra.
+@include maintaining.texi
+@include abbrevs.texi
+@c Includes dired-xtra.
+@include dired.texi
+@c Includes cal-xtra.
+@include calendar.texi
+@include sending.texi
+@include rmail.texi
+@c Includes picture-xtra.texi
+@include misc.texi
+@include package.texi
+@include custom.texi
+@include trouble.texi
+
+@node Copying
+@appendix GNU GENERAL PUBLIC LICENSE
+@include gpl.texi
+
+@node GNU Free Documentation License
+@appendix GNU Free Documentation License
+@include doclicense.texi
+
+@include cmdargs.texi
+@include xresources.texi
+
+@include anti.texi
+@include macos.texi
+@c Includes msdos-xtra.
+@include msdos.texi
+@include gnu.texi
+@include glossary.texi
+@ifnottex
+@include ack.texi
+@end ifnottex
+
+@c The Option Index is produced only in the on-line version,
+@c because the index entries related to command-line options
+@c tend to point to the same pages and all begin with a dash.
+
+@node Key Index
+@unnumbered 键（字符）索引
+@printindex ky
+
+@ifnottex
+@node Option Index
+@unnumbered 命令行选项索引
+@printindex op
+@end ifnottex
+
+@node Command Index
+@unnumbered 命令和功能索引
+@printindex fn
+
+@node Variable Index
+@unnumbered Variable Index
+@printindex vr
+
+@node Concept Index
+@unnumbered Concept Index
+@printindex cp
+
+@bye
