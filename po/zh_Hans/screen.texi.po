@@ -7,37 +7,40 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-06 19:00+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-01-07 12:07+0000\n"
+"Last-Translator: Leo Liu <weblate@example.com>\n"
+"Language-Team: Chinese (Simplified) <http://weblate.grass.work:35666/"
+"projects/emacs-manual/screentexi/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4\n"
 
 #. type: node
 #: src/screen.texi:5
 #, no-wrap
 msgid "Screen"
-msgstr ""
+msgstr "屏幕"
 
 #. type: chapter
 #: src/screen.texi:6
 #, no-wrap
 msgid "The Organization of the Screen"
-msgstr ""
+msgstr "屏幕的组织方式"
 
 #. type: cindex
 #: src/screen.texi:7
 #, no-wrap
 msgid "screen"
-msgstr ""
+msgstr "screen"
 
 #. type: cindex
 #: src/screen.texi:8
 #, no-wrap
 msgid "frame"
-msgstr ""
+msgstr "frame"
 
 #. type: Plain text
 #: src/screen.texi:17
@@ -49,6 +52,9 @@ msgid ""
 "similarly on both kinds of frames.  It normally starts out with just one "
 "frame, but you can create additional frames if you wish (@pxref{Frames})."
 msgstr ""
+"在图形显示器上，例如在使用X窗口系统的GNU/Linux上，Emacs占据一个图形窗口。在文本终端上，Emacs占据整个终端屏幕。我们将使用@dfn "
+"{窗体}一词来表示Emacs占用的图形窗口或终端屏幕。Emacs在这两种窗体上的行为非常相似。它通常只以一个窗体开始，但是您可以根据需要创建其他窗体（@"
+"pxref {Frames}）。"
 
 #. type: Plain text
 #: src/screen.texi:25
@@ -61,6 +67,8 @@ msgid ""
 "messages are displayed and where you enter information when Emacs asks for "
 "it."
 msgstr ""
+"每个窗体由几个不同的区域组成。窗体的顶部是@dfn {菜单栏}，它使您可以通过一系列菜单访问命令。在图形显示器上，菜单栏正下方是@dfn{工具栏}，这是一"
+"行图标，当您单击它们时，它们会执行编辑命令。在窗体的最底部是@dfn{回显区}，在此显示信息性消息，并在Emacs要求输入信息时在其中输入信息。"
 
 #. type: Plain text
 #: src/screen.texi:32
@@ -71,6 +79,8 @@ msgid ""
 "use the word ``window'' with a different meaning; but, as stated above, we "
 "refer to those graphical windows as ``frames''."
 msgstr ""
+"位于工具栏(如果存在)下方、回显区上方的窗体主区域称为@dfn{窗口}。此后，在本手册中，我们将在此意义上使用单词``窗口'' "
+"。图形显示系统通常使用具有不同含义的词``窗口''；但是如上所述，我们将那些图形窗口称为``窗体''。"
 
 #. type: Plain text
 #: src/screen.texi:40
@@ -83,6 +93,8 @@ msgid ""
 "whether there are unsaved changes, the editing modes that are in use, the "
 "current line number, and so forth."
 msgstr ""
+"Emacs窗口显示@dfn{缓冲区}——您正在编辑或查看的文本或其他图形。在图形显示器上，窗口的一侧有一个@dfn{滚动条}，可用于在缓冲区中滚动。窗口的"
+"最后一行是@dfn{状态栏}。这将显示有关缓冲区中正在进行的操作的各种信息，例如是否存在未保存的更改、正在使用的编辑模式、当前行号等。"
 
 #. type: Plain text
 #: src/screen.texi:45
@@ -92,6 +104,8 @@ msgid ""
 "multiple windows, each of which can independently display a buffer "
 "(@pxref{Windows})."
 msgstr ""
+"启动Emacs时，窗体中通常只有一个窗口。但是，您可以水平或垂直分割此窗口以创建多个窗口，每个窗口都可以独立显示一个缓冲区(@pxref{Windows}"
+")。"
 
 #. type: Plain text
 #: src/screen.texi:56
@@ -107,56 +121,59 @@ msgid ""
 "graphical display, selecting a particular frame selects a window in that "
 "frame."
 msgstr ""
+"在任何时候，都有一个窗口是@dfn{选定窗口}。在图形显示器上，所选窗口显示较突出的光标(通常为实心且闪烁)；其他窗口显示较不突出的光标(通常为空心框)。"
+"在文本终端上，只有一个光标显示在所选窗口中。在选定窗口中显示的缓冲区称为 @dfn{当前缓冲区}，它是进行编辑的地方。大多数Emacs命令都隐式应用于当前"
+"缓冲区；显示在未选中窗口中的文本大多可见以供参考。如果在图形显示上使用多个窗体，则选择特定窗体将选择该窗体中的一个窗口。"
 
 #. type: section
 #: src/screen.texi:62 src/screen.texi:64 src/screen.texi:65
 #, no-wrap
 msgid "Point"
-msgstr ""
+msgstr "游标"
 
 #. type: menuentry
 #: src/screen.texi:62
 msgid "The place in the text where editing commands operate."
-msgstr ""
+msgstr "文本中操作编辑命令的位置。"
 
 #. type: node
 #: src/screen.texi:62 src/screen.texi:97
 #, no-wrap
 msgid "Echo Area"
-msgstr ""
+msgstr "回显区"
 
 #. type: menuentry
 #: src/screen.texi:62
 msgid "Short messages appear at the bottom of the screen."
-msgstr ""
+msgstr "显示在屏幕底部的短消息。"
 
 #. type: node
 #: src/screen.texi:62 src/screen.texi:160
 #, no-wrap
 msgid "Mode Line"
-msgstr ""
+msgstr "状态栏"
 
 #. type: menuentry
 #: src/screen.texi:62
 msgid "Interpreting the mode line."
-msgstr ""
+msgstr "状态栏的解释。"
 
 #. type: node
 #: src/screen.texi:62 src/screen.texi:287
 #, no-wrap
 msgid "Menu Bar"
-msgstr ""
+msgstr "菜单栏"
 
 #. type: menuentry
 #: src/screen.texi:62
 msgid "How to use the menu bar."
-msgstr ""
+msgstr "如何使用菜单栏。"
 
 #. type: cindex
 #: src/screen.texi:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "point"
-msgstr ""
+msgstr "point"
 
 #. type: cindex
 #: src/screen.texi:67
@@ -244,6 +261,15 @@ msgid ""
 "designed to give confident users fast response, while giving hesitant users "
 "maximum feedback."
 msgstr ""
+"The echo area is so-named because one of the things it is used for is "
+"@dfn{echoing}, which means displaying the characters of a multi-character "
+"command as you type.  Single-character commands are not echoed.  Multi-"
+"character commands (@pxref{按键}) are echoed if you pause for more than a "
+"second in the middle of a command.  Emacs then echoes all the characters of "
+"the command so far, to prompt you for the rest.  Once echoing has started, "
+"the rest of the command echoes immediately as you type it.  This behavior is "
+"designed to give confident users fast response, while giving hesitant users "
+"maximum feedback."
 
 #. type: cindex
 #: src/screen.texi:116
@@ -334,6 +360,12 @@ msgid ""
 "minibuffer, which is temporarily considered the selected window.  You can "
 "always get out of the minibuffer by typing @kbd{C-g}.  @xref{Minibuffer}."
 msgstr ""
+"The echo area is also used to display the @dfn{minibuffer}, a special window "
+"where you can input arguments to commands, such as the name of a file to be "
+"edited.  When the minibuffer is in use, the text displayed in the echo area "
+"begins with a @dfn{prompt string}, and the active cursor appears within the "
+"minibuffer, which is temporarily considered the selected window.  You can "
+"always get out of the minibuffer by typing @kbd{C-g}.  @xref{迷你缓冲区}."
 
 #. type: section
 #: src/screen.texi:161
@@ -587,6 +619,10 @@ msgid ""
 "name and documentation for a menu item, type @kbd{C-h k}, and then select "
 "the menu bar with the mouse in the usual way (@pxref{Key Help})."
 msgstr ""
+"Some of the commands in the menu bar have ordinary key bindings as well; if "
+"so, a key binding is shown after the item itself.  To view the full command "
+"name and documentation for a menu item, type @kbd{C-h k}, and then select "
+"the menu bar with the mouse in the usual way (@pxref{按键帮助})."
 
 #. type: kindex
 #: src/screen.texi:307

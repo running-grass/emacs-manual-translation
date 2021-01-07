@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-07 10:10+0000\n"
+"PO-Revision-Date: 2021-01-07 12:07+0000\n"
 "Last-Translator: Leo Liu <weblate@example.com>\n"
 "Language-Team: Chinese (Simplified) <http://weblate.grass.work:35666/"
 "projects/emacs-manual/emacstexi/zh_Hans/>\n"
@@ -106,7 +106,7 @@ msgstr "@smallbook"
 #: src/emacs.texi:64
 #, no-wrap
 msgid "\\global\\hbadness=6666 % don't worry about not-too-underfull boxes\n"
-msgstr "\\global\\hbadness=6666 % don't worry about not-too-underfull boxes\n"
+msgstr "\\global\\hbadness=6666 % 不要担心盒子不够满\n"
 
 #. type: iftex
 #: src/emacs.texi:71
@@ -7532,9 +7532,8 @@ msgstr ""
 
 #. type: anchor{#1}
 #: src/emacs.texi:1384
-#, fuzzy
 msgid "Printed Books"
-msgstr "印刷书籍"
+msgstr "Printed Books"
 
 #. type: Plain text
 #: src/emacs.texi:1384
@@ -7545,13 +7544,16 @@ msgid ""
 "the foundation's purpose: the development of new free software, and "
 "improvements to our existing programs including GNU Emacs."
 msgstr ""
+"我们还出售该手册的印刷版和Robert J. Chassell的@cite {Emacs Lisp中的编程简介}。您可以通过@url "
+"{https://shop.fsf.org/}访问我们的在线商店。销售收入将用于支持基金会的目标：开发新的自由软件，并改进我们现有的程序，包括GNU "
+"Emacs。"
 
 #. type: Plain text
 #: src/emacs.texi:1387
 msgid ""
 "If you need to contact the Free Software Foundation, see @url{https://www."
 "fsf.org/about/contact/}, or write to"
-msgstr ""
+msgstr "如果您需要联系自由软件基金会，请参阅@url {https://www.fsf.org/about/contact/}，或写信给"
 
 #. type: display
 #: src/emacs.texi:1393
@@ -7562,12 +7564,16 @@ msgid ""
 "Boston, MA 02110-1301\n"
 "USA\n"
 msgstr ""
+"Free Software Foundation\n"
+"51 Franklin Street, Fifth Floor\n"
+"Boston, MA 02110-1301\n"
+"USA\n"
 
 #. type: unnumberedsec
 #: src/emacs.texi:1396 src/emacs.texi:1397
 #, no-wrap
 msgid "Acknowledgments"
-msgstr ""
+msgstr "致谢"
 
 #. type: iftex
 #: src/emacs.texi:1504
@@ -7671,12 +7677,110 @@ msgid ""
 "T. Zimmermann, Reto Zimmermann, Neal Ziring, Teodor Zlatanov, and Detlev "
 "Zundel."
 msgstr ""
+"Contributors to GNU Emacs include Jari Aalto, Per Abrahamsen, Tomas "
+"Abrahamsson, Jay K. Adams, Alon Albert, Michael Albinus, Nagy Andras, "
+"Benjamin Andresen, Ralf Angeli, Dmitry Antipov, Joe Arceneaux, Emil Åström, "
+"Miles Bader, David Bakhash, Juanma Barranquero, Eli Barzilay, Thomas "
+"Baumann, Steven L. Baur, Jay Belanger, Alexander L. Belikoff, Thomas "
+"Bellman, Scott Bender, Boaz Ben-Zvi, Sergey Berezin, Stephen Berman, Karl "
+"Berry, Anna M. Bigatti, Ray Blaak, Martin Blais, Jim Blandy, Johan Bockgård, "
+"Jan Böcker, Joel Boehland, Lennart Borgman, Per Bothner, Terrence Brannon, "
+"Frank Bresz, Peter Breton, Emmanuel Briot, Kevin Broadey, Vincent Broman, "
+"Michael Brouwer, David M. Brown, Ken Brown, Stefan Bruda, Daniel Colascione, "
+"Georges Brun-Cottan, Joe Buehler, Scott Byer, Włodek Bzyl, Tino Calancha, "
+"Bill Carpenter, Per Cederqvist, Hans Chalupsky, Chris Chase, Bob Chassell, "
+"Andrew Choi, Chong Yidong, Sacha Chua, Stewart Clamen, James Clark, Mike "
+"Clarkson, Glynn Clements, Andrew Cohen, Daniel Colascione, Christoph Conrad, "
+"Ludovic Courtès, Andrew Csillag, Toby Cubitt, Baoqiu Cui, Doug Cutting, "
+"Mathias Dahl, Julien Danjou, Satyaki Das, Vivek Dasmohapatra, Dan Davison, "
+"Michael DeCorte, Gary Delp, Nachum Dershowitz, Dave Detlefs, Matthieu Devin, "
+"Christophe de Dinechin, Eri Ding, Jan Djärv, Lawrence R. Dodd, Carsten "
+"Dominik, Scott Draves, Benjamin Drieu, Viktor Dukhovni, Jacques Duthen, "
+"Dmitry Dzhus, John Eaton, Rolf Ebert, Carl Edman, David Edmondson, Paul "
+"Eggert, Stephen Eglen, Christian Egli, Torbjörn Einarsson, Tsugutomo Enami, "
+"David Engster, Hans Henrik Eriksen, Michael Ernst, Ata Etemadi, Frederick "
+"Farnbach, Oscar Figueiredo, Fred Fish, Steve Fisk, Karl Fogel, Gary Foster, "
+"Eric S. Fraga, Romain Francoise, Noah Friedman, Andreas Fuchs, Shigeru "
+"Fukaya, Xue Fuqiao, Hallvard Furuseth, Keith Gabryelski, Peter S.  "
+"Galbraith, Kevin Gallagher, Fabián E. Gallina, Kevin Gallo, Juan León Lahoz "
+"García, Howard Gayle, Daniel German, Stephen Gildea, Julien Gilles, David "
+"Gillespie, Bob Glickstein, Deepak Goel, David De La Harpe Golden, Boris "
+"Goldowsky, David Goodger, Chris Gray, Kevin Greiner, Michelangelo Grigni, "
+"Odd Gripenstam, Kai Großjohann, Michael Gschwind, Bastien Guerry, Henry "
+"Guillaume, Dmitry Gutov, Doug Gwyn, Bruno Haible, Ken'ichi Handa, Lars "
+"Hansen, Chris Hanson, Jesper Harder, Alexandru Harsanyi, K. Shane Hartman, "
+"John Heidemann, Jon K. Hellan, Magnus Henoch, Markus Heritsch, Dirk "
+"Herrmann, Karl Heuer, Manabu Higashida, Konrad Hinsen, Anders Holst, Jeffrey "
+"C. Honig, Tassilo Horn, Kurt Hornik, Khaled Hosny, Tom Houlder, Joakim Hove, "
+"Denis Howe, Lars Ingebrigtsen, Andrew Innes, Seiichiro Inoue, Philip "
+"Jackson, Martyn Jago, Pavel Janik, Paul Jarc, Ulf Jasper, Thorsten Jolitz, "
+"Michael K. Johnson, Kyle Jones, Terry Jones, Simon Josefsson, Alexandre "
+"Julliard, Arne Jørgensen, Tomoji Kagatani, Brewster Kahle, Tokuya Kameshima, "
+"Lute Kamstra, Ivan Kanis, David Kastrup, David Kaufman, Henry Kautz, Taichi "
+"Kawabata, Taro Kawagishi, Howard Kaye, Michael Kifer, Richard King, Peter "
+"Kleiweg, Karel Klíč, Shuhei Kobayashi, Pavel Kobyakov, Larry K. Kolodney, "
+"David M. Koppelman, Koseki Yoshinori, Robert Krawitz, Sebastian Kremer, "
+"Ryszard Kubiak, Igor Kuzmin, David Kågedal, Daniel LaLiberte, Karl "
+"Landstrom, Mario Lang, Aaron Larson, James R. Larus, Vinicius Jose Latorre, "
+"Werner Lemberg, Frederic Lepied, Peter Liljenberg, Christian Limpach, Lars "
+"Lindberg, Chris Lindblad, Anders Lindgren, Thomas Link, Juri Linkov, Francis "
+"Litterio, Sergey Litvinov, Leo Liu, Emilio C. Lopes, Martin Lorentzon, Dave "
+"Love, Eric Ludlam, Károly Lőrentey, Sascha Lüdecke, Greg McGary, Roland "
+"McGrath, Michael McNamara, Alan Mackenzie, Christopher J. Madsen, Neil M. "
+"Mager, Artur Malabarba, Ken Manheimer, Bill Mann, Brian Marick, Simon "
+"Marshall, Bengt Martensson, Charlie Martin, Yukihiro Matsumoto, Tomohiro "
+"Matsuyama, David Maus, Thomas May, Will Mengarini, David Megginson, Jimmy "
+"Aguilar Mena, Stefan Merten, Ben A. Mesander, Wayne Mesard, Brad Miller, "
+"Lawrence Mitchell, Richard Mlynarik, Gerd Möllmann, Dani Moncayo, Stefan "
+"Monnier, Keith Moore, Jan Moringen, Morioka Tomohiko, Glenn Morris, Don "
+"Morrison, Diane Murray, Riccardo Murri, Sen Nagata, Erik Naggum, Gergely "
+"Nagy, Nobuyoshi Nakada, Thomas Neumann, Mike Newton, Thien-Thi Nguyen, "
+"Jurgen Nickelsen, Dan Nicolaescu, Hrvoje Nikšić, Jeff Norden, Andrew Norman, "
+"Theresa O'Connor, Kentaro Ohkouchi, Christian Ohler, Kenichi Okada, "
+"Alexandre Oliva, Bob Olson, Michael Olson, Takaaki Ota, Mark Oteiza, Pieter "
+"E. J. Pareit, Ross Patterson, David Pearson, Juan Pechiar, Jeff Peck, Damon "
+"Anton Permezel, Tom Perrine, William M. Perry, Per Persson, Jens Petersen, "
+"Nicolas Petton, Daniel Pfeiffer, Justus Piater, Richard L.  Pieri, Fred "
+"Pierresteguy, François Pinard, Daniel Pittman, Christian Plaunt, Alexander "
+"Pohoyda, David Ponce, Noam Postavsky, Francesco A. Potortì, Michael D. "
+"Prange, Mukesh Prasad, Ken Raeburn, Marko Rahamaa, Ashwin Ram, Eric S. "
+"Raymond, Paul Reilly, Edward M. Reingold, David Reitter, Alex Rezinsky, Rob "
+"Riepel, Lara Rios, Adrian Robert, Nick Roberts, Roland B. Roberts, John "
+"Robinson, Denis B. Roegel, Danny Roozendaal, Sebastian Rose, William "
+"Rosenblatt, Markus Rost, Guillermo J. Rozas, Martin Rudalics, Ivar "
+"Rummelhoff, Jason Rumney, Wolfgang Rupprecht, Benjamin Rutt, Kevin Ryde, "
+"Phil Sainty, James B. Salem, Masahiko Sato, Timo Savola, Jorgen Schäfer, "
+"Holger Schauer, William Schelter, Ralph Schleicher, Gregor Schmid, Michael "
+"Schmidt, Ronald S. Schnell, Philippe Schnoebelen, Jan Schormann, Alex "
+"Schroeder, Stefan Schoef, Rainer Schöpf, Raymond Scholz, Eric Schulte, "
+"Andreas Schwab, Randal Schwartz, Oliver Seidel, Manuel Serrano, Paul Sexton, "
+"Hovav Shacham, Stanislav Shalunov, Marc Shapiro, Richard Sharman, Olin "
+"Shivers, Tibor Šimko, Espen Skoglund, Rick Sladkey, Lynn Slater, Chris "
+"Smith, David Smith, Paul D. Smith, Wilson Snyder, William Sommerfeld, Simon "
+"South, Andre Spiegel, Michael Staats, Thomas Steffen, Ulf Stegemann, Reiner "
+"Steib, Sam Steingold, Ake Stenhoff, Philipp Stephani, Peter Stephenson, Ken "
+"Stevens, Andy Stewart, Jonathan Stigelman, Martin Stjernholm, Kim F.  Storm, "
+"Steve Strassmann, Christopher Suckling, Olaf Sylvester, Naoto Takahashi, "
+"Steven Tamm, Jan Tatarik, João Távora, Luc Teirlinck, Jean-Philippe "
+"Theberge, Jens T.@: Berger Thielemann, Spencer Thomas, Jim Thompson, Toru "
+"Tomabechi, David O'Toole, Markus Triska, Tom Tromey, Eli Tziperman, Daiki "
+"Ueno, Masanobu Umeda, Rajesh Vaidheeswarran, Neil W. Van Dyke, Didier Verna, "
+"Joakim Verona, Ulrik Vieth, Geoffrey Voelker, Johan Vromans, Inge Wallin, "
+"John Paul Wallington, Colin Walters, Barry Warsaw, Christoph Wedler, Ilja "
+"Weis, Zhang Weize, Morten Welinder, Joseph Brian Wells, Rodney Whitby, John "
+"Wiegley, Sascha Wilde, Ed Wilkinson, Mike Williams, Roland Winkler, Bill "
+"Wohler, Steven A. Wood, Dale R. Worley, Francis J. Wright, Felix S. T. Wu, "
+"Tom Wurgler, Yamamoto Mitsuharu, Katsumi Yamaoka, Masatake Yamato, Jonathan "
+"Yavner, Ryan Yeske, Ilya Zakharevich, Milan Zamazal, Victor Zandy, Eli "
+"Zaretskii, Jamie Zawinski, Andrew Zhilin, Shenghuo Zhu, Piotr Zieliński, Ian "
+"T. Zimmermann, Reto Zimmermann, Neal Ziring, Teodor Zlatanov, and Detlev "
+"Zundel."
 
 #. type: unnumbered
 #: src/emacs.texi:1507
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "介绍"
 
 #. type: Plain text
 #: src/emacs.texi:1514
@@ -7684,21 +7788,23 @@ msgid ""
 "You are reading about GNU Emacs, the GNU incarnation of the advanced, self-"
 "documenting, customizable, extensible editor Emacs.  (The @samp{G} in"
 msgstr ""
+"您正在阅读关于GNU Emacs的文章，GNU Emacs是高级的、自文档化的、可定制的、可扩展的编辑器Emacs的GNU版本。(The @samp{G}"
+" in"
 
 #. type: acronym{#1}
 #: src/emacs.texi:1516
 msgid "GNU, @acronym{GNU}'s Not Unix"
-msgstr ""
+msgstr "GNU, @acronym{GNU}'s Not Unix"
 
 #. type: acronym{#1}
 #: src/emacs.texi:1519
 msgid "GNU, GNU's Not Unix"
-msgstr ""
+msgstr "GNU, GNU's Not Unix"
 
 #. type: Plain text
 #: src/emacs.texi:1521
 msgid "is not silent.)"
-msgstr ""
+msgstr "is not silent.)"
 
 #. type: Plain text
 #: src/emacs.texi:1529
@@ -7710,6 +7816,8 @@ msgid ""
 "characters, words, lines, sentences, paragraphs, and pages, as well as "
 "expressions and comments in various programming languages."
 msgstr ""
+"我们称Emacs @dfn {advanced}是因为它不仅可以简单地插入和删除文本，还可以做更多的事情。它可以控制子进程，自动缩进程序，一次显示多个文件"
+"，编辑远程文件，就像编辑本地文件一样，等等。Emacs编辑命令根据字符、单词、行、句子、段落和页面以及各种编程语言的表达式和注释进行操作。"
 
 #. type: Plain text
 #: src/emacs.texi:1534
@@ -7719,6 +7827,8 @@ msgid ""
 "out what any command does, or to find all the commands that pertain to a "
 "given topic.  @xref{Help}."
 msgstr ""
+"@dfn {Self-documenting}意味着您可以随时使用特殊命令（称为@dfn "
+"{help命令}）来查找您的选项，或者查找任何命令的功能，或者查找所有与给定主题有关的命令。@xref{帮助}."
 
 #. type: Plain text
 #: src/emacs.texi:1543
@@ -7731,6 +7841,9 @@ msgid ""
 "cursor motion commands (up, down, left and right)  to any keys on the "
 "keyboard that you find comfortable.  @xref{Customization}."
 msgstr ""
+"@dfn {Customizable}意味着您可以通过简单的方式轻松地更改Emacs命令的行为。例如，如果您使用一种编程语言，其中注释以@samp "
+"{<**}开头并以@samp {**>}结尾，则可以告诉Emacs的注释操作命令使用这些字符串（@pxref {Comments} "
+"）。再举一个例子，您可以将基本光标移动命令(上、下、左和右)重新绑定到键盘上您觉得舒服的任何键上。@xref{Customization}."
 
 #. type: Plain text
 #: src/emacs.texi:1555
@@ -7746,291 +7859,295 @@ msgid ""
 "eintr, An Introduction to Programming in Emacs Lisp}, if you want to learn "
 "Emacs Lisp programming."
 msgstr ""
+"@dfn {Extensible}意味着您可以超越简单的自定义并创建全新的命令。新命令只是用Lisp语言编写的程序，由Emacs自己的Lisp解释器运行。"
+"甚至可以在编辑会话过程中重新定义现有命令，而不必重新启动Emacs。Emacs中的大多数编辑命令都是用Lisp编写的；少数例外可能是用Lisp编写的，但为"
+"了提高效率改用C语言实现。编写扩展就是编程，但非程序员可以在之后使用它。如果您想学习Emacs Lisp编程，请@xref {Top, Emacs "
+"Lisp简介, 序言, eintr, Emacs Lisp编程简介}."
 
 #. type: include
 #: src/emacs.texi:1556
 #, no-wrap
 msgid "screen.texi"
-msgstr ""
+msgstr "screen.texi"
 
 #. type: include
 #: src/emacs.texi:1557
 #, no-wrap
 msgid "commands.texi"
-msgstr ""
+msgstr "commands.texi"
 
 #. type: include
 #: src/emacs.texi:1558
 #, no-wrap
 msgid "entering.texi"
-msgstr ""
+msgstr "entering.texi"
 
 #. type: include
 #: src/emacs.texi:1559
 #, no-wrap
 msgid "basic.texi"
-msgstr ""
+msgstr "basic.texi"
 
 #. type: include
 #: src/emacs.texi:1560
 #, no-wrap
 msgid "mini.texi"
-msgstr ""
+msgstr "mini.texi"
 
 #. type: include
 #: src/emacs.texi:1561
 #, no-wrap
 msgid "m-x.texi"
-msgstr ""
+msgstr "m-x.texi"
 
 #. type: include
 #: src/emacs.texi:1562
 #, no-wrap
 msgid "help.texi"
-msgstr ""
+msgstr "help.texi"
 
 #. type: include
 #: src/emacs.texi:1563
 #, no-wrap
 msgid "mark.texi"
-msgstr ""
+msgstr "mark.texi"
 
 #. type: include
 #: src/emacs.texi:1564
 #, no-wrap
 msgid "killing.texi"
-msgstr ""
+msgstr "killing.texi"
 
 #. type: include
 #: src/emacs.texi:1565
 #, no-wrap
 msgid "regs.texi"
-msgstr ""
+msgstr "regs.texi"
 
 #. type: include
 #: src/emacs.texi:1566
 #, no-wrap
 msgid "display.texi"
-msgstr ""
+msgstr "display.texi"
 
 #. type: include
 #: src/emacs.texi:1567
 #, no-wrap
 msgid "search.texi"
-msgstr ""
+msgstr "search.texi"
 
 #. type: include
 #: src/emacs.texi:1568
 #, no-wrap
 msgid "fixit.texi"
-msgstr ""
+msgstr "fixit.texi"
 
 #. type: include
 #: src/emacs.texi:1569
 #, no-wrap
 msgid "kmacro.texi"
-msgstr ""
+msgstr "kmacro.texi"
 
 #. type: include
 #: src/emacs.texi:1571
 #, no-wrap
 msgid "files.texi"
-msgstr ""
+msgstr "files.texi"
 
 #. type: include
 #: src/emacs.texi:1572
 #, no-wrap
 msgid "buffers.texi"
-msgstr ""
+msgstr "buffers.texi"
 
 #. type: include
 #: src/emacs.texi:1573
 #, no-wrap
 msgid "windows.texi"
-msgstr ""
+msgstr "windows.texi"
 
 #. type: include
 #: src/emacs.texi:1574
 #, no-wrap
 msgid "frames.texi"
-msgstr ""
+msgstr "frames.texi"
 
 #. type: include
 #: src/emacs.texi:1575
 #, no-wrap
 msgid "mule.texi"
-msgstr ""
+msgstr "mule.texi"
 
 #. type: include
 #: src/emacs.texi:1576
 #, no-wrap
 msgid "modes.texi"
-msgstr ""
+msgstr "modes.texi"
 
 #. type: include
 #: src/emacs.texi:1577
 #, no-wrap
 msgid "indent.texi"
-msgstr ""
+msgstr "indent.texi"
 
 #. type: include
 #: src/emacs.texi:1578
 #, no-wrap
 msgid "text.texi"
-msgstr ""
+msgstr "text.texi"
 
 #. type: include
 #: src/emacs.texi:1580
 #, no-wrap
 msgid "programs.texi"
-msgstr ""
+msgstr "programs.texi"
 
 #. type: include
 #: src/emacs.texi:1581
 #, no-wrap
 msgid "building.texi"
-msgstr ""
+msgstr "building.texi"
 
 #. type: include
 #: src/emacs.texi:1583
 #, no-wrap
 msgid "maintaining.texi"
-msgstr ""
+msgstr "maintaining.texi"
 
 #. type: include
 #: src/emacs.texi:1584
 #, no-wrap
 msgid "abbrevs.texi"
-msgstr ""
+msgstr "abbrevs.texi"
 
 #. type: include
 #: src/emacs.texi:1586
 #, no-wrap
 msgid "dired.texi"
-msgstr ""
+msgstr "dired.texi"
 
 #. type: include
 #: src/emacs.texi:1588
 #, no-wrap
 msgid "calendar.texi"
-msgstr ""
+msgstr "calendar.texi"
 
 #. type: include
 #: src/emacs.texi:1589
 #, no-wrap
 msgid "sending.texi"
-msgstr ""
+msgstr "sending.texi"
 
 #. type: include
 #: src/emacs.texi:1590
 #, no-wrap
 msgid "rmail.texi"
-msgstr ""
+msgstr "rmail.texi"
 
 #. type: include
 #: src/emacs.texi:1592
 #, no-wrap
 msgid "misc.texi"
-msgstr ""
+msgstr "misc.texi"
 
 #. type: include
 #: src/emacs.texi:1593
 #, no-wrap
 msgid "package.texi"
-msgstr ""
+msgstr "package.texi"
 
 #. type: include
 #: src/emacs.texi:1594
 #, no-wrap
 msgid "custom.texi"
-msgstr ""
+msgstr "custom.texi"
 
 #. type: include
 #: src/emacs.texi:1595
 #, no-wrap
 msgid "trouble.texi"
-msgstr ""
+msgstr "trouble.texi"
 
 #. type: appendix
 #: src/emacs.texi:1598
 #, no-wrap
 msgid "GNU GENERAL PUBLIC LICENSE"
-msgstr ""
+msgstr "GNU GENERAL PUBLIC LICENSE"
 
 #. type: include
 #: src/emacs.texi:1599
 #, no-wrap
 msgid "gpl.texi"
-msgstr ""
+msgstr "gpl.texi"
 
 #. type: include
 #: src/emacs.texi:1603
 #, no-wrap
 msgid "doclicense.texi"
-msgstr ""
+msgstr "doclicense.texi"
 
 #. type: include
 #: src/emacs.texi:1605
 #, no-wrap
 msgid "cmdargs.texi"
-msgstr ""
+msgstr "cmdargs.texi"
 
 #. type: include
 #: src/emacs.texi:1606
 #, no-wrap
 msgid "xresources.texi"
-msgstr ""
+msgstr "xresources.texi"
 
 #. type: include
 #: src/emacs.texi:1608
 #, no-wrap
 msgid "anti.texi"
-msgstr ""
+msgstr "anti.texi"
 
 #. type: include
 #: src/emacs.texi:1609
 #, no-wrap
 msgid "macos.texi"
-msgstr ""
+msgstr "macos.texi"
 
 #. type: include
 #: src/emacs.texi:1611
 #, no-wrap
 msgid "msdos.texi"
-msgstr ""
+msgstr "msdos.texi"
 
 #. type: include
 #: src/emacs.texi:1612
 #, no-wrap
 msgid "gnu.texi"
-msgstr ""
+msgstr "gnu.texi"
 
 #. type: include
 #: src/emacs.texi:1613
 #, no-wrap
 msgid "glossary.texi"
-msgstr ""
+msgstr "glossary.texi"
 
 #. type: include
 #: src/emacs.texi:1615
 #, no-wrap
 msgid "ack.texi"
-msgstr ""
+msgstr "ack.texi"
 
 #. type: unnumbered
 #: src/emacs.texi:1623
 #, no-wrap
 msgid "Key (Character) Index"
-msgstr ""
+msgstr "键（字符）索引"
 
 #. type: unnumbered
 #: src/emacs.texi:1628
 #, no-wrap
 msgid "Command-Line Options Index"
-msgstr ""
+msgstr "命令行选项索引"
 
 #. type: unnumbered
 #: src/emacs.texi:1633
 #, no-wrap
 msgid "Command and Function Index"
-msgstr ""
+msgstr "命令和功能索引"
