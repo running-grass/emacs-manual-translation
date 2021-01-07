@@ -3,56 +3,61 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2021.
 #
+# Leo Liu <weblate@example.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-06 19:00+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-01-07 10:09+0000\n"
+"Last-Translator: Leo Liu <weblate@example.com>\n"
+"Language-Team: Chinese (Simplified) <http://weblate.grass.work:35666/"
+"projects/emacs-manual/emacstexi/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4\n"
 
 #. type: titlefont{#1}
 #: src/emacs.texi:4 src/emacs.texi:72 src/emacs.texi:77
 #, no-wrap
 msgid "GNU Emacs Manual"
-msgstr ""
+msgstr "GNU Emacs手册"
 
 #. type: include
 #: src/emacs.texi:5
 #, no-wrap
 msgid "docstyle.texi"
-msgstr ""
+msgstr "docstyle.texi"
 
 #. type: include
 #: src/emacs.texi:6
 #, no-wrap
 msgid "emacsver.texi"
-msgstr ""
+msgstr "emacsver.texi"
 
 #. type: ifset
 #: src/emacs.texi:17
 msgid "This is the @value{EDITION} edition of the @cite{GNU Emacs Manual},@*"
-msgstr ""
+msgstr "这是@cite {GNU Emacs手册}的@value {EDITION}版本，@ *"
 
 #. type: ifclear
 #: src/emacs.texi:20
 msgid "This is the @cite{GNU Emacs Manual},"
-msgstr ""
+msgstr "这是@cite {GNU Emacs手册}，"
 
 #. type: copying
 #: src/emacs.texi:22
 msgid "updated for Emacs version @value{EMACSVER}."
-msgstr ""
+msgstr "已针对Emacs版本@value {EMACSVER}更新。"
 
 #. type: copying
 #: src/emacs.texi:25
 msgid ""
 "Copyright @copyright{} 1985--1987, 1993--2020 Free Software Foundation, Inc."
 msgstr ""
+"Copyright @copyright{} 1985--1987, 1993--2020 Free Software Foundation, Inc."
 
 #. type: quotation
 #: src/emacs.texi:35
@@ -65,6 +70,8 @@ msgid ""
 "with the Back-Cover Texts as in (a) below.  A copy of the license is "
 "included in the section entitled ``GNU Free Documentation License.''"
 msgstr ""
+"根据GNU自由文档许可版本1.3或自由软件基金会发布的任何更高版本，授予复制，分发和/或修改本文档的权限；不变部分为``GNU宣言''，``发行版''和`"
+"`GNU一般公共许可证''，封面文本为``A GNU手册''，而封底文本为如下（a）所示。许可证的副本包含在标题为``GNU自由文档许可证''的部分中。"
 
 #. type: quotation
 #: src/emacs.texi:39
@@ -72,28 +79,28 @@ msgid ""
 "(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
 "this GNU manual.  Buying copies from the FSF supports it in developing GNU "
 "and promoting software freedom.''"
-msgstr ""
+msgstr "（a）FSF的封底文本是：``您可以自由复制和修改本GNU手册。从FSF购买副本可以支持它开发GNU和促进软件自由。''"
 
 #. type: dircategory
 #: src/emacs.texi:42
 #, no-wrap
 msgid "Emacs"
-msgstr ""
+msgstr "Emacs"
 
 #. type: menuentry
 #: src/emacs.texi:45
 msgid "Emacs: (emacs)"
-msgstr ""
+msgstr "Emacs: (emacs)"
 
 #. type: menuentry
 #: src/emacs.texi:45
 msgid "The extensible self-documenting text editor."
-msgstr ""
+msgstr "可扩展的自文档文本编辑器。"
 
 #. type: ifset
 #: src/emacs.texi:54
 msgid "@smallbook"
-msgstr ""
+msgstr "@smallbook"
 
 #. type: tex
 #: src/emacs.texi:64
