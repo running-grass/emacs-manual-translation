@@ -7,13 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-06 19:00+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-01-07 12:07+0000\n"
+"Last-Translator: grass <467195537@qq.com>\n"
+"Language-Team: Chinese (Simplified) <http://weblate.grass.work:35666/"
+"projects/emacs-manual/cmdargstexi/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4\n"
 
 #. type: node
 #: src/cmdargs.texi:5
@@ -367,6 +370,13 @@ msgid ""
 "Buffer Menu for this, change the variable @code{inhibit-startup-buffer-menu} "
 "to @code{t}."
 msgstr ""
+"If the startup buffer is disabled (@pxref{进入Emacs}), then starting Emacs "
+"with one file argument displays the buffer visiting @var{file} in a single "
+"window.  With two file arguments, Emacs displays the files in two different "
+"windows.  With more than two file arguments, Emacs displays the last file "
+"specified in one window, plus another window with a Buffer Menu showing all "
+"the other files (@pxref{Several Buffers}).  To inhibit using the Buffer Menu "
+"for this, change the variable @code{inhibit-startup-buffer-menu} to @code{t}."
 
 #. type: item
 #: src/cmdargs.texi:113
@@ -1009,6 +1019,9 @@ msgid ""
 "setting the variable @code{inhibit-startup-screen} to non-@code{nil} in your "
 "initialization file (@pxref{Entering Emacs})."
 msgstr ""
+"Do not display a startup screen.  You can also achieve this effect by "
+"setting the variable @code{inhibit-startup-screen} to non-@code{nil} in your "
+"initialization file (@pxref{进入Emacs})."
 
 #. type: opindex
 #: src/cmdargs.texi:330 src/cmdargs.texi:331
