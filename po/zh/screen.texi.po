@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-09 07:11\n"
+"PO-Revision-Date: 2021-01-09 10:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -129,12 +129,12 @@ msgstr "光标"
 #. type: Plain text
 #: src/screen.texi:77
 msgid "The cursor in the selected window shows the location where most editing commands take effect, which is called @dfn{point}@footnote{The term ``point'' comes from the character @samp{.}, which was the command in TECO (the language in which the original Emacs was written)  for accessing the editing position.}.  Many Emacs commands move point to different places in the buffer; for example, you can place point by clicking mouse button 1 (normally the left button) at the desired location."
-msgstr ""
+msgstr "所选窗口中的光标显示大多数编辑命令生效的位置。 叫做@dfn{游标}@footnote{术语``游标''来自字符 @samp{.}， 它是 TECO (原Emacs 被写入的语言) 中访问编辑位置的命令。许多Emacs 命令移动游标到缓冲区的不同位置； 例如，您可以通过单击鼠标按钮1(通常是左键) 放置游标到所需位置。"
 
 #. type: Plain text
 #: src/screen.texi:87
 msgid "By default, the cursor in the selected window is drawn as a solid block and appears to be @emph{on} a character, but you should think of point as @emph{between} two characters; it is situated @emph{before} the character under the cursor.  For example, if your text looks like @samp{frob} with the cursor over the @samp{b}, then point is between the @samp{o} and the @samp{b}.  If you insert the character @samp{!} at that position, the result is @samp{fro!b}, with point between the @samp{!} and the @samp{b}.  Thus, the cursor remains over the @samp{b}, as before."
-msgstr ""
+msgstr "默认情况下，选中窗口中的光标会被绘制为一个固态方块，浮现在某一个字符 @emph{之上} 。 但你应该能意识到游标在两个字符 @emph{之间} ； 它位于光标下的字符@emph{之前} 。 例如，如果您的文本看起来像@samp{frob} ，光标在字符 @samp{b}上面， 然后游标是在 @samp{o} 和 @samp{b}之间。 如果您在这个位置插入字符 @samp{!} ，结果是 @samp{fro!b}，现在游标在 @samp{!} 和 @samp{b}之间。 这样，光标就像以前一样还停留在@samp{b}上。"
 
 #. type: Plain text
 #: src/screen.texi:93
