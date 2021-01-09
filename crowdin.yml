@@ -1,0 +1,7 @@
+files:
+  - source: pot/*.texi.pot
+    ignore:
+      - doclicense.texi
+      - gpl.texi
+      - docstyle.texi
+    translation: '%file_name%.po'
