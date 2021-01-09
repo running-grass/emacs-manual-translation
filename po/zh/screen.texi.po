@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-09 14:14\n"
+"PO-Revision-Date: 2021-01-09 15:14\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -256,49 +256,49 @@ msgstr "最高级别"
 #. type: Plain text
 #: src/screen.texi:172
 msgid "At the bottom of each window is a @dfn{mode line}, which describes what is going on in the current buffer.  When there is only one window, the mode line appears right above the echo area; it is the next-to-last line in the frame.  On a graphical display, the mode line is drawn with a 3D box appearance.  Emacs also usually draws the mode line of the selected window with a different color from that of unselected windows, in order to make it stand out."
-msgstr ""
+msgstr "在每个窗口的底部是@dfn{状态栏}, 它描述了当前缓冲区正在发生的事情。 当只有一个窗口时，状态栏就会出现在回显区上方；它是窗体中的倒数第二行。 在图形显示上，状态栏以3D框外观绘制。 Emacs 通常会使用不同于未选定窗口的颜色来绘制所选窗口的状态栏， 为了使它显得更加突出。"
 
 #. type: Plain text
 #: src/screen.texi:174
 msgid "The text displayed in the mode line has the following format:"
-msgstr ""
+msgstr "在状态栏中显示的文本具有以下格式："
 
 #. type: example
 #: src/screen.texi:177
 #, no-wrap
 msgid " @var{cs}:@var{ch}-@var{fr}  @var{buf}      @var{pos} @var{line}   (@var{major} @var{minor})\n"
-msgstr ""
+msgstr " @var{cs}:@var{ch}-@var{fr}  @var{buf}      @var{pos} @var{line}   (@var{major} @var{minor})\n"
 
 #. type: Plain text
 #: src/screen.texi:183
 msgid "On a text terminal, this text is followed by a series of dashes extending to the right edge of the window.  These dashes are omitted on a graphical display."
-msgstr ""
+msgstr "在文本终端上，这个文本后面是一系列延伸到窗口右边缘的破折。 这些破折号在图形显示上省略。"
 
 #. type: Plain text
 #: src/screen.texi:188
 msgid "The @var{cs} string and the colon character after it describe the character set and newline convention used for the current buffer.  Normally, Emacs automatically handles these settings for you, but it is sometimes useful to have this information."
-msgstr ""
+msgstr "@var{cs} 字符串和冒号之后的是描述当前缓冲区使用的字符集和换行约定。 通常，Emacs 自动为您处理这些设置，但有时提供此信息是有用的。"
 
 #. type: Plain text
 #: src/screen.texi:196
 msgid "@var{cs} describes the character set of the text in the buffer (@pxref{Coding Systems}).  If it is a dash (@samp{-}), that indicates no special character set handling (with the possible exception of end-of-line conventions, described in the next paragraph).  @samp{=} means no conversion whatsoever, and is usually used for files containing non-textual data.  Other characters represent various @dfn{coding systems}---for example, @samp{1} represents ISO Latin-1."
-msgstr ""
+msgstr "@var{cs} 描述缓冲区中文本的字符集(@pxref{编码系统})。 如果是破折号 (@samp{-}), 这表明没有特殊的字符集处理方法（下一段即将描述的行尾约定可能是个例外）。 @samp{=} 表示没有转换，通常用于包含非文本数据的文件。 其它字符代表各种@dfn{编码系统}---例如 @samp{1} 代表 ISO 拉丁拼音1。"
 
 #. type: Plain text
 #: src/screen.texi:202
 msgid "On a text terminal, @var{cs} is preceded by two additional characters that describe the coding systems for keyboard input and terminal output.  Furthermore, if you are using an input method, @var{cs} is preceded by a string that identifies the input method (@pxref{Input Methods})."
-msgstr ""
+msgstr "在文本终端上，@var{cs} 之前还有两个额外的字符描述键盘输入和终端输出的编码系统。 此外，如果您正在使用输入法，@var{cs} 前有一个字符串来识别输入法(@pxref{输入法})。"
 
 #. type: cindex
 #: src/screen.texi:203
 #, no-wrap
 msgid "end-of-line convention, mode-line indication"
-msgstr ""
+msgstr "行尾约定, 状态栏说明"
 
 #. type: Plain text
 #: src/screen.texi:217
 msgid "The character after @var{cs} is usually a colon.  If a different string is displayed, that indicates a nontrivial end-of-line convention for encoding a file.  Usually, lines of text are separated by @dfn{newline characters} in a file, but two other conventions are sometimes used.  The MS-DOS convention uses a carriage return character followed by a linefeed character; when editing such files, the colon changes to either a backslash (@samp{\\}) or @samp{(DOS)}, depending on the operating system.  Another convention, employed by older Macintosh systems, uses a carriage return character instead of a newline; when editing such files, the colon changes to either a forward slash (@samp{/}) or @samp{(Mac)}.  On some systems, Emacs displays @samp{(Unix)} instead of the colon for files that use newline as the line separator."
-msgstr ""
+msgstr "@var{cs} 之后的字符通常是冒号。 如果显示了一个不同的字符串，那将表示一个用于编码文件的重要行尾约定。 通常，文本行由@dfn{换行符}在文件中分隔，但有时使用另外两项约定。 MS-DOS约定使用回车符后面跟着一个换行符； 当编辑这些文件时，把冒号替换为反斜杠 (@samp{\\}) 或 @samp{(DOS)} 之一。 旧的 Macintosh 系统采用的另一个约定使用的是回车符来代替换行符； 当编辑这些文件时，使用正斜杠 (@samp{/}) 或 @samp{(Mac)}。 在某些系统中，Emacs 显示@samp{(Unix)}来代替冒号，在文件中使用换行符来分割行。"
 
 #. type: Plain text
 #: src/screen.texi:222
@@ -364,13 +364,13 @@ msgstr ""
 #: src/screen.texi:288
 #, no-wrap
 msgid "The Menu Bar"
-msgstr ""
+msgstr "菜单栏"
 
 #. type: cindex
 #: src/screen.texi:289
 #, no-wrap
 msgid "menu bar"
-msgstr ""
+msgstr "菜单栏"
 
 #. type: Plain text
 #: src/screen.texi:294
@@ -391,19 +391,19 @@ msgstr "Some of the commands in the menu bar have ordinary key bindings as well;
 #: src/screen.texi:307
 #, no-wrap
 msgid "F10"
-msgstr ""
+msgstr "F10"
 
 #. type: findex
 #: src/screen.texi:308
 #, no-wrap
 msgid "menu-bar-open"
-msgstr ""
+msgstr "menu-bar-open"
 
 #. type: cindex
 #: src/screen.texi:309
 #, no-wrap
 msgid "menu bar access using keyboard"
-msgstr ""
+msgstr "使用键盘访问菜单栏"
 
 #. type: Plain text
 #: src/screen.texi:319
@@ -414,19 +414,19 @@ msgstr ""
 #: src/screen.texi:320
 #, no-wrap
 msgid "M-`"
-msgstr ""
+msgstr "M-`"
 
 #. type: findex
 #: src/screen.texi:321
 #, no-wrap
 msgid "tmm-menubar"
-msgstr ""
+msgstr "tmm-menubar"
 
 #. type: vindex
 #: src/screen.texi:322
 #, no-wrap
 msgid "tty-menu-open-use-tmm"
-msgstr ""
+msgstr "tty-menu-open-use-tmm"
 
 #. type: Plain text
 #: src/screen.texi:335
