@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-09 06:14\n"
+"PO-Revision-Date: 2021-01-09 07:11\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -32,18 +32,18 @@ msgstr "屏幕的组织方式"
 #: src/screen.texi:7
 #, no-wrap
 msgid "screen"
-msgstr ""
+msgstr "屏幕"
 
 #. type: cindex
 #: src/screen.texi:8
 #, no-wrap
 msgid "frame"
-msgstr ""
+msgstr "窗体"
 
 #. type: Plain text
 #: src/screen.texi:17
 msgid "On a graphical display, such as on GNU/Linux using the X Window System, Emacs occupies a graphical window.  On a text terminal, Emacs occupies the entire terminal screen.  We will use the term @dfn{frame} to mean a graphical window or terminal screen occupied by Emacs.  Emacs behaves very similarly on both kinds of frames.  It normally starts out with just one frame, but you can create additional frames if you wish (@pxref{Frames})."
-msgstr "在图形显示器上，例如在使用X窗口系统的GNU/Linux上，Emacs占据一个图形窗口。在文本终端上，Emacs占据整个终端屏幕。我们将使用@dfn {窗体}一词来表示Emacs占用的图形窗口或终端屏幕。Emacs在这两种窗体上的行为非常相似。它通常只以一个窗体开始，但是您可以根据需要创建其他窗体（@pxref {Frames}）。"
+msgstr "在图形显示器上，例如在使用X窗口系统的GNU/Linux上，Emacs占据一个图形窗口。在文本终端上，Emacs占据整个终端屏幕。我们将使用@dfn{窗体} 一词来表示Emacs占用的图形窗口或终端屏幕。Emacs在这两种窗体上的行为非常相似。它通常只以一个窗体开始，但是您可以根据需要创建其他窗体（@pxref{窗体}）。"
 
 #. type: Plain text
 #: src/screen.texi:25
@@ -118,13 +118,13 @@ msgstr "如何使用菜单栏。"
 #: src/screen.texi:66
 #, no-wrap
 msgid "point"
-msgstr ""
+msgstr "游标"
 
 #. type: cindex
 #: src/screen.texi:67
 #, no-wrap
 msgid "cursor"
-msgstr ""
+msgstr "光标"
 
 #. type: Plain text
 #: src/screen.texi:77
