@@ -4,4 +4,4 @@ files:
       - doclicense.texi
       - gpl.texi
       - docstyle.texi
-    translation: '%file_name%.po'
+    translation: /po/%osx_locale%/%file_name%.po
