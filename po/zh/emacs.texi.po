@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-09 06:15\n"
+"PO-Revision-Date: 2021-01-09 14:14\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -26,13 +26,13 @@ msgstr "GNU Emacs手册"
 #: src/emacs.texi:5
 #, no-wrap
 msgid "docstyle.texi"
-msgstr ""
+msgstr "docstyle.texi"
 
 #. type: include
 #: src/emacs.texi:6
 #, no-wrap
 msgid "emacsver.texi"
-msgstr ""
+msgstr "emacsver.texi"
 
 #. type: ifset
 #: src/emacs.texi:17
@@ -52,7 +52,7 @@ msgstr "已针对Emacs版本@value {EMACSVER}更新。"
 #. type: copying
 #: src/emacs.texi:25
 msgid "Copyright @copyright{} 1985--1987, 1993--2020 Free Software Foundation, Inc."
-msgstr ""
+msgstr "Copyright @copyright{} 1985--1987, 1993--2020 Free Software Foundation, Inc."
 
 #. type: quotation
 #: src/emacs.texi:35
@@ -68,12 +68,12 @@ msgstr "（a）FSF的封底文本是：``您可以自由复制和修改本GNU手
 #: src/emacs.texi:42
 #, no-wrap
 msgid "Emacs"
-msgstr ""
+msgstr "Emacs"
 
 #. type: menuentry
 #: src/emacs.texi:45
 msgid "Emacs: (emacs)"
-msgstr ""
+msgstr "Emacs: (emacs)"
 
 #. type: menuentry
 #: src/emacs.texi:45
@@ -83,7 +83,7 @@ msgstr "可扩展的自文档文本编辑器。"
 #. type: ifset
 #: src/emacs.texi:54
 msgid "@smallbook"
-msgstr ""
+msgstr "@smallbook"
 
 #. type: tex
 #: src/emacs.texi:64
@@ -94,7 +94,7 @@ msgstr "\\global\\hbadness=6666 % 不要担心盒子不够满\n"
 #. type: iftex
 #: src/emacs.texi:71
 msgid "@kbdinputstyle code"
-msgstr ""
+msgstr "@kbdinputstyle code"
 
 #. type: center
 #: src/emacs.texi:80
@@ -106,18 +106,18 @@ msgstr "@value {EDITION}版，已针对Emacs版本@value {EMACSVER}更新。"
 #: src/emacs.texi:83
 #, no-wrap
 msgid "Updated for Emacs Version @value{EMACSVER}"
-msgstr "已更新为Emacs版本@value {EMACSVER}"
+msgstr "已更新为Emacs版本@value{EMACSVER}"
 
 #. type: center
 #: src/emacs.texi:86
 #, no-wrap
 msgid "Richard Stallman et al."
-msgstr "理查德·斯托曼（Richard Stallman）等。"
+msgstr "Richard Stallman等。"
 
 #. type: titlepage
 #: src/emacs.texi:96
 msgid "Published by the Free Software Foundation @* 51 Franklin Street, Fifth Floor @* Boston, MA 02110-1301 USA @* ISBN 978-0-9831592-5-4"
-msgstr ""
+msgstr "Published by the Free Software Foundation @* 51 Franklin Street, Fifth Floor @* Boston, MA 02110-1301 USA @* ISBN 978-0-9831592-5-4"
 
 #. type: titlepage
 #: src/emacs.texi:99
@@ -128,7 +128,7 @@ msgstr "Etienne Suvasa的封面艺术；封面设计由Matt Lee设计。"
 #: src/emacs.texi:108
 #, no-wrap
 msgid "Top"
-msgstr ""
+msgstr "Top"
 
 #. type: top
 #: src/emacs.texi:109
@@ -206,7 +206,7 @@ msgstr "各种输入事件(字符、按钮、功能按键)。"
 #. type: menuentry
 #: src/emacs.texi:154
 msgid "Keys"
-msgstr "按键"
+msgstr "键"
 
 #. type: menuentry
 #: src/emacs.texi:154
@@ -271,7 +271,7 @@ msgstr "输入提示的参数。"
 #. type: menuentry
 #: src/emacs.texi:160
 msgid "M-x"
-msgstr ""
+msgstr "M-x"
 
 #. type: menuentry
 #: src/emacs.texi:160
@@ -306,7 +306,7 @@ msgstr "标记：如何界定文本区域。"
 #. type: menuentry
 #: src/emacs.texi:169
 msgid "Killing"
-msgstr ""
+msgstr "删除"
 
 #. type: menuentry
 #: src/emacs.texi:169
