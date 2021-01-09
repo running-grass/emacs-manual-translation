@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-09 13:12\n"
+"PO-Revision-Date: 2021-01-09 14:14\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -43,7 +43,7 @@ msgstr "窗体"
 #. type: Plain text
 #: src/screen.texi:17
 msgid "On a graphical display, such as on GNU/Linux using the X Window System, Emacs occupies a graphical window.  On a text terminal, Emacs occupies the entire terminal screen.  We will use the term @dfn{frame} to mean a graphical window or terminal screen occupied by Emacs.  Emacs behaves very similarly on both kinds of frames.  It normally starts out with just one frame, but you can create additional frames if you wish (@pxref{Frames})."
-msgstr "在图形显示器上，例如在使用X窗口系统的GNU/Linux上，Emacs占据一个图形窗口。在文本终端上，Emacs占据整个终端屏幕。我们将使用@dfn{窗体}一词来表示Emacs占用的图形窗口或终端屏幕。Emacs在这两种窗体上的行为非常相似。它通常只以一个窗体开始，但是您可以根据需要创建其他窗体（@pxref{窗体}）。"
+msgstr "在图形显示上，例如在使用X窗口系统的GNU/Linux上，Emacs占据一个图形窗口。在文本终端上，Emacs占据整个终端屏幕。我们将使用@dfn{窗体}一词来表示Emacs占用的图形窗口或终端屏幕。Emacs在这两种窗体上的行为非常相似。它通常只以一个窗体开始，但是您可以根据需要创建其他窗体（@pxref{窗体}）。"
 
 #. type: Plain text
 #: src/screen.texi:25
@@ -63,12 +63,12 @@ msgstr "Emacs窗口显示@dfn{缓冲区}——您正在编辑或查看的文本�
 #. type: Plain text
 #: src/screen.texi:45
 msgid "When you start Emacs, there is normally only one window in the frame.  However, you can subdivide this window horizontally or vertically to create multiple windows, each of which can independently display a buffer (@pxref{Windows})."
-msgstr "启动Emacs时，窗体中通常只有一个窗口。但是，您可以水平或垂直分割此窗口以创建多个窗口，每个窗口都可以独立显示一个缓冲区(@pxref{Windows})。"
+msgstr "启动Emacs时，窗体中通常只有一个窗口。但是，您可以水平或垂直分割此窗口以创建多个窗口，每个窗口都可以独立显示一个缓冲区(@pxref{窗口})。"
 
 #. type: Plain text
 #: src/screen.texi:56
 msgid "At any time, one window is the @dfn{selected window}.  On a graphical display, the selected window shows a more prominent cursor (usually solid and blinking); other windows show a less prominent cursor (usually a hollow box).  On a text terminal, there is only one cursor, which is shown in the selected window.  The buffer displayed in the selected window is called the @dfn{current buffer}, and it is where editing happens.  Most Emacs commands implicitly apply to the current buffer; the text displayed in unselected windows is mostly visible for reference.  If you use multiple frames on a graphical display, selecting a particular frame selects a window in that frame."
-msgstr "在任何时候，都有一个窗口是@dfn{选定窗口}。在图形显示器上，所选窗口显示较突出的光标(通常为实心且闪烁)；其他窗口显示较不突出的光标(通常为空心框)。在文本终端上，只有一个光标显示在所选窗口中。在选定窗口中显示的缓冲区称为 @dfn{当前缓冲区}，它是进行编辑的地方。大多数Emacs命令都隐式应用于当前缓冲区；显示在未选中窗口中的文本大多可见以供参考。如果在图形显示上使用多个窗体，则选择特定窗体将选择该窗体中的一个窗口。"
+msgstr "在任何时候，都有一个窗口是@dfn{选定窗口}。在图形显示上，所选窗口显示较突出的光标(通常为实心且闪烁)；其他窗口显示较不突出的光标(通常为空心框)。在文本终端上，只有一个光标显示在所选窗口中。在选定窗口中显示的缓冲区称为 @dfn{当前缓冲区}，它是进行编辑的地方。大多数Emacs命令都隐式应用于当前缓冲区；显示在未选中窗口中的文本大多可见以供参考。如果在图形显示上使用多个窗体，则选择特定窗体将选择该窗体中的一个窗口。"
 
 #. type: section
 #: src/screen.texi:62 src/screen.texi:64 src/screen.texi:65
@@ -79,7 +79,7 @@ msgstr "游标"
 #. type: menuentry
 #: src/screen.texi:62
 msgid "The place in the text where editing commands operate."
-msgstr "文本中操作编辑命令的位置。"
+msgstr "在文本中操作编辑命令的位置。"
 
 #. type: node
 #: src/screen.texi:62 src/screen.texi:97
@@ -129,7 +129,7 @@ msgstr "光标"
 #. type: Plain text
 #: src/screen.texi:77
 msgid "The cursor in the selected window shows the location where most editing commands take effect, which is called @dfn{point}@footnote{The term ``point'' comes from the character @samp{.}, which was the command in TECO (the language in which the original Emacs was written)  for accessing the editing position.}.  Many Emacs commands move point to different places in the buffer; for example, you can place point by clicking mouse button 1 (normally the left button) at the desired location."
-msgstr "所选窗口中的光标显示大多数编辑命令生效的位置。 叫做@dfn{游标}@footnote{术语``游标''来自字符 @samp{.}， 它是 TECO (原Emacs 被写入的语言) 中访问编辑位置的命令。许多Emacs 命令移动游标到缓冲区的不同位置； 例如，您可以通过单击鼠标按钮1(通常是左键) 放置游标到所需位置。"
+msgstr "所选窗口中的光标显示大多数编辑命令生效的位置。 叫做@dfn{游标}@footnote{术语``游标''来自字符 @samp{.}， 它是 TECO (原Emacs 被写入的语言)中访问编辑位置的命令。许多Emacs 命令移动游标到缓冲区的不同位置； 例如，您可以通过单击鼠标按钮1(通常是左键)放置游标到所需位置。"
 
 #. type: Plain text
 #: src/screen.texi:87
@@ -139,7 +139,7 @@ msgstr "默认情况下，选中窗口中的光标会被绘制为一个固态方
 #. type: Plain text
 #: src/screen.texi:93
 msgid "If you are editing several files in Emacs, each in its own buffer, each buffer has its own value of point.  A buffer that is not currently displayed remembers its value of point if you later display it again.  Furthermore, if a buffer is displayed in multiple windows, each of those windows has its own value of point."
-msgstr "如果您在Emacs编辑好几个文件，它们都在自己的缓冲区内，每个缓冲区都有自己的游标。当前未显示的缓冲区将记住游标的位置以便您稍后再次显示。 此外，如果缓冲区显示在多个窗口中，每个窗口都有自己的游标。"
+msgstr "如果您在Emacs编辑好几个文件，它们都在自己的缓冲区内，每个缓冲区都有自己的游标。当前未显示的缓冲区将记住游标的位置以便您稍后再次显示。 此外，如果同一个缓冲区显示在多个窗口中，每个窗口都有自己的游标。"
 
 #. type: Plain text
 #: src/screen.texi:96
@@ -172,7 +172,7 @@ msgstr "回显"
 #. type: Plain text
 #: src/screen.texi:115
 msgid "The echo area is so-named because one of the things it is used for is @dfn{echoing}, which means displaying the characters of a multi-character command as you type.  Single-character commands are not echoed.  Multi-character commands (@pxref{Keys}) are echoed if you pause for more than a second in the middle of a command.  Emacs then echoes all the characters of the command so far, to prompt you for the rest.  Once echoing has started, the rest of the command echoes immediately as you type it.  This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback."
-msgstr "The echo area is so-named because one of the things it is used for is @dfn{echoing}, which means displaying the characters of a multi-character command as you type.  Single-character commands are not echoed.  Multi-character commands (@pxref{按键}) are echoed if you pause for more than a second in the middle of a command.  Emacs then echoes all the characters of the command so far, to prompt you for the rest.  Once echoing has started, the rest of the command echoes immediately as you type it.  This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback."
+msgstr "之所以被称为回显区，原因是它的用途之一是@dfn{回显}， 这意味着显示您输入的多字符命令。 单个字符命令不会被回显。 如果您在输入命令 时暂停超过一秒，那么多字符命令 (@pxref{键})将会回显。 Emacs会回显该命令到目前为止输入的所有字符，提醒您输入剩余部分。 回显一旦开始，命令的剩余部分在您输入后立即回显。 这种行为旨在让有信心的用户快速响应，同时给犹豫不决的用户提供最大的反馈。"
 
 #. type: cindex
 #: src/screen.texi:116
@@ -189,69 +189,69 @@ msgstr "回显区消息"
 #. type: Plain text
 #: src/screen.texi:121
 msgid "The echo area is also used to display an @dfn{error message} when a command cannot do its job.  Error messages may be accompanied by beeping or by flashing the screen."
-msgstr "当命令无法执行其任务时，回显区也用于显示@dfn{错误信息} 。 错误信息可能伴随着蜂鸣或屏幕闪烁。"
+msgstr "当命令无法执行其任务时，回显区也用于显示@dfn{错误信息} 。 错误信息可能伴随着蜂鸣或闪屏。"
 
 #. type: Plain text
 #: src/screen.texi:133
 msgid "Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information.  These @dfn{informative} messages, unlike error messages, are not accompanied with a beep or flash.  For example, @kbd{C-x =} (hold down @key{Ctrl} and type @kbd{x}, then let go of @key{Ctrl} and type @kbd{=}) displays a message describing the character at point, its position in the buffer, and its current column in the window.  Commands that take a long time often display messages ending in @samp{...} while they are working (sometimes also indicating how much progress has been made, as a percentage), and add @samp{done} when they are finished."
-msgstr ""
+msgstr "一些命令在回显区显示信息性消息，告诉您该命令做了什么，或者向您提供一些具体信息。 这些@dfn{信息性}消息不同于错误消息，没有伴随蜂鸣或闪屏。 例如，@kbd{C-x =} (按住@key{Ctrl}并输入@kbd{x}) 然后松开@key{Ctrl} 并输入@kbd{=}) 来显示一个描述当前游标处字符的消息。 包括它在缓冲区中的位置，以及它在窗口中的当前列.。需要很长时间的命令常常显示以@samp{...}结尾的消息(有时也表明已经取得了多少进展)，当完成后添加 @samp{done}。"
 
 #. type: cindex
 #: src/screen.texi:134
 #, no-wrap
 msgid "@file{*Messages*} buffer"
-msgstr ""
+msgstr "@file{*Messages*}缓冲区"
 
 #. type: cindex
 #: src/screen.texi:135
 #, no-wrap
 msgid "saved echo area messages"
-msgstr ""
+msgstr "被保存的回显区消息"
 
 #. type: cindex
 #: src/screen.texi:136
 #, no-wrap
 msgid "messages saved from echo area"
-msgstr ""
+msgstr "从回显区保存消息"
 
 #. type: vindex
 #: src/screen.texi:137
 #, no-wrap
 msgid "message-log-max"
-msgstr ""
+msgstr "message-log-max"
 
 #. type: Plain text
 #: src/screen.texi:148
 msgid "Informative echo area messages are saved in a special buffer named @file{*Messages*}.  (We have not explained buffers yet; see @ref{Buffers}, for more information about them.)  If you miss a message that appeared briefly on the screen, you can switch to the @file{*Messages*} buffer to see it again.  The @file{*Messages*} buffer is limited to a certain number of lines, specified by the variable @code{message-log-max}.  (We have not explained variables either; see @ref{Variables}, for more information about them.)  Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end."
-msgstr ""
+msgstr "信息性回显区消息将被保存在名为 @file{*Messages*} 的特殊缓冲区中。 (我们尚未解释缓冲区；请参阅@ref{缓冲区}以了解更多关于缓冲区的信息。) 如果您错过短暂出现在屏幕上的消息，您可以切换到 @file{*Messages*} 缓冲区来再次看到。 @file{*Messages*} 缓冲区通过变量@code{message-log-max} 限制最大的记录行数。 (我们也没有解释变量；关于这些变量的更多信息，请参阅@ref{变量})。 在这个限制之外，每当在末尾添加一条新的消息行时，就会从开头删除一行。"
 
 #. type: Plain text
 #: src/screen.texi:151
 msgid "@xref{Display Custom}, for options that control how Emacs uses the echo area."
-msgstr ""
+msgstr "@xref{显示自定义}，用于控制Emacs如何使用回显区的选项。"
 
 #. type: Plain text
 #: src/screen.texi:159
 msgid "The echo area is also used to display the @dfn{minibuffer}, a special window where you can input arguments to commands, such as the name of a file to be edited.  When the minibuffer is in use, the text displayed in the echo area begins with a @dfn{prompt string}, and the active cursor appears within the minibuffer, which is temporarily considered the selected window.  You can always get out of the minibuffer by typing @kbd{C-g}.  @xref{Minibuffer}."
-msgstr "The echo area is also used to display the @dfn{minibuffer}, a special window where you can input arguments to commands, such as the name of a file to be edited.  When the minibuffer is in use, the text displayed in the echo area begins with a @dfn{prompt string}, and the active cursor appears within the minibuffer, which is temporarily considered the selected window.  You can always get out of the minibuffer by typing @kbd{C-g}.  @xref{迷你缓冲区}."
+msgstr "回显区也用于显示 @dfn{迷你缓冲区}，一个可以让您输入参数到命令的特殊窗口，如要编辑的文件名称。 当迷你缓冲区正在使用时，回显区中显示的文字以@dfn{提示字符串}开头， 并且活动光标会出现在暂时被视为选定窗口的迷你缓冲区内。 您总是可以通过输入 @kbd{C-g} 来退出迷你缓冲区。@xref{迷你缓冲区}。"
 
 #. type: section
 #: src/screen.texi:161
 #, no-wrap
 msgid "The Mode Line"
-msgstr ""
+msgstr "状态栏"
 
 #. type: cindex
 #: src/screen.texi:162
 #, no-wrap
 msgid "mode line"
-msgstr ""
+msgstr "状态栏"
 
 #. type: cindex
 #: src/screen.texi:163
 #, no-wrap
 msgid "top level"
-msgstr ""
+msgstr "最高级别"
 
 #. type: Plain text
 #: src/screen.texi:172
