@@ -1,19 +1,20 @@
-# Chinese translations for PACKAGE package
-# Copyright (C) 2021 Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2021.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-06 19:00+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: zh_Hans\n"
+"PO-Revision-Date: 2021-01-09 06:15\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: emacs-manual-chinese\n"
+"X-Crowdin-Project-ID: 436220\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /27.1/pot/fortran-xtra.texi.pot\n"
+"X-Crowdin-File-ID: 282\n"
 
 #. type: node
 #: src/fortran-xtra.texi:7
@@ -65,26 +66,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:26
-msgid ""
-"Fortran mode is meant for editing fixed form (and also tab format) source "
-"code (normally Fortran 77).  For editing more modern free-form source code "
-"(Fortran 90, 95, 2003, 2008), use F90 mode (@code{f90-mode}).  Emacs "
-"normally uses Fortran mode for files with extension @samp{.f}, @samp{.F} or "
-"@samp{.for}, and F90 mode for the extensions @samp{.f90}, @samp{.f95}, "
-"@samp{.f03} and @samp{.f08}.  Customize @code{auto-mode-alist} to add more "
-"extensions.  GNU Fortran supports both free and fixed form.  This manual "
-"mainly documents Fortran mode, but the corresponding F90 mode features are "
-"mentioned when relevant."
+msgid "Fortran mode is meant for editing fixed form (and also tab format) source code (normally Fortran 77).  For editing more modern free-form source code (Fortran 90, 95, 2003, 2008), use F90 mode (@code{f90-mode}).  Emacs normally uses Fortran mode for files with extension @samp{.f}, @samp{.F} or @samp{.for}, and F90 mode for the extensions @samp{.f90}, @samp{.f95}, @samp{.f03} and @samp{.f08}.  Customize @code{auto-mode-alist} to add more extensions.  GNU Fortran supports both free and fixed form.  This manual mainly documents Fortran mode, but the corresponding F90 mode features are mentioned when relevant."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:33
-msgid ""
-"Fortran mode provides special motion commands for Fortran statements and "
-"subprograms, and indentation commands that understand Fortran conventions of "
-"nesting, line numbers and continuation statements.  Fortran mode has support "
-"for Auto Fill mode that breaks long lines into proper Fortran continuation "
-"lines.  Fortran mode also supports Hideshow minor mode"
+msgid "Fortran mode provides special motion commands for Fortran statements and subprograms, and indentation commands that understand Fortran conventions of nesting, line numbers and continuation statements.  Fortran mode has support for Auto Fill mode that breaks long lines into proper Fortran continuation lines.  Fortran mode also supports Hideshow minor mode"
 msgstr ""
 
 #. type: iftex
@@ -114,17 +101,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:50
-msgid ""
-"Special commands for comments are provided because Fortran comments are "
-"unlike those of other languages.  Built-in abbrevs optionally save typing "
-"when you insert Fortran keywords."
+msgid "Special commands for comments are provided because Fortran comments are unlike those of other languages.  Built-in abbrevs optionally save typing when you insert Fortran keywords."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:53
-msgid ""
-"Use @kbd{M-x fortran-mode} to switch to this major mode.  This command runs "
-"the hook @code{fortran-mode-hook}."
+msgid "Use @kbd{M-x fortran-mode} to switch to this major mode.  This command runs the hook @code{fortran-mode-hook}."
 msgstr ""
 
 #. type: iftex
@@ -211,12 +193,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:77
-msgid ""
-"In addition to the normal commands for moving by and operating on defuns "
-"(Fortran subprograms---functions and subroutines, as well as modules for F90 "
-"mode, using the commands @code{fortran-end-of-subprogram} and @code{fortran-"
-"beginning-of-subprogram}), Fortran mode provides special commands to move by "
-"statements and other program units."
+msgid "In addition to the normal commands for moving by and operating on defuns (Fortran subprograms---functions and subroutines, as well as modules for F90 mode, using the commands @code{fortran-end-of-subprogram} and @code{fortran-beginning-of-subprogram}), Fortran mode provides special commands to move by statements and other program units."
 msgstr ""
 
 #. type: kindex
@@ -245,9 +222,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:85
-msgid ""
-"Move to the beginning of the next statement (@code{fortran-next-statement}/"
-"@code{f90-next-statement})."
+msgid "Move to the beginning of the next statement (@code{fortran-next-statement}/@code{f90-next-statement})."
 msgstr ""
 
 #. type: kindex
@@ -276,11 +251,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:94
-msgid ""
-"Move to the beginning of the previous statement (@code{fortran-previous-"
-"statement}/@code{f90-previous-statement}).  If there is no previous "
-"statement (i.e., if called from the first statement in the buffer), move to "
-"the start of the buffer."
+msgid "Move to the beginning of the previous statement (@code{fortran-previous-statement}/@code{f90-previous-statement}).  If there is no previous statement (i.e., if called from the first statement in the buffer), move to the start of the buffer."
 msgstr ""
 
 #. type: kindex
@@ -303,12 +274,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:103
-msgid ""
-"Move point forward to the start of the next code block, or the end of the "
-"current one, whichever comes first (@code{f90-next-block}).  A code block is "
-"a subroutine, @code{if}--@code{endif} statement, and so forth.  This command "
-"exists for F90 mode only, not Fortran mode.  With a numeric argument, it "
-"moves forward that many blocks."
+msgid "Move point forward to the start of the next code block, or the end of the current one, whichever comes first (@code{f90-next-block}).  A code block is a subroutine, @code{if}--@code{endif} statement, and so forth.  This command exists for F90 mode only, not Fortran mode.  With a numeric argument, it moves forward that many blocks."
 msgstr ""
 
 #. type: kindex
@@ -331,9 +297,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:110
-msgid ""
-"Move point backward to the previous block (@code{f90-previous-block}).  This "
-"is like @code{f90-next-block}, but moves backwards."
+msgid "Move point backward to the previous block (@code{f90-previous-block}).  This is like @code{f90-next-block}, but moves backwards."
 msgstr ""
 
 #. type: kindex
@@ -362,12 +326,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:121
-msgid ""
-"Move to the end of the current code block (@code{fortran-end-of-block}/"
-"@code{f90-end-of-block}).  With a numeric argument, move forward that number "
-"of blocks.  The mark is set before moving point.  The F90 mode version of "
-"this command checks for consistency of block types and labels (if present), "
-"but it does not check the outermost block since that may be incomplete."
+msgid "Move to the end of the current code block (@code{fortran-end-of-block}/@code{f90-end-of-block}).  With a numeric argument, move forward that number of blocks.  The mark is set before moving point.  The F90 mode version of this command checks for consistency of block types and labels (if present), but it does not check the outermost block since that may be incomplete."
 msgstr ""
 
 #. type: kindex
@@ -396,20 +355,12 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:129
-msgid ""
-"Move to the start of the current code block (@code{fortran-beginning-of-"
-"block}/@code{f90-beginning-of-block}). This is like @code{fortran-end-of-"
-"block}, but moves backwards."
+msgid "Move to the start of the current code block (@code{fortran-beginning-of-block}/@code{f90-beginning-of-block}). This is like @code{fortran-end-of-block}, but moves backwards."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:136
-msgid ""
-"The commands @code{fortran-beginning-of-subprogram} and @code{fortran-end-of-"
-"subprogram} move to the start or end of the current subprogram, "
-"respectively.  The commands @code{fortran-mark-do} and @code{fortran-mark-"
-"if} mark the end of the current @code{do} or @code{if} block, and move point "
-"to the start."
+msgid "The commands @code{fortran-beginning-of-subprogram} and @code{fortran-end-of-subprogram} move to the start or end of the current subprogram, respectively.  The commands @code{fortran-mark-do} and @code{fortran-mark-if} mark the end of the current @code{do} or @code{if} block, and move point to the start."
 msgstr ""
 
 #. type: node
@@ -426,11 +377,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:145
-msgid ""
-"Special commands and features are needed for indenting fixed (or tab)  form "
-"Fortran code in order to make sure various syntactic entities (line numbers, "
-"comment line indicators and continuation line flags) appear in the required "
-"columns."
+msgid "Special commands and features are needed for indenting fixed (or tab)  form Fortran code in order to make sure various syntactic entities (line numbers, comment line indicators and continuation line flags) appear in the required columns."
 msgstr ""
 
 #. type: menuentry
@@ -503,9 +450,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:161
-msgid ""
-"Break the current line at point and set up a continuation line "
-"(@code{fortran-split-line})."
+msgid "Break the current line at point and set up a continuation line (@code{fortran-split-line})."
 msgstr ""
 
 #. type: item
@@ -527,9 +472,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:168
-msgid ""
-"Indent all the lines of the subprogram that point is in (@code{fortran-"
-"indent-subprogram})."
+msgid "Indent all the lines of the subprogram that point is in (@code{fortran-indent-subprogram})."
 msgstr ""
 
 #. type: item
@@ -540,9 +483,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:172
-msgid ""
-"Fill a comment block or statement (using @code{fortran-fill-paragraph} or "
-"@code{fortran-fill-statement})."
+msgid "Fill a comment block or statement (using @code{fortran-fill-paragraph} or @code{fortran-fill-statement})."
 msgstr ""
 
 #. type: kindex
@@ -559,10 +500,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:179
-msgid ""
-"The key @kbd{C-M-q} runs @code{fortran-indent-subprogram}, a command to "
-"reindent all the lines of the Fortran subprogram (function or subroutine) "
-"containing point."
+msgid "The key @kbd{C-M-q} runs @code{fortran-indent-subprogram}, a command to reindent all the lines of the Fortran subprogram (function or subroutine) containing point."
 msgstr ""
 
 #. type: kindex
@@ -579,11 +517,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:187
-msgid ""
-"The key @kbd{C-M-j} runs @code{fortran-split-line}, which splits a line in "
-"the appropriate fashion for Fortran.  In a non-comment line, the second half "
-"becomes a continuation line and is indented accordingly.  In a comment line, "
-"both halves become separate comment lines."
+msgid "The key @kbd{C-M-j} runs @code{fortran-split-line}, which splits a line in the appropriate fashion for Fortran.  In a non-comment line, the second half becomes a continuation line and is indented accordingly.  In a comment line, both halves become separate comment lines."
 msgstr ""
 
 #. type: kindex
@@ -606,11 +540,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:195
-msgid ""
-"@kbd{M-^} or @kbd{C-c C-d} run the command @code{fortran-join-line}, which "
-"joins a continuation line back to the previous line, roughly as the inverse "
-"of @code{fortran-split-line}.  The point must be on a continuation line when "
-"this command is invoked."
+msgid "@kbd{M-^} or @kbd{C-c C-d} run the command @code{fortran-join-line}, which joins a continuation line back to the previous line, roughly as the inverse of @code{fortran-split-line}.  The point must be on a continuation line when this command is invoked."
 msgstr ""
 
 #. type: kindex
@@ -621,9 +551,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:199
-msgid ""
-"@kbd{M-q} in Fortran mode fills the comment block or statement that point is "
-"in.  This removes any excess statement continuations."
+msgid "@kbd{M-q} in Fortran mode fills the comment block or statement that point is in.  This removes any excess statement continuations."
 msgstr ""
 
 #. type: node
@@ -652,13 +580,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:211
-msgid ""
-"Most Fortran 77 compilers allow two ways of writing continuation lines.  If "
-"the first non-space character on a line is in column 5, then that line is a "
-"continuation of the previous line.  We call this @dfn{fixed form}.  (In GNU "
-"Emacs we always count columns from 0; but note that the Fortran standard "
-"counts from 1.  You can customize the variable @code{column-number-indicator-"
-"zero-based} to make the column display"
+msgid "Most Fortran 77 compilers allow two ways of writing continuation lines.  If the first non-space character on a line is in column 5, then that line is a continuation of the previous line.  We call this @dfn{fixed form}.  (In GNU Emacs we always count columns from 0; but note that the Fortran standard counts from 1.  You can customize the variable @code{column-number-indicator-zero-based} to make the column display"
 msgstr ""
 
 #. type: iftex
@@ -673,12 +595,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:223
-msgid ""
-"The variable @code{fortran-continuation-string} specifies what character to "
-"put in column 5.  A line that starts with a tab character followed by any "
-"digit except @samp{0} is also a continuation line.  We call this style of "
-"continuation @dfn{tab format}.  (Fortran 90 introduced free-form "
-"continuation lines.)"
+msgid "The variable @code{fortran-continuation-string} specifies what character to put in column 5.  A line that starts with a tab character followed by any digit except @samp{0} is also a continuation line.  We call this style of continuation @dfn{tab format}.  (Fortran 90 introduced free-form continuation lines.)"
 msgstr ""
 
 #. type: vindex
@@ -701,39 +618,17 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:239
-msgid ""
-"Fortran mode can use either style of continuation line.  When you enter "
-"Fortran mode, it tries to deduce the proper continuation style automatically "
-"from the buffer contents.  It does this by scanning up to @code{fortran-"
-"analyze-depth} (default 100) lines from the start of the buffer.  The first "
-"line that begins with either a tab character or six spaces determines the "
-"choice.  If the scan fails (for example, if the buffer is new and therefore "
-"empty), the value of @code{fortran-tab-mode-default} (@code{nil} for fixed "
-"form, and non-@code{nil} for tab format) is used.  @samp{/t} (@code{fortran-"
-"tab-mode-string}) in the mode line indicates tab format is selected.  "
-"Fortran mode sets the value of @code{indent-tabs-mode} accordingly."
+msgid "Fortran mode can use either style of continuation line.  When you enter Fortran mode, it tries to deduce the proper continuation style automatically from the buffer contents.  It does this by scanning up to @code{fortran-analyze-depth} (default 100) lines from the start of the buffer.  The first line that begins with either a tab character or six spaces determines the choice.  If the scan fails (for example, if the buffer is new and therefore empty), the value of @code{fortran-tab-mode-default} (@code{nil} for fixed form, and non-@code{nil} for tab format) is used.  @samp{/t} (@code{fortran-tab-mode-string}) in the mode line indicates tab format is selected.  Fortran mode sets the value of @code{indent-tabs-mode} accordingly."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:247
-msgid ""
-"If the text on a line starts with the Fortran continuation marker @samp{$}, "
-"or if it begins with any non-whitespace character in column 5, Fortran mode "
-"treats it as a continuation line.  When you indent a continuation line with "
-"@kbd{@key{TAB}}, it converts the line to the current continuation style.  "
-"When you split a Fortran statement with @kbd{C-M-j}, the continuation marker "
-"on the newline is created according to the continuation style."
+msgid "If the text on a line starts with the Fortran continuation marker @samp{$}, or if it begins with any non-whitespace character in column 5, Fortran mode treats it as a continuation line.  When you indent a continuation line with @kbd{@key{TAB}}, it converts the line to the current continuation style.  When you split a Fortran statement with @kbd{C-M-j}, the continuation marker on the newline is created according to the continuation style."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:255
-msgid ""
-"The setting of continuation style affects several other aspects of editing "
-"in Fortran mode.  In fixed form mode, the minimum column number for the body "
-"of a statement is 6.  Lines inside of Fortran blocks that are indented to "
-"larger column numbers must use only the space character for whitespace.  In "
-"tab format mode, the minimum column number for the statement body is 8, and "
-"the whitespace before column 8 must consist of one tab character."
+msgid "The setting of continuation style affects several other aspects of editing in Fortran mode.  In fixed form mode, the minimum column number for the body of a statement is 6.  Lines inside of Fortran blocks that are indented to larger column numbers must use only the space character for whitespace.  In tab format mode, the minimum column number for the statement body is 8, and the whitespace before column 8 must consist of one tab character."
 msgstr ""
 
 #. type: node
@@ -750,11 +645,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:264
-msgid ""
-"If a number is the first non-whitespace in the line, Fortran indentation "
-"assumes it is a line number and moves it to columns 0 through 4.  (Columns "
-"always count from 0 in Emacs, but setting @code{column-number-indicator-zero-"
-"based} to @code{nil} can change that,"
+msgid "If a number is the first non-whitespace in the line, Fortran indentation assumes it is a line number and moves it to columns 0 through 4.  (Columns always count from 0 in Emacs, but setting @code{column-number-indicator-zero-based} to @code{nil} can change that,"
 msgstr ""
 
 #. type: iftex
@@ -775,14 +666,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:279
-msgid ""
-"Line numbers of four digits or less are normally indented one space.  The "
-"variable @code{fortran-line-number-indent} controls this; it specifies the "
-"maximum indentation a line number can have.  The default value of the "
-"variable is 1.  Fortran mode tries to prevent line number digits passing "
-"column 4, reducing the indentation below the specified maximum if "
-"necessary.  If @code{fortran-line-number-indent} has the value 5, line "
-"numbers are right-justified to end in column 4."
+msgid "Line numbers of four digits or less are normally indented one space.  The variable @code{fortran-line-number-indent} controls this; it specifies the maximum indentation a line number can have.  The default value of the variable is 1.  Fortran mode tries to prevent line number digits passing column 4, reducing the indentation below the specified maximum if necessary.  If @code{fortran-line-number-indent} has the value 5, line numbers are right-justified to end in column 4."
 msgstr ""
 
 #. type: vindex
@@ -793,11 +677,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:285
-msgid ""
-"Simply inserting a line number is enough to indent it according to these "
-"rules.  As each digit is inserted, the indentation is recomputed.  To turn "
-"off this feature, set the variable @code{fortran-electric-line-number} to "
-"@code{nil}."
+msgid "Simply inserting a line number is enough to indent it according to these rules.  As each digit is inserted, the indentation is recomputed.  To turn off this feature, set the variable @code{fortran-electric-line-number} to @code{nil}."
 msgstr ""
 
 #. type: node
@@ -814,9 +694,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:293
-msgid ""
-"Fortran mode assumes that you follow certain conventions that simplify the "
-"task of understanding a Fortran program well enough to indent it properly:"
+msgid "Fortran mode assumes that you follow certain conventions that simplify the task of understanding a Fortran program well enough to indent it properly:"
 msgstr ""
 
 #. type: itemize
@@ -826,27 +704,17 @@ msgstr ""
 
 #. type: itemize
 #: src/fortran-xtra.texi:301
-msgid ""
-"Fortran keywords such as @samp{if}, @samp{else}, @samp{then}, @samp{do} and "
-"others are written without embedded whitespace or line breaks."
+msgid "Fortran keywords such as @samp{if}, @samp{else}, @samp{then}, @samp{do} and others are written without embedded whitespace or line breaks."
 msgstr ""
 
 #. type: itemize
 #: src/fortran-xtra.texi:307
-msgid ""
-"Fortran compilers generally ignore whitespace outside of string constants, "
-"but Fortran mode does not recognize these keywords if they are not "
-"contiguous.  Constructs such as @samp{else if} or @samp{end do} are "
-"acceptable, but the second word should be on the same line as the first and "
-"not on a continuation line."
+msgid "Fortran compilers generally ignore whitespace outside of string constants, but Fortran mode does not recognize these keywords if they are not contiguous.  Constructs such as @samp{else if} or @samp{end do} are acceptable, but the second word should be on the same line as the first and not on a continuation line."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:314
-msgid ""
-"If you fail to follow these conventions, the indentation commands may indent "
-"some lines unaesthetically.  However, a correct Fortran program retains its "
-"meaning when reindented even if the conventions are not followed."
+msgid "If you fail to follow these conventions, the indentation commands may indent some lines unaesthetically.  However, a correct Fortran program retains its meaning when reindented even if the conventions are not followed."
 msgstr ""
 
 #. type: node
@@ -909,16 +777,12 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:333
-msgid ""
-"Extra indentation within each level of @samp{if}, @samp{select case}, or "
-"@samp{where} statements (default 3)."
+msgid "Extra indentation within each level of @samp{if}, @samp{select case}, or @samp{where} statements (default 3)."
 msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:337
-msgid ""
-"Extra indentation within each level of @samp{structure}, @samp{union}, "
-"@samp{map}, or @samp{interface} statements (default 3)."
+msgid "Extra indentation within each level of @samp{structure}, @samp{union}, @samp{map}, or @samp{interface} statements (default 3)."
 msgstr ""
 
 #. type: table
@@ -934,15 +798,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:350
-msgid ""
-"In Fortran 77, a numbered @samp{do} statement is terminated by any statement "
-"with a matching line number.  It is common (but not compulsory) to use a "
-"@samp{continue} statement for this purpose.  If this variable has a non-"
-"@code{nil} value, indenting any numbered statement must check for a "
-"@samp{do} that ends there.  If you always end @samp{do} statements with a "
-"@samp{continue} line (or if you use the more modern @samp{enddo}), then you "
-"can speed up indentation by setting this variable to @code{nil} (the "
-"default)."
+msgid "In Fortran 77, a numbered @samp{do} statement is terminated by any statement with a matching line number.  It is common (but not compulsory) to use a @samp{continue} statement for this purpose.  If this variable has a non-@code{nil} value, indenting any numbered statement must check for a @samp{do} that ends there.  If you always end @samp{do} statements with a @samp{continue} line (or if you use the more modern @samp{enddo}), then you can speed up indentation by setting this variable to @code{nil} (the default)."
 msgstr ""
 
 #. type: item
@@ -953,10 +809,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:355
-msgid ""
-"If this is @code{t}, indenting an @samp{endif} (or @samp{enddo})  statement "
-"moves the cursor momentarily to the matching @samp{if} (or @samp{do}) "
-"statement to show where it is.  The default is @code{nil}."
+msgid "If this is @code{t}, indenting an @samp{endif} (or @samp{enddo})  statement moves the cursor momentarily to the matching @samp{if} (or @samp{do}) statement to show where it is.  The default is @code{nil}."
 msgstr ""
 
 #. type: item
@@ -967,10 +820,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:360
-msgid ""
-"Minimum indentation for Fortran statements when using fixed form "
-"continuation line style.  Statement bodies are never indented by less than "
-"this.  The default is 6."
+msgid "Minimum indentation for Fortran statements when using fixed form continuation line style.  Statement bodies are never indented by less than this.  The default is 6."
 msgstr ""
 
 #. type: item
@@ -981,17 +831,12 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:365
-msgid ""
-"Minimum indentation for Fortran statements for tab format continuation line "
-"style.  Statement bodies are never indented by less than this.  The default "
-"is 8."
+msgid "Minimum indentation for Fortran statements for tab format continuation line style.  Statement bodies are never indented by less than this.  The default is 8."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:369
-msgid ""
-"The following section describes the variables controlling the indentation of "
-"comments."
+msgid "The following section describes the variables controlling the indentation of comments."
 msgstr ""
 
 #. type: subsection
@@ -1002,11 +847,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:377
-msgid ""
-"The usual Emacs comment commands assume that a comment can follow a line of "
-"code.  In Fortran 77, the standard comment syntax requires an entire line to "
-"be just a comment.  Therefore, Fortran mode replaces the standard Emacs "
-"comment commands and defines some new variables."
+msgid "The usual Emacs comment commands assume that a comment can follow a line of code.  In Fortran 77, the standard comment syntax requires an entire line to be just a comment.  Therefore, Fortran mode replaces the standard Emacs comment commands and defines some new variables."
 msgstr ""
 
 #. type: vindex
@@ -1017,13 +858,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:386
-msgid ""
-"Fortran mode can also handle the Fortran 90 comment syntax where comments "
-"start with @samp{!} and can follow other text.  Because only some Fortran 77 "
-"compilers accept this syntax, Fortran mode will not insert such comments "
-"unless you have said in advance to do so.  To do this, set the variable "
-"@code{fortran-comment-line-start} to @samp{\"!\"}.  If you use an unusual "
-"value, you may need to change @code{fortran-comment-line-start-skip}."
+msgid "Fortran mode can also handle the Fortran 90 comment syntax where comments start with @samp{!} and can follow other text.  Because only some Fortran 77 compilers accept this syntax, Fortran mode will not insert such comments unless you have said in advance to do so.  To do this, set the variable @code{fortran-comment-line-start} to @samp{\"!\"}.  If you use an unusual value, you may need to change @code{fortran-comment-line-start-skip}."
 msgstr ""
 
 #. type: item
@@ -1045,8 +880,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:394
-msgid ""
-"Applies to nonstandard @samp{!} comments only (@code{comment-set-column})."
+msgid "Applies to nonstandard @samp{!} comments only (@code{comment-set-column})."
 msgstr ""
 
 #. type: item
@@ -1057,39 +891,22 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:398
-msgid ""
-"Turn all lines of the region into comments, or (with argument) turn them "
-"back into real code (@code{fortran-comment-region})."
+msgid "Turn all lines of the region into comments, or (with argument) turn them back into real code (@code{fortran-comment-region})."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:405
-msgid ""
-"@kbd{M-;} in Fortran mode runs the standard @code{comment-dwim}.  This "
-"recognizes any kind of existing comment and aligns its text appropriately; "
-"if there is no existing comment, a comment is inserted and aligned.  "
-"Inserting and aligning comments are not the same in Fortran mode as in other "
-"modes."
+msgid "@kbd{M-;} in Fortran mode runs the standard @code{comment-dwim}.  This recognizes any kind of existing comment and aligns its text appropriately; if there is no existing comment, a comment is inserted and aligned.  Inserting and aligning comments are not the same in Fortran mode as in other modes."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:410
-msgid ""
-"When a new comment must be inserted, if the current line is blank, a full-"
-"line comment is inserted.  On a non-blank line, a nonstandard @samp{!} "
-"comment is inserted if you have said you want to use them.  Otherwise, a "
-"full-line comment is inserted on a new line before the current line."
+msgid "When a new comment must be inserted, if the current line is blank, a full-line comment is inserted.  On a non-blank line, a nonstandard @samp{!} comment is inserted if you have said you want to use them.  Otherwise, a full-line comment is inserted on a new line before the current line."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:417
-msgid ""
-"Nonstandard @samp{!} comments are aligned like comments in other languages, "
-"but full-line comments are different.  In a standard full-line comment, the "
-"comment delimiter itself must always appear in column zero.  What can be "
-"aligned is the text within the comment.  You can choose from three styles of "
-"alignment by setting the variable @code{fortran-comment-indent-style} to one "
-"of these values:"
+msgid "Nonstandard @samp{!} comments are aligned like comments in other languages, but full-line comments are different.  In a standard full-line comment, the comment delimiter itself must always appear in column zero.  What can be aligned is the text within the comment.  You can choose from three styles of alignment by setting the variable @code{fortran-comment-indent-style} to one of these values:"
 msgstr ""
 
 #. type: vindex
@@ -1112,18 +929,12 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:425
-msgid ""
-"Align the text at a fixed column, which is the sum of @code{fortran-comment-"
-"line-extra-indent} and the minimum statement indentation.  This is the "
-"default."
+msgid "Align the text at a fixed column, which is the sum of @code{fortran-comment-line-extra-indent} and the minimum statement indentation.  This is the default."
 msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:430
-msgid ""
-"The minimum indentation is @code{fortran-minimum-statement-indent-tab} for "
-"tab format continuation line style and @code{fortran-minimum-statement-"
-"indent-fixed} for fixed form style."
+msgid "The minimum indentation is @code{fortran-minimum-statement-indent-tab} for tab format continuation line style and @code{fortran-minimum-statement-indent-fixed} for fixed form style."
 msgstr ""
 
 #. type: item
@@ -1134,9 +945,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:434
-msgid ""
-"Align the text as if it were a line of code, but with an additional "
-"@code{fortran-comment-line-extra-indent} columns of indentation."
+msgid "Align the text as if it were a line of code, but with an additional @code{fortran-comment-line-extra-indent} columns of indentation."
 msgstr ""
 
 #. type: item
@@ -1158,10 +967,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:444
-msgid ""
-"In addition, you can specify the character to be used to indent within full-"
-"line comments by setting the variable @code{fortran-comment-indent-char} to "
-"the single-character string you want to use."
+msgid "In addition, you can specify the character to be used to indent within full-line comments by setting the variable @code{fortran-comment-indent-char} to the single-character string you want to use."
 msgstr ""
 
 #. type: vindex
@@ -1172,21 +978,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:453
-msgid ""
-"Compiler directive lines, or preprocessor lines, have much the same "
-"appearance as comment lines.  It is important, though, that such lines never "
-"be indented at all, no matter what the value of @code{fortran-comment-indent-"
-"style}.  The variable @code{fortran-directive-re} is a regular expression "
-"that specifies which lines are directives.  Matching lines are never "
-"indented, and receive distinctive font-locking."
+msgid "Compiler directive lines, or preprocessor lines, have much the same appearance as comment lines.  It is important, though, that such lines never be indented at all, no matter what the value of @code{fortran-comment-indent-style}.  The variable @code{fortran-directive-re} is a regular expression that specifies which lines are directives.  Matching lines are never indented, and receive distinctive font-locking."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:457
-msgid ""
-"The normal Emacs comment command @kbd{C-x ;} (@code{comment-set-column})  "
-"has not been redefined.  If you use @samp{!} comments, this command can be "
-"used with them.  Otherwise, it is useless in Fortran mode."
+msgid "The normal Emacs comment command @kbd{C-x ;} (@code{comment-set-column})  has not been redefined.  If you use @samp{!} comments, this command can be used with them.  Otherwise, it is useless in Fortran mode."
 msgstr ""
 
 #. type: kindex
@@ -1203,16 +1000,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:470
-msgid ""
-"The command @kbd{C-c ;} (@code{fortran-comment-region}) turns all the lines "
-"of the region into comments by inserting the string @samp{c$$$} at the front "
-"of each one.  With a numeric argument, it turns the region back into live "
-"code by deleting @samp{c$$$} from the front of each line in it.  The string "
-"used for these comments can be controlled by setting the variable "
-"@code{fortran-comment-region}.  Note that here we have an example of a "
-"command and a variable with the same name; these two uses of the name never "
-"conflict because in Lisp and in Emacs it is always clear from the context "
-"which one is meant."
+msgid "The command @kbd{C-c ;} (@code{fortran-comment-region}) turns all the lines of the region into comments by inserting the string @samp{c$$$} at the front of each one.  With a numeric argument, it turns the region back into live code by deleting @samp{c$$$} from the front of each line in it.  The string used for these comments can be controlled by setting the variable @code{fortran-comment-region}.  Note that here we have an example of a command and a variable with the same name; these two uses of the name never conflict because in Lisp and in Emacs it is always clear from the context which one is meant."
 msgstr ""
 
 #. type: node
@@ -1229,14 +1017,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:482
-msgid ""
-"Fortran mode has specialized support for Auto Fill mode, which is a minor "
-"mode that automatically splits statements as you insert them when they "
-"become too wide.  Splitting a statement involves making continuation lines "
-"using @code{fortran-continuation-string} (@pxref{ForIndent Cont}).  This "
-"splitting happens when you type @kbd{@key{SPC}}, @kbd{@key{RET}}, or "
-"@kbd{@key{TAB}}, and also in the Fortran indentation commands.  You activate "
-"Auto Fill in Fortran mode in the normal way."
+msgid "Fortran mode has specialized support for Auto Fill mode, which is a minor mode that automatically splits statements as you insert them when they become too wide.  Splitting a statement involves making continuation lines using @code{fortran-continuation-string} (@pxref{ForIndent Cont}).  This splitting happens when you type @kbd{@key{SPC}}, @kbd{@key{RET}}, or @kbd{@key{TAB}}, and also in the Fortran indentation commands.  You activate Auto Fill in Fortran mode in the normal way."
 msgstr ""
 
 #. type: iftex
@@ -1257,21 +1038,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:497
-msgid ""
-"Auto Fill breaks lines at spaces or delimiters when the lines get longer "
-"than the desired width (the value of @code{fill-column}).  The delimiters "
-"(besides whitespace) that Auto Fill can break at are @samp{+}, @samp{-}, "
-"@samp{/}, @samp{*}, @samp{=}, @samp{<}, @samp{>}, and @samp{,}.  The line "
-"break comes after the delimiter if the variable @code{fortran-break-before-"
-"delimiters} is @code{nil}.  Otherwise (and by default), the break comes "
-"before the delimiter."
+msgid "Auto Fill breaks lines at spaces or delimiters when the lines get longer than the desired width (the value of @code{fill-column}).  The delimiters (besides whitespace) that Auto Fill can break at are @samp{+}, @samp{-}, @samp{/}, @samp{*}, @samp{=}, @samp{<}, @samp{>}, and @samp{,}.  The line break comes after the delimiter if the variable @code{fortran-break-before-delimiters} is @code{nil}.  Otherwise (and by default), the break comes before the delimiter."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:500
-msgid ""
-"To enable Auto Fill in all Fortran buffers, add @code{auto-fill-mode} to "
-"@code{fortran-mode-hook}."
+msgid "To enable Auto Fill in all Fortran buffers, add @code{auto-fill-mode} to @code{fortran-mode-hook}."
 msgstr ""
 
 #. type: node
@@ -1294,13 +1066,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:518
-msgid ""
-"In standard Fortran 77, anything beyond column 72 is ignored.  Most "
-"compilers provide an option to change this (for example, @samp{-ffixed-line-"
-"length-N} in gfortran).  Customize the variable @code{fortran-line-length} "
-"to change the line length in Fortran mode.  Anything beyond this point is "
-"font-locked as a comment.  (Unless it is inside a string: strings that "
-"extend beyond @code{fortran-line-length} will confuse font-lock.)"
+msgid "In standard Fortran 77, anything beyond column 72 is ignored.  Most compilers provide an option to change this (for example, @samp{-ffixed-line-length-N} in gfortran).  Customize the variable @code{fortran-line-length} to change the line length in Fortran mode.  Anything beyond this point is font-locked as a comment.  (Unless it is inside a string: strings that extend beyond @code{fortran-line-length} will confuse font-lock.)"
 msgstr ""
 
 #. type: item
@@ -1311,9 +1077,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:523
-msgid ""
-"Display a column ruler momentarily above the current line (@code{fortran-"
-"column-ruler})."
+msgid "Display a column ruler momentarily above the current line (@code{fortran-column-ruler})."
 msgstr ""
 
 #. type: item
@@ -1324,11 +1088,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:529
-msgid ""
-"Split the current window horizontally temporarily so that it is "
-"@code{fortran-line-length} columns wide (@code{fortran-window-create-"
-"momentarily}).  This may help you avoid making lines longer than the limit "
-"imposed by your Fortran compiler."
+msgid "Split the current window horizontally temporarily so that it is @code{fortran-line-length} columns wide (@code{fortran-window-create-momentarily}).  This may help you avoid making lines longer than the limit imposed by your Fortran compiler."
 msgstr ""
 
 #. type: item
@@ -1339,10 +1099,7 @@ msgstr ""
 
 #. type: table
 #: src/fortran-xtra.texi:534
-msgid ""
-"Split the current window horizontally so that it is @code{fortran-line-"
-"length} columns wide (@code{fortran-window-create}).  You can then continue "
-"editing."
+msgid "Split the current window horizontally so that it is @code{fortran-line-length} columns wide (@code{fortran-window-create}).  You can then continue editing."
 msgstr ""
 
 #. type: item
@@ -1370,28 +1127,17 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:547
-msgid ""
-"The command @kbd{C-c C-r} (@code{fortran-column-ruler}) shows a column ruler "
-"momentarily above the current line.  The comment ruler is two lines of text "
-"that show you the locations of columns with special significance in Fortran "
-"programs.  Square brackets show the limits of the columns for line numbers, "
-"and curly brackets show the limits of the columns for the statement body.  "
-"Column numbers appear above them."
+msgid "The command @kbd{C-c C-r} (@code{fortran-column-ruler}) shows a column ruler momentarily above the current line.  The comment ruler is two lines of text that show you the locations of columns with special significance in Fortran programs.  Square brackets show the limits of the columns for line numbers, and curly brackets show the limits of the columns for the statement body.  Column numbers appear above them."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:551
-msgid ""
-"Note that the column numbers count from zero, as always in GNU Emacs (but "
-"customizing @code{column-number-indicator-zero-based} can change column "
-"display to match that of Fortran;"
+msgid "Note that the column numbers count from zero, as always in GNU Emacs (but customizing @code{column-number-indicator-zero-based} can change column display to match that of Fortran;"
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:560
-msgid ""
-"As a result, the numbers may be one less than those you are familiar with; "
-"but the positions they indicate in the line are standard for Fortran."
+msgid "As a result, the numbers may be one less than those you are familiar with; but the positions they indicate in the line are standard for Fortran."
 msgstr ""
 
 #. type: vindex
@@ -1408,13 +1154,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:570
-msgid ""
-"The text used to display the column ruler depends on the value of the "
-"variable @code{indent-tabs-mode}.  If @code{indent-tabs-mode} is @code{nil}, "
-"then the value of the variable @code{fortran-column-ruler-fixed} is used as "
-"the column ruler.  Otherwise, the value of the variable @code{fortran-column-"
-"ruler-tab} is displayed.  By changing these variables, you can change the "
-"column ruler display."
+msgid "The text used to display the column ruler depends on the value of the variable @code{indent-tabs-mode}.  If @code{indent-tabs-mode} is @code{nil}, then the value of the variable @code{fortran-column-ruler-fixed} is used as the column ruler.  Otherwise, the value of the variable @code{fortran-column-ruler-tab} is displayed.  By changing these variables, you can change the column ruler display."
 msgstr ""
 
 #. type: kindex
@@ -1431,11 +1171,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:577
-msgid ""
-"@kbd{C-c C-w} (@code{fortran-window-create-momentarily}) temporarily splits "
-"the current window horizontally, making a window @code{fortran-line-length} "
-"columns wide, so you can see any lines that are too long.  Type a space to "
-"restore the normal width."
+msgid "@kbd{C-c C-w} (@code{fortran-window-create-momentarily}) temporarily splits the current window horizontally, making a window @code{fortran-line-length} columns wide, so you can see any lines that are too long.  Type a space to restore the normal width."
 msgstr ""
 
 #. type: kindex
@@ -1452,11 +1188,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:584
-msgid ""
-"You can also split the window horizontally and continue editing with the "
-"split in place.  To do this, use @kbd{C-u C-c C-w} (@code{M-x fortran-window-"
-"create}).  By editing in this window you can immediately see when you make a "
-"line too wide to be correct Fortran."
+msgid "You can also split the window horizontally and continue editing with the split in place.  To do this, use @kbd{C-u C-c C-w} (@code{M-x fortran-window-create}).  By editing in this window you can immediately see when you make a line too wide to be correct Fortran."
 msgstr ""
 
 #. type: findex
@@ -1467,10 +1199,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:590
-msgid ""
-"The command @kbd{M-x fortran-strip-sequence-nos} deletes all text in column "
-"@code{fortran-line-length} and beyond, on all lines in the current buffer.  "
-"This is the easiest way to get rid of old sequence numbers."
+msgid "The command @kbd{M-x fortran-strip-sequence-nos} deletes all text in column @code{fortran-line-length} and beyond, on all lines in the current buffer.  This is the easiest way to get rid of old sequence numbers."
 msgstr ""
 
 #. type: node
@@ -1487,10 +1216,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:597
-msgid ""
-"Fortran mode provides many built-in abbrevs for common keywords and "
-"declarations.  These are the same sort of abbrev that you can define "
-"yourself.  To use them, you must turn on Abbrev mode."
+msgid "Fortran mode provides many built-in abbrevs for common keywords and declarations.  These are the same sort of abbrev that you can define yourself.  To use them, you must turn on Abbrev mode."
 msgstr ""
 
 #. type: iftex
@@ -1505,17 +1231,11 @@ msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:609
-msgid ""
-"The built-in abbrevs are unusual in one way: they all start with a "
-"semicolon.  For example, one built-in Fortran abbrev is @samp{;c} for "
-"@samp{continue}.  If you insert @samp{;c} and then insert a punctuation "
-"character such as a space or a newline, the @samp{;c} expands automatically "
-"to @samp{continue}, provided Abbrev mode is enabled."
+msgid "The built-in abbrevs are unusual in one way: they all start with a semicolon.  For example, one built-in Fortran abbrev is @samp{;c} for @samp{continue}.  If you insert @samp{;c} and then insert a punctuation character such as a space or a newline, the @samp{;c} expands automatically to @samp{continue}, provided Abbrev mode is enabled."
 msgstr ""
 
 #. type: Plain text
 #: src/fortran-xtra.texi:611
-msgid ""
-"Type @samp{;?} or @samp{;C-h} to display a list of all the built-in Fortran "
-"abbrevs and what they stand for."
+msgid "Type @samp{;?} or @samp{;C-h} to display a list of all the built-in Fortran abbrevs and what they stand for."
 msgstr ""
+

@@ -1,19 +1,20 @@
-# Chinese translations for PACKAGE package
-# Copyright (C) 2021 Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2021.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-06 19:00+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: zh_Hans\n"
+"PO-Revision-Date: 2021-01-09 06:14\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: emacs-manual-chinese\n"
+"X-Crowdin-Project-ID: 436220\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /27.1/pot/picture-xtra.texi.pot\n"
+"X-Crowdin-File-ID: 320\n"
 
 #. type: node
 #: src/picture-xtra.texi:7
@@ -47,59 +48,32 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:16
-msgid ""
-"To edit a picture made out of text characters (for example, a picture of the "
-"division of a register into fields, as a comment in a program), use the "
-"command @kbd{M-x picture-mode} to enter Picture mode."
+msgid "To edit a picture made out of text characters (for example, a picture of the division of a register into fields, as a comment in a program), use the command @kbd{M-x picture-mode} to enter Picture mode."
 msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:22
-msgid ""
-"In Picture mode, editing is based on the @dfn{quarter-plane} model of text, "
-"according to which the text characters lie studded on an area that stretches "
-"infinitely far to the right and downward.  The concept of the end of a line "
-"does not exist in this model; the most you can say is where the last "
-"nonblank character on the line is found."
+msgid "In Picture mode, editing is based on the @dfn{quarter-plane} model of text, according to which the text characters lie studded on an area that stretches infinitely far to the right and downward.  The concept of the end of a line does not exist in this model; the most you can say is where the last nonblank character on the line is found."
 msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:28
-msgid ""
-"Of course, Emacs really always considers text as a sequence of characters, "
-"and lines really do have ends.  But Picture mode replaces the most "
-"frequently-used commands with variants that simulate the quarter-plane model "
-"of text.  They do this by inserting spaces or by converting tabs to spaces."
+msgid "Of course, Emacs really always considers text as a sequence of characters, and lines really do have ends.  But Picture mode replaces the most frequently-used commands with variants that simulate the quarter-plane model of text.  They do this by inserting spaces or by converting tabs to spaces."
 msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:33
-msgid ""
-"Most of the basic editing commands of Emacs are redefined by Picture mode to "
-"do essentially the same thing but in a quarter-plane way.  In addition, "
-"Picture mode defines various keys starting with the @kbd{C-c} prefix to run "
-"special picture editing commands."
+msgid "Most of the basic editing commands of Emacs are redefined by Picture mode to do essentially the same thing but in a quarter-plane way.  In addition, Picture mode defines various keys starting with the @kbd{C-c} prefix to run special picture editing commands."
 msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:41
-msgid ""
-"One of these keys, @kbd{C-c C-c}, is particularly important.  Often a "
-"picture is part of a larger file that is usually edited in some other major "
-"mode.  Picture mode records the name of the previous major mode so you can "
-"use the @kbd{C-c C-c} command (@code{picture-mode-exit}) later to go back to "
-"that mode.  @kbd{C-c C-c} also deletes spaces from the ends of lines, unless "
-"given a numeric argument."
+msgid "One of these keys, @kbd{C-c C-c}, is particularly important.  Often a picture is part of a larger file that is usually edited in some other major mode.  Picture mode records the name of the previous major mode so you can use the @kbd{C-c C-c} command (@code{picture-mode-exit}) later to go back to that mode.  @kbd{C-c C-c} also deletes spaces from the ends of lines, unless given a numeric argument."
 msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:47
-msgid ""
-"The special commands of Picture mode all work in other modes (provided the "
-"@file{picture} library is loaded), but are not bound to keys except in "
-"Picture mode.  The descriptions below talk of moving ``one column'' and so "
-"on, but all the picture mode commands handle numeric arguments as their "
-"normal equivalents do."
+msgid "The special commands of Picture mode all work in other modes (provided the @file{picture} library is loaded), but are not bound to keys except in Picture mode.  The descriptions below talk of moving ``one column'' and so on, but all the picture mode commands handle numeric arguments as their normal equivalents do."
 msgstr ""
 
 #. type: vindex
@@ -110,9 +84,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:52
-msgid ""
-"Turning on Picture mode runs the hook @code{picture-mode-hook}.  Additional "
-"extensions to Picture mode can be found in @file{artist.el}."
+msgid "Turning on Picture mode runs the hook @code{picture-mode-hook}.  Additional extensions to Picture mode can be found in @file{artist.el}."
 msgstr ""
 
 #. type: node
@@ -197,21 +169,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:85
-msgid ""
-"Most keys do the same thing in Picture mode that they usually do, but do it "
-"in a quarter-plane style.  For example, @kbd{C-f} is rebound to run "
-"@code{picture-forward-column}, a command which moves point one column to the "
-"right, inserting a space if necessary so that the actual end of the line "
-"makes no difference.  @kbd{C-b} is rebound to run @code{picture-backward-"
-"column}, which always moves point left one column, converting a tab to "
-"multiple spaces if necessary.  @kbd{C-n} and @kbd{C-p} are rebound to run "
-"@code{picture-move-down} and @code{picture-move-up}, which can either insert "
-"spaces or convert tabs as necessary to make sure that point stays in exactly "
-"the same column.  @kbd{C-e} runs @code{picture-end-of-line}, which moves to "
-"after the last nonblank character on the line.  @kbd{C-a} runs @code{picture-"
-"beginning-of-line}.  (The choice of screen model does not affect beginnings "
-"of lines; the only extra thing this command does is update the current "
-"picture column to 0.)"
+msgid "Most keys do the same thing in Picture mode that they usually do, but do it in a quarter-plane style.  For example, @kbd{C-f} is rebound to run @code{picture-forward-column}, a command which moves point one column to the right, inserting a space if necessary so that the actual end of the line makes no difference.  @kbd{C-b} is rebound to run @code{picture-backward-column}, which always moves point left one column, converting a tab to multiple spaces if necessary.  @kbd{C-n} and @kbd{C-p} are rebound to run @code{picture-move-down} and @code{picture-move-up}, which can either insert spaces or convert tabs as necessary to make sure that point stays in exactly the same column.  @kbd{C-e} runs @code{picture-end-of-line}, which moves to after the last nonblank character on the line.  @kbd{C-a} runs @code{picture-beginning-of-line}.  (The choice of screen model does not affect beginnings of lines; the only extra thing this command does is update the current picture column to 0.)"
 msgstr ""
 
 #. type: findex
@@ -222,9 +180,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:89
-msgid ""
-"Insertion of text is adapted to the quarter-plane screen model through the "
-"use of Overwrite mode"
+msgid "Insertion of text is adapted to the quarter-plane screen model through the use of Overwrite mode"
 msgstr ""
 
 #. type: iftex
@@ -239,11 +195,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:99
-msgid ""
-"Self-inserting characters replace existing text, column by column, rather "
-"than pushing existing text to the right.  @key{RET} runs @code{picture-"
-"newline}, which just moves to the beginning of the following line so that "
-"new text will replace that line."
+msgid "Self-inserting characters replace existing text, column by column, rather than pushing existing text to the right.  @key{RET} runs @code{picture-newline}, which just moves to the beginning of the following line so that new text will replace that line."
 msgstr ""
 
 #. type: findex
@@ -266,16 +218,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:112
-msgid ""
-"In Picture mode, the commands that normally delete or kill text, instead "
-"erase text (replacing it with spaces).  @key{DEL} (@code{picture-backward-"
-"clear-column}) replaces the preceding character with a space rather than "
-"removing it; this moves point backwards.  @kbd{C-d} (@code{picture-clear-"
-"column}) replaces the next character or characters with spaces, but does not "
-"move point.  (If you want to clear characters to spaces and move forward "
-"over them, use @key{SPC}.)  @kbd{C-k} (@code{picture-clear-line}) really "
-"kills the contents of lines, but does not delete the newlines from the "
-"buffer."
+msgid "In Picture mode, the commands that normally delete or kill text, instead erase text (replacing it with spaces).  @key{DEL} (@code{picture-backward-clear-column}) replaces the preceding character with a space rather than removing it; this moves point backwards.  @kbd{C-d} (@code{picture-clear-column}) replaces the next character or characters with spaces, but does not move point.  (If you want to clear characters to spaces and move forward over them, use @key{SPC}.)  @kbd{C-k} (@code{picture-clear-line}) really kills the contents of lines, but does not delete the newlines from the buffer."
 msgstr ""
 
 #. type: findex
@@ -286,12 +229,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:120
-msgid ""
-"To do actual insertion, you must use special commands.  @kbd{C-o} "
-"(@code{picture-open-line}) creates a blank line after the current line; it "
-"never splits a line.  @kbd{C-M-o} (@code{split-line}) makes sense in Picture "
-"mode, so it is not changed.  @kbd{C-j} (@code{picture-duplicate-line}) "
-"inserts another line with the same contents below the current line."
+msgid "To do actual insertion, you must use special commands.  @kbd{C-o} (@code{picture-open-line}) creates a blank line after the current line; it never splits a line.  @kbd{C-M-o} (@code{split-line}) makes sense in Picture mode, so it is not changed.  @kbd{C-j} (@code{picture-duplicate-line}) inserts another line with the same contents below the current line."
 msgstr ""
 
 #. type: kindex
@@ -302,10 +240,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:126
-msgid ""
-"To do actual deletion in Picture mode, use @kbd{C-w}, @kbd{C-c C-d} (which "
-"is defined as @code{delete-char}, as @kbd{C-d} is in other modes), or one of "
-"the picture rectangle commands (@pxref{Rectangles in Picture})."
+msgid "To do actual deletion in Picture mode, use @kbd{C-w}, @kbd{C-c C-d} (which is defined as @code{delete-char}, as @kbd{C-d} is in other modes), or one of the picture rectangle commands (@pxref{Rectangles in Picture})."
 msgstr ""
 
 #. type: subsection
@@ -472,12 +407,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:161
-msgid ""
-"Since self-inserting characters in Picture mode overwrite and move point, "
-"there is no essential restriction on how point should be moved.  Normally "
-"point moves right, but you can specify any of the eight orthogonal or "
-"diagonal directions for motion after a self-inserting character.  This is "
-"useful for drawing lines in the buffer."
+msgid "Since self-inserting characters in Picture mode overwrite and move point, there is no essential restriction on how point should be moved.  Normally point moves right, but you can specify any of the eight orthogonal or diagonal directions for motion after a self-inserting character.  This is useful for drawing lines in the buffer."
 msgstr ""
 
 #. type: item
@@ -562,9 +492,7 @@ msgstr ""
 
 #. type: table
 #: src/picture-xtra.texi:178
-msgid ""
-"Move up and left (``northwest'') after insertion (@code{picture-movement-"
-"nw})."
+msgid "Move up and left (``northwest'') after insertion (@code{picture-movement-nw})."
 msgstr ""
 
 #. type: item
@@ -587,9 +515,7 @@ msgstr ""
 
 #. type: table
 #: src/picture-xtra.texi:183
-msgid ""
-"Move up and right (``northeast'') after insertion (@code{picture-movement-"
-"ne})."
+msgid "Move up and right (``northeast'') after insertion (@code{picture-movement-ne})."
 msgstr ""
 
 #. type: item
@@ -606,9 +532,7 @@ msgstr ""
 
 #. type: table
 #: src/picture-xtra.texi:187
-msgid ""
-"Move down and left (``southwest'') after insertion @*(@code{picture-movement-"
-"sw})."
+msgid "Move down and left (``southwest'') after insertion @*(@code{picture-movement-sw})."
 msgstr ""
 
 #. type: item
@@ -631,9 +555,7 @@ msgstr ""
 
 #. type: table
 #: src/picture-xtra.texi:192
-msgid ""
-"Move down and right (``southeast'') after insertion @*(@code{picture-"
-"movement-se})."
+msgid "Move down and right (``southeast'') after insertion @*(@code{picture-movement-se})."
 msgstr ""
 
 #. type: kindex
@@ -662,11 +584,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:202
-msgid ""
-"Two motion commands move based on the current Picture insertion direction.  "
-"The command @kbd{C-c C-f} (@code{picture-motion}) moves in the same "
-"direction as motion after insertion currently does, while @kbd{C-c C-b} "
-"(@code{picture-motion-reverse}) moves in the opposite direction."
+msgid "Two motion commands move based on the current Picture insertion direction.  The command @kbd{C-c C-f} (@code{picture-motion}) moves in the same direction as motion after insertion currently does, while @kbd{C-c C-b} (@code{picture-motion-reverse}) moves in the opposite direction."
 msgstr ""
 
 #. type: subsection
@@ -695,19 +613,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:222
-msgid ""
-"Two kinds of tab-like action are provided in Picture mode.  Use @kbd{M-"
-"@key{TAB}} (@code{picture-tab-search}) for context-based tabbing.  With no "
-"argument, it moves to a point underneath the next ``interesting'' character "
-"that follows whitespace in the previous nonblank line.  ``Next'' here means "
-"``appearing at a horizontal position greater than the one point starts out "
-"at''.  With prefix argument, as in @kbd{C-u M-@key{TAB}}, this command moves "
-"to the next such interesting character in the current line.  @kbd{M-"
-"@key{TAB}} does not change the text; it only moves point.  ``Interesting'' "
-"characters are defined by the variable @code{picture-tab-chars}, which "
-"should define a set of characters.  The syntax for this variable is like the "
-"syntax used inside of @samp{[@dots{}]} in a regular expression---but without "
-"the @samp{[} and the @samp{]}.  Its default value is @code{\"!-~\"}."
+msgid "Two kinds of tab-like action are provided in Picture mode.  Use @kbd{M-@key{TAB}} (@code{picture-tab-search}) for context-based tabbing.  With no argument, it moves to a point underneath the next ``interesting'' character that follows whitespace in the previous nonblank line.  ``Next'' here means ``appearing at a horizontal position greater than the one point starts out at''.  With prefix argument, as in @kbd{C-u M-@key{TAB}}, this command moves to the next such interesting character in the current line.  @kbd{M-@key{TAB}} does not change the text; it only moves point.  ``Interesting'' characters are defined by the variable @code{picture-tab-chars}, which should define a set of characters.  The syntax for this variable is like the syntax used inside of @samp{[@dots{}]} in a regular expression---but without the @samp{[} and the @samp{]}.  Its default value is @code{\"!-~\"}."
 msgstr ""
 
 #. type: findex
@@ -718,11 +624,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:228
-msgid ""
-"@key{TAB} itself runs @code{picture-tab}, which operates based on the "
-"current tab stop settings; it is the Picture mode equivalent of @code{tab-to-"
-"tab-stop}.  Normally it just moves point, but with a numeric argument it "
-"clears the text that it moves over."
+msgid "@key{TAB} itself runs @code{picture-tab}, which operates based on the current tab stop settings; it is the Picture mode equivalent of @code{tab-to-tab-stop}.  Normally it just moves point, but with a numeric argument it clears the text that it moves over."
 msgstr ""
 
 #. type: kindex
@@ -739,22 +641,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:237
-msgid ""
-"The context-based and tab-stop-based forms of tabbing are brought together "
-"by the command @kbd{C-c @key{TAB}} (@code{picture-set-tab-stops}).  This "
-"command sets the tab stops to the positions which @kbd{M-@key{TAB}} would "
-"consider significant in the current line.  The use of this command, together "
-"with @key{TAB}, can get the effect of context-based tabbing.  But @kbd{M-"
-"@key{TAB}} is more convenient in the cases where it is sufficient."
+msgid "The context-based and tab-stop-based forms of tabbing are brought together by the command @kbd{C-c @key{TAB}} (@code{picture-set-tab-stops}).  This command sets the tab stops to the positions which @kbd{M-@key{TAB}} would consider significant in the current line.  The use of this command, together with @key{TAB}, can get the effect of context-based tabbing.  But @kbd{M-@key{TAB}} is more convenient in the cases where it is sufficient."
 msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:242
-msgid ""
-"It may be convenient to prevent use of actual tab characters in pictures.  "
-"For example, this prevents @kbd{C-x @key{TAB}} from messing up the picture.  "
-"You can do this by setting the variable @code{indent-tabs-mode} to "
-"@code{nil}."
+msgid "It may be convenient to prevent use of actual tab characters in pictures.  For example, this prevents @kbd{C-x @key{TAB}} from messing up the picture.  You can do this by setting the variable @code{indent-tabs-mode} to @code{nil}."
 msgstr ""
 
 #. type: subsection
@@ -777,10 +669,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:251
-msgid ""
-"Picture mode defines commands for working on rectangular pieces of the text "
-"in ways that fit with the quarter-plane model.  The standard rectangle "
-"commands may also be useful."
+msgid "Picture mode defines commands for working on rectangular pieces of the text in ways that fit with the quarter-plane model.  The standard rectangle commands may also be useful."
 msgstr ""
 
 #. type: iftex
@@ -801,9 +690,7 @@ msgstr ""
 
 #. type: table
 #: src/picture-xtra.texi:263
-msgid ""
-"Clear out the region-rectangle with spaces (@code{picture-clear-"
-"rectangle}).  With a prefix argument, delete the text."
+msgid "Clear out the region-rectangle with spaces (@code{picture-clear-rectangle}).  With a prefix argument, delete the text."
 msgstr ""
 
 #. type: item
@@ -814,9 +701,7 @@ msgstr ""
 
 #. type: table
 #: src/picture-xtra.texi:266
-msgid ""
-"Similar, but save rectangle contents in register @var{r} first "
-"(@code{picture-clear-rectangle-to-register})."
+msgid "Similar, but save rectangle contents in register @var{r} first (@code{picture-clear-rectangle-to-register})."
 msgstr ""
 
 #. type: iftex
@@ -837,10 +722,7 @@ msgstr ""
 
 #. type: table
 #: src/picture-xtra.texi:277
-msgid ""
-"Copy last killed rectangle into the buffer by overwriting, with upper left "
-"corner at point (@code{picture-yank-rectangle}).  With argument, insert "
-"instead."
+msgid "Copy last killed rectangle into the buffer by overwriting, with upper left corner at point (@code{picture-yank-rectangle}).  With argument, insert instead."
 msgstr ""
 
 #. type: item
@@ -851,9 +733,7 @@ msgstr ""
 
 #. type: table
 #: src/picture-xtra.texi:280
-msgid ""
-"Similar, but use the rectangle in register @var{r} (@code{picture-yank-"
-"rectangle-from-register})."
+msgid "Similar, but use the rectangle in register @var{r} (@code{picture-yank-rectangle-from-register})."
 msgstr ""
 
 #. type: kindex
@@ -882,21 +762,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:292
-msgid ""
-"The picture rectangle commands @kbd{C-c C-k} (@code{picture-clear-"
-"rectangle}) and @kbd{C-c C-w} (@code{picture-clear-rectangle-to-register}) "
-"differ from the standard rectangle commands in that they normally clear the "
-"rectangle instead of deleting it; this is analogous with the way @kbd{C-d} "
-"is changed in Picture mode."
+msgid "The picture rectangle commands @kbd{C-c C-k} (@code{picture-clear-rectangle}) and @kbd{C-c C-w} (@code{picture-clear-rectangle-to-register}) differ from the standard rectangle commands in that they normally clear the rectangle instead of deleting it; this is analogous with the way @kbd{C-d} is changed in Picture mode."
 msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:297
-msgid ""
-"However, deletion of rectangles can be useful in Picture mode, so these "
-"commands delete the rectangle if given a numeric argument.  @kbd{C-c C-k} "
-"either with or without a numeric argument saves the rectangle for @kbd{C-c C-"
-"y}."
+msgid "However, deletion of rectangles can be useful in Picture mode, so these commands delete the rectangle if given a numeric argument.  @kbd{C-c C-k} either with or without a numeric argument saves the rectangle for @kbd{C-c C-y}."
 msgstr ""
 
 #. type: kindex
@@ -925,12 +796,6 @@ msgstr ""
 
 #. type: Plain text
 #: src/picture-xtra.texi:308
-msgid ""
-"The Picture mode commands for yanking rectangles differ from the standard "
-"ones in that they overwrite instead of inserting.  This is the same way that "
-"Picture mode insertion of other text differs from other modes.  @kbd{C-c C-"
-"y} (@code{picture-yank-rectangle}) inserts (by overwriting) the rectangle "
-"that was most recently killed, while @kbd{C-c C-x} (@code{picture-yank-"
-"rectangle-from-register}) does likewise for the rectangle found in a "
-"specified register."
+msgid "The Picture mode commands for yanking rectangles differ from the standard ones in that they overwrite instead of inserting.  This is the same way that Picture mode insertion of other text differs from other modes.  @kbd{C-c C-y} (@code{picture-yank-rectangle}) inserts (by overwriting) the rectangle that was most recently killed, while @kbd{C-c C-x} (@code{picture-yank-rectangle-from-register}) does likewise for the rectangle found in a specified register."
 msgstr ""
+
