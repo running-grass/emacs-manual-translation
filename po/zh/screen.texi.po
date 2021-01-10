@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-10 08:42\n"
+"PO-Revision-Date: 2021-01-10 09:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -313,17 +313,17 @@ msgstr ""
 #. type: Plain text
 #: src/screen.texi:233
 msgid "The character after @var{ch} is normally a dash (@samp{-}).  However, if @code{default-directory} (@pxref{File Names}) for the current buffer is on a remote machine, @samp{@@} is displayed instead."
-msgstr ""
+msgstr "@var{ch} 之后的字符通常是破折号(@samp{-})。 但是，如果当前缓冲区的 @code{default-directory} (@pxref{文件名})是在远程机器上时显示@samp{@@}。"
 
 #. type: Plain text
 #: src/screen.texi:236
 msgid "@var{fr} gives the selected frame name (@pxref{Frames}).  It appears only on text terminals.  The initial frame's name is @samp{F1}."
-msgstr ""
+msgstr "@var{fr} 给出了所选窗体名 (@pxref{窗体})。它只出现在文本终端。初始窗体的名称是 @samp{F1}。"
 
 #. type: Plain text
 #: src/screen.texi:240
 msgid "@var{buf} is the name of the buffer displayed in the window.  Usually, this is the same as the name of a file you are editing.  @xref{Buffers}."
-msgstr ""
+msgstr "@var{buf} 是窗口显示的缓冲区名称。 通常，这与您正在编辑的文件名相同。@xref{缓冲区}。"
 
 #. type: Plain text
 #: src/screen.texi:249
