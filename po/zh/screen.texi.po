@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-07 12:07+0000\n"
-"Last-Translator: Leo Liu <weblate@example.com>\n"
+"PO-Revision-Date: 2021-01-10 03:58+0000\n"
+"Last-Translator: Weblate Admin <weblate@example.com>\n"
 "Language-Team: Chinese (Simplified) <http://weblate.grass.work:35666/"
 "projects/emacs-manual/screentexi/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -173,13 +173,13 @@ msgstr "如何使用菜单栏。"
 #: src/screen.texi:66
 #, fuzzy, no-wrap
 msgid "point"
-msgstr "point"
+msgstr "游标"
 
 #. type: cindex
 #: src/screen.texi:67
 #, no-wrap
 msgid "cursor"
-msgstr ""
+msgstr "光标"
 
 #. type: Plain text
 #: src/screen.texi:77
