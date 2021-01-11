@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-09 06:14\n"
+"PO-Revision-Date: 2021-01-11 06:00\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20,25 +20,25 @@ msgstr ""
 #: src/basic.texi:6
 #, no-wrap
 msgid "Basic"
-msgstr ""
+msgstr "基础"
 
 #. type: chapter
 #: src/basic.texi:7
 #, no-wrap
 msgid "Basic Editing Commands"
-msgstr ""
+msgstr "基础编辑命令"
 
 #. type: kindex
 #: src/basic.texi:9
 #, no-wrap
 msgid "C-h t"
-msgstr ""
+msgstr "C-h t"
 
 #. type: findex
 #: src/basic.texi:10
 #, no-wrap
 msgid "help-with-tutorial"
-msgstr ""
+msgstr "help-with-tutorial"
 
 #. type: Plain text
 #: src/basic.texi:15
@@ -49,132 +49,132 @@ msgstr ""
 #: src/basic.texi:30 src/basic.texi:32 src/basic.texi:33
 #, no-wrap
 msgid "Inserting Text"
-msgstr ""
+msgstr "插入文本"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "Inserting text by simply typing it."
-msgstr ""
+msgstr "只需键入文本即可插入文本。"
 
 #. type: node
 #: src/basic.texi:30 src/basic.texi:155
 #, no-wrap
 msgid "Moving Point"
-msgstr ""
+msgstr "移动游标"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "Moving the cursor to the place where you want to change something."
-msgstr ""
+msgstr "将光标移动到要更改某些内容的位置。"
 
 #. type: node
 #: src/basic.texi:30 src/basic.texi:379
 #, no-wrap
 msgid "Erasing"
-msgstr ""
+msgstr "擦除"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "Deleting and killing text."
-msgstr ""
+msgstr "清除和删除文本。"
 
 #. type: node
 #: src/basic.texi:30 src/basic.texi:445
 #, no-wrap
 msgid "Basic Undo"
-msgstr ""
+msgstr "基础撤销"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "Undoing recent changes in the text."
-msgstr ""
+msgstr "撤消文本中最近的更改。"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "Files: Basic Files"
-msgstr ""
+msgstr "文件: 基础文件"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "Visiting, creating, and saving files."
-msgstr ""
+msgstr "访问、创建和保存文件。"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "Help: Basic Help"
-msgstr ""
+msgstr "帮助: 基础帮助"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "Asking what a character does."
-msgstr ""
+msgstr "询问一个字符是做什么的。"
 
 #. type: section
 #: src/basic.texi:30 src/basic.texi:525 src/basic.texi:526
 #, no-wrap
 msgid "Blank Lines"
-msgstr ""
+msgstr "空行"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "Making and deleting blank lines."
-msgstr ""
+msgstr "选择和删除空行。"
 
 #. type: section
 #: src/basic.texi:30 src/basic.texi:566 src/basic.texi:567
 #, no-wrap
 msgid "Continuation Lines"
-msgstr ""
+msgstr "延续行"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "How Emacs displays lines too wide for the screen."
-msgstr ""
+msgstr "Emacs如何显示对于屏幕而言太宽的行。"
 
 #. type: node
 #: src/basic.texi:30 src/basic.texi:614
 #, no-wrap
 msgid "Position Info"
-msgstr ""
+msgstr "位置信息"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "What line, row, or column is point on?"
-msgstr ""
+msgstr "游标处于哪一行、那一列？"
 
 #. type: node
 #: src/basic.texi:30 src/basic.texi:725
 #, no-wrap
 msgid "Arguments"
-msgstr ""
+msgstr "参数"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "Numeric arguments for repeating a command N times."
-msgstr ""
+msgstr "用于将命令重复N次的数字参数。"
 
 #. type: node
 #: src/basic.texi:30 src/basic.texi:835
 #, no-wrap
 msgid "Repeating"
-msgstr ""
+msgstr "重复"
 
 #. type: menuentry
 #: src/basic.texi:30
 msgid "Repeating the previous command quickly."
-msgstr ""
+msgstr "快速重复前面的命令。"
 
 #. type: cindex
 #: src/basic.texi:35
 #, no-wrap
 msgid "insertion"
-msgstr ""
+msgstr "插入"
 
 #. type: cindex
 #: src/basic.texi:36
 #, no-wrap
 msgid "graphic characters"
-msgstr ""
+msgstr "图形字符"
 
 #. type: Plain text
 #: src/basic.texi:42
@@ -185,19 +185,19 @@ msgstr ""
 #: src/basic.texi:43
 #, no-wrap
 msgid "RET"
-msgstr ""
+msgstr "RET"
 
 #. type: kindex
 #: src/basic.texi:44
 #, no-wrap
 msgid "C-j"
-msgstr ""
+msgstr "C-j"
 
 #. type: cindex
 #: src/basic.texi:45
 #, no-wrap
 msgid "newline"
-msgstr ""
+msgstr "换行"
 
 #. type: Plain text
 #: src/basic.texi:58
@@ -219,7 +219,7 @@ msgstr ""
 #: src/basic.texi:67
 #, no-wrap
 msgid "C-q"
-msgstr ""
+msgstr "C-q"
 
 #. type: findex
 #: src/basic.texi:68
@@ -273,7 +273,7 @@ msgstr ""
 #: src/basic.texi:108
 #, no-wrap
 msgid "C-x 8"
-msgstr ""
+msgstr "C-x 8"
 
 #. type: cindex
 #: src/basic.texi:109
@@ -391,7 +391,7 @@ msgstr ""
 #: src/basic.texi:179 src/basic.texi:180
 #, no-wrap
 msgid "C-f"
-msgstr ""
+msgstr "C-f"
 
 #. type: findex
 #: src/basic.texi:181
@@ -408,7 +408,7 @@ msgstr ""
 #: src/basic.texi:184 src/basic.texi:185
 #, no-wrap
 msgid "RIGHT"
-msgstr ""
+msgstr "RIGHT"
 
 #. type: findex
 #: src/basic.texi:186
@@ -425,7 +425,7 @@ msgstr ""
 #: src/basic.texi:190 src/basic.texi:191
 #, no-wrap
 msgid "C-b"
-msgstr ""
+msgstr "C-b"
 
 #. type: findex
 #: src/basic.texi:192
@@ -442,7 +442,7 @@ msgstr ""
 #: src/basic.texi:195 src/basic.texi:196
 #, no-wrap
 msgid "LEFT"
-msgstr ""
+msgstr "LEFT"
 
 #. type: findex
 #: src/basic.texi:197
@@ -459,13 +459,13 @@ msgstr ""
 #: src/basic.texi:201 src/basic.texi:203
 #, no-wrap
 msgid "C-n"
-msgstr ""
+msgstr "C-n"
 
 #. type: kindex
 #: src/basic.texi:202 src/basic.texi:204
 #, no-wrap
 msgid "DOWN"
-msgstr ""
+msgstr "DOWN"
 
 #. type: findex
 #: src/basic.texi:205
@@ -482,13 +482,13 @@ msgstr ""
 #: src/basic.texi:210 src/basic.texi:212
 #, no-wrap
 msgid "C-p"
-msgstr ""
+msgstr "C-p"
 
 #. type: kindex
 #: src/basic.texi:211 src/basic.texi:213
 #, no-wrap
 msgid "UP"
-msgstr ""
+msgstr "UP"
 
 #. type: findex
 #: src/basic.texi:214
@@ -505,7 +505,7 @@ msgstr ""
 #: src/basic.texi:218 src/basic.texi:220
 #, no-wrap
 msgid "C-a"
-msgstr ""
+msgstr "C-a"
 
 #. type: key{#1}
 #: src/basic.texi:219
@@ -517,7 +517,7 @@ msgstr ""
 #: src/basic.texi:221
 #, no-wrap
 msgid "HOME"
-msgstr ""
+msgstr "HOME"
 
 #. type: findex
 #: src/basic.texi:222
@@ -534,7 +534,7 @@ msgstr ""
 #: src/basic.texi:225 src/basic.texi:227
 #, no-wrap
 msgid "C-e"
-msgstr ""
+msgstr "C-e"
 
 #. type: key{#1}
 #: src/basic.texi:226
@@ -546,7 +546,7 @@ msgstr ""
 #: src/basic.texi:228
 #, no-wrap
 msgid "END"
-msgstr ""
+msgstr "END"
 
 #. type: findex
 #: src/basic.texi:229
@@ -586,13 +586,13 @@ msgstr ""
 #: src/basic.texi:237
 #, no-wrap
 msgid "C-RIGHT"
-msgstr ""
+msgstr "C-RIGHT"
 
 #. type: kindex
 #: src/basic.texi:238
 #, no-wrap
 msgid "M-RIGHT"
-msgstr ""
+msgstr "M-RIGHT"
 
 #. type: findex
 #: src/basic.texi:239
@@ -632,7 +632,7 @@ msgstr ""
 #: src/basic.texi:249
 #, no-wrap
 msgid "C-LEFT"
-msgstr ""
+msgstr "C-LEFT"
 
 #. type: kindex
 #: src/basic.texi:250
@@ -677,7 +677,7 @@ msgstr ""
 #: src/basic.texi:271 src/basic.texi:272
 #, no-wrap
 msgid "M-<"
-msgstr ""
+msgstr "M-<"
 
 #. type: findex
 #: src/basic.texi:273
@@ -694,13 +694,13 @@ msgstr ""
 #: src/basic.texi:278 src/basic.texi:279
 #, no-wrap
 msgid "M->"
-msgstr ""
+msgstr "M->"
 
 #. type: kindex
 #: src/basic.texi:280
 #, no-wrap
 msgid "C-END"
-msgstr ""
+msgstr "C-END"
 
 #. type: findex
 #: src/basic.texi:281
@@ -717,19 +717,19 @@ msgstr ""
 #: src/basic.texi:285 src/basic.texi:288
 #, no-wrap
 msgid "C-v"
-msgstr ""
+msgstr "C-v"
 
 #. type: kindex
 #: src/basic.texi:286 src/basic.texi:289
 #, no-wrap
 msgid "PageDown"
-msgstr ""
+msgstr "PageDown"
 
 #. type: kindex
 #: src/basic.texi:287 src/basic.texi:290
 #, no-wrap
 msgid "next"
-msgstr ""
+msgstr "next"
 
 #. type: table
 #: src/basic.texi:293
@@ -740,19 +740,19 @@ msgstr ""
 #: src/basic.texi:294 src/basic.texi:297
 #, no-wrap
 msgid "M-v"
-msgstr ""
+msgstr "M-v"
 
 #. type: kindex
 #: src/basic.texi:295 src/basic.texi:298
 #, no-wrap
 msgid "PageUp"
-msgstr ""
+msgstr "PageUp"
 
 #. type: kindex
 #: src/basic.texi:296 src/basic.texi:299
 #, no-wrap
 msgid "prior"
-msgstr ""
+msgstr "prior"
 
 #. type: table
 #: src/basic.texi:302
@@ -763,7 +763,7 @@ msgstr ""
 #: src/basic.texi:303 src/basic.texi:304
 #, no-wrap
 msgid "M-g c"
-msgstr ""
+msgstr "M-g c"
 
 #. type: findex
 #: src/basic.texi:305
@@ -780,13 +780,13 @@ msgstr ""
 #: src/basic.texi:309 src/basic.texi:311
 #, no-wrap
 msgid "M-g M-g"
-msgstr ""
+msgstr "M-g M-g"
 
 #. type: kindex
 #: src/basic.texi:310 src/basic.texi:312
 #, no-wrap
 msgid "M-g g"
-msgstr ""
+msgstr "M-g g"
 
 #. type: findex
 #: src/basic.texi:313
@@ -809,7 +809,7 @@ msgstr ""
 #: src/basic.texi:323
 #, no-wrap
 msgid "M-g TAB"
-msgstr ""
+msgstr "M-g TAB"
 
 #. type: findex
 #: src/basic.texi:324
@@ -826,7 +826,7 @@ msgstr ""
 #: src/basic.texi:329 src/basic.texi:330
 #, no-wrap
 msgid "C-x C-n"
-msgstr ""
+msgstr "C-x C-n"
 
 #. type: findex
 #: src/basic.texi:331
@@ -1181,7 +1181,7 @@ msgstr ""
 #: src/basic.texi:534 src/basic.texi:541
 #, no-wrap
 msgid "C-o"
-msgstr ""
+msgstr "C-o"
 
 #. type: table
 #: src/basic.texi:536
@@ -1192,7 +1192,7 @@ msgstr ""
 #: src/basic.texi:536 src/basic.texi:542
 #, no-wrap
 msgid "C-x C-o"
-msgstr ""
+msgstr "C-x C-o"
 
 #. type: table
 #: src/basic.texi:539
@@ -1330,7 +1330,7 @@ msgstr ""
 #: src/basic.texi:629 src/basic.texi:663
 #, no-wrap
 msgid "M-="
-msgstr ""
+msgstr "M-="
 
 #. type: table
 #: src/basic.texi:633
@@ -1352,7 +1352,7 @@ msgstr ""
 #: src/basic.texi:639 src/basic.texi:676
 #, no-wrap
 msgid "C-x ="
-msgstr ""
+msgstr "C-x ="
 
 #. type: table
 #: src/basic.texi:642
@@ -1531,13 +1531,13 @@ msgstr ""
 #: src/basic.texi:741
 #, no-wrap
 msgid "M-1"
-msgstr ""
+msgstr "M-1"
 
 #. type: kindex
 #: src/basic.texi:742
 #, no-wrap
 msgid "M-@t{-}"
-msgstr ""
+msgstr "M-@t{-}"
 
 #. type: findex
 #: src/basic.texi:743
@@ -1592,7 +1592,7 @@ msgstr ""
 #: src/basic.texi:778
 #, no-wrap
 msgid "C-u"
-msgstr ""
+msgstr "C-u"
 
 #. type: findex
 #: src/basic.texi:779
@@ -1661,7 +1661,7 @@ msgstr ""
 #: src/basic.texi:846
 #, no-wrap
 msgid "C-x z"
-msgstr ""
+msgstr "C-x z"
 
 #. type: findex
 #: src/basic.texi:847
