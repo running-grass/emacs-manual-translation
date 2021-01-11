@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-10 09:44\n"
+"PO-Revision-Date: 2021-01-11 05:04\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -308,7 +308,7 @@ msgstr "在使用 @command{emacsclient} (@pxref{调用 Emacs 客户端})创建�
 #. type: Plain text
 #: src/screen.texi:229
 msgid "The next element on the mode line is the string indicated by @var{ch}.  This shows two dashes (@samp{--}) if the buffer displayed in the window has the same contents as the corresponding file on the disk; i.e., if the buffer is unmodified.  If the buffer is modified, it shows two stars (@samp{**}).  For a read-only buffer, it shows @samp{%*} if the buffer is modified, and @samp{%%} otherwise."
-msgstr ""
+msgstr "状态栏上的下一个元素是 @var{ch} 表示的字符串。 如果窗口中显示的缓冲区的内容与磁盘上的相应文件相同，这将显示两个破折号(@samp{--})；表示缓冲区未被修改。如果缓冲区被修改，它会显示两个星号(@samp{**})。 对于只读缓冲区，如果缓冲区被修改它会显示 @samp{%*}，否则显示 @samp{%%}。"
 
 #. type: Plain text
 #: src/screen.texi:233
@@ -328,37 +328,37 @@ msgstr "@var{buf} 是窗口显示的缓冲区名称。 通常，这与您正在�
 #. type: Plain text
 #: src/screen.texi:249
 msgid "@var{pos} tells you whether there is additional text above the top of the window, or below the bottom.  If your buffer is small and all of it is visible in the window, @var{pos} is @samp{All}.  Otherwise, it is @samp{Top} if you are looking at the beginning of the buffer, @samp{Bot} if you are looking at the end of the buffer, or @samp{@var{nn}%}, where @var{nn} is the percentage of the buffer above the top of the window.  With Size Indication mode, you can display the size of the buffer as well.  @xref{Optional Mode Line}."
-msgstr ""
+msgstr "@var{pos} 告诉您是否在窗口顶部或底部有其他文本。 如果您的缓冲区很小，所有缓冲区都在窗口中可见。@var{pos} 是 @samp{All}。 否则，如果你正在缓冲区的开头，它是 @samp{Top}，@samp{Bot} 表示你正在查看缓冲区的末尾， 或 @samp{@var{nn}%}, 其中 @var{nn} 是窗口顶部上方缓冲区的百分比。 使用大小指示模式，您也可以显示缓冲区的大小。@xref{可选状态栏}。"
 
 #. type: Plain text
 #: src/screen.texi:253
 msgid "@var{line} is the character @samp{L} followed by the line number at point.  (You can display the current column number too, by turning on Column Number mode.  @xref{Optional Mode Line}.)"
-msgstr ""
+msgstr "@var{line} 是@samp{L} 字符后跟着行号。 (您也可以通过开启列号模式显示当前列号。@xref{可选状态栏})"
 
 #. type: Plain text
 #: src/screen.texi:260
 msgid "@var{major} is the name of the @dfn{major mode} used in the buffer.  A major mode is a principal editing mode for the buffer, such as Text mode, Lisp mode, C mode, and so forth.  @xref{Major Modes}.  Some major modes display additional information after the major mode name.  For example, Compilation buffers and Shell buffers display the status of the subprocess."
-msgstr ""
+msgstr "@var{major} 是缓冲区中使用的 @dfn{主模式} 的名称。 一个主模式是缓冲区的主要编辑模式，例如文本模式、Lisp模式、C 模式等等。 @xref{主模式}。一些主模式在主模式名称后显示额外信息。 例如，编译缓冲区和Shell 缓冲区会显示子进程的状态。"
 
 #. type: Plain text
 #: src/screen.texi:264
 msgid "@var{minor} is a list of some of the enabled @dfn{minor modes}, which are optional editing modes that provide additional features on top of the major mode.  @xref{Minor Modes}."
-msgstr ""
+msgstr "@var{minor} 是已启用的 @dfn{辅模式}的列表， 它们是可选的编辑模式，在主模式的基础上提供额外功能。 @xref{辅模式}。"
 
 #. type: Plain text
 #: src/screen.texi:271
 msgid "Some features are listed together with the minor modes whenever they are turned on, even though they are not really minor modes.  @samp{Narrow} means that the buffer being displayed has editing restricted to only a portion of its text (@pxref{Narrowing}).  @samp{Def} means that a keyboard macro is currently being defined (@pxref{Keyboard Macros})."
-msgstr ""
+msgstr "有些功能会在辅模式开启时一同列出，即使它们实际上不是辅模式。 @samp{Narrow} 意味着显示的缓冲区只能编辑部分文本(@pxref{聚焦})。 @samp{Def} 表示目前正在定义键盘宏(@pxref{键盘宏})。"
 
 #. type: Plain text
 #: src/screen.texi:278
 msgid "In addition, if Emacs is inside a recursive editing level, square brackets (@samp{[@dots{}]}) appear around the parentheses that surround the modes.  If Emacs is in one recursive editing level within another, double square brackets appear, and so on.  Since recursive editing levels affect Emacs globally, such square brackets appear in the mode line of every window.  @xref{Recursive Edit}."
-msgstr ""
+msgstr "此外，如果Emacs在递归编辑级别中，则方括号(@samp{[@dots{}]})出现在模式周围的括号内。 如果Emacs处于一个递归编辑级别，则出现双方括号等等。 由于递归编辑级别影响到Emacs全局，此种方括号会出现在每个窗口的状态栏。@xref{递归编辑}。"
 
 #. type: Plain text
 #: src/screen.texi:286
 msgid "You can change the appearance of the mode line as well as the format of its contents.  @xref{Optional Mode Line}.  In addition, the mode line is mouse-sensitive; clicking on different parts of the mode line performs various commands.  @xref{Mode Line Mouse}.  Also, hovering the mouse pointer above mouse-sensitive portions of the mode line shows tooltips (@pxref{Tooltips}) with information about commands you can invoke by clicking on the mode line."
-msgstr ""
+msgstr "您可以更改状态栏的外观及其内容格式。@xref{可选状态栏}。 此外，状态栏对鼠标敏感；点击状态栏的不同部分执行各种命令。 @xref{状态栏鼠标操作}。此外，还包括以下内容： 悬停在鼠标敏感部分上方的鼠标指针显示工具提示(@pxref{工具提示})，内容为有关于通过点击状态栏可以调用命令的信息。"
 
 #. type: section
 #: src/screen.texi:288
@@ -375,12 +375,12 @@ msgstr "菜单栏"
 #. type: Plain text
 #: src/screen.texi:294
 msgid "Each Emacs frame normally has a @dfn{menu bar} at the top which you can use to perform common operations.  There's no need to list them here, as you can more easily see them yourself."
-msgstr ""
+msgstr "每个 Emacs 窗体通常在顶部有一个 @dfn{菜单栏} ，您可以用来执行通用操作。 没有必要在这里列出它们，是因为你可以更容易地看到它们。"
 
 #. type: Plain text
 #: src/screen.texi:300
 msgid "On a display that supports a mouse, you can use the mouse to choose a command from the menu bar.  An arrow on the right edge of a menu item means it leads to a subsidiary menu, or @dfn{submenu}.  A @samp{...} at the end of a menu item means that the command will prompt you for further input before it actually does anything."
-msgstr ""
+msgstr "在支持鼠标的显示上，您可以使用鼠标从菜单栏中选择一个命令。 菜单项右侧的箭头意味着它会打开一个附属菜单或 @dfn{子菜单}。 菜单项末尾的 @samp{...} 意味着命令会促使您进一步输入，然后才能做相关事情。"
 
 #. type: Plain text
 #: src/screen.texi:306
@@ -408,7 +408,7 @@ msgstr "使用键盘访问菜单栏"
 #. type: Plain text
 #: src/screen.texi:319
 msgid "Instead of using the mouse, you can also invoke the first menu bar item by pressing @key{F10} (to run the command @code{menu-bar-open}).  You can then navigate the menus with the arrow keys or with @kbd{C-b}, @kbd{C-f} (left/right), @kbd{C-p}, and @kbd{C-n} (up/down).  To activate a selected menu item, press @key{RET}; to cancel menu navigation, press @kbd{C-g} or @kbd{@key{ESC} @key{ESC} @key{ESC}}.  (However, note that when Emacs was built with a GUI toolkit, the menus are drawn and controlled by the toolkit, and the key sequences to cancel menu navigation might be different from the above description.)"
-msgstr ""
+msgstr "如果不使用鼠标， 您也可以通过按 @key{F10} (运行命令 @code{menu-bar-open}) 来调用第一个菜单栏项 。 然后您可以用箭头键或@kbd{C-b} 来导航菜单。 @kbd{C-f} (左/右)、@kbd{C-p} 和 @kbd{C-n} (上/下)。 要激活选中的菜单项，请按 @key{RET}; 要取消菜单导航，请按 @kbd{C-g} 或 @kbd{@key{ESC} @key{ESC} @key{ESC}}。 (但请注意，当Emacs使用GUI工具包构建时，菜单由工具包绘制和控制，并且取消菜单导航的键序列可能不同于上述描述。)"
 
 #. type: kindex
 #: src/screen.texi:320
@@ -431,5 +431,5 @@ msgstr "tty-menu-open-use-tmm"
 #. type: Plain text
 #: src/screen.texi:335
 msgid "On a text terminal, you can optionally access the menu-bar menus in the echo area.  To this end, customize the variable @code{tty-menu-open-use-tmm} to a non-@code{nil} value.  Then typing @key{F10} will run the command @code{tmm-menubar} instead of dropping down the menu.  (You can also type @kbd{M-`}, which always invokes @code{tmm-menubar}.)  @code{tmm-menubar} lets you select a menu item with the keyboard.  A provisional choice appears in the echo area.  You can use the up and down arrow keys to move through the menu to different items, and then you can type @key{RET} to select the item.  Each menu item is also designated by a letter or digit (usually the initial of some word in the item's name).  This letter or digit is separated from the item name by @samp{==>}.  You can type the item's letter or digit to select the item."
-msgstr ""
+msgstr "在文本终端上，您可以选择性地访问回显区中的菜单栏菜单。 为此目的，将变量 @code{tty-menu-open-use-tmm} 定制为非 @code{nil} 值。 然后输入 @key{F10} 将运行命令 @code{tmm-menubar} 来代替下拉菜单。 (您也可以输入 @kbd{M-`}, 它总是引用@code{tmm-menubar}。） @code{tmm-menubar} 让您选择一个键盘的菜单项。) 临时选择出现在回显区。 您可以使用上下箭头键通过菜单移动到其他项目。 然后您可以键入 @key{RET} 来选择项目。 每个菜单项也由字母或数字指定(通常是项目名称中某个单词的初始值)。 此字母或数字由@samp{==>} 从项目名称中分离。 您可以输入项目的字母或数字来选择项目。"
 
