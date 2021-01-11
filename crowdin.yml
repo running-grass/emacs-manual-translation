@@ -4,4 +4,5 @@ files:
       - doclicense.texi
       - gpl.texi
       - docstyle.texi
+      - gnu.texi
     translation: /po/%two_letters_code%/%file_name%.po
