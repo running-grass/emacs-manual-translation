@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-11 06:00\n"
+"PO-Revision-Date: 2021-01-11 07:00\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -43,7 +43,7 @@ msgstr "help-with-tutorial"
 #. type: Plain text
 #: src/basic.texi:15
 msgid "Here we explain the basics of how to enter text, make corrections, and save the text in a file.  If this material is new to you, we suggest you first run the Emacs learn-by-doing tutorial, by typing @kbd{C-h t} (@code{help-with-tutorial})."
-msgstr ""
+msgstr "这里我们解释了如何输入文本、进行更正和将文本保存到文件中的基本内容。 如果这个材料对您来说是新的，我们建议您首先通过输入 @kbd{C-h t} (@code{help-with-tutorial}) 来运行 Emacs 动手实践。"
 
 #. type: section
 #: src/basic.texi:30 src/basic.texi:32 src/basic.texi:33
@@ -179,7 +179,7 @@ msgstr "图形字符"
 #. type: Plain text
 #: src/basic.texi:42
 msgid "You can insert an ordinary @dfn{graphic character} (e.g., @samp{a}, @samp{B}, @samp{3}, and @samp{=}) by typing the associated key.  This adds the character to the buffer at point.  Insertion moves point forward, so that point remains just after the inserted text.  @xref{Point}."
-msgstr ""
+msgstr "您可以通过相关联的键来输入一个普通@dfn{图形字符}(例如@samp{a}, @samp{B}, @samp{3}, 和 @samp{=})。 这就会在缓冲区中游标的位置增加了字符。 并从插入位置向前游标，所以这个游标在插入的文本之后。@xref{游标}。"
 
 #. type: kindex
 #: src/basic.texi:43
