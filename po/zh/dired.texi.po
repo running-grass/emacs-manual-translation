@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-09 06:15\n"
+"PO-Revision-Date: 2021-01-11 06:00\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -272,7 +272,7 @@ msgstr ""
 #: src/dired.texi:63
 #, no-wrap
 msgid "C-x d"
-msgstr ""
+msgstr "C-x d"
 
 #. type: vindex
 #: src/dired.texi:64
@@ -338,7 +338,7 @@ msgstr ""
 #: src/dired.texi:118
 #, no-wrap
 msgid "C-x 4 d"
-msgstr ""
+msgstr "C-x 4 d"
 
 #. type: findex
 #: src/dired.texi:119
@@ -350,7 +350,7 @@ msgstr ""
 #: src/dired.texi:120
 #, no-wrap
 msgid "C-x 5 d"
-msgstr ""
+msgstr "C-x 5 d"
 
 #. type: Plain text
 #: src/dired.texi:125
