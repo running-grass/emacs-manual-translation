@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-11 08:07\n"
+"PO-Revision-Date: 2021-01-11 09:11\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -481,7 +481,7 @@ msgstr "next-line"
 #. type: table
 #: src/basic.texi:209
 msgid "Move down one screen line (@code{next-line}).  This command attempts to keep the horizontal position unchanged, so if you start in the middle of one line, you move to the middle of the next."
-msgstr ""
+msgstr "向下移动一个屏幕行（@code{next-line}）。此命令尝试保持水平位置不变，因此如果您从一行的中间开始，则会移动到下一行的中间。"
 
 #. type: kindex
 #: src/basic.texi:210 src/basic.texi:212
@@ -499,12 +499,12 @@ msgstr "UP"
 #: src/basic.texi:214
 #, no-wrap
 msgid "previous-line"
-msgstr ""
+msgstr "previous-line"
 
 #. type: table
 #: src/basic.texi:217
 msgid "Move up one screen line (@code{previous-line}).  This command preserves position within the line, like @kbd{C-n}."
-msgstr ""
+msgstr "向上移动一个屏幕行 (@code{previous-line})。此命令保留在行内的位置，如@kbd{C-n}。"
 
 #. type: kindex
 #: src/basic.texi:218 src/basic.texi:220
@@ -516,7 +516,7 @@ msgstr "C-a"
 #: src/basic.texi:219
 #, no-wrap
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #. type: kindex
 #: src/basic.texi:221
@@ -528,12 +528,12 @@ msgstr "HOME"
 #: src/basic.texi:222
 #, no-wrap
 msgid "move-beginning-of-line"
-msgstr ""
+msgstr "move-beginning-of-line"
 
 #. type: table
 #: src/basic.texi:224
 msgid "Move to the beginning of the line (@code{move-beginning-of-line})."
-msgstr ""
+msgstr "移至行首(@code{move-beginning-of-line})。"
 
 #. type: kindex
 #: src/basic.texi:225 src/basic.texi:227
@@ -545,7 +545,7 @@ msgstr "C-e"
 #: src/basic.texi:226
 #, no-wrap
 msgid "End"
-msgstr ""
+msgstr "End"
 
 #. type: kindex
 #: src/basic.texi:228
@@ -557,7 +557,7 @@ msgstr "END"
 #: src/basic.texi:229
 #, no-wrap
 msgid "move-end-of-line"
-msgstr ""
+msgstr "move-end-of-line"
 
 #. type: table
 #: src/basic.texi:231
@@ -927,83 +927,83 @@ msgstr ""
 #: src/basic.texi:387
 #, no-wrap
 msgid "BACKSPACE"
-msgstr ""
+msgstr "BACKSPACE"
 
 #. type: table
 #: src/basic.texi:390
 msgid "Delete the character before point, or the region if it is active (@code{delete-backward-char})."
-msgstr ""
+msgstr "删除游标之前的字符或选区，或者如果选区处于激活状态的话(@code{delete-backward-char})。"
 
 #. type: key{#1}
 #: src/basic.texi:391
 #, no-wrap
 msgid "Delete"
-msgstr ""
+msgstr "Delete"
 
 #. type: table
 #: src/basic.texi:394
 msgid "Delete the character after point, or the region if it is active (@code{delete-forward-char})."
-msgstr ""
+msgstr "删除游标之后的字符或选区，或者如果选区处于激活状态的话(@code{delete-forward-char})。"
 
 #. type: item
 #: src/basic.texi:395
 #, no-wrap
 msgid "C-d"
-msgstr ""
+msgstr "C-d"
 
 #. type: table
 #: src/basic.texi:397
 msgid "Delete the character after point (@code{delete-char})."
-msgstr ""
+msgstr "删除游标之后的字符(@code{delete-char})。"
 
 #. type: item
 #: src/basic.texi:398
 #, no-wrap
 msgid "C-k"
-msgstr ""
+msgstr "C-k"
 
 #. type: table
 #: src/basic.texi:400
 msgid "Kill to the end of the line (@code{kill-line})."
-msgstr ""
+msgstr "删除到行尾(@{kill-line})。"
 
 #. type: item
 #: src/basic.texi:401
 #, no-wrap
 msgid "M-d"
-msgstr ""
+msgstr "M-d"
 
 #. type: table
 #: src/basic.texi:403
 msgid "Kill forward to the end of the next word (@code{kill-word})."
-msgstr ""
+msgstr "向前删除到下一个单词的末尾(@{kill-word})。"
 
 #. type: item
 #: src/basic.texi:404
 #, no-wrap
 msgid "M-@key{DEL}"
-msgstr ""
+msgstr "M-@key{DEL}"
 
 #. type: itemx
 #: src/basic.texi:405
 #, no-wrap
 msgid "M-@key{BACKSPACE}"
-msgstr ""
+msgstr "M-@key{BACKSPACE}"
 
 #. type: table
 #: src/basic.texi:408
 msgid "Kill back to the beginning of the previous word (@code{backward-kill-word})."
-msgstr ""
+msgstr "向后删除到前一个单词的开头(@{backward-kill-word})。"
 
 #. type: Plain text
 #: src/basic.texi:414
 msgid "The @kbd{@key{DEL}} (@code{delete-backward-char}) command removes the character before point, moving the cursor and the characters after it backwards.  If point was at the beginning of a line, this deletes the preceding newline, joining this line to the previous one."
-msgstr ""
+msgstr "@kbd{@key{DEL}} (@code{delete-backward-char}) 命令会在游标前移除字符，然后移动光标和字符。 如果游标在一行的开头，则删除前面的换行符，并将此行与前一行连接起来。"
 
 #. type: Plain text
 #: src/basic.texi:417
 msgid "If, however, the region is active, @kbd{@key{DEL}} instead deletes the text in the region.  @xref{Mark}, for a description of the region."
-msgstr ""
+msgstr "但是，如果选区处于激活状态，则@kbd{@key{DEL}} 删除选区内的文本。@xref{标记}，以获取选区的描述。"
 
 #. type: Plain text
 #: src/basic.texi:423
