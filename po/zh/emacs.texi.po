@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-09 14:14\n"
+"PO-Revision-Date: 2021-01-11 07:00\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -37,7 +37,7 @@ msgstr "emacsver.texi"
 #. type: ifset
 #: src/emacs.texi:17
 msgid "This is the @value{EDITION} edition of the @cite{GNU Emacs Manual},@*"
-msgstr "这是@cite {GNU Emacs手册}的@value {EDITION}版本，@ *"
+msgstr "这是@cite{GNU Emacs手册}的@value {EDITION} 版本，@ *"
 
 #. type: ifclear
 #: src/emacs.texi:20
@@ -47,7 +47,7 @@ msgstr "这是@cite {GNU Emacs手册}，"
 #. type: copying
 #: src/emacs.texi:22
 msgid "updated for Emacs version @value{EMACSVER}."
-msgstr "已针对Emacs版本@value {EMACSVER}更新。"
+msgstr "已针对Emacs版本@value {EMACSVER} 更新。"
 
 #. type: copying
 #: src/emacs.texi:25
@@ -62,7 +62,7 @@ msgstr "根据GNU自由文档许可版本1.3或自由软件基金会发布的任
 #. type: quotation
 #: src/emacs.texi:39
 msgid "(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify this GNU manual.  Buying copies from the FSF supports it in developing GNU and promoting software freedom.''"
-msgstr "（a）FSF的封底文本是：``您可以自由复制和修改本GNU手册。从FSF购买副本可以支持它开发GNU和促进软件自由。''"
+msgstr "(a) FSF的封底文本是：``您可以自由复制和修改本GNU手册。从FSF购买副本可以支持它开发GNU和促进软件自由。''"
 
 #. type: dircategory
 #: src/emacs.texi:42
@@ -149,7 +149,7 @@ msgstr "@html GNU Emacs的主页位于<a href=\"/software/emacs/\">https://www.g
 #. type: ifinfo
 #: src/emacs.texi:131
 msgid "If you are reading this in Emacs, type @kbd{h} to read a basic introduction to the Info documentation system."
-msgstr "如果要在Emacs中阅读此内容，请键入@kbd {h}以阅读Info文档系统的基本介绍。"
+msgstr "如果要在 Emacs 中阅读此内容，请键入 @kbd {h} 以阅读 Info 文档系统的基本介绍。"
 
 #. type: ifnottex
 #: src/emacs.texi:135
@@ -7249,7 +7249,7 @@ msgstr "第14章至第19章介绍了对多种编辑有用的中级功能。第20
 #. type: iftex
 #: src/emacs.texi:1306
 msgid "Read the Common Problems chapter if Emacs does not seem to be working properly.  It explains how to cope with several common problems (@pxref{Lossage,, Dealing with Emacs Trouble}), as well as when and how to report Emacs bugs (@pxref{Bugs})."
-msgstr "如果Emacs似乎无法正常工作，请阅读“常见问题”一章。它说明了如何解决几个常见问题（@pxref {Lossage，处理Emacs故障}），以及何时以及如何报告Emacs错误（@pxref {Bugs}）。"
+msgstr "如果Emacs似乎无法正常工作，请阅读“常见问题”一章。它说明了如何解决几个常见问题（@pxref {Lossage，处理 Emacs 故障}），以及何时以及如何报告 Emacs 错误（@pxref {Bugs}）。"
 
 #. type: iftex
 #: src/emacs.texi:1310
