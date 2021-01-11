@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-09 06:14\n"
+"PO-Revision-Date: 2021-01-11 06:00\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -168,7 +168,7 @@ msgstr ""
 #: src/abbrevs.texi:72 src/abbrevs.texi:97
 #, no-wrap
 msgid "C-x a g"
-msgstr ""
+msgstr "C-x a g"
 
 #. type: table
 #: src/abbrevs.texi:75
@@ -179,7 +179,7 @@ msgstr ""
 #: src/abbrevs.texi:76 src/abbrevs.texi:111
 #, no-wrap
 msgid "C-x a l"
-msgstr ""
+msgstr "C-x a l"
 
 #. type: table
 #: src/abbrevs.texi:79
@@ -190,7 +190,7 @@ msgstr ""
 #: src/abbrevs.texi:80 src/abbrevs.texi:117
 #, no-wrap
 msgid "C-x a i g"
-msgstr ""
+msgstr "C-x a i g"
 
 #. type: table
 #: src/abbrevs.texi:82
@@ -201,7 +201,7 @@ msgstr ""
 #: src/abbrevs.texi:83 src/abbrevs.texi:119
 #, no-wrap
 msgid "C-x a i l"
-msgstr ""
+msgstr "C-x a i l"
 
 #. type: table
 #: src/abbrevs.texi:86
@@ -349,7 +349,7 @@ msgstr ""
 #: src/abbrevs.texi:166 src/abbrevs.texi:183
 #, no-wrap
 msgid "M-'"
-msgstr ""
+msgstr "M-'"
 
 #. type: table
 #: src/abbrevs.texi:169
@@ -517,7 +517,7 @@ msgstr ""
 #: src/abbrevs.texi:272
 #, no-wrap
 msgid "C-c C-c @r{(Edit Abbrevs)}"
-msgstr ""
+msgstr "C-c C-c @r{(Edit Abbrevs)}"
 
 #. type: Plain text
 #: src/abbrevs.texi:279
