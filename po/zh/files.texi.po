@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-09 06:15\n"
+"PO-Revision-Date: 2021-01-11 06:00\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -400,7 +400,7 @@ msgstr ""
 #: src/files.texi:137 src/files.texi:161
 #, no-wrap
 msgid "C-x C-f"
-msgstr ""
+msgstr "C-x C-f"
 
 #. type: table
 #: src/files.texi:139
@@ -411,7 +411,7 @@ msgstr ""
 #: src/files.texi:139 src/files.texi:258
 #, no-wrap
 msgid "C-x C-r"
-msgstr ""
+msgstr "C-x C-r"
 
 #. type: table
 #: src/files.texi:142
@@ -422,7 +422,7 @@ msgstr ""
 #: src/files.texi:142 src/files.texi:230
 #, no-wrap
 msgid "C-x C-v"
-msgstr ""
+msgstr "C-x C-v"
 
 #. type: table
 #: src/files.texi:145
