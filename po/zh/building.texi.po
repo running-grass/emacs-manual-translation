@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-09 06:14\n"
+"PO-Revision-Date: 2021-01-11 06:00\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1783,7 +1783,7 @@ msgstr ""
 #: src/building.texi:830
 #, no-wrap
 msgid "TAB @r{(GUD)}"
-msgstr ""
+msgstr "TAB @r{(GUD)}"
 
 #. type: findex
 #: src/building.texi:831
@@ -2234,7 +2234,7 @@ msgstr ""
 #: src/building.texi:1074
 #, no-wrap
 msgid "SPC @r{(GDB Breakpoints buffer)}"
-msgstr ""
+msgstr "SPC @r{(GDB Breakpoints buffer)}"
 
 #. type: findex
 #: src/building.texi:1075
@@ -2257,7 +2257,7 @@ msgstr ""
 #: src/building.texi:1082
 #, no-wrap
 msgid "D @r{(GDB Breakpoints buffer)}"
-msgstr ""
+msgstr "D @r{(GDB Breakpoints buffer)}"
 
 #. type: findex
 #: src/building.texi:1083
@@ -2280,7 +2280,7 @@ msgstr ""
 #: src/building.texi:1087
 #, no-wrap
 msgid "RET @r{(GDB Breakpoints buffer)}"
-msgstr ""
+msgstr "RET @r{(GDB Breakpoints buffer)}"
 
 #. type: findex
 #: src/building.texi:1088
@@ -2303,7 +2303,7 @@ msgstr ""
 #: src/building.texi:1093
 #, no-wrap
 msgid "mouse-2 @r{(GDB Breakpoints buffer)}"
-msgstr ""
+msgstr "mouse-2 @r{(GDB Breakpoints buffer)}"
 
 #. type: table
 #: src/building.texi:1096
@@ -2396,7 +2396,7 @@ msgstr ""
 #: src/building.texi:1142
 #, no-wrap
 msgid "d @r{(GDB threads buffer)}"
-msgstr ""
+msgstr "d @r{(GDB threads buffer)}"
 
 #. type: findex
 #: src/building.texi:1143
@@ -2419,7 +2419,7 @@ msgstr ""
 #: src/building.texi:1148
 #, no-wrap
 msgid "f @r{(GDB threads buffer)}"
-msgstr ""
+msgstr "f @r{(GDB threads buffer)}"
 
 #. type: findex
 #: src/building.texi:1149
@@ -2442,7 +2442,7 @@ msgstr ""
 #: src/building.texi:1154
 #, no-wrap
 msgid "l @r{(GDB threads buffer)}"
-msgstr ""
+msgstr "l @r{(GDB threads buffer)}"
 
 #. type: findex
 #: src/building.texi:1155
@@ -2465,7 +2465,7 @@ msgstr ""
 #: src/building.texi:1160
 #, no-wrap
 msgid "r @r{(GDB threads buffer)}"
-msgstr ""
+msgstr "r @r{(GDB threads buffer)}"
 
 #. type: findex
 #: src/building.texi:1161
@@ -2606,7 +2606,7 @@ msgstr ""
 #: src/building.texi:1258
 #, no-wrap
 msgid "C-x C-a C-w @r{(GUD)}"
-msgstr ""
+msgstr "C-x C-a C-w @r{(GUD)}"
 
 #. type: Plain text
 #: src/building.texi:1264
@@ -2627,7 +2627,7 @@ msgstr ""
 #: src/building.texi:1281
 #, no-wrap
 msgid "D @r{(GDB speedbar)}"
-msgstr ""
+msgstr "D @r{(GDB speedbar)}"
 
 #. type: findex
 #: src/building.texi:1282
@@ -2644,7 +2644,7 @@ msgstr ""
 #: src/building.texi:1286
 #, no-wrap
 msgid "RET @r{(GDB speedbar)}"
-msgstr ""
+msgstr "RET @r{(GDB speedbar)}"
 
 #. type: findex
 #: src/building.texi:1287
@@ -3127,7 +3127,7 @@ msgstr ""
 #: src/building.texi:1591 src/building.texi:1613
 #, no-wrap
 msgid "M-:"
-msgstr ""
+msgstr "M-:"
 
 #. type: table
 #: src/building.texi:1594
@@ -3138,7 +3138,7 @@ msgstr ""
 #: src/building.texi:1594 src/building.texi:1622
 #, no-wrap
 msgid "C-x C-e"
-msgstr ""
+msgstr "C-x C-e"
 
 #. type: table
 #: src/building.texi:1597
@@ -3188,7 +3188,7 @@ msgstr ""
 #: src/building.texi:1610
 #, no-wrap
 msgid "M-colon"
-msgstr ""
+msgstr "M-colon"
 
 #. type: findex
 #: src/building.texi:1615
@@ -3221,7 +3221,7 @@ msgstr ""
 #: src/building.texi:1643
 #, no-wrap
 msgid "C-M-x @r{(Emacs Lisp mode)}"
-msgstr ""
+msgstr "C-M-x @r{(Emacs Lisp mode)}"
 
 #. type: findex
 #: src/building.texi:1644
@@ -3318,7 +3318,7 @@ msgstr ""
 #: src/building.texi:1694
 #, no-wrap
 msgid "C-j @r{(Lisp Interaction mode)}"
-msgstr ""
+msgstr "C-j @r{(Lisp Interaction mode)}"
 
 #. type: Plain text
 #: src/building.texi:1702
@@ -3386,7 +3386,7 @@ msgstr ""
 #: src/building.texi:1731
 #, no-wrap
 msgid "C-x C-z"
-msgstr ""
+msgstr "C-x C-z"
 
 #. type: Plain text
 #: src/building.texi:1739
@@ -3402,7 +3402,7 @@ msgstr ""
 #: src/building.texi:1747
 #, no-wrap
 msgid "C-M-x @r{(Lisp mode)}"
-msgstr ""
+msgstr "C-M-x @r{(Lisp mode)}"
 
 #. type: findex
 #: src/building.texi:1748
@@ -3437,7 +3437,7 @@ msgstr ""
 #: src/building.texi:1763
 #, no-wrap
 msgid "C-M-x @r{(Scheme mode)}"
-msgstr ""
+msgstr "C-M-x @r{(Scheme mode)}"
 
 #. type: Plain text
 #: src/building.texi:1769
