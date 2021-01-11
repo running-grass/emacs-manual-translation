@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-11 07:00\n"
+"PO-Revision-Date: 2021-01-11 08:07\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -202,18 +202,18 @@ msgstr "换行"
 #. type: Plain text
 #: src/basic.texi:58
 msgid "To end a line and start a new one, type @key{RET} (@code{newline}).  (The @key{RET} key may be labeled @key{Return}, or @key{Enter}, or with a funny-looking left-pointing arrow on your keyboard, but we refer to it as @key{RET} in this manual.)  This command inserts a newline character into the buffer, then indents (@pxref{Indentation})  according to the major mode.  If point is at the end of the line, the effect is to create a new blank line after it and indent the new line; if point is in the middle of a line, the line is split at that position.  To turn off the auto-indentation, you can either disable Electric Indent mode (@pxref{Indent Convenience}) or type @kbd{C-j}, which inserts just a newline, without any auto-indentation."
-msgstr ""
+msgstr "要结束一行并开始一个新行，请输入 @key{RET} (@code{newline})。 (@key{RET} 键可能被标记为@key{Return} 或 @key{Enter} 或者在您的键盘上使用一个有趣的左向箭头，但我们在本手册中将其称为 @key{RET} 。 此命令在缓冲区插入一个换行符，然后根据主模式缩进 (@pxref{缩进})。 如果游标在行尾处， 效果是在之后创建一个新的空行并缩进新行； 如果游标处于行的中间位置，行将在该位置分割。 要关闭自动缩进，您可以禁用自动缩进模式 (@pxref{便捷缩进}) 或输入 @kbd{C-j}， 它只能插入一个换行符，没有任何自动缩进。"
 
 #. type: Plain text
 #: src/basic.texi:65
 msgid "As we explain later in this manual, you can change the way Emacs handles text insertion by turning on @dfn{minor modes}.  For instance, the minor mode called Auto Fill mode splits lines automatically when they get too long (@pxref{Filling}).  The minor mode called Overwrite mode causes inserted characters to replace (overwrite) existing text, instead of shoving it to the right.  @xref{Minor Modes}."
-msgstr ""
+msgstr "正如我们在本手册稍后解释的那样，您可以打开 @dfn{辅模式}来更改Emacs 处理文本插入的方式。 例如，一个叫做自动填充模式的辅模式，在行过长时自动分割(@pxref{填充})。 调用覆盖模式的辅模式导致插入字符替换(覆盖)现有文本，而不是将其推向右边。 @xref{辅模式}。"
 
 #. type: cindex
 #: src/basic.texi:66
 #, no-wrap
 msgid "quoting"
-msgstr ""
+msgstr "引用"
 
 #. type: kindex
 #: src/basic.texi:67
@@ -225,49 +225,49 @@ msgstr "C-q"
 #: src/basic.texi:68
 #, no-wrap
 msgid "quoted-insert"
-msgstr ""
+msgstr "引用插入"
 
 #. type: Plain text
 #: src/basic.texi:75
 msgid "Only graphic characters can be inserted by typing the associated key; other keys act as editing commands and do not insert themselves.  For instance, @key{DEL} runs the command @code{delete-backward-char} by default (some modes bind it to a different command); it does not insert a literal @samp{DEL} character (@acronym{ASCII} character code 127)."
-msgstr ""
+msgstr "只能通过输入相关的键来插入图形字符；其他键作为编辑命令，不能插入自己。 例如，@key{DEL} 默认运行命令 @code{delete-backward-char} (有些模式将它绑定到另一个命令)； 它不能插入字母 @samp{DEL} 字符 (@acronym{ASCII} 字符代码 127)。"
 
 #. type: Plain text
 #: src/basic.texi:79
 msgid "To insert a non-graphic character, or a character that your keyboard does not support, first @dfn{quote} it by typing @kbd{C-q} (@code{quoted-insert}).  There are two ways to use @kbd{C-q}:"
-msgstr ""
+msgstr "要插入一个非图形字符或您的键盘不支持的字符，首先通过输入 @kbd{C-q} (@code{quoted-insert}) 来@dfn{引用}它。两种方法可以使用 @kbd{C-q}："
 
 #. type: itemize
 #: src/basic.texi:85
 msgid "@kbd{C-q} followed by any non-graphic character (even @kbd{C-g})  inserts that character.  For instance, @kbd{C-q @key{DEL}} inserts a literal @samp{DEL} character."
-msgstr ""
+msgstr "@kbd{C-q} 后面紧跟任何非图形字符 (甚至@kbd{C-g}) 插入该字符。 例如，@kbd{C-q @key{DEL}} 插入一个 @samp{DEL} 的字面字符。"
 
 #. type: itemize
 #: src/basic.texi:94
 msgid "@kbd{C-q} followed by a sequence of octal digits inserts the character with the specified octal character code.  You can use any number of octal digits; any non-digit terminates the sequence.  If the terminating character is @key{RET}, that @key{RET} serves only to terminate the sequence.  Any other non-digit terminates the sequence and then acts as normal input---thus, @kbd{C-q 1 0 1 B} inserts @samp{AB}."
-msgstr ""
+msgstr "@kbd{C-q} 后面紧跟着八进制数字序列，用指定的八进制字符代码插入字符。 您可以使用任意数量的八进制数字；任何非数字都可以终止序列。 如果终止字符是 @key{RET}, 那么 @key{RET} 只能终止序列. 任何其他非数字都会终止序列，然后作为普通输入——-因此，@kbd{C-q 1 0 1 B} 插入@samp{AB}。"
 
 #. type: itemize
 #: src/basic.texi:98
 msgid "The use of octal sequences is disabled in ordinary non-binary Overwrite mode, to give you a convenient way to insert a digit instead of overwriting with it."
-msgstr ""
+msgstr "在普通的非二进制覆盖模式下禁用八进制序列，以便为您提供插入数字而不是用其覆盖的便捷方式。"
 
 #. type: vindex
 #: src/basic.texi:100
 #, no-wrap
 msgid "read-quoted-char-radix"
-msgstr ""
+msgstr "read-quoted-char-radix"
 
 #. type: Plain text
 #: src/basic.texi:106
 msgid "To use decimal or hexadecimal instead of octal, set the variable @code{read-quoted-char-radix} to 10 or 16.  If the radix is 16, the letters @kbd{a} to @kbd{f} serve as part of a character code, just like digits.  Case is ignored."
-msgstr ""
+msgstr "若要使用十进制或十六进制来代替八进制，请设置变量 @code{read-quoted-char-radix} 到 10 或 16。 如果基数为16，@kbd{a} 到 @kbd{f} 的字母作为字符代码的一部分，就像数字一样。 案例被忽略。"
 
 #. type: findex
 #: src/basic.texi:107
 #, no-wrap
 msgid "insert-char"
-msgstr ""
+msgstr "insert-char"
 
 #. type: kindex
 #: src/basic.texi:108
@@ -279,19 +279,19 @@ msgstr "C-x 8"
 #: src/basic.texi:109
 #, no-wrap
 msgid "Unicode characters, inserting"
-msgstr ""
+msgstr "Unicode 字符，插入"
 
 #. type: cindex
 #: src/basic.texi:110
 #, no-wrap
 msgid "insert Unicode character"
-msgstr ""
+msgstr "插入 Unicode 字符"
 
 #. type: cindex
 #: src/basic.texi:111
 #, no-wrap
 msgid "characters, inserting by name or code-point"
-msgstr ""
+msgstr "字符，按名称或码位插入"
 
 #. type: cindex
 #: src/basic.texi:112
@@ -308,17 +308,17 @@ msgstr ""
 #. type: Plain text
 #: src/basic.texi:123
 msgid "A few common Unicode characters can be inserted via a command starting with @kbd{C-x 8}.  For example, @kbd{C-x 8 [} inserts @t{‘} which is Unicode code-point U+2018 @sc{left single quotation mark}, sometimes called a left single ``curved quote'' or ``curly quote''.  Similarly, @kbd{C-x 8 ]}, @kbd{C-x 8 @{} and @kbd{C-x 8 @}} insert the curved quotes @t{’}, @t{“} and @t{”}, respectively.  Also, a working @key{Alt} key acts like @kbd{C-x 8} (unless followed by @key{RET}); e.g., @kbd{A-[} acts like @kbd{C-x 8 [} and inserts @t{‘}.  To see which characters have @kbd{C-x 8} shorthands, type @kbd{C-x 8 C-h}."
-msgstr ""
+msgstr "可以通过 @kbd{C-x 8} 开始的命令插入一些常见的 Unicode 字符。 例如，@kbd{C-x 8 [} 插入 Unicode 码位为 U+2018 @sc{左单引号标记}，有时会被称为左单``引号''。 同样，@kbd{C-x 8 ]}、@kbd{C-x 8 @{} 和@kbd{C-x 8 @}} 分别插入曲线引号 @t{'}、@t{“} 和@t{\"}。 另外，一个 @key{Alt} 键的行为类似 @kbd{C-x 8} (除非有@key{RET}跟随); 例如， @kbd{A-[} 行为像@kbd{C-x 8 [} 并插入@t{'}。要看看哪些字符有 @kbd{C-x 8} 快捷方式，请输入 @kbd{C-x 8 C-h}。"
 
 #. type: Plain text
 #: src/basic.texi:133
 msgid "Alternatively, you can use the command @kbd{C-x 8 @key{RET}} (@code{insert-char}).  This prompts for the Unicode name or code-point of a character, using the minibuffer.  If you enter a name, the command provides completion (@pxref{Completion}).  If you enter a code-point, it should be as a hexadecimal number (the convention for Unicode), or a number with a specified radix, e.g., @code{#o23072} (octal); @xref{Integer Basics,,, elisp, The Emacs Lisp Reference Manual}.  The command then inserts the corresponding character into the buffer."
-msgstr ""
+msgstr "或者，您可以使用命令 @kbd{C-x 8 @key{RET}} (@code{insert-char})。 这将使用迷你缓冲区提示输入 Unicode 名称或一个字符的码位。 如果您输入一个名称，命令提供补全 (@pxref{补全})。 如果您输入了一个码位，它应该是一个十六进制数字(Unicode约定)，或者一个带有指定基数的数字，例如 @code{#o23072} (octal); @xref{整数基础,,,elisp,Emacs Lisp 参考手册}. 命令之后会插入对应的字符到缓冲区。"
 
 #. type: Plain text
 #: src/basic.texi:135
 msgid "For example, the following all insert the same character:"
-msgstr ""
+msgstr "例如，以下所有代码都插入相同的字符："
 
 #. type: example
 #: src/basic.texi:143
@@ -329,12 +329,17 @@ msgid "@kbd{C-x 8 @key{RET} left single quotation mark @key{RET}}\n"
 "@kbd{C-x 8 [}\n"
 "@kbd{A-[}  @r{(if the Alt key works)}\n"
 "@kbd{`}    @r{(in Electric Quote mode)}\n"
-msgstr ""
+msgstr "@kbd{C-x 8 @key{RET} left single quotation mark @key{RET}}\n"
+"@kbd{C-x 8 @key{RET} left sin @key{TAB} @key{RET}}\n"
+"@kbd{C-x 8 @key{RET} 2018 @key{RET}}\n"
+"@kbd{C-x 8 [}\n"
+"@kbd{A-[}  @r{(如果Alt键可用)}\n"
+"@kbd{`}    @r{(在自动引用模式中)}\n"
 
 #. type: Plain text
 #: src/basic.texi:147
 msgid "A numeric argument to @kbd{C-q} or @kbd{C-x 8 ...} specifies how many copies of the character to insert (@pxref{Arguments})."
-msgstr ""
+msgstr "@kbd{C-q} 或 @kbd{C-x 8 ...} 的数字参数指定要插入多少个字符副本(请参阅参数)。"
 
 #. type: Plain text
 #: src/basic.texi:154
@@ -345,47 +350,47 @@ msgstr ""
 #: src/basic.texi:156
 #, no-wrap
 msgid "Changing the Location of Point"
-msgstr ""
+msgstr "更改游标的位置"
 
 #. type: cindex
 #: src/basic.texi:158
 #, no-wrap
 msgid "arrow keys"
-msgstr ""
+msgstr "方向键"
 
 #. type: cindex
 #: src/basic.texi:159
 #, no-wrap
 msgid "moving point"
-msgstr ""
+msgstr "移动游标"
 
 #. type: cindex
 #: src/basic.texi:160
 #, no-wrap
 msgid "movement"
-msgstr ""
+msgstr "移动"
 
 #. type: cindex
 #: src/basic.texi:161
 #, no-wrap
 msgid "cursor motion"
-msgstr ""
+msgstr "光标移动"
 
 #. type: cindex
 #: src/basic.texi:162
 #, no-wrap
 msgid "moving the cursor"
-msgstr ""
+msgstr "移动光标"
 
 #. type: Plain text
 #: src/basic.texi:172
 msgid "To do more than insert characters, you have to know how to move point (@pxref{Point}).  The keyboard commands @kbd{C-f}, @kbd{C-b}, @kbd{C-n}, and @kbd{C-p} move point to the right, left, down, and up, respectively.  You can also move point using the @dfn{arrow keys} present on most keyboards: @key{RIGHT}, @key{LEFT}, @key{DOWN}, and @key{UP}; however, many Emacs users find that it is slower to use the arrow keys than the control keys, because you need to move your hand to the area of the keyboard where those keys are located."
-msgstr ""
+msgstr "想要比插入字符更多的操作，您必须知道如何移动游标(@pxref{游标})。 键盘命令 @kbd{C-f}, @kbd{C-b}, @kbd{C-n}, @kbd{C-p} 分别向右、左、向下和向上移动游标。 您也可以使用大多数键盘上存在的@dfn{方向键}移动游标: @key{RIGHT}, @key{LEFT}, @key{DOWN}和 @key{UP}; 然而，许多Emacs用户发现使用方向键比控制键慢， 因为您需要将手移动到这些键所在的区域。"
 
 #. type: Plain text
 #: src/basic.texi:176
 msgid "You can also click the left mouse button to move point to the position clicked.  Emacs also provides a variety of additional keyboard commands that move point in more sophisticated ways."
-msgstr ""
+msgstr "您也可以点击鼠标左键移动游标到点击的位置。 Emacs 还提供了各种额外的键盘命令，以更复杂的方式移动游标。"
 
 #. type: kindex
 #: src/basic.texi:179 src/basic.texi:180
@@ -397,12 +402,12 @@ msgstr "C-f"
 #: src/basic.texi:181
 #, no-wrap
 msgid "forward-char"
-msgstr ""
+msgstr "forward-char"
 
 #. type: table
 #: src/basic.texi:183
 msgid "Move forward one character (@code{forward-char})."
-msgstr ""
+msgstr "向前移动一个字符(@code{forward-char})。"
 
 #. type: kindex
 #: src/basic.texi:184 src/basic.texi:185
@@ -414,12 +419,12 @@ msgstr "RIGHT"
 #: src/basic.texi:186
 #, no-wrap
 msgid "right-char"
-msgstr ""
+msgstr "right-char"
 
 #. type: table
 #: src/basic.texi:189
 msgid "This command (@code{right-char}) behaves like @kbd{C-f}, except when point is in a right-to-left paragraph (@pxref{Bidirectional Editing})."
-msgstr ""
+msgstr "此命令(@code{right-char})的行为类似于@kbd{C-f}，但游标位于从右向左的段落时除外(@pxref{双向编辑})。"
 
 #. type: kindex
 #: src/basic.texi:190 src/basic.texi:191
@@ -431,12 +436,12 @@ msgstr "C-b"
 #: src/basic.texi:192
 #, no-wrap
 msgid "backward-char"
-msgstr ""
+msgstr "backward-char"
 
 #. type: table
 #: src/basic.texi:194
 msgid "Move backward one character (@code{backward-char})."
-msgstr ""
+msgstr "向后移动一个字符(@code{backward-char})。"
 
 #. type: kindex
 #: src/basic.texi:195 src/basic.texi:196
@@ -448,12 +453,12 @@ msgstr "LEFT"
 #: src/basic.texi:197
 #, no-wrap
 msgid "left-char"
-msgstr ""
+msgstr "left-char"
 
 #. type: table
 #: src/basic.texi:200
 msgid "This command (@code{left-char}) behaves like @kbd{C-b}, except if the current paragraph is right-to-left (@pxref{Bidirectional Editing})."
-msgstr ""
+msgstr "此命令(@code{left-char})的行为类似于@kbd{C-b}，但游标位于从右向左的段落时除外(@pxref{双向编辑})。"
 
 #. type: kindex
 #: src/basic.texi:201 src/basic.texi:203
@@ -471,7 +476,7 @@ msgstr "DOWN"
 #: src/basic.texi:205
 #, no-wrap
 msgid "next-line"
-msgstr ""
+msgstr "next-line"
 
 #. type: table
 #: src/basic.texi:209
