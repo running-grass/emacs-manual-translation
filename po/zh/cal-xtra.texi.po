@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-09 06:14\n"
+"PO-Revision-Date: 2021-01-11 06:00\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -696,7 +696,7 @@ msgstr ""
 #: src/cal-xtra.texi:301
 #, no-wrap
 msgid "g m @r{(Calendar mode)}"
-msgstr ""
+msgstr "g m @r{(Calendar mode)}"
 
 #. type: findex
 #: src/cal-xtra.texi:302
