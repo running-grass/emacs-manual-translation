@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-11 09:11\n"
+"PO-Revision-Date: 2021-03-17 07:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1008,27 +1008,27 @@ msgstr "但是，如果选区处于激活状态，则@kbd{@key{DEL}} 删除选�
 #. type: Plain text
 #: src/basic.texi:423
 msgid "On most keyboards, @key{DEL} is labeled @key{BACKSPACE}, but we refer to it as @key{DEL} in this manual.  (Do not confuse @key{DEL} with the @key{Delete} key; we will discuss @key{Delete} momentarily.)  On some text terminals, Emacs may not recognize the @key{DEL} key properly.  @xref{DEL Does Not Delete}, if you encounter this problem."
-msgstr ""
+msgstr "在大多数键盘上，@key{DEL} 被标记为@key{BACKSPACE}, 但在本手册中我们将其称为@key{DEL} 。 (不要混淆@key{DEL} 和 @key{Delete} 键；我们会在稍后讨论@key{Delete} 键。) 在一些文本终端上，Emacs 可能无法正确识别@key{DEL} 键。如果您遇到这个问题，请参考@xref{DEL Does Not Delete}。"
 
 #. type: Plain text
 #: src/basic.texi:429
 msgid "The @key{Delete} (@code{delete-forward-char}) command deletes in the opposite direction: it deletes the character after point, i.e., the character under the cursor.  If point was at the end of a line, this joins the following line onto this one.  Like @kbd{@key{DEL}}, it deletes the text in the region if the region is active (@pxref{Mark})."
-msgstr ""
+msgstr "按键命令@key{Delete} (@code{delete-forward-char}) 会删除与按键命令@key{DEL}作用方向相反的内容：它删除光标后的字符，或者说光标下的字符。 如果光标在一行的末尾，就把下面的行连接到这行上。 与@kbd{@key{DEL}}相似，如果区域处于选中状态，则删除选中区域中的文本 (@pxref{Mark})。"
 
 #. type: Plain text
 #: src/basic.texi:433
 msgid "@kbd{C-d} (@code{delete-char}) deletes the character after point, similar to @key{Delete}, but regardless of whether the region is active."
-msgstr ""
+msgstr "快捷键{C-d}({delete-char}) 删除游标之后的字符，与{Delete} 类似，但与选区是否处于活动状态无关。"
 
 #. type: Plain text
 #: src/basic.texi:436
 msgid "@xref{Deletion}, for more detailed information about the above deletion commands."
-msgstr ""
+msgstr "有关上述删除命令的详细信息，请参阅@xref{Deletion}。"
 
 #. type: Plain text
 #: src/basic.texi:441
 msgid "@kbd{C-k} (@code{kill-line}) erases (kills) a line at a time.  If you type @kbd{C-k} at the beginning or middle of a line, it kills all the text up to the end of the line.  If you type @kbd{C-k} at the end of a line, it joins that line with the following line."
-msgstr ""
+msgstr "快捷键@kbd{C-k} (@code{kill-line}) 删除（剪切）单行。 如果您在行开始或行中部键入 @kbd{C-k} ， 会删除（剪切）行尾前的所有内容。 如果您在行尾键入 @kbd{C-k} ，会将下一行行首连接至光标处(本行行尾)。"
 
 #. type: Plain text
 #: src/basic.texi:444
