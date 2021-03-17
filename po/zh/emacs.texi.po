@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-11 07:00\n"
+"PO-Revision-Date: 2021-03-17 07:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -311,7 +311,7 @@ msgstr "删除"
 #. type: menuentry
 #: src/emacs.texi:169
 msgid "Killing (cutting) and yanking (copying) text."
-msgstr ""
+msgstr "Killing(剪切) 与Yanking(粘贴) 文本。"
 
 #. type: menuentry
 #: src/emacs.texi:169 src/emacs.texi:346
