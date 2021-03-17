@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-11 06:00\n"
+"PO-Revision-Date: 2021-03-17 16:11\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20,19 +20,19 @@ msgstr ""
 #: src/dired.texi:5 src/dired.texi:9
 #, no-wrap
 msgid "Dired"
-msgstr ""
+msgstr "Dired"
 
 #. type: chapter
 #: src/dired.texi:6
 #, no-wrap
 msgid "Dired, the Directory Editor"
-msgstr ""
+msgstr "Dired，目录编辑器"
 
 #. type: cindex
 #: src/dired.texi:10
 #, no-wrap
 msgid "file management"
-msgstr ""
+msgstr "文件管理"
 
 #. type: Plain text
 #: src/dired.texi:17
