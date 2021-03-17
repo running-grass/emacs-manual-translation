@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-03-17 07:58\n"
+"PO-Revision-Date: 2021-03-17 09:08\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1033,31 +1033,31 @@ msgstr "快捷键@kbd{C-k} (@code{kill-line}) 删除（剪切）单行。 如果
 #. type: Plain text
 #: src/basic.texi:444
 msgid "@xref{Killing}, for more information about @kbd{C-k} and related commands."
-msgstr ""
+msgstr "有关@kbd{C-k} 和相关命令的详细信息，请参阅@xref{Killing}。"
 
 #. type: section
 #: src/basic.texi:446
 #, no-wrap
 msgid "Undoing Changes"
-msgstr ""
+msgstr "撤销操作"
 
 #. type: item
 #: src/basic.texi:449
 #, no-wrap
 msgid "C-/"
-msgstr ""
+msgstr "C-/"
 
 #. type: itemx
 #: src/basic.texi:450
 #, no-wrap
 msgid "C-x u"
-msgstr ""
+msgstr "C-x u"
 
 #. type: itemx
 #: src/basic.texi:451
 #, no-wrap
 msgid "C-_"
-msgstr ""
+msgstr "C-_"
 
 #. type: table
 #: src/basic.texi:455
