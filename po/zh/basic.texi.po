@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-03-17 09:08\n"
+"PO-Revision-Date: 2021-04-28 03:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -344,7 +344,7 @@ msgstr "@kbd{C-q} 或 @kbd{C-x 8 ...} 的数字参数指定要插入多少个字
 #. type: Plain text
 #: src/basic.texi:154
 msgid "In addition, in some contexts, if you type a quotation using grave accent and apostrophe @kbd{`like this'}, it is converted to a form @t{‘like this’} using single quotation marks, even without @kbd{C-x 8} commands.  Similarly, typing a quotation @kbd{``like this''} using double grave accent and apostrophe converts it to a form @t{“like this”} using double quotation marks.  @xref{Quotation Marks}."
-msgstr ""
+msgstr "另外，在某些场景下，如果你使用重音符和撇号进行引用，@kbd{`像这样'} ，引用文本会被转换为@t{‘像这样’} 使用单引号，即便你没有使用 @kbd{C-x 8} 命令。类似地，使用两个重音符和撇号 @kbd{``像这样''} 进行引用时，会转换为 @t{“像这样”} 使用双引号。@xref{Quotation Marks}."
 
 #. type: section
 #: src/basic.texi:156
@@ -562,30 +562,30 @@ msgstr "move-end-of-line"
 #. type: table
 #: src/basic.texi:231
 msgid "Move to the end of the line (@code{move-end-of-line})."
-msgstr ""
+msgstr "移到行尾（@code{move-end-of-line}）。"
 
 #. type: item
 #: src/basic.texi:232
 #, no-wrap
 msgid "M-f"
-msgstr ""
+msgstr "M-f"
 
 #. type: table
 #: src/basic.texi:234
 msgid "Move forward one word (@code{forward-word}).  @xref{Words}."
-msgstr ""
+msgstr "向前移动一个单词 (@code{forward-word}).@xref{Words}."
 
 #. type: item
 #: src/basic.texi:235
 #, no-wrap
 msgid "C-@key{RIGHT}"
-msgstr ""
+msgstr "C-@key{RIGHT}"
 
 #. type: itemx
 #: src/basic.texi:236
 #, no-wrap
 msgid "M-@key{RIGHT}"
-msgstr ""
+msgstr "M-@key{RIGHT}"
 
 #. type: kindex
 #: src/basic.texi:237
@@ -671,7 +671,7 @@ msgstr ""
 #. type: table
 #: src/basic.texi:264
 msgid "Without moving the text on the screen, reposition point on the left margin of the center-most text line of the window; on subsequent consecutive invocations, move point to the left margin of the top-most line, the bottom-most line, and so forth, in cyclic order (@code{move-to-window-line-top-bottom})."
-msgstr ""
+msgstr "在不移动屏幕上的文本的情况下，将游标重新定位在窗口最中间文本行的左边缘；在随后的连续调用中，按循环顺序将指针移动到最顶行、最底行的左边距，依此类推 (@code{move-to-window-line-top-bottom})。"
 
 #. type: table
 #: src/basic.texi:270
