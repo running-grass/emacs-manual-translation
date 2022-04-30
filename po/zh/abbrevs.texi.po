@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-11 06:00\n"
+"PO-Revision-Date: 2022-04-30 12:29\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: src/abbrevs.texi:5 src/abbrevs.texi:6
 #, no-wrap
 msgid "Abbrevs"
-msgstr ""
+msgstr "缩写"
 
 #. type: cindex
 #: src/abbrevs.texi:7
