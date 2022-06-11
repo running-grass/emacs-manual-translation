@@ -1,19 +1,20 @@
-# Chinese translations for PACKAGE package
-# Copyright (C) 2021 Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2021.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-06 19:00+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: zh_Hans\n"
+"PO-Revision-Date: 2021-01-09 06:15\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: emacs-manual-chinese\n"
+"X-Crowdin-Project-ID: 436220\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /27.1/pot/indent.texi.pot\n"
+"X-Crowdin-File-ID: 292\n"
 
 #. type: chapter
 #: src/indent.texi:5 src/indent.texi:6
@@ -47,13 +48,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:18
-msgid ""
-"@dfn{Indentation} refers to inserting or adjusting @dfn{whitespace "
-"characters} (space and/or tab characters) at the beginning of a line of "
-"text.  This chapter documents indentation commands and options which are "
-"common to Text mode and related modes, as well as programming language "
-"modes.  @xref{Program Indent}, for additional documentation about indenting "
-"in programming modes."
+msgid "@dfn{Indentation} refers to inserting or adjusting @dfn{whitespace characters} (space and/or tab characters) at the beginning of a line of text.  This chapter documents indentation commands and options which are common to Text mode and related modes, as well as programming language modes.  @xref{Program Indent}, for additional documentation about indenting in programming modes."
 msgstr ""
 
 #. type: findex
@@ -70,11 +65,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:26
-msgid ""
-"The simplest way to perform indentation is the @key{TAB} key.  In most major "
-"modes, this runs the command @code{indent-for-tab-command}.  (In C and "
-"related modes, @key{TAB} runs the command @code{c-indent-line-or-region}, "
-"which behaves similarly, @pxref{C Indent})."
+msgid "The simplest way to perform indentation is the @key{TAB} key.  In most major modes, this runs the command @code{indent-for-tab-command}.  (In C and related modes, @key{TAB} runs the command @code{c-indent-line-or-region}, which behaves similarly, @pxref{C Indent})."
 msgstr ""
 
 #. type: item
@@ -85,41 +76,22 @@ msgstr ""
 
 #. type: table
 #: src/indent.texi:32
-msgid ""
-"Insert whitespace, or indent the current line, in a mode-appropriate way "
-"(@code{indent-for-tab-command}).  If the region is active, indent all the "
-"lines within it."
+msgid "Insert whitespace, or indent the current line, in a mode-appropriate way (@code{indent-for-tab-command}).  If the region is active, indent all the lines within it."
 msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:43
-msgid ""
-"The exact behavior of @key{TAB} depends on the major mode.  In Text mode and "
-"related major modes, @key{TAB} normally inserts some combination of space "
-"and tab characters to advance point to the next tab stop (@pxref{Tab "
-"Stops}).  For this purpose, the position of the first non-whitespace "
-"character on the preceding line is treated as an additional tab stop, so you "
-"can use @key{TAB} to align point with the preceding line.  If the region is "
-"active (@pxref{Using Region}), @key{TAB} acts specially: it indents each "
-"line in the region so that its first non-whitespace character is aligned "
-"with the preceding line."
+msgid "The exact behavior of @key{TAB} depends on the major mode.  In Text mode and related major modes, @key{TAB} normally inserts some combination of space and tab characters to advance point to the next tab stop (@pxref{Tab Stops}).  For this purpose, the position of the first non-whitespace character on the preceding line is treated as an additional tab stop, so you can use @key{TAB} to align point with the preceding line.  If the region is active (@pxref{Using Region}), @key{TAB} acts specially: it indents each line in the region so that its first non-whitespace character is aligned with the preceding line."
 msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:49
-msgid ""
-"In programming modes, @key{TAB} indents the current line of code in a way "
-"that makes sense given the code in the preceding lines.  If the region is "
-"active, all the lines in the region are indented this way.  If point was "
-"initially within the current line's indentation, it is repositioned to the "
-"first non-whitespace character on the line."
+msgid "In programming modes, @key{TAB} indents the current line of code in a way that makes sense given the code in the preceding lines.  If the region is active, all the lines in the region are indented this way.  If point was initially within the current line's indentation, it is repositioned to the first non-whitespace character on the line."
 msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:52
-msgid ""
-"If you just want to insert a tab character in the buffer, type @kbd{C-q "
-"@key{TAB}} (@pxref{Inserting Text})."
+msgid "If you just want to insert a tab character in the buffer, type @kbd{C-q @key{TAB}} (@pxref{Inserting Text})."
 msgstr ""
 
 #. type: section
@@ -168,9 +140,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:66
-msgid ""
-"Apart from the @kbd{@key{TAB}} (@code{indent-for-tab-command})  command, "
-"Emacs provides a variety of commands to perform indentation in other ways."
+msgid "Apart from the @kbd{@key{TAB}} (@code{indent-for-tab-command})  command, Emacs provides a variety of commands to perform indentation in other ways."
 msgstr ""
 
 #. type: kindex
@@ -187,11 +157,7 @@ msgstr ""
 
 #. type: table
 #: src/indent.texi:76
-msgid ""
-"Split the current line at point (@code{split-line}).  The text on the line "
-"after point becomes a new line, indented to the same column where point is "
-"located.  This command first moves point forward over any spaces and tabs.  "
-"Afterward, point is positioned before the inserted newline."
+msgid "Split the current line at point (@code{split-line}).  The text on the line after point becomes a new line, indented to the same column where point is located.  This command first moves point forward over any spaces and tabs.  Afterward, point is positioned before the inserted newline."
 msgstr ""
 
 #. type: item
@@ -208,10 +174,7 @@ msgstr ""
 
 #. type: table
 #: src/indent.texi:83
-msgid ""
-"Move (forward or back) to the first non-whitespace character on the current "
-"line (@code{back-to-indentation}).  If there are no non-whitespace "
-"characters on the line, move to the end of the line."
+msgid "Move (forward or back) to the first non-whitespace character on the current line (@code{back-to-indentation}).  If there are no non-whitespace characters on the line, move to the end of the line."
 msgstr ""
 
 #. type: kindex
@@ -228,9 +191,7 @@ msgstr ""
 
 #. type: table
 #: src/indent.texi:89
-msgid ""
-"Indent whitespace at point, up to the next tab stop (@code{tab-to-tab-"
-"stop}).  @xref{Tab Stops}."
+msgid "Indent whitespace at point, up to the next tab stop (@code{tab-to-tab-stop}).  @xref{Tab Stops}."
 msgstr ""
 
 #. type: findex
@@ -247,12 +208,7 @@ msgstr ""
 
 #. type: table
 #: src/indent.texi:97
-msgid ""
-"Insert whitespace at point, until point is aligned with the first non-"
-"whitespace character on the previous line (actually, the last non-blank "
-"line).  If point is already farther right than that, run @code{tab-to-tab-"
-"stop} instead---unless called with a numeric argument, in which case do "
-"nothing."
+msgid "Insert whitespace at point, until point is aligned with the first non-whitespace character on the previous line (actually, the last non-blank line).  If point is already farther right than that, run @code{tab-to-tab-stop} instead---unless called with a numeric argument, in which case do nothing."
 msgstr ""
 
 #. type: kindex
@@ -269,33 +225,22 @@ msgstr ""
 
 #. type: table
 #: src/indent.texi:105
-msgid ""
-"Merge the previous and the current line (@code{delete-indentation}).  This "
-"joins the two lines cleanly, by replacing any indentation at the front of "
-"the current line, together with the line boundary, with a single space."
+msgid "Merge the previous and the current line (@code{delete-indentation}).  This joins the two lines cleanly, by replacing any indentation at the front of the current line, together with the line boundary, with a single space."
 msgstr ""
 
 #. type: table
 #: src/indent.texi:109
-msgid ""
-"As a special case (useful for Lisp code), the single space is omitted if the "
-"characters to be joined are consecutive opening and closing parentheses, or "
-"if the junction follows another newline."
+msgid "As a special case (useful for Lisp code), the single space is omitted if the characters to be joined are consecutive opening and closing parentheses, or if the junction follows another newline."
 msgstr ""
 
 #. type: table
 #: src/indent.texi:112
-msgid ""
-"If there is a fill prefix, @kbd{M-^} deletes the fill prefix if it appears "
-"after the newline that is deleted.  @xref{Fill Prefix}."
+msgid "If there is a fill prefix, @kbd{M-^} deletes the fill prefix if it appears after the newline that is deleted.  @xref{Fill Prefix}."
 msgstr ""
 
 #. type: table
 #: src/indent.texi:116
-msgid ""
-"With a prefix argument, join the current line to the following line.  If the "
-"region is active, and no prefix argument is given, join all lines in the "
-"region instead."
+msgid "With a prefix argument, join the current line to the following line.  If the region is active, and no prefix argument is given, join all lines in the region instead."
 msgstr ""
 
 #. type: kindex
@@ -312,16 +257,12 @@ msgstr ""
 
 #. type: table
 #: src/indent.texi:122
-msgid ""
-"Indent all the lines in the region, as though you had typed @kbd{@key{TAB}} "
-"at the beginning of each line (@code{indent-region})."
+msgid "Indent all the lines in the region, as though you had typed @kbd{@key{TAB}} at the beginning of each line (@code{indent-region})."
 msgstr ""
 
 #. type: table
 #: src/indent.texi:125
-msgid ""
-"If a numeric argument is supplied, indent every line in the region to that "
-"column number."
+msgid "If a numeric argument is supplied, indent every line in the region to that column number."
 msgstr ""
 
 #. type: item
@@ -350,30 +291,17 @@ msgstr ""
 
 #. type: table
 #: src/indent.texi:132
-msgid ""
-"This command is used to change the indentation of all lines that begin in "
-"the region, moving the affected lines as a rigid unit."
+msgid "This command is used to change the indentation of all lines that begin in the region, moving the affected lines as a rigid unit."
 msgstr ""
 
 #. type: table
 #: src/indent.texi:141
-msgid ""
-"If called with no argument, the command activates a transient mode for "
-"adjusting the indentation of the affected lines interactively.  While this "
-"transient mode is active, typing @kbd{@key{LEFT}} or @kbd{@key{RIGHT}} "
-"indents leftward and rightward, respectively, by one space.  You can also "
-"type @kbd{S-@key{LEFT}} or @kbd{S-@key{RIGHT}} to indent leftward or "
-"rightward to the next tab stop (@pxref{Tab Stops}).  Typing any other key "
-"disables the transient mode, and resumes normal editing."
+msgid "If called with no argument, the command activates a transient mode for adjusting the indentation of the affected lines interactively.  While this transient mode is active, typing @kbd{@key{LEFT}} or @kbd{@key{RIGHT}} indents leftward and rightward, respectively, by one space.  You can also type @kbd{S-@key{LEFT}} or @kbd{S-@key{RIGHT}} to indent leftward or rightward to the next tab stop (@pxref{Tab Stops}).  Typing any other key disables the transient mode, and resumes normal editing."
 msgstr ""
 
 #. type: table
 #: src/indent.texi:147
-msgid ""
-"If called with a prefix argument @var{n}, this command indents the lines "
-"forward by @var{n} spaces (without enabling the transient mode).  Negative "
-"values of @var{n} indent backward, so you can remove all indentation from "
-"the lines in the region using a large negative argument, like this:"
+msgid "If called with a prefix argument @var{n}, this command indents the lines forward by @var{n} spaces (without enabling the transient mode).  Negative values of @var{n} indent backward, so you can remove all indentation from the lines in the region using a large negative argument, like this:"
 msgstr ""
 
 #. type: smallexample
@@ -396,16 +324,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:167
-msgid ""
-"Emacs defines certain column numbers to be @dfn{tab stops}.  These are used "
-"as stopping points by @key{TAB} when inserting whitespace in Text mode and "
-"related modes (@pxref{Indentation}), and by commands like @kbd{M-i} "
-"(@pxref{Indentation Commands}).  The variable @code{tab-stop-list} controls "
-"these positions.  The default value is @code{nil}, which means a tab stop "
-"every 8 columns.  The value can also be a list of zero-based column numbers "
-"(in increasing order) at which to place tab stops.  Emacs extends the list "
-"forever by repeating the difference between the last and next-to-last "
-"elements."
+msgid "Emacs defines certain column numbers to be @dfn{tab stops}.  These are used as stopping points by @key{TAB} when inserting whitespace in Text mode and related modes (@pxref{Indentation}), and by commands like @kbd{M-i} (@pxref{Indentation Commands}).  The variable @code{tab-stop-list} controls these positions.  The default value is @code{nil}, which means a tab stop every 8 columns.  The value can also be a list of zero-based column numbers (in increasing order) at which to place tab stops.  Emacs extends the list forever by repeating the difference between the last and next-to-last elements."
 msgstr ""
 
 #. type: findex
@@ -422,18 +341,13 @@ msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:174
-msgid ""
-"Instead of customizing the variable @code{tab-stop-list} directly, a "
-"convenient way to view and set tab stops is via the command @kbd{M-x edit-"
-"tab-stops}.  This switches to a buffer containing a description of the tab "
-"stop settings, which looks like this:"
+msgid "Instead of customizing the variable @code{tab-stop-list} directly, a convenient way to view and set tab stops is via the command @kbd{M-x edit-tab-stops}.  This switches to a buffer containing a description of the tab stop settings, which looks like this:"
 msgstr ""
 
 #. type: example
 #: src/indent.texi:180
 #, no-wrap
-msgid ""
-"        :       :       :       :       :       :\n"
+msgid "        :       :       :       :       :       :\n"
 "0         1         2         3         4\n"
 "0123456789012345678901234567890123456789012345678\n"
 "To install changes, type C-c C-c\n"
@@ -441,36 +355,17 @@ msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:187
-msgid ""
-"The first line contains a colon at each tab stop.  The numbers on the next "
-"two lines are present just to indicate where the colons are.  If the value "
-"of @code{tab-stop-list} is @code{nil}, as it is by default, no colons are "
-"displayed initially."
+msgid "The first line contains a colon at each tab stop.  The numbers on the next two lines are present just to indicate where the colons are.  If the value of @code{tab-stop-list} is @code{nil}, as it is by default, no colons are displayed initially."
 msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:200
-msgid ""
-"You can edit this buffer to specify different tab stops by placing colons on "
-"the desired columns.  The buffer uses Overwrite mode (@pxref{Minor Modes}).  "
-"Remember that Emacs will extend the list of tab stops forever by repeating "
-"the difference between the last two explicit stops that you place.  When you "
-"are done, type @kbd{C-c C-c} to make the new tab stops take effect.  "
-"Normally, the new tab stop settings apply to all buffers.  However, if you "
-"have made the @code{tab-stop-list} variable local to the buffer where you "
-"called @kbd{M-x edit-tab-stops} (@pxref{Locals}), then the new tab stop "
-"settings apply only to that buffer.  To save the tab stop settings for "
-"future Emacs sessions, use the Customize interface to save the value of "
-"@code{tab-stop-list} (@pxref{Easy Customization})."
+msgid "You can edit this buffer to specify different tab stops by placing colons on the desired columns.  The buffer uses Overwrite mode (@pxref{Minor Modes}).  Remember that Emacs will extend the list of tab stops forever by repeating the difference between the last two explicit stops that you place.  When you are done, type @kbd{C-c C-c} to make the new tab stops take effect.  Normally, the new tab stop settings apply to all buffers.  However, if you have made the @code{tab-stop-list} variable local to the buffer where you called @kbd{M-x edit-tab-stops} (@pxref{Locals}), then the new tab stop settings apply only to that buffer.  To save the tab stop settings for future Emacs sessions, use the Customize interface to save the value of @code{tab-stop-list} (@pxref{Easy Customization})."
 msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:205
-msgid ""
-"Note that the tab stops discussed in this section have nothing to do with "
-"how tab characters are displayed in the buffer.  Tab characters are always "
-"displayed as empty spaces extending to the next @dfn{display tab stop}.  "
-"@xref{Text Display}."
+msgid "Note that the tab stops discussed in this section have nothing to do with how tab characters are displayed in the buffer.  Tab characters are always displayed as empty spaces extending to the next @dfn{display tab stop}.  @xref{Text Display}."
 msgstr ""
 
 #. type: section
@@ -481,12 +376,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:215
-msgid ""
-"Normally, indentation commands insert (or remove) the shortest possible "
-"series of tab and space characters so as to align to the desired column.  "
-"Tab characters are displayed as a stretch of empty space extending to the "
-"next @dfn{display tab stop}.  By default, there is one display tab stop "
-"every @code{tab-width} columns (the default is 8).  @xref{Text Display}."
+msgid "Normally, indentation commands insert (or remove) the shortest possible series of tab and space characters so as to align to the desired column.  Tab characters are displayed as a stretch of empty space extending to the next @dfn{display tab stop}.  By default, there is one display tab stop every @code{tab-width} columns (the default is 8).  @xref{Text Display}."
 msgstr ""
 
 #. type: vindex
@@ -497,23 +387,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:222
-msgid ""
-"If you prefer, all indentation can be made from spaces only.  To request "
-"this, set the buffer-local variable @code{indent-tabs-mode} to @code{nil}.  "
-"@xref{Locals}, for information about setting buffer-local variables.  Note, "
-"however, that @kbd{C-q @key{TAB}} always inserts a tab character, regardless "
-"of the value of @code{indent-tabs-mode}."
+msgid "If you prefer, all indentation can be made from spaces only.  To request this, set the buffer-local variable @code{indent-tabs-mode} to @code{nil}.  @xref{Locals}, for information about setting buffer-local variables.  Note, however, that @kbd{C-q @key{TAB}} always inserts a tab character, regardless of the value of @code{indent-tabs-mode}."
 msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:230
-msgid ""
-"One reason to set @code{indent-tabs-mode} to @code{nil} is that not all "
-"editors display tab characters in the same way.  Emacs users, too, may have "
-"different customized values of @code{tab-width}.  By using spaces only, you "
-"can make sure that your file always looks the same.  If you only care about "
-"how it looks within Emacs, another way to tackle this problem is to set the "
-"@code{tab-width} variable in a file-local variable (@pxref{File Variables})."
+msgid "One reason to set @code{indent-tabs-mode} to @code{nil} is that not all editors display tab characters in the same way.  Emacs users, too, may have different customized values of @code{tab-width}.  By using spaces only, you can make sure that your file always looks the same.  If you only care about how it looks within Emacs, another way to tackle this problem is to set the @code{tab-width} variable in a file-local variable (@pxref{File Variables})."
 msgstr ""
 
 #. type: findex
@@ -530,12 +409,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:238
-msgid ""
-"There are also commands to convert tabs to spaces or vice versa, always "
-"preserving the columns of all non-whitespace text.  @kbd{M-x tabify} scans "
-"the region for sequences of spaces, and converts sequences of at least two "
-"spaces to tabs if that can be done without changing indentation.  @kbd{M-x "
-"untabify} changes all tabs in the region to appropriate numbers of spaces."
+msgid "There are also commands to convert tabs to spaces or vice versa, always preserving the columns of all non-whitespace text.  @kbd{M-x tabify} scans the region for sequences of spaces, and converts sequences of at least two spaces to tabs if that can be done without changing indentation.  @kbd{M-x untabify} changes all tabs in the region to appropriate numbers of spaces."
 msgstr ""
 
 #. type: section
@@ -552,15 +426,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:252
-msgid ""
-"The variable @code{tab-always-indent} tweaks the behavior of the @key{TAB} "
-"(@code{indent-for-tab-command}) command.  The default value, @code{t}, gives "
-"the behavior described in @ref{Indentation}.  If you change the value to the "
-"symbol @code{complete}, then @key{TAB} first tries to indent the current "
-"line, and if the line was already indented, it tries to complete the text at "
-"point (@pxref{Symbol Completion}).  If the value is @code{nil}, then "
-"@key{TAB} indents the current line only if point is at the left margin or in "
-"the line's indentation; otherwise, it inserts a tab character."
+msgid "The variable @code{tab-always-indent} tweaks the behavior of the @key{TAB} (@code{indent-for-tab-command}) command.  The default value, @code{t}, gives the behavior described in @ref{Indentation}.  If you change the value to the symbol @code{complete}, then @key{TAB} first tries to indent the current line, and if the line was already indented, it tries to complete the text at point (@pxref{Symbol Completion}).  If the value is @code{nil}, then @key{TAB} indents the current line only if point is at the left margin or in the line's indentation; otherwise, it inserts a tab character."
 msgstr ""
 
 #. type: cindex
@@ -583,9 +449,6 @@ msgstr ""
 
 #. type: Plain text
 #: src/indent.texi:260
-msgid ""
-"Electric Indent mode is a global minor mode that automatically indents the "
-"line after every @key{RET} you type.  This mode is enabled by default.  To "
-"toggle this minor mode, type @kbd{M-x electric-indent-mode}.  To toggle the "
-"mode in a single buffer, use @kbd{M-x electric-indent-local-mode}."
+msgid "Electric Indent mode is a global minor mode that automatically indents the line after every @key{RET} you type.  This mode is enabled by default.  To toggle this minor mode, type @kbd{M-x electric-indent-mode}.  To toggle the mode in a single buffer, use @kbd{M-x electric-indent-local-mode}."
 msgstr ""
+

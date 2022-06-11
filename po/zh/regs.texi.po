@@ -1,19 +1,20 @@
-# Chinese translations for PACKAGE package
-# Copyright (C) 2021 Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2021.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-06 19:00+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: zh_Hans\n"
+"PO-Revision-Date: 2021-01-09 06:14\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: emacs-manual-chinese\n"
+"X-Crowdin-Project-ID: 436220\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /27.1/pot/regs.texi.pot\n"
+"X-Crowdin-File-ID: 324\n"
 
 #. type: chapter
 #: src/regs.texi:5 src/regs.texi:6
@@ -29,24 +30,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:14
-msgid ""
-"Emacs @dfn{registers} are compartments where you can save text, rectangles, "
-"positions, and other things for later use.  Once you save text or a "
-"rectangle in a register, you can copy it into the buffer once or many times; "
-"once you save a position in a register, you can jump back to that position "
-"once or many times."
+msgid "Emacs @dfn{registers} are compartments where you can save text, rectangles, positions, and other things for later use.  Once you save text or a rectangle in a register, you can copy it into the buffer once or many times; once you save a position in a register, you can jump back to that position once or many times."
 msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:22
-msgid ""
-"Each register has a name that consists of a single character, which we will "
-"denote by @var{r}; @var{r} can be a letter (such as @samp{a})  or a number "
-"(such as @samp{1}); case matters, so register @samp{a} is not the same as "
-"register @samp{A}.  You can also set a register in non-alphanumeric "
-"characters, for instance @samp{*} or @samp{C-d}.  Note, it's not possible to "
-"set a register in @samp{C-g} or @samp{ESC}, because these keys are reserved "
-"for quitting (@pxref{Quitting})."
+msgid "Each register has a name that consists of a single character, which we will denote by @var{r}; @var{r} can be a letter (such as @samp{a})  or a number (such as @samp{1}); case matters, so register @samp{a} is not the same as register @samp{A}.  You can also set a register in non-alphanumeric characters, for instance @samp{*} or @samp{C-d}.  Note, it's not possible to set a register in @samp{C-g} or @samp{ESC}, because these keys are reserved for quitting (@pxref{Quitting})."
 msgstr ""
 
 #. type: findex
@@ -57,12 +46,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:29
-msgid ""
-"A register can store a position, a piece of text, a rectangle, a number, a "
-"window configuration, or a file name, but only one thing at any given time.  "
-"Whatever you store in a register remains there until you store something "
-"else in that register.  To see what register @var{r} contains, use @kbd{M-x "
-"view-register}:"
+msgid "A register can store a position, a piece of text, a rectangle, a number, a window configuration, or a file name, but only one thing at any given time.  Whatever you store in a register remains there until you store something else in that register.  To see what register @var{r} contains, use @kbd{M-x view-register}:"
 msgstr ""
 
 #. type: item
@@ -90,20 +74,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:43
-msgid ""
-"All of the commands that prompt for a register will display a preview window "
-"that lists the existing registers (if there are any) after a short delay.  "
-"To change the length of the delay, customize @code{register-preview-delay}.  "
-"To prevent this display, set that option to @code{nil}.  You can explicitly "
-"request a preview window by pressing @kbd{C-h} or @key{F1}."
+msgid "All of the commands that prompt for a register will display a preview window that lists the existing registers (if there are any) after a short delay.  To change the length of the delay, customize @code{register-preview-delay}.  To prevent this display, set that option to @code{nil}.  You can explicitly request a preview window by pressing @kbd{C-h} or @key{F1}."
 msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:48
-msgid ""
-"@dfn{Bookmarks} record files and positions in them, so you can return to "
-"those positions when you look at the file again.  Bookmarks are similar in "
-"spirit to registers, so they are also documented in this chapter."
+msgid "@dfn{Bookmarks} record files and positions in them, so you can return to those positions when you look at the file again.  Bookmarks are similar in spirit to registers, so they are also documented in this chapter."
 msgstr ""
 
 #. type: node
@@ -214,9 +190,7 @@ msgstr ""
 
 #. type: table
 #: src/regs.texi:68
-msgid ""
-"Record the position of point and the current buffer in register @var{r} "
-"(@code{point-to-register})."
+msgid "Record the position of point and the current buffer in register @var{r} (@code{point-to-register})."
 msgstr ""
 
 #. type: item
@@ -227,9 +201,7 @@ msgstr ""
 
 #. type: table
 #: src/regs.texi:71
-msgid ""
-"Jump to the position and buffer saved in register @var{r} (@code{jump-to-"
-"register})."
+msgid "Jump to the position and buffer saved in register @var{r} (@code{jump-to-register})."
 msgstr ""
 
 #. type: kindex
@@ -246,11 +218,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:79
-msgid ""
-"Typing @kbd{C-x r @key{SPC}} (@code{point-to-register}), followed by a "
-"character @kbd{@var{r}}, saves both the position of point and the current "
-"buffer in register @var{r}.  The register retains this information until you "
-"store something else in it."
+msgid "Typing @kbd{C-x r @key{SPC}} (@code{point-to-register}), followed by a character @kbd{@var{r}}, saves both the position of point and the current buffer in register @var{r}.  The register retains this information until you store something else in it."
 msgstr ""
 
 #. type: kindex
@@ -267,21 +235,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:88
-msgid ""
-"The command @kbd{C-x r j @var{r}} switches to the buffer recorded in "
-"register @var{r}, pushes a mark, and moves point to the recorded position.  "
-"(The mark is not pushed if point was already at the recorded position, or in "
-"successive calls to the command.)  The contents of the register are not "
-"changed, so you can jump to the saved position any number of times."
+msgid "The command @kbd{C-x r j @var{r}} switches to the buffer recorded in register @var{r}, pushes a mark, and moves point to the recorded position.  (The mark is not pushed if point was already at the recorded position, or in successive calls to the command.)  The contents of the register are not changed, so you can jump to the saved position any number of times."
 msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:93
-msgid ""
-"If you use @kbd{C-x r j} to go to a saved position, but the buffer it was "
-"saved from has been killed, @kbd{C-x r j} tries to create the buffer again "
-"by visiting the same file.  Of course, this works only for buffers that were "
-"visiting files."
+msgid "If you use @kbd{C-x r j} to go to a saved position, but the buffer it was saved from has been killed, @kbd{C-x r j} tries to create the buffer again by visiting the same file.  Of course, this works only for buffers that were visiting files."
 msgstr ""
 
 #. type: section
@@ -298,11 +257,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:102
-msgid ""
-"When you want to insert a copy of the same piece of text several times, it "
-"may be inconvenient to yank it from the kill ring, since each subsequent "
-"kill moves that entry further down the ring.  An alternative is to store the "
-"text in a register and later retrieve it."
+msgid "When you want to insert a copy of the same piece of text several times, it may be inconvenient to yank it from the kill ring, since each subsequent kill moves that entry further down the ring.  An alternative is to store the text in a register and later retrieve it."
 msgstr ""
 
 #. type: item
@@ -340,11 +295,7 @@ msgstr ""
 
 #. type: table
 #: src/regs.texi:115
-msgid ""
-"When register @var{r} contains text, you can use @kbd{C-x r +} "
-"(@code{increment-register}) to append to that register.  Note that command "
-"@kbd{C-x r +} behaves differently if @var{r} contains a number.  "
-"@xref{Number Registers}."
+msgid "When register @var{r} contains text, you can use @kbd{C-x r +} (@code{increment-register}) to append to that register.  Note that command @kbd{C-x r +} behaves differently if @var{r} contains a number.  @xref{Number Registers}."
 msgstr ""
 
 #. type: item
@@ -372,14 +323,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:129
-msgid ""
-"@kbd{C-x r s @var{r}} stores a copy of the text of the region into the "
-"register named @var{r}.  If the mark is inactive, Emacs first reactivates "
-"the mark where it was last set.  The mark is deactivated at the end of this "
-"command.  @xref{Mark}.  @kbd{C-u C-x r s @var{r}}, the same command with a "
-"prefix argument, copies the text into register @var{r} and deletes the text "
-"from the buffer as well; you can think of this as moving the region text "
-"into the register."
+msgid "@kbd{C-x r s @var{r}} stores a copy of the text of the region into the register named @var{r}.  If the mark is inactive, Emacs first reactivates the mark where it was last set.  The mark is deactivated at the end of this command.  @xref{Mark}.  @kbd{C-u C-x r s @var{r}}, the same command with a prefix argument, copies the text into register @var{r} and deletes the text from the buffer as well; you can think of this as moving the region text into the register."
 msgstr ""
 
 #. type: findex
@@ -396,13 +340,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:139
-msgid ""
-"@kbd{M-x append-to-register @key{RET} @var{r}} appends the copy of the text "
-"in the region to the text already stored in the register named @var{r}.  If "
-"invoked with a prefix argument, it deletes the region after appending it to "
-"the register.  The command @code{prepend-to-register} is similar, except "
-"that it @emph{prepends} the region text to the text in the register instead "
-"of @emph{appending} it."
+msgid "@kbd{M-x append-to-register @key{RET} @var{r}} appends the copy of the text in the region to the text already stored in the register named @var{r}.  If invoked with a prefix argument, it deletes the region after appending it to the register.  The command @code{prepend-to-register} is similar, except that it @emph{prepends} the region text to the text in the register instead of @emph{appending} it."
 msgstr ""
 
 #. type: vindex
@@ -413,20 +351,13 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:147
-msgid ""
-"When you are collecting text using @code{append-to-register} and "
-"@code{prepend-to-register}, you may want to separate individual collected "
-"pieces using a separator.  In that case, configure a @code{register-"
-"separator} and store the separator text in to that register.  For example, "
-"to get double newlines as text separator during the collection process, you "
-"can use the following setting."
+msgid "When you are collecting text using @code{append-to-register} and @code{prepend-to-register}, you may want to separate individual collected pieces using a separator.  In that case, configure a @code{register-separator} and store the separator text in to that register.  For example, to get double newlines as text separator during the collection process, you can use the following setting."
 msgstr ""
 
 #. type: example
 #: src/regs.texi:151
 #, no-wrap
-msgid ""
-"(setq register-separator ?+)\n"
+msgid "(setq register-separator ?+)\n"
 "(set-register register-separator \"\\n\\n\")\n"
 msgstr ""
 
@@ -444,11 +375,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:159
-msgid ""
-"@kbd{C-x r i @var{r}} inserts in the buffer the text from register @var{r}.  "
-"Normally it leaves point after the text and sets the mark before, without "
-"activating it.  With a prefix argument, it instead puts point before the "
-"text and the mark after."
+msgid "@kbd{C-x r i @var{r}} inserts in the buffer the text from register @var{r}.  Normally it leaves point after the text and sets the mark before, without activating it.  With a prefix argument, it instead puts point before the text and the mark after."
 msgstr ""
 
 #. type: section
@@ -465,10 +392,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:167
-msgid ""
-"A register can contain a rectangle instead of linear text.  "
-"@xref{Rectangles}, for basic information on how to specify a rectangle in "
-"the buffer."
+msgid "A register can contain a rectangle instead of linear text.  @xref{Rectangles}, for basic information on how to specify a rectangle in the buffer."
 msgstr ""
 
 #. type: findex
@@ -491,24 +415,17 @@ msgstr ""
 
 #. type: table
 #: src/regs.texi:175
-msgid ""
-"Copy the region-rectangle into register @var{r} (@code{copy-rectangle-to-"
-"register}).  With prefix argument, delete it as well."
+msgid "Copy the region-rectangle into register @var{r} (@code{copy-rectangle-to-register}).  With prefix argument, delete it as well."
 msgstr ""
 
 #. type: table
 #: src/regs.texi:178
-msgid ""
-"Insert the rectangle stored in register @var{r} (if it contains a rectangle) "
-"(@code{insert-register})."
+msgid "Insert the rectangle stored in register @var{r} (if it contains a rectangle) (@code{insert-register})."
 msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:183
-msgid ""
-"The @kbd{C-x r i @var{r}} (@code{insert-register}) command, previously "
-"documented in @ref{Text Registers}, inserts a rectangle rather than a text "
-"string, if the register contains a rectangle."
+msgid "The @kbd{C-x r i @var{r}} (@code{insert-register}) command, previously documented in @ref{Text Registers}, inserts a rectangle rather than a text string, if the register contains a rectangle."
 msgstr ""
 
 #. type: section
@@ -549,11 +466,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:196
-msgid ""
-"You can save the window configuration of the selected frame in a register, "
-"or even the configuration of all windows in all frames, and restore the "
-"configuration later.  @xref{Windows}, for information about window "
-"configurations."
+msgid "You can save the window configuration of the selected frame in a register, or even the configuration of all windows in all frames, and restore the configuration later.  @xref{Windows}, for information about window configurations."
 msgstr ""
 
 #. type: item
@@ -564,9 +477,7 @@ msgstr ""
 
 #. type: table
 #: src/regs.texi:201
-msgid ""
-"Save the state of the selected frame's windows in register @var{r} "
-"(@code{window-configuration-to-register})."
+msgid "Save the state of the selected frame's windows in register @var{r} (@code{window-configuration-to-register})."
 msgstr ""
 
 #. type: item
@@ -577,19 +488,12 @@ msgstr ""
 
 #. type: table
 #: src/regs.texi:204
-msgid ""
-"Save the state of all frames, including all their windows, in register "
-"@var{r} (@code{frameset-to-register})."
+msgid "Save the state of all frames, including all their windows, in register @var{r} (@code{frameset-to-register})."
 msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:211
-msgid ""
-"Use @kbd{C-x r j @var{r}} to restore a window or frame configuration.  This "
-"is the same command used to restore a cursor position.  When you restore a "
-"frame configuration, any existing frames not included in the configuration "
-"become invisible.  If you wish to delete these frames instead, use @kbd{C-u "
-"C-x r j @var{r}}."
+msgid "Use @kbd{C-x r j @var{r}} to restore a window or frame configuration.  This is the same command used to restore a cursor position.  When you restore a frame configuration, any existing frames not included in the configuration become invisible.  If you wish to delete these frames instead, use @kbd{C-u C-x r j @var{r}}."
 msgstr ""
 
 #. type: section
@@ -606,10 +510,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:219
-msgid ""
-"There are commands to store a number in a register, to insert the number in "
-"the buffer in decimal, and to increment it.  These commands can be useful in "
-"keyboard macros (@pxref{Keyboard Macros})."
+msgid "There are commands to store a number in a register, to insert the number in the buffer in decimal, and to increment it.  These commands can be useful in keyboard macros (@pxref{Keyboard Macros})."
 msgstr ""
 
 #. type: item
@@ -655,10 +556,7 @@ msgstr ""
 
 #. type: table
 #: src/regs.texi:232
-msgid ""
-"If @var{r} contains a number, increment the number in that register by "
-"@var{number}.  Note that command @kbd{C-x r +} (@code{increment-register}) "
-"behaves differently if @var{r} contains text.  @xref{Text Registers}."
+msgid "If @var{r} contains a number, increment the number in that register by @var{number}.  Note that command @kbd{C-x r +} (@code{increment-register}) behaves differently if @var{r} contains text.  @xref{Text Registers}."
 msgstr ""
 
 #. type: table
@@ -668,11 +566,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:240
-msgid ""
-"@kbd{C-x r i} is the same command used to insert any other sort of register "
-"contents into the buffer.  @kbd{C-x r +} with no numeric argument increments "
-"the register value by 1; @kbd{C-x r n} with no numeric argument stores zero "
-"in the register."
+msgid "@kbd{C-x r i} is the same command used to insert any other sort of register contents into the buffer.  @kbd{C-x r +} with no numeric argument increments the register value by 1; @kbd{C-x r n} with no numeric argument stores zero in the register."
 msgstr ""
 
 #. type: section
@@ -689,10 +583,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:248
-msgid ""
-"If you visit certain file names frequently, you can visit them more "
-"conveniently if you put their names in registers.  Here's the Lisp code used "
-"to put a file @var{name} into register @var{r}:"
+msgid "If you visit certain file names frequently, you can visit them more conveniently if you put their names in registers.  Here's the Lisp code used to put a file @var{name} into register @var{r}:"
 msgstr ""
 
 #. type: smallexample
@@ -719,10 +610,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:267
-msgid ""
-"To visit the file whose name is in register @var{r}, type @kbd{C-x r j "
-"@var{r}}.  (This is the same command used to jump to a position or restore a "
-"frame configuration.)"
+msgid "To visit the file whose name is in register @var{r}, type @kbd{C-x r j @var{r}}.  (This is the same command used to jump to a position or restore a frame configuration.)"
 msgstr ""
 
 #. type: cindex
@@ -751,19 +639,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:280
-msgid ""
-"If you need to execute a keyboard macro (@pxref{Keyboard Macros})  "
-"frequently, it is more convenient to put it in a register or save it "
-"(@pxref{Save Keyboard Macro}).  @kbd{C-x C-k x @var{r}} (@code{kmacro-to-"
-"register}) stores the last keyboard macro in register @var{r}."
+msgid "If you need to execute a keyboard macro (@pxref{Keyboard Macros})  frequently, it is more convenient to put it in a register or save it (@pxref{Save Keyboard Macro}).  @kbd{C-x C-k x @var{r}} (@code{kmacro-to-register}) stores the last keyboard macro in register @var{r}."
 msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:284
-msgid ""
-"To execute the keyboard macro in register @var{r}, type @kbd{C-x r j "
-"@var{r}}.  (This is the same command used to jump to a position or restore a "
-"frameset.)"
+msgid "To execute the keyboard macro in register @var{r}, type @kbd{C-x r j @var{r}}.  (This is the same command used to jump to a position or restore a frameset.)"
 msgstr ""
 
 #. type: cindex
@@ -774,11 +655,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:294
-msgid ""
-"@dfn{Bookmarks} are somewhat like registers in that they record positions "
-"you can jump to.  Unlike registers, they have long names, and they persist "
-"automatically from one Emacs session to the next.  The prototypical use of "
-"bookmarks is to record where you were reading in various files."
+msgid "@dfn{Bookmarks} are somewhat like registers in that they record positions you can jump to.  Unlike registers, they have long names, and they persist automatically from one Emacs session to the next.  The prototypical use of bookmarks is to record where you were reading in various files."
 msgstr ""
 
 #. type: item
@@ -873,12 +750,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:325
-msgid ""
-"To record the current position in the visited file, use the command @kbd{C-x "
-"r m}, which sets a bookmark using the visited file name as the default for "
-"the bookmark name.  If you name each bookmark after the file it points to, "
-"then you can conveniently revisit any of those files with @kbd{C-x r b}, and "
-"move to the position of the bookmark at the same time."
+msgid "To record the current position in the visited file, use the command @kbd{C-x r m}, which sets a bookmark using the visited file name as the default for the bookmark name.  If you name each bookmark after the file it points to, then you can conveniently revisit any of those files with @kbd{C-x r b}, and move to the position of the bookmark at the same time."
 msgstr ""
 
 #. type: kindex
@@ -895,10 +767,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:331
-msgid ""
-"The command @kbd{C-x r M} (@code{bookmark-set-no-overwrite}) works like "
-"@w{@kbd{C-x r m}}, but it signals an error if the specified bookmark already "
-"exists, instead of overwriting it."
+msgid "The command @kbd{C-x r M} (@code{bookmark-set-no-overwrite}) works like @w{@kbd{C-x r m}}, but it signals an error if the specified bookmark already exists, instead of overwriting it."
 msgstr ""
 
 #. type: findex
@@ -909,12 +778,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:339
-msgid ""
-"To display a list of all your bookmarks in a separate buffer, type @kbd{C-x "
-"r l} (@code{list-bookmarks}).  If you switch to that buffer, you can use it "
-"to edit your bookmark definitions or annotate the bookmarks.  Type @kbd{C-h "
-"m} in the bookmark buffer for more information about its special editing "
-"commands."
+msgid "To display a list of all your bookmarks in a separate buffer, type @kbd{C-x r l} (@code{list-bookmarks}).  If you switch to that buffer, you can use it to edit your bookmark definitions or annotate the bookmarks.  Type @kbd{C-h m} in the bookmark buffer for more information about its special editing commands."
 msgstr ""
 
 #. type: findex
@@ -925,14 +789,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:349
-msgid ""
-"When you kill Emacs, Emacs saves your bookmarks, if you have changed any "
-"bookmark values.  You can also save the bookmarks at any time with the "
-"@kbd{M-x bookmark-save} command.  Bookmarks are saved to the file @file{~/."
-"emacs.d/bookmarks} (for compatibility with older versions of Emacs, if you "
-"have a file named @file{~/.emacs.bmk}, that is used instead).  The bookmark "
-"commands load your default bookmark file automatically.  This saving and "
-"loading is how bookmarks persist from one Emacs session to the next."
+msgid "When you kill Emacs, Emacs saves your bookmarks, if you have changed any bookmark values.  You can also save the bookmarks at any time with the @kbd{M-x bookmark-save} command.  Bookmarks are saved to the file @file{~/.emacs.d/bookmarks} (for compatibility with older versions of Emacs, if you have a file named @file{~/.emacs.bmk}, that is used instead).  The bookmark commands load your default bookmark file automatically.  This saving and loading is how bookmarks persist from one Emacs session to the next."
 msgstr ""
 
 #. type: vindex
@@ -943,13 +800,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:357
-msgid ""
-"If you set the variable @code{bookmark-save-flag} to 1, each command that "
-"sets a bookmark will also save your bookmarks; this way, you don't lose any "
-"bookmark values even if Emacs crashes.  The value, if a number, says how "
-"many bookmark modifications should go by between saving.  If you set this "
-"variable to @code{nil}, Emacs only saves bookmarks if you explicitly use "
-"@kbd{M-x bookmark-save}."
+msgid "If you set the variable @code{bookmark-save-flag} to 1, each command that sets a bookmark will also save your bookmarks; this way, you don't lose any bookmark values even if Emacs crashes.  The value, if a number, says how many bookmark modifications should go by between saving.  If you set this variable to @code{nil}, Emacs only saves bookmarks if you explicitly use @kbd{M-x bookmark-save}."
 msgstr ""
 
 #. type: vindex
@@ -960,9 +811,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:361
-msgid ""
-"The variable @code{bookmark-default-file} specifies the file in which to "
-"save bookmarks by default."
+msgid "The variable @code{bookmark-default-file} specifies the file in which to save bookmarks by default."
 msgstr ""
 
 #. type: vindex
@@ -979,10 +828,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:368
-msgid ""
-"If you set the variable @code{bookmark-use-annotations} to @code{t}, setting "
-"a bookmark will query for an annotation.  If a bookmark has an annotation, "
-"it is automatically shown in a separate window when you jump to the bookmark."
+msgid "If you set the variable @code{bookmark-use-annotations} to @code{t}, setting a bookmark will query for an annotation.  If a bookmark has an annotation, it is automatically shown in a separate window when you jump to the bookmark."
 msgstr ""
 
 #. type: vindex
@@ -993,11 +839,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/regs.texi:375
-msgid ""
-"Bookmark position values are saved with surrounding context, so that "
-"@code{bookmark-jump} can find the proper position even if the file is "
-"modified slightly.  The variable @code{bookmark-search-size} says how many "
-"characters of context to record on each side of the bookmark's position."
+msgid "Bookmark position values are saved with surrounding context, so that @code{bookmark-jump} can find the proper position even if the file is modified slightly.  The variable @code{bookmark-search-size} says how many characters of context to record on each side of the bookmark's position."
 msgstr ""
 
 #. type: Plain text
@@ -1019,10 +861,7 @@ msgstr ""
 
 #. type: table
 #: src/regs.texi:385
-msgid ""
-"Load a file named @var{filename} that contains a list of bookmark values.  "
-"You can use this command, as well as @code{bookmark-write}, to work with "
-"other files of bookmark values in addition to your default bookmark file."
+msgid "Load a file named @var{filename} that contains a list of bookmark values.  You can use this command, as well as @code{bookmark-write}, to work with other files of bookmark values in addition to your default bookmark file."
 msgstr ""
 
 #. type: item
@@ -1073,9 +912,7 @@ msgstr ""
 
 #. type: table
 #: src/regs.texi:398
-msgid ""
-"Insert in the buffer the name of the file that bookmark @var{bookmark} "
-"points to."
+msgid "Insert in the buffer the name of the file that bookmark @var{bookmark} points to."
 msgstr ""
 
 #. type: item
@@ -1092,7 +929,6 @@ msgstr ""
 
 #. type: table
 #: src/regs.texi:403
-msgid ""
-"Insert in the buffer the @emph{contents} of the file that bookmark "
-"@var{bookmark} points to."
+msgid "Insert in the buffer the @emph{contents} of the file that bookmark @var{bookmark} points to."
 msgstr ""
+

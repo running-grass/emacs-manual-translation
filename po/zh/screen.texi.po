@@ -1,22 +1,20 @@
-# Chinese translations for PACKAGE package
-# Copyright (C) 2021 Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2021.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-07 12:07+0000\n"
-"Last-Translator: Leo Liu <weblate@example.com>\n"
-"Language-Team: Chinese (Simplified) <http://weblate.grass.work:35666/"
-"projects/emacs-manual/screentexi/zh_Hans/>\n"
-"Language: zh_Hans\n"
+"PO-Revision-Date: 2022-04-30 12:29\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4\n"
+"X-Crowdin-Project: emacs-manual-chinese\n"
+"X-Crowdin-Project-ID: 436220\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /27.1/pot/screen.texi.pot\n"
+"X-Crowdin-File-ID: 328\n"
 
 #. type: node
 #: src/screen.texi:5
@@ -34,96 +32,43 @@ msgstr "屏幕的组织方式"
 #: src/screen.texi:7
 #, no-wrap
 msgid "screen"
-msgstr "screen"
+msgstr "屏幕"
 
 #. type: cindex
 #: src/screen.texi:8
 #, no-wrap
 msgid "frame"
-msgstr "frame"
+msgstr "窗体"
 
 #. type: Plain text
 #: src/screen.texi:17
-msgid ""
-"On a graphical display, such as on GNU/Linux using the X Window System, "
-"Emacs occupies a graphical window.  On a text terminal, Emacs occupies the "
-"entire terminal screen.  We will use the term @dfn{frame} to mean a "
-"graphical window or terminal screen occupied by Emacs.  Emacs behaves very "
-"similarly on both kinds of frames.  It normally starts out with just one "
-"frame, but you can create additional frames if you wish (@pxref{Frames})."
-msgstr ""
-"在图形显示器上，例如在使用X窗口系统的GNU/Linux上，Emacs占据一个图形窗口。在文本终端上，Emacs占据整个终端屏幕。我们将使用@dfn "
-"{窗体}一词来表示Emacs占用的图形窗口或终端屏幕。Emacs在这两种窗体上的行为非常相似。它通常只以一个窗体开始，但是您可以根据需要创建其他窗体（@"
-"pxref {Frames}）。"
+msgid "On a graphical display, such as on GNU/Linux using the X Window System, Emacs occupies a graphical window.  On a text terminal, Emacs occupies the entire terminal screen.  We will use the term @dfn{frame} to mean a graphical window or terminal screen occupied by Emacs.  Emacs behaves very similarly on both kinds of frames.  It normally starts out with just one frame, but you can create additional frames if you wish (@pxref{Frames})."
+msgstr "在图形显示上，例如在使用X窗口系统的GNU/Linux上，Emacs占据一个图形窗口。在文本终端上，Emacs占据整个终端屏幕。我们将使用@dfn{窗体}一词来表示Emacs占用的图形窗口或终端屏幕。Emacs在这两种窗体上的行为非常相似。它通常只以一个窗体开始，但是您可以根据需要创建其他窗体（@pxref{窗体}）。"
 
 #. type: Plain text
 #: src/screen.texi:25
-msgid ""
-"Each frame consists of several distinct regions.  At the top of the frame is "
-"a @dfn{menu bar}, which allows you to access commands via a series of "
-"menus.  On a graphical display, directly below the menu bar is a @dfn{tool "
-"bar}, a row of icons that perform editing commands when you click on them.  "
-"At the very bottom of the frame is an @dfn{echo area}, where informative "
-"messages are displayed and where you enter information when Emacs asks for "
-"it."
-msgstr ""
-"每个窗体由几个不同的区域组成。窗体的顶部是@dfn {菜单栏}，它使您可以通过一系列菜单访问命令。在图形显示器上，菜单栏正下方是@dfn{工具栏}，这是一"
-"行图标，当您单击它们时，它们会执行编辑命令。在窗体的最底部是@dfn{回显区}，在此显示信息性消息，并在Emacs要求输入信息时在其中输入信息。"
+msgid "Each frame consists of several distinct regions.  At the top of the frame is a @dfn{menu bar}, which allows you to access commands via a series of menus.  On a graphical display, directly below the menu bar is a @dfn{tool bar}, a row of icons that perform editing commands when you click on them.  At the very bottom of the frame is an @dfn{echo area}, where informative messages are displayed and where you enter information when Emacs asks for it."
+msgstr "每个窗体由几个不同的区域组成。窗体的顶部是@dfn{菜单栏}，它使您可以通过一系列菜单访问命令。在图形显示器上，菜单栏正下方是@dfn{工具栏}，这是一行图标，当您单击它们时，它们会执行编辑命令。在窗体的最底部是@dfn{回显区}，在此显示信息性消息，并在Emacs要求输入信息时在其中输入信息。"
 
 #. type: Plain text
 #: src/screen.texi:32
-msgid ""
-"The main area of the frame, below the tool bar (if one exists) and above the "
-"echo area, is called @dfn{the window}.  Henceforth in this manual, we will "
-"use the word ``window'' in this sense.  Graphical display systems commonly "
-"use the word ``window'' with a different meaning; but, as stated above, we "
-"refer to those graphical windows as ``frames''."
-msgstr ""
-"位于工具栏(如果存在)下方、回显区上方的窗体主区域称为@dfn{窗口}。此后，在本手册中，我们将在此意义上使用单词``窗口'' "
-"。图形显示系统通常使用具有不同含义的词``窗口''；但是如上所述，我们将那些图形窗口称为``窗体''。"
+msgid "The main area of the frame, below the tool bar (if one exists) and above the echo area, is called @dfn{the window}.  Henceforth in this manual, we will use the word ``window'' in this sense.  Graphical display systems commonly use the word ``window'' with a different meaning; but, as stated above, we refer to those graphical windows as ``frames''."
+msgstr "位于工具栏(如果存在)下方、回显区上方的窗体主区域称为@dfn{窗口}。此后，在本手册中，我们将在此意义上使用单词``窗口'' 。图形显示系统通常使用具有不同含义的``窗口'概念'；但是如上所述，我们将那些图形窗口称为``窗体''。"
 
 #. type: Plain text
 #: src/screen.texi:40
-msgid ""
-"An Emacs window is where the @dfn{buffer}---the text or other graphics you "
-"are editing or viewing---is displayed.  On a graphical display, the window "
-"possesses a @dfn{scroll bar} on one side, which can be used to scroll "
-"through the buffer.  The last line of the window is a @dfn{mode line}.  This "
-"displays various information about what is going on in the buffer, such as "
-"whether there are unsaved changes, the editing modes that are in use, the "
-"current line number, and so forth."
-msgstr ""
-"Emacs窗口显示@dfn{缓冲区}——您正在编辑或查看的文本或其他图形。在图形显示器上，窗口的一侧有一个@dfn{滚动条}，可用于在缓冲区中滚动。窗口的"
-"最后一行是@dfn{状态栏}。这将显示有关缓冲区中正在进行的操作的各种信息，例如是否存在未保存的更改、正在使用的编辑模式、当前行号等。"
+msgid "An Emacs window is where the @dfn{buffer}---the text or other graphics you are editing or viewing---is displayed.  On a graphical display, the window possesses a @dfn{scroll bar} on one side, which can be used to scroll through the buffer.  The last line of the window is a @dfn{mode line}.  This displays various information about what is going on in the buffer, such as whether there are unsaved changes, the editing modes that are in use, the current line number, and so forth."
+msgstr "Emacs窗口显示@dfn{缓冲区}——您正在编辑或查看的文本或其他图形。在图形显示器上，窗口的一侧有一个@dfn{滚动条}，可用于在缓冲区中滚动。窗口的最后一行是@dfn{状态栏}。这将显示有关缓冲区中正在进行的操作的各种信息，例如是否存在未保存的更改、正在使用的编辑模式、当前行号等。"
 
 #. type: Plain text
 #: src/screen.texi:45
-msgid ""
-"When you start Emacs, there is normally only one window in the frame.  "
-"However, you can subdivide this window horizontally or vertically to create "
-"multiple windows, each of which can independently display a buffer "
-"(@pxref{Windows})."
-msgstr ""
-"启动Emacs时，窗体中通常只有一个窗口。但是，您可以水平或垂直分割此窗口以创建多个窗口，每个窗口都可以独立显示一个缓冲区(@pxref{Windows}"
-")。"
+msgid "When you start Emacs, there is normally only one window in the frame.  However, you can subdivide this window horizontally or vertically to create multiple windows, each of which can independently display a buffer (@pxref{Windows})."
+msgstr "启动Emacs时，窗体中通常只有一个窗口。但是，您可以水平或垂直分割此窗口以创建多个窗口，每个窗口都可以独立显示一个缓冲区(@pxref{窗口})。"
 
 #. type: Plain text
 #: src/screen.texi:56
-msgid ""
-"At any time, one window is the @dfn{selected window}.  On a graphical "
-"display, the selected window shows a more prominent cursor (usually solid "
-"and blinking); other windows show a less prominent cursor (usually a hollow "
-"box).  On a text terminal, there is only one cursor, which is shown in the "
-"selected window.  The buffer displayed in the selected window is called the "
-"@dfn{current buffer}, and it is where editing happens.  Most Emacs commands "
-"implicitly apply to the current buffer; the text displayed in unselected "
-"windows is mostly visible for reference.  If you use multiple frames on a "
-"graphical display, selecting a particular frame selects a window in that "
-"frame."
-msgstr ""
-"在任何时候，都有一个窗口是@dfn{选定窗口}。在图形显示器上，所选窗口显示较突出的光标(通常为实心且闪烁)；其他窗口显示较不突出的光标(通常为空心框)。"
-"在文本终端上，只有一个光标显示在所选窗口中。在选定窗口中显示的缓冲区称为 @dfn{当前缓冲区}，它是进行编辑的地方。大多数Emacs命令都隐式应用于当前"
-"缓冲区；显示在未选中窗口中的文本大多可见以供参考。如果在图形显示上使用多个窗体，则选择特定窗体将选择该窗体中的一个窗口。"
+msgid "At any time, one window is the @dfn{selected window}.  On a graphical display, the selected window shows a more prominent cursor (usually solid and blinking); other windows show a less prominent cursor (usually a hollow box).  On a text terminal, there is only one cursor, which is shown in the selected window.  The buffer displayed in the selected window is called the @dfn{current buffer}, and it is where editing happens.  Most Emacs commands implicitly apply to the current buffer; the text displayed in unselected windows is mostly visible for reference.  If you use multiple frames on a graphical display, selecting a particular frame selects a window in that frame."
+msgstr "在任何时候，都有一个窗口是@dfn{选定窗口}。在图形显示上，所选窗口显示较突出的光标(通常为实心且闪烁)；其他窗口显示较不突出的光标(通常为空心框)。在文本终端上，只有一个光标显示在所选窗口中。在选定窗口中显示的缓冲区称为 @dfn{当前缓冲区}，它是进行编辑的地方。大多数Emacs命令都隐式应用于当前缓冲区；显示在未选中窗口中的文本大多可见以供参考。如果在图形显示上使用多个窗体，则选择特定窗体将选择该窗体中的一个窗口。"
 
 #. type: section
 #: src/screen.texi:62 src/screen.texi:64 src/screen.texi:65
@@ -134,7 +79,7 @@ msgstr "游标"
 #. type: menuentry
 #: src/screen.texi:62
 msgid "The place in the text where editing commands operate."
-msgstr "文本中操作编辑命令的位置。"
+msgstr "在文本中操作编辑命令的位置。"
 
 #. type: node
 #: src/screen.texi:62 src/screen.texi:97
@@ -171,522 +116,320 @@ msgstr "如何使用菜单栏。"
 
 #. type: cindex
 #: src/screen.texi:66
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "point"
-msgstr "point"
+msgstr "游标"
 
 #. type: cindex
 #: src/screen.texi:67
 #, no-wrap
 msgid "cursor"
-msgstr ""
+msgstr "光标"
 
 #. type: Plain text
 #: src/screen.texi:77
-msgid ""
-"The cursor in the selected window shows the location where most editing "
-"commands take effect, which is called @dfn{point}@footnote{The term "
-"``point'' comes from the character @samp{.}, which was the command in TECO "
-"(the language in which the original Emacs was written)  for accessing the "
-"editing position.}.  Many Emacs commands move point to different places in "
-"the buffer; for example, you can place point by clicking mouse button 1 "
-"(normally the left button) at the desired location."
-msgstr ""
+msgid "The cursor in the selected window shows the location where most editing commands take effect, which is called @dfn{point}@footnote{The term ``point'' comes from the character @samp{.}, which was the command in TECO (the language in which the original Emacs was written)  for accessing the editing position.}.  Many Emacs commands move point to different places in the buffer; for example, you can place point by clicking mouse button 1 (normally the left button) at the desired location."
+msgstr "所选窗口中的光标显示大多数编辑命令生效的位置。 叫做@dfn{游标}@footnote{术语``游标''来自字符 @samp{.}， 它是 TECO (原Emacs 被写入的语言)中访问编辑位置的命令。许多Emacs 命令移动游标到缓冲区的不同位置； 例如，您可以通过单击鼠标按钮1(通常是左键)放置游标到所需位置。"
 
 #. type: Plain text
 #: src/screen.texi:87
-msgid ""
-"By default, the cursor in the selected window is drawn as a solid block and "
-"appears to be @emph{on} a character, but you should think of point as "
-"@emph{between} two characters; it is situated @emph{before} the character "
-"under the cursor.  For example, if your text looks like @samp{frob} with the "
-"cursor over the @samp{b}, then point is between the @samp{o} and the "
-"@samp{b}.  If you insert the character @samp{!} at that position, the result "
-"is @samp{fro!b}, with point between the @samp{!} and the @samp{b}.  Thus, "
-"the cursor remains over the @samp{b}, as before."
-msgstr ""
+msgid "By default, the cursor in the selected window is drawn as a solid block and appears to be @emph{on} a character, but you should think of point as @emph{between} two characters; it is situated @emph{before} the character under the cursor.  For example, if your text looks like @samp{frob} with the cursor over the @samp{b}, then point is between the @samp{o} and the @samp{b}.  If you insert the character @samp{!} at that position, the result is @samp{fro!b}, with point between the @samp{!} and the @samp{b}.  Thus, the cursor remains over the @samp{b}, as before."
+msgstr "默认情况下，选中窗口中的光标会被绘制为一个固态方块，浮现在某一个字符 @emph{之上} 。 但你应该能意识到游标在两个字符 @emph{之间} ； 它位于光标下的字符@emph{之前} 。 例如，如果您的文本看起来像@samp{frob} ，光标在字符 @samp{b}上面， 然后游标是在 @samp{o} 和 @samp{b}之间。 如果您在这个位置插入字符 @samp{!} ，结果是 @samp{fro!b}，现在游标在 @samp{!} 和 @samp{b}之间。 这样，光标就像以前一样还停留在@samp{b}上。"
 
 #. type: Plain text
 #: src/screen.texi:93
-msgid ""
-"If you are editing several files in Emacs, each in its own buffer, each "
-"buffer has its own value of point.  A buffer that is not currently displayed "
-"remembers its value of point if you later display it again.  Furthermore, if "
-"a buffer is displayed in multiple windows, each of those windows has its own "
-"value of point."
-msgstr ""
+msgid "If you are editing several files in Emacs, each in its own buffer, each buffer has its own value of point.  A buffer that is not currently displayed remembers its value of point if you later display it again.  Furthermore, if a buffer is displayed in multiple windows, each of those windows has its own value of point."
+msgstr "如果您在Emacs编辑好几个文件，它们都在自己的缓冲区内，每个缓冲区都有自己的游标。当前未显示的缓冲区将记住游标的位置以便您稍后再次显示。 此外，如果同一个缓冲区显示在多个窗口中，每个窗口都有自己的游标。"
 
 #. type: Plain text
 #: src/screen.texi:96
-msgid ""
-"@xref{Cursor Display}, for options that control how Emacs displays the "
-"cursor."
-msgstr ""
+msgid "@xref{Cursor Display}, for options that control how Emacs displays the cursor."
+msgstr "@xref{光标显示}，用于控制 Emacs 如何显示光标的选项。"
 
 #. type: section
 #: src/screen.texi:98
 #, no-wrap
 msgid "The Echo Area"
-msgstr ""
+msgstr "回显区"
 
 #. type: cindex
 #: src/screen.texi:99
 #, no-wrap
 msgid "echo area"
-msgstr ""
+msgstr "回显区"
 
 #. type: Plain text
 #: src/screen.texi:103
-msgid ""
-"The line at the very bottom of the frame is the @dfn{echo area}.  It is used "
-"to display small amounts of text for various purposes."
-msgstr ""
+msgid "The line at the very bottom of the frame is the @dfn{echo area}.  It is used to display small amounts of text for various purposes."
+msgstr "窗体底部的那一行是 @dfn{回显区}。 它被用来为各种目的显示少量文本。"
 
 #. type: cindex
 #: src/screen.texi:104
 #, no-wrap
 msgid "echoing"
-msgstr ""
+msgstr "回显"
 
 #. type: Plain text
 #: src/screen.texi:115
-msgid ""
-"The echo area is so-named because one of the things it is used for is "
-"@dfn{echoing}, which means displaying the characters of a multi-character "
-"command as you type.  Single-character commands are not echoed.  Multi-"
-"character commands (@pxref{Keys}) are echoed if you pause for more than a "
-"second in the middle of a command.  Emacs then echoes all the characters of "
-"the command so far, to prompt you for the rest.  Once echoing has started, "
-"the rest of the command echoes immediately as you type it.  This behavior is "
-"designed to give confident users fast response, while giving hesitant users "
-"maximum feedback."
-msgstr ""
-"The echo area is so-named because one of the things it is used for is "
-"@dfn{echoing}, which means displaying the characters of a multi-character "
-"command as you type.  Single-character commands are not echoed.  Multi-"
-"character commands (@pxref{按键}) are echoed if you pause for more than a "
-"second in the middle of a command.  Emacs then echoes all the characters of "
-"the command so far, to prompt you for the rest.  Once echoing has started, "
-"the rest of the command echoes immediately as you type it.  This behavior is "
-"designed to give confident users fast response, while giving hesitant users "
-"maximum feedback."
+msgid "The echo area is so-named because one of the things it is used for is @dfn{echoing}, which means displaying the characters of a multi-character command as you type.  Single-character commands are not echoed.  Multi-character commands (@pxref{Keys}) are echoed if you pause for more than a second in the middle of a command.  Emacs then echoes all the characters of the command so far, to prompt you for the rest.  Once echoing has started, the rest of the command echoes immediately as you type it.  This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback."
+msgstr "The echo area is so-named because one of the things it is used for is @dfn{echoing}, which means displaying the characters of a multi-character command as you type.  Single-character commands are not echoed.  Multi-character commands (@pxref{按键}) are echoed if you pause for more than a second in the middle of a command.  Emacs then echoes all the characters of the command so far, to prompt you for the rest.  Once echoing has started, the rest of the command echoes immediately as you type it.  This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback."
 
 #. type: cindex
 #: src/screen.texi:116
 #, no-wrap
 msgid "error message"
-msgstr ""
+msgstr "错误消息"
 
 #. type: cindex
 #: src/screen.texi:117
 #, no-wrap
 msgid "echo area message"
-msgstr ""
+msgstr "回显区消息"
 
 #. type: Plain text
 #: src/screen.texi:121
-msgid ""
-"The echo area is also used to display an @dfn{error message} when a command "
-"cannot do its job.  Error messages may be accompanied by beeping or by "
-"flashing the screen."
-msgstr ""
+msgid "The echo area is also used to display an @dfn{error message} when a command cannot do its job.  Error messages may be accompanied by beeping or by flashing the screen."
+msgstr "当命令无法执行其任务时，回显区也用于显示@dfn{错误信息} 。 错误信息可能伴随着蜂鸣或闪屏。"
 
 #. type: Plain text
 #: src/screen.texi:133
-msgid ""
-"Some commands display informative messages in the echo area to tell you what "
-"the command has done, or to provide you with some specific information.  "
-"These @dfn{informative} messages, unlike error messages, are not accompanied "
-"with a beep or flash.  For example, @kbd{C-x =} (hold down @key{Ctrl} and "
-"type @kbd{x}, then let go of @key{Ctrl} and type @kbd{=}) displays a message "
-"describing the character at point, its position in the buffer, and its "
-"current column in the window.  Commands that take a long time often display "
-"messages ending in @samp{...} while they are working (sometimes also "
-"indicating how much progress has been made, as a percentage), and add "
-"@samp{done} when they are finished."
-msgstr ""
+msgid "Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information.  These @dfn{informative} messages, unlike error messages, are not accompanied with a beep or flash.  For example, @kbd{C-x =} (hold down @key{Ctrl} and type @kbd{x}, then let go of @key{Ctrl} and type @kbd{=}) displays a message describing the character at point, its position in the buffer, and its current column in the window.  Commands that take a long time often display messages ending in @samp{...} while they are working (sometimes also indicating how much progress has been made, as a percentage), and add @samp{done} when they are finished."
+msgstr "一些命令在回显区显示信息性消息，告诉您该命令做了什么，或者向您提供一些具体信息。 这些@dfn{信息性}消息不同于错误消息，没有伴随蜂鸣或闪屏。 例如，@kbd{C-x =} (按住@key{Ctrl}并输入@kbd{x}) 然后松开@key{Ctrl} 并输入@kbd{=}) 来显示一个描述当前游标处字符的消息。 包括它在缓冲区中的位置，以及它在窗口中的当前列.。需要很长时间的命令常常显示以@samp{...}结尾的消息(有时也表明已经取得了多少进展)，当完成后添加 @samp{done}。"
 
 #. type: cindex
 #: src/screen.texi:134
 #, no-wrap
 msgid "@file{*Messages*} buffer"
-msgstr ""
+msgstr "@file{*Messages*}缓冲区"
 
 #. type: cindex
 #: src/screen.texi:135
 #, no-wrap
 msgid "saved echo area messages"
-msgstr ""
+msgstr "被保存的回显区消息"
 
 #. type: cindex
 #: src/screen.texi:136
 #, no-wrap
 msgid "messages saved from echo area"
-msgstr ""
+msgstr "从回显区保存消息"
 
 #. type: vindex
 #: src/screen.texi:137
 #, no-wrap
 msgid "message-log-max"
-msgstr ""
+msgstr "message-log-max"
 
 #. type: Plain text
 #: src/screen.texi:148
-msgid ""
-"Informative echo area messages are saved in a special buffer named "
-"@file{*Messages*}.  (We have not explained buffers yet; see @ref{Buffers}, "
-"for more information about them.)  If you miss a message that appeared "
-"briefly on the screen, you can switch to the @file{*Messages*} buffer to see "
-"it again.  The @file{*Messages*} buffer is limited to a certain number of "
-"lines, specified by the variable @code{message-log-max}.  (We have not "
-"explained variables either; see @ref{Variables}, for more information about "
-"them.)  Beyond this limit, one line is deleted from the beginning whenever a "
-"new message line is added at the end."
-msgstr ""
+msgid "Informative echo area messages are saved in a special buffer named @file{*Messages*}.  (We have not explained buffers yet; see @ref{Buffers}, for more information about them.)  If you miss a message that appeared briefly on the screen, you can switch to the @file{*Messages*} buffer to see it again.  The @file{*Messages*} buffer is limited to a certain number of lines, specified by the variable @code{message-log-max}.  (We have not explained variables either; see @ref{Variables}, for more information about them.)  Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end."
+msgstr "信息性回显区消息将被保存在名为 @file{*Messages*} 的特殊缓冲区中。 (我们尚未解释缓冲区；请参阅@ref{缓冲区}以了解更多关于缓冲区的信息。) 如果您错过短暂出现在屏幕上的消息，您可以切换到 @file{*Messages*} 缓冲区来再次看到。 @file{*Messages*} 缓冲区通过变量@code{message-log-max} 限制最大的记录行数。 (我们也没有解释变量；关于这些变量的更多信息，请参阅@ref{变量})。 在这个限制之外，每当在末尾添加一条新的消息行时，就会从开头删除一行。"
 
 #. type: Plain text
 #: src/screen.texi:151
-msgid ""
-"@xref{Display Custom}, for options that control how Emacs uses the echo area."
-msgstr ""
+msgid "@xref{Display Custom}, for options that control how Emacs uses the echo area."
+msgstr "@xref{显示自定义}，用于控制Emacs如何使用回显区的选项。"
 
 #. type: Plain text
 #: src/screen.texi:159
-msgid ""
-"The echo area is also used to display the @dfn{minibuffer}, a special window "
-"where you can input arguments to commands, such as the name of a file to be "
-"edited.  When the minibuffer is in use, the text displayed in the echo area "
-"begins with a @dfn{prompt string}, and the active cursor appears within the "
-"minibuffer, which is temporarily considered the selected window.  You can "
-"always get out of the minibuffer by typing @kbd{C-g}.  @xref{Minibuffer}."
-msgstr ""
-"The echo area is also used to display the @dfn{minibuffer}, a special window "
-"where you can input arguments to commands, such as the name of a file to be "
-"edited.  When the minibuffer is in use, the text displayed in the echo area "
-"begins with a @dfn{prompt string}, and the active cursor appears within the "
-"minibuffer, which is temporarily considered the selected window.  You can "
-"always get out of the minibuffer by typing @kbd{C-g}.  @xref{迷你缓冲区}."
+msgid "The echo area is also used to display the @dfn{minibuffer}, a special window where you can input arguments to commands, such as the name of a file to be edited.  When the minibuffer is in use, the text displayed in the echo area begins with a @dfn{prompt string}, and the active cursor appears within the minibuffer, which is temporarily considered the selected window.  You can always get out of the minibuffer by typing @kbd{C-g}.  @xref{Minibuffer}."
+msgstr "The echo area is also used to display the @dfn{minibuffer}, a special window where you can input arguments to commands, such as the name of a file to be edited.  When the minibuffer is in use, the text displayed in the echo area begins with a @dfn{prompt string}, and the active cursor appears within the minibuffer, which is temporarily considered the selected window.  You can always get out of the minibuffer by typing @kbd{C-g}.  @xref{迷你缓冲区}."
 
 #. type: section
 #: src/screen.texi:161
 #, no-wrap
 msgid "The Mode Line"
-msgstr ""
+msgstr "状态栏"
 
 #. type: cindex
 #: src/screen.texi:162
 #, no-wrap
 msgid "mode line"
-msgstr ""
+msgstr "状态栏"
 
 #. type: cindex
 #: src/screen.texi:163
 #, no-wrap
 msgid "top level"
-msgstr ""
+msgstr "最高级别"
 
 #. type: Plain text
 #: src/screen.texi:172
-msgid ""
-"At the bottom of each window is a @dfn{mode line}, which describes what is "
-"going on in the current buffer.  When there is only one window, the mode "
-"line appears right above the echo area; it is the next-to-last line in the "
-"frame.  On a graphical display, the mode line is drawn with a 3D box "
-"appearance.  Emacs also usually draws the mode line of the selected window "
-"with a different color from that of unselected windows, in order to make it "
-"stand out."
-msgstr ""
+msgid "At the bottom of each window is a @dfn{mode line}, which describes what is going on in the current buffer.  When there is only one window, the mode line appears right above the echo area; it is the next-to-last line in the frame.  On a graphical display, the mode line is drawn with a 3D box appearance.  Emacs also usually draws the mode line of the selected window with a different color from that of unselected windows, in order to make it stand out."
+msgstr "在每个窗口的底部是@dfn{状态栏}, 它描述了当前缓冲区正在发生的事情。 当只有一个窗口时，状态栏就会出现在回显区上方；它是窗体中的倒数第二行。 在图形显示上，状态栏以3D框外观绘制。 Emacs 通常会使用不同于未选定窗口的颜色来绘制所选窗口的状态栏， 为了使它显得更加突出。"
 
 #. type: Plain text
 #: src/screen.texi:174
 msgid "The text displayed in the mode line has the following format:"
-msgstr ""
+msgstr "在状态栏中显示的文本具有以下格式："
 
 #. type: example
 #: src/screen.texi:177
 #, no-wrap
 msgid " @var{cs}:@var{ch}-@var{fr}  @var{buf}      @var{pos} @var{line}   (@var{major} @var{minor})\n"
-msgstr ""
+msgstr " @var{cs}:@var{ch}-@var{fr}  @var{buf}      @var{pos} @var{line}   (@var{major} @var{minor})\n"
 
 #. type: Plain text
 #: src/screen.texi:183
-msgid ""
-"On a text terminal, this text is followed by a series of dashes extending to "
-"the right edge of the window.  These dashes are omitted on a graphical "
-"display."
-msgstr ""
+msgid "On a text terminal, this text is followed by a series of dashes extending to the right edge of the window.  These dashes are omitted on a graphical display."
+msgstr "在文本终端上，这个文本后面是一系列延伸到窗口右边缘的破折。 这些破折号在图形显示上省略。"
 
 #. type: Plain text
 #: src/screen.texi:188
-msgid ""
-"The @var{cs} string and the colon character after it describe the character "
-"set and newline convention used for the current buffer.  Normally, Emacs "
-"automatically handles these settings for you, but it is sometimes useful to "
-"have this information."
-msgstr ""
+msgid "The @var{cs} string and the colon character after it describe the character set and newline convention used for the current buffer.  Normally, Emacs automatically handles these settings for you, but it is sometimes useful to have this information."
+msgstr "@var{cs} 字符串和冒号之后的是描述当前缓冲区使用的字符集和换行约定。 通常，Emacs 自动为您处理这些设置，但有时提供此信息是有用的。"
 
 #. type: Plain text
 #: src/screen.texi:196
-msgid ""
-"@var{cs} describes the character set of the text in the buffer "
-"(@pxref{Coding Systems}).  If it is a dash (@samp{-}), that indicates no "
-"special character set handling (with the possible exception of end-of-line "
-"conventions, described in the next paragraph).  @samp{=} means no conversion "
-"whatsoever, and is usually used for files containing non-textual data.  "
-"Other characters represent various @dfn{coding systems}---for example, "
-"@samp{1} represents ISO Latin-1."
-msgstr ""
+msgid "@var{cs} describes the character set of the text in the buffer (@pxref{Coding Systems}).  If it is a dash (@samp{-}), that indicates no special character set handling (with the possible exception of end-of-line conventions, described in the next paragraph).  @samp{=} means no conversion whatsoever, and is usually used for files containing non-textual data.  Other characters represent various @dfn{coding systems}---for example, @samp{1} represents ISO Latin-1."
+msgstr "@var{cs} 描述缓冲区中文本的字符集(@pxref{编码系统})。 如果是破折号 (@samp{-}), 这表明没有特殊的字符集处理方法（下一段即将描述的行尾约定可能是个例外）。 @samp{=} 表示没有转换，通常用于包含非文本数据的文件。 其它字符代表各种@dfn{编码系统}---例如 @samp{1} 代表 ISO 拉丁拼音1。"
 
 #. type: Plain text
 #: src/screen.texi:202
-msgid ""
-"On a text terminal, @var{cs} is preceded by two additional characters that "
-"describe the coding systems for keyboard input and terminal output.  "
-"Furthermore, if you are using an input method, @var{cs} is preceded by a "
-"string that identifies the input method (@pxref{Input Methods})."
-msgstr ""
+msgid "On a text terminal, @var{cs} is preceded by two additional characters that describe the coding systems for keyboard input and terminal output.  Furthermore, if you are using an input method, @var{cs} is preceded by a string that identifies the input method (@pxref{Input Methods})."
+msgstr "在文本终端上，@var{cs} 之前还有两个额外的字符描述键盘输入和终端输出的编码系统。 此外，如果您正在使用输入法，@var{cs} 前有一个字符串来识别输入法(@pxref{输入法})。"
 
 #. type: cindex
 #: src/screen.texi:203
 #, no-wrap
 msgid "end-of-line convention, mode-line indication"
-msgstr ""
+msgstr "行尾约定, 状态栏说明"
 
 #. type: Plain text
 #: src/screen.texi:217
-msgid ""
-"The character after @var{cs} is usually a colon.  If a different string is "
-"displayed, that indicates a nontrivial end-of-line convention for encoding a "
-"file.  Usually, lines of text are separated by @dfn{newline characters} in a "
-"file, but two other conventions are sometimes used.  The MS-DOS convention "
-"uses a carriage return character followed by a linefeed character; when "
-"editing such files, the colon changes to either a backslash (@samp{\\}) or "
-"@samp{(DOS)}, depending on the operating system.  Another convention, "
-"employed by older Macintosh systems, uses a carriage return character "
-"instead of a newline; when editing such files, the colon changes to either a "
-"forward slash (@samp{/}) or @samp{(Mac)}.  On some systems, Emacs displays "
-"@samp{(Unix)} instead of the colon for files that use newline as the line "
-"separator."
-msgstr ""
+msgid "The character after @var{cs} is usually a colon.  If a different string is displayed, that indicates a nontrivial end-of-line convention for encoding a file.  Usually, lines of text are separated by @dfn{newline characters} in a file, but two other conventions are sometimes used.  The MS-DOS convention uses a carriage return character followed by a linefeed character; when editing such files, the colon changes to either a backslash (@samp{\\}) or @samp{(DOS)}, depending on the operating system.  Another convention, employed by older Macintosh systems, uses a carriage return character instead of a newline; when editing such files, the colon changes to either a forward slash (@samp{/}) or @samp{(Mac)}.  On some systems, Emacs displays @samp{(Unix)} instead of the colon for files that use newline as the line separator."
+msgstr "@var{cs} 之后的字符通常是冒号。 如果显示了一个不同的字符串，那将表示一个用于编码文件的重要行尾约定。 通常，文本行由@dfn{换行符}在文件中分隔，但有时使用另外两项约定。 MS-DOS约定使用回车符后面跟着一个换行符； 当编辑这些文件时，把冒号替换为反斜杠 (@samp{\\}) 或 @samp{(DOS)} 之一。 旧的 Macintosh 系统采用的另一个约定使用的是回车符来代替换行符； 当编辑这些文件时，使用正斜杠 (@samp{/}) 或 @samp{(Mac)}。 在某些系统中，Emacs 显示@samp{(Unix)}来代替冒号，在文件中使用换行符来分割行。"
 
 #. type: Plain text
 #: src/screen.texi:222
-msgid ""
-"On frames created for @command{emacsclient} (@pxref{Invoking emacsclient}), "
-"the next character is @samp{@@}.  This indication is typical for frames of "
-"an Emacs process running as a daemon (@pxref{Emacs Server})."
-msgstr ""
+msgid "On frames created for @command{emacsclient} (@pxref{Invoking emacsclient}), the next character is @samp{@@}.  This indication is typical for frames of an Emacs process running as a daemon (@pxref{Emacs Server})."
+msgstr "在使用 @command{emacsclient} (@pxref{调用 Emacs 客户端})创建的窗体上，下一个字符是 @samp{@@}。 对于以守护进程运行的 Emacs 进程中的窗体来说，这个指示是典型的 (@pxref{Emacs服务器})。"
 
 #. type: Plain text
 #: src/screen.texi:229
-msgid ""
-"The next element on the mode line is the string indicated by @var{ch}.  This "
-"shows two dashes (@samp{--}) if the buffer displayed in the window has the "
-"same contents as the corresponding file on the disk; i.e., if the buffer is "
-"unmodified.  If the buffer is modified, it shows two stars (@samp{**}).  For "
-"a read-only buffer, it shows @samp{%*} if the buffer is modified, and @samp{%"
-"%} otherwise."
-msgstr ""
+msgid "The next element on the mode line is the string indicated by @var{ch}.  This shows two dashes (@samp{--}) if the buffer displayed in the window has the same contents as the corresponding file on the disk; i.e., if the buffer is unmodified.  If the buffer is modified, it shows two stars (@samp{**}).  For a read-only buffer, it shows @samp{%*} if the buffer is modified, and @samp{%%} otherwise."
+msgstr "状态栏上的下一个元素是 @var{ch} 表示的字符串。 如果窗口中显示的缓冲区的内容与磁盘上的相应文件相同，这将显示两个破折号(@samp{--})；表示缓冲区未被修改。如果缓冲区被修改，它会显示两个星号(@samp{**})。 对于只读缓冲区，如果缓冲区被修改它会显示 @samp{%*}，否则显示 @samp{%%}。"
 
 #. type: Plain text
 #: src/screen.texi:233
-msgid ""
-"The character after @var{ch} is normally a dash (@samp{-}).  However, if "
-"@code{default-directory} (@pxref{File Names}) for the current buffer is on a "
-"remote machine, @samp{@@} is displayed instead."
-msgstr ""
+msgid "The character after @var{ch} is normally a dash (@samp{-}).  However, if @code{default-directory} (@pxref{File Names}) for the current buffer is on a remote machine, @samp{@@} is displayed instead."
+msgstr "@var{ch} 之后的字符通常是破折号(@samp{-})。 但是，如果当前缓冲区的 @code{default-directory} (@pxref{文件名})是在远程机器上时显示@samp{@@}。"
 
 #. type: Plain text
 #: src/screen.texi:236
-msgid ""
-"@var{fr} gives the selected frame name (@pxref{Frames}).  It appears only on "
-"text terminals.  The initial frame's name is @samp{F1}."
-msgstr ""
+msgid "@var{fr} gives the selected frame name (@pxref{Frames}).  It appears only on text terminals.  The initial frame's name is @samp{F1}."
+msgstr "@var{fr} 给出了所选窗体名 (@pxref{窗体})。它只出现在文本终端。初始窗体的名称是 @samp{F1}。"
 
 #. type: Plain text
 #: src/screen.texi:240
-msgid ""
-"@var{buf} is the name of the buffer displayed in the window.  Usually, this "
-"is the same as the name of a file you are editing.  @xref{Buffers}."
-msgstr ""
+msgid "@var{buf} is the name of the buffer displayed in the window.  Usually, this is the same as the name of a file you are editing.  @xref{Buffers}."
+msgstr "@var{buf} 是窗口显示的缓冲区名称。 通常，这与您正在编辑的文件名相同。@xref{缓冲区}。"
 
 #. type: Plain text
 #: src/screen.texi:249
-msgid ""
-"@var{pos} tells you whether there is additional text above the top of the "
-"window, or below the bottom.  If your buffer is small and all of it is "
-"visible in the window, @var{pos} is @samp{All}.  Otherwise, it is @samp{Top} "
-"if you are looking at the beginning of the buffer, @samp{Bot} if you are "
-"looking at the end of the buffer, or @samp{@var{nn}%}, where @var{nn} is the "
-"percentage of the buffer above the top of the window.  With Size Indication "
-"mode, you can display the size of the buffer as well.  @xref{Optional Mode "
-"Line}."
-msgstr ""
+msgid "@var{pos} tells you whether there is additional text above the top of the window, or below the bottom.  If your buffer is small and all of it is visible in the window, @var{pos} is @samp{All}.  Otherwise, it is @samp{Top} if you are looking at the beginning of the buffer, @samp{Bot} if you are looking at the end of the buffer, or @samp{@var{nn}%}, where @var{nn} is the percentage of the buffer above the top of the window.  With Size Indication mode, you can display the size of the buffer as well.  @xref{Optional Mode Line}."
+msgstr "@var{pos} 告诉您是否在窗口顶部或底部有其他文本。 如果您的缓冲区很小，所有缓冲区都在窗口中可见。@var{pos} 是 @samp{All}。 否则，如果你正在缓冲区的开头，它是 @samp{Top}，@samp{Bot} 表示你正在查看缓冲区的末尾， 或 @samp{@var{nn}%}, 其中 @var{nn} 是窗口顶部上方缓冲区的百分比。 使用大小指示模式，您也可以显示缓冲区的大小。@xref{可选状态栏}。"
 
 #. type: Plain text
 #: src/screen.texi:253
-msgid ""
-"@var{line} is the character @samp{L} followed by the line number at point.  "
-"(You can display the current column number too, by turning on Column Number "
-"mode.  @xref{Optional Mode Line}.)"
-msgstr ""
+msgid "@var{line} is the character @samp{L} followed by the line number at point.  (You can display the current column number too, by turning on Column Number mode.  @xref{Optional Mode Line}.)"
+msgstr "@var{line} 是@samp{L} 字符后跟着行号。 (您也可以通过开启列号模式显示当前列号。@xref{可选状态栏})"
 
 #. type: Plain text
 #: src/screen.texi:260
-msgid ""
-"@var{major} is the name of the @dfn{major mode} used in the buffer.  A major "
-"mode is a principal editing mode for the buffer, such as Text mode, Lisp "
-"mode, C mode, and so forth.  @xref{Major Modes}.  Some major modes display "
-"additional information after the major mode name.  For example, Compilation "
-"buffers and Shell buffers display the status of the subprocess."
-msgstr ""
+msgid "@var{major} is the name of the @dfn{major mode} used in the buffer.  A major mode is a principal editing mode for the buffer, such as Text mode, Lisp mode, C mode, and so forth.  @xref{Major Modes}.  Some major modes display additional information after the major mode name.  For example, Compilation buffers and Shell buffers display the status of the subprocess."
+msgstr "@var{major} 是缓冲区中使用的 @dfn{主模式} 的名称。 一个主模式是缓冲区的主要编辑模式，例如文本模式、Lisp模式、C 模式等等。 @xref{主模式}。一些主模式在主模式名称后显示额外信息。 例如，编译缓冲区和Shell 缓冲区会显示子进程的状态。"
 
 #. type: Plain text
 #: src/screen.texi:264
-msgid ""
-"@var{minor} is a list of some of the enabled @dfn{minor modes}, which are "
-"optional editing modes that provide additional features on top of the major "
-"mode.  @xref{Minor Modes}."
-msgstr ""
+msgid "@var{minor} is a list of some of the enabled @dfn{minor modes}, which are optional editing modes that provide additional features on top of the major mode.  @xref{Minor Modes}."
+msgstr "@var{minor} 是已启用的 @dfn{辅模式}的列表， 它们是可选的编辑模式，在主模式的基础上提供额外功能。 @xref{辅模式}。"
 
 #. type: Plain text
 #: src/screen.texi:271
-msgid ""
-"Some features are listed together with the minor modes whenever they are "
-"turned on, even though they are not really minor modes.  @samp{Narrow} means "
-"that the buffer being displayed has editing restricted to only a portion of "
-"its text (@pxref{Narrowing}).  @samp{Def} means that a keyboard macro is "
-"currently being defined (@pxref{Keyboard Macros})."
-msgstr ""
+msgid "Some features are listed together with the minor modes whenever they are turned on, even though they are not really minor modes.  @samp{Narrow} means that the buffer being displayed has editing restricted to only a portion of its text (@pxref{Narrowing}).  @samp{Def} means that a keyboard macro is currently being defined (@pxref{Keyboard Macros})."
+msgstr "有些功能会在辅模式开启时一同列出，即使它们实际上不是辅模式。 @samp{Narrow} 意味着显示的缓冲区只能编辑部分文本(@pxref{聚焦})。 @samp{Def} 表示目前正在定义键盘宏(@pxref{键盘宏})。"
 
 #. type: Plain text
 #: src/screen.texi:278
-msgid ""
-"In addition, if Emacs is inside a recursive editing level, square brackets "
-"(@samp{[@dots{}]}) appear around the parentheses that surround the modes.  "
-"If Emacs is in one recursive editing level within another, double square "
-"brackets appear, and so on.  Since recursive editing levels affect Emacs "
-"globally, such square brackets appear in the mode line of every window.  "
-"@xref{Recursive Edit}."
-msgstr ""
+msgid "In addition, if Emacs is inside a recursive editing level, square brackets (@samp{[@dots{}]}) appear around the parentheses that surround the modes.  If Emacs is in one recursive editing level within another, double square brackets appear, and so on.  Since recursive editing levels affect Emacs globally, such square brackets appear in the mode line of every window.  @xref{Recursive Edit}."
+msgstr "此外，如果Emacs在递归编辑级别中，则方括号(@samp{[@dots{}]})出现在模式周围的括号内。 如果Emacs处于一个递归编辑级别，则出现双方括号等等。 由于递归编辑级别影响到Emacs全局，此种方括号会出现在每个窗口的状态栏。@xref{递归编辑}。"
 
 #. type: Plain text
 #: src/screen.texi:286
-msgid ""
-"You can change the appearance of the mode line as well as the format of its "
-"contents.  @xref{Optional Mode Line}.  In addition, the mode line is mouse-"
-"sensitive; clicking on different parts of the mode line performs various "
-"commands.  @xref{Mode Line Mouse}.  Also, hovering the mouse pointer above "
-"mouse-sensitive portions of the mode line shows tooltips (@pxref{Tooltips}) "
-"with information about commands you can invoke by clicking on the mode line."
-msgstr ""
+msgid "You can change the appearance of the mode line as well as the format of its contents.  @xref{Optional Mode Line}.  In addition, the mode line is mouse-sensitive; clicking on different parts of the mode line performs various commands.  @xref{Mode Line Mouse}.  Also, hovering the mouse pointer above mouse-sensitive portions of the mode line shows tooltips (@pxref{Tooltips}) with information about commands you can invoke by clicking on the mode line."
+msgstr "您可以更改状态栏的外观及其内容格式。@xref{可选状态栏}。 此外，状态栏对鼠标敏感；点击状态栏的不同部分执行各种命令。 @xref{状态栏鼠标操作}。此外，还包括以下内容： 悬停在鼠标敏感部分上方的鼠标指针显示工具提示(@pxref{工具提示})，内容为有关于通过点击状态栏可以调用命令的信息。"
 
 #. type: section
 #: src/screen.texi:288
 #, no-wrap
 msgid "The Menu Bar"
-msgstr ""
+msgstr "菜单栏"
 
 #. type: cindex
 #: src/screen.texi:289
 #, no-wrap
 msgid "menu bar"
-msgstr ""
+msgstr "菜单栏"
 
 #. type: Plain text
 #: src/screen.texi:294
-msgid ""
-"Each Emacs frame normally has a @dfn{menu bar} at the top which you can use "
-"to perform common operations.  There's no need to list them here, as you can "
-"more easily see them yourself."
-msgstr ""
+msgid "Each Emacs frame normally has a @dfn{menu bar} at the top which you can use to perform common operations.  There's no need to list them here, as you can more easily see them yourself."
+msgstr "每个 Emacs 窗体通常在顶部有一个 @dfn{菜单栏} ，您可以用来执行通用操作。 没有必要在这里列出它们，是因为你可以更容易地看到它们。"
 
 #. type: Plain text
 #: src/screen.texi:300
-msgid ""
-"On a display that supports a mouse, you can use the mouse to choose a "
-"command from the menu bar.  An arrow on the right edge of a menu item means "
-"it leads to a subsidiary menu, or @dfn{submenu}.  A @samp{...} at the end of "
-"a menu item means that the command will prompt you for further input before "
-"it actually does anything."
-msgstr ""
+msgid "On a display that supports a mouse, you can use the mouse to choose a command from the menu bar.  An arrow on the right edge of a menu item means it leads to a subsidiary menu, or @dfn{submenu}.  A @samp{...} at the end of a menu item means that the command will prompt you for further input before it actually does anything."
+msgstr "在支持鼠标的显示上，您可以使用鼠标从菜单栏中选择一个命令。 菜单项右侧的箭头意味着它会打开一个附属菜单或 @dfn{子菜单}。 菜单项末尾的 @samp{...} 意味着命令会促使您进一步输入，然后才能做相关事情。"
 
 #. type: Plain text
 #: src/screen.texi:306
-msgid ""
-"Some of the commands in the menu bar have ordinary key bindings as well; if "
-"so, a key binding is shown after the item itself.  To view the full command "
-"name and documentation for a menu item, type @kbd{C-h k}, and then select "
-"the menu bar with the mouse in the usual way (@pxref{Key Help})."
-msgstr ""
-"Some of the commands in the menu bar have ordinary key bindings as well; if "
-"so, a key binding is shown after the item itself.  To view the full command "
-"name and documentation for a menu item, type @kbd{C-h k}, and then select "
-"the menu bar with the mouse in the usual way (@pxref{按键帮助})."
+msgid "Some of the commands in the menu bar have ordinary key bindings as well; if so, a key binding is shown after the item itself.  To view the full command name and documentation for a menu item, type @kbd{C-h k}, and then select the menu bar with the mouse in the usual way (@pxref{Key Help})."
+msgstr "Some of the commands in the menu bar have ordinary key bindings as well; if so, a key binding is shown after the item itself.  To view the full command name and documentation for a menu item, type @kbd{C-h k}, and then select the menu bar with the mouse in the usual way (@pxref{按键帮助})."
 
 #. type: kindex
 #: src/screen.texi:307
 #, no-wrap
 msgid "F10"
-msgstr ""
+msgstr "F10"
 
 #. type: findex
 #: src/screen.texi:308
 #, no-wrap
 msgid "menu-bar-open"
-msgstr ""
+msgstr "menu-bar-open"
 
 #. type: cindex
 #: src/screen.texi:309
 #, no-wrap
 msgid "menu bar access using keyboard"
-msgstr ""
+msgstr "使用键盘访问菜单栏"
 
 #. type: Plain text
 #: src/screen.texi:319
-msgid ""
-"Instead of using the mouse, you can also invoke the first menu bar item by "
-"pressing @key{F10} (to run the command @code{menu-bar-open}).  You can then "
-"navigate the menus with the arrow keys or with @kbd{C-b}, @kbd{C-f} (left/"
-"right), @kbd{C-p}, and @kbd{C-n} (up/down).  To activate a selected menu "
-"item, press @key{RET}; to cancel menu navigation, press @kbd{C-g} or "
-"@kbd{@key{ESC} @key{ESC} @key{ESC}}.  (However, note that when Emacs was "
-"built with a GUI toolkit, the menus are drawn and controlled by the toolkit, "
-"and the key sequences to cancel menu navigation might be different from the "
-"above description.)"
-msgstr ""
+msgid "Instead of using the mouse, you can also invoke the first menu bar item by pressing @key{F10} (to run the command @code{menu-bar-open}).  You can then navigate the menus with the arrow keys or with @kbd{C-b}, @kbd{C-f} (left/right), @kbd{C-p}, and @kbd{C-n} (up/down).  To activate a selected menu item, press @key{RET}; to cancel menu navigation, press @kbd{C-g} or @kbd{@key{ESC} @key{ESC} @key{ESC}}.  (However, note that when Emacs was built with a GUI toolkit, the menus are drawn and controlled by the toolkit, and the key sequences to cancel menu navigation might be different from the above description.)"
+msgstr "如果不使用鼠标， 您也可以通过按 @key{F10} (运行命令 @code{menu-bar-open}) 来调用第一个菜单栏项 。 然后您可以用箭头键或@kbd{C-b} 来导航菜单。 @kbd{C-f} (左/右)、@kbd{C-p} 和 @kbd{C-n} (上/下)。 要激活选中的菜单项，请按 @key{RET}; 要取消菜单导航，请按 @kbd{C-g} 或 @kbd{@key{ESC} @key{ESC} @key{ESC}}。 (但请注意，当Emacs使用GUI工具包构建时，菜单由工具包绘制和控制，并且取消菜单导航的键序列可能不同于上述描述。)"
 
 #. type: kindex
 #: src/screen.texi:320
 #, no-wrap
 msgid "M-`"
-msgstr ""
+msgstr "M-`"
 
 #. type: findex
 #: src/screen.texi:321
 #, no-wrap
 msgid "tmm-menubar"
-msgstr ""
+msgstr "tmm-menubar"
 
 #. type: vindex
 #: src/screen.texi:322
 #, no-wrap
 msgid "tty-menu-open-use-tmm"
-msgstr ""
+msgstr "tty-menu-open-use-tmm"
 
 #. type: Plain text
 #: src/screen.texi:335
-msgid ""
-"On a text terminal, you can optionally access the menu-bar menus in the echo "
-"area.  To this end, customize the variable @code{tty-menu-open-use-tmm} to a "
-"non-@code{nil} value.  Then typing @key{F10} will run the command @code{tmm-"
-"menubar} instead of dropping down the menu.  (You can also type @kbd{M-`}, "
-"which always invokes @code{tmm-menubar}.)  @code{tmm-menubar} lets you "
-"select a menu item with the keyboard.  A provisional choice appears in the "
-"echo area.  You can use the up and down arrow keys to move through the menu "
-"to different items, and then you can type @key{RET} to select the item.  "
-"Each menu item is also designated by a letter or digit (usually the initial "
-"of some word in the item's name).  This letter or digit is separated from "
-"the item name by @samp{==>}.  You can type the item's letter or digit to "
-"select the item."
-msgstr ""
+msgid "On a text terminal, you can optionally access the menu-bar menus in the echo area.  To this end, customize the variable @code{tty-menu-open-use-tmm} to a non-@code{nil} value.  Then typing @key{F10} will run the command @code{tmm-menubar} instead of dropping down the menu.  (You can also type @kbd{M-`}, which always invokes @code{tmm-menubar}.)  @code{tmm-menubar} lets you select a menu item with the keyboard.  A provisional choice appears in the echo area.  You can use the up and down arrow keys to move through the menu to different items, and then you can type @key{RET} to select the item.  Each menu item is also designated by a letter or digit (usually the initial of some word in the item's name).  This letter or digit is separated from the item name by @samp{==>}.  You can type the item's letter or digit to select the item."
+msgstr "在文本终端上，您可以选择性地访问回显区中的菜单栏菜单。 为此目的，将变量 @code{tty-menu-open-use-tmm} 定制为非 @code{nil} 值。 然后输入 @key{F10} 将运行命令 @code{tmm-menubar} 来代替下拉菜单。 (您也可以输入 @kbd{M-`}, 它总是引用@code{tmm-menubar}。） @code{tmm-menubar} 让您选择一个键盘的菜单项。) 临时选择出现在回显区。 您可以使用上下箭头键通过菜单移动到其他项目。 然后您可以键入 @key{RET} 来选择项目。 每个菜单项也由字母或数字指定(通常是项目名称中某个单词的初始值)。 此字母或数字由@samp{==>} 从项目名称中分离。 您可以输入项目的字母或数字来选择项目。"
+

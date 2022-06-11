@@ -1,23 +1,20 @@
-# Chinese translations for PACKAGE package
-# Copyright (C) 2021 Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2021.
-#
-# Leo Liu <weblate@example.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-07 12:07+0000\n"
-"Last-Translator: Leo Liu <weblate@example.com>\n"
-"Language-Team: Chinese (Simplified) <http://weblate.grass.work:35666/"
-"projects/emacs-manual/emacstexi/zh_Hans/>\n"
-"Language: zh_Hans\n"
+"PO-Revision-Date: 2021-03-17 07:58\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4\n"
+"X-Crowdin-Project: emacs-manual-chinese\n"
+"X-Crowdin-Project-ID: 436220\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /27.1/pot/emacs.texi.pot\n"
+"X-Crowdin-File-ID: 270\n"
 
 #. type: titlefont{#1}
 #: src/emacs.texi:4 src/emacs.texi:72 src/emacs.texi:77
@@ -40,7 +37,7 @@ msgstr "emacsver.texi"
 #. type: ifset
 #: src/emacs.texi:17
 msgid "This is the @value{EDITION} edition of the @cite{GNU Emacs Manual},@*"
-msgstr "这是@cite {GNU Emacs手册}的@value {EDITION}版本，@ *"
+msgstr "这是@cite{GNU Emacs手册}的@value {EDITION} 版本，@ *"
 
 #. type: ifclear
 #: src/emacs.texi:20
@@ -50,36 +47,22 @@ msgstr "这是@cite {GNU Emacs手册}，"
 #. type: copying
 #: src/emacs.texi:22
 msgid "updated for Emacs version @value{EMACSVER}."
-msgstr "已针对Emacs版本@value {EMACSVER}更新。"
+msgstr "已针对Emacs版本@value {EMACSVER} 更新。"
 
 #. type: copying
 #: src/emacs.texi:25
-msgid ""
-"Copyright @copyright{} 1985--1987, 1993--2020 Free Software Foundation, Inc."
-msgstr ""
-"Copyright @copyright{} 1985--1987, 1993--2020 Free Software Foundation, Inc."
+msgid "Copyright @copyright{} 1985--1987, 1993--2020 Free Software Foundation, Inc."
+msgstr "Copyright @copyright{} 1985--1987, 1993--2020 Free Software Foundation, Inc."
 
 #. type: quotation
 #: src/emacs.texi:35
-msgid ""
-"Permission is granted to copy, distribute and/or modify this document under "
-"the terms of the GNU Free Documentation License, Version 1.3 or any later "
-"version published by the Free Software Foundation; with the Invariant "
-"Sections being ``The GNU Manifesto,'' ``Distribution'' and ``GNU GENERAL "
-"PUBLIC LICENSE,'' with the Front-Cover Texts being ``A GNU Manual,'' and "
-"with the Back-Cover Texts as in (a) below.  A copy of the license is "
-"included in the section entitled ``GNU Free Documentation License.''"
-msgstr ""
-"根据GNU自由文档许可版本1.3或自由软件基金会发布的任何更高版本，授予复制，分发和/或修改本文档的权限；不变部分为``GNU宣言''，``发行版''和`"
-"`GNU一般公共许可证''，封面文本为``A GNU手册''，而封底文本为如下（a）所示。许可证的副本包含在标题为``GNU自由文档许可证''的部分中。"
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with the Invariant Sections being ``The GNU Manifesto,'' ``Distribution'' and ``GNU GENERAL PUBLIC LICENSE,'' with the Front-Cover Texts being ``A GNU Manual,'' and with the Back-Cover Texts as in (a) below.  A copy of the license is included in the section entitled ``GNU Free Documentation License.''"
+msgstr "根据GNU自由文档许可版本1.3或自由软件基金会发布的任何更高版本，授予复制，分发和/或修改本文档的权限；不变部分为``GNU宣言''，``发行版''和``GNU一般公共许可证''，封面文本为``A GNU手册''，而封底文本为如下（a）所示。许可证的副本包含在标题为``GNU自由文档许可证''的部分中。"
 
 #. type: quotation
 #: src/emacs.texi:39
-msgid ""
-"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
-"this GNU manual.  Buying copies from the FSF supports it in developing GNU "
-"and promoting software freedom.''"
-msgstr "（a）FSF的封底文本是：``您可以自由复制和修改本GNU手册。从FSF购买副本可以支持它开发GNU和促进软件自由。''"
+msgid "(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify this GNU manual.  Buying copies from the FSF supports it in developing GNU and promoting software freedom.''"
+msgstr "(a) FSF的封底文本是：``您可以自由复制和修改本GNU手册。从FSF购买副本可以支持它开发GNU和促进软件自由。''"
 
 #. type: dircategory
 #: src/emacs.texi:42
@@ -123,22 +106,18 @@ msgstr "@value {EDITION}版，已针对Emacs版本@value {EMACSVER}更新。"
 #: src/emacs.texi:83
 #, no-wrap
 msgid "Updated for Emacs Version @value{EMACSVER}"
-msgstr "已更新为Emacs版本@value {EMACSVER}"
+msgstr "已更新为Emacs版本@value{EMACSVER}"
 
 #. type: center
 #: src/emacs.texi:86
 #, no-wrap
 msgid "Richard Stallman et al."
-msgstr "理查德·斯托曼（Richard Stallman）等。"
+msgstr "Richard Stallman等。"
 
 #. type: titlepage
 #: src/emacs.texi:96
-msgid ""
-"Published by the Free Software Foundation @* 51 Franklin Street, Fifth Floor "
-"@* Boston, MA 02110-1301 USA @* ISBN 978-0-9831592-5-4"
-msgstr ""
-"Published by the Free Software Foundation @* 51 Franklin Street, Fifth Floor "
-"@* Boston, MA 02110-1301 USA @* ISBN 978-0-9831592-5-4"
+msgid "Published by the Free Software Foundation @* 51 Franklin Street, Fifth Floor @* Boston, MA 02110-1301 USA @* ISBN 978-0-9831592-5-4"
+msgstr "Published by the Free Software Foundation @* 51 Franklin Street, Fifth Floor @* Boston, MA 02110-1301 USA @* ISBN 978-0-9831592-5-4"
 
 #. type: titlepage
 #: src/emacs.texi:99
@@ -159,40 +138,22 @@ msgstr "Emacs编辑器"
 
 #. type: ifnottex
 #: src/emacs.texi:115
-msgid ""
-"Emacs is the extensible, customizable, self-documenting real-time display "
-"editor.  This manual describes how to edit with Emacs and some of the ways "
-"to customize it; it corresponds to GNU Emacs version @value{EMACSVER}."
-msgstr ""
-"Emacs是可扩展的，可自定义的，自记录的实时显示编辑器。本手册介绍了如何使用Emacs进行编辑以及一些自定义方式；它对应于GNU Emacs版本@"
-"value {EMACSVER}。"
+msgid "Emacs is the extensible, customizable, self-documenting real-time display editor.  This manual describes how to edit with Emacs and some of the ways to customize it; it corresponds to GNU Emacs version @value{EMACSVER}."
+msgstr "Emacs是可扩展的，可自定义的，自记录的实时显示编辑器。本手册介绍了如何使用Emacs进行编辑以及一些自定义方式；它对应于GNU Emacs版本@value {EMACSVER}。"
 
 #. type: ifset
 #: src/emacs.texi:125
-msgid ""
-"@html The homepage for GNU Emacs is at <a href=\"/software/emacs/\">https://"
-"www.gnu.org/software/emacs/</a>.<br> To view this manual in other formats, "
-"click <a href=\"/software/emacs/manual/emacs.html\">here</a>.<br> You can "
-"also purchase a printed copy from the <a href=\"https://shop.fsf.org/product/"
-"emacs-manual/\">FSF store</a>."
-msgstr ""
-"@html GNU Emacs的主页位于<a href=\"/software/emacs/\">https://www.gnu.org/"
-"software/emacs/</a>.<br>要以其他格式查看本手册，请点击<a href=\"/software/emacs/manual/emacs"
-".html\">此处</a>。<br>您还可以从<a href=\"https://shop.fsf.org/product/emacs-manual/"
-"\"> FSF商店</a>购买印刷版。"
+msgid "@html The homepage for GNU Emacs is at <a href=\"/software/emacs/\">https://www.gnu.org/software/emacs/</a>.<br> To view this manual in other formats, click <a href=\"/software/emacs/manual/emacs.html\">here</a>.<br> You can also purchase a printed copy from the <a href=\"https://shop.fsf.org/product/emacs-manual/\">FSF store</a>."
+msgstr "@html GNU Emacs的主页位于<a href=\"/software/emacs/\">https://www.gnu.org/software/emacs/</a>.<br>要以其他格式查看本手册，请点击<a href=\"/software/emacs/manual/emacs.html\">此处</a>。<br>您还可以从<a href=\"https://shop.fsf.org/product/emacs-manual/\"> FSF商店</a>购买印刷版。"
 
 #. type: ifinfo
 #: src/emacs.texi:131
-msgid ""
-"If you are reading this in Emacs, type @kbd{h} to read a basic introduction "
-"to the Info documentation system."
-msgstr "如果要在Emacs中阅读此内容，请键入@kbd {h}以阅读Info文档系统的基本介绍。"
+msgid "If you are reading this in Emacs, type @kbd{h} to read a basic introduction to the Info documentation system."
+msgstr "如果要在 Emacs 中阅读此内容，请键入 @kbd {h} 以阅读 Info 文档系统的基本介绍。"
 
 #. type: ifnottex
 #: src/emacs.texi:135
-msgid ""
-"For information on extending Emacs, see @ref{Top, Emacs Lisp,, elisp, The "
-"Emacs Lisp Reference Manual}."
+msgid "For information on extending Emacs, see @ref{Top, Emacs Lisp,, elisp, The Emacs Lisp Reference Manual}."
 msgstr "有关扩展Emacs的信息，请参见@ref {Top, Emacs Lisp,, elisp, Emacs Lisp参考手册}。"
 
 #. type: node
@@ -245,7 +206,7 @@ msgstr "各种输入事件(字符、按钮、功能按键)。"
 #. type: menuentry
 #: src/emacs.texi:154
 msgid "Keys"
-msgstr "按键"
+msgstr "键"
 
 #. type: menuentry
 #: src/emacs.texi:154
@@ -345,12 +306,12 @@ msgstr "标记：如何界定文本区域。"
 #. type: menuentry
 #: src/emacs.texi:169
 msgid "Killing"
-msgstr ""
+msgstr "删除"
 
 #. type: menuentry
 #: src/emacs.texi:169
 msgid "Killing (cutting) and yanking (copying) text."
-msgstr ""
+msgstr "Killing(剪切) 与Yanking(粘贴) 文本。"
 
 #. type: menuentry
 #: src/emacs.texi:169 src/emacs.texi:346
@@ -795,9 +756,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:226
-msgid ""
-"The GNU General Public License gives you permission to redistribute GNU "
-"Emacs on certain terms; it also explains that there is no warranty."
+msgid "The GNU General Public License gives you permission to redistribute GNU Emacs on certain terms; it also explains that there is no warranty."
 msgstr ""
 
 #. type: appendix
@@ -953,9 +912,7 @@ msgstr "--- 详细节点列表 --- ---------------------------------"
 
 #. type: menuentry
 #: src/emacs.texi:250
-msgid ""
-"Here are some other nodes which are really subnodes of the ones already "
-"listed, mentioned here so you can get to them in one step:"
+msgid "Here are some other nodes which are really subnodes of the ones already listed, mentioned here so you can get to them in one step:"
 msgstr "下面是一些其他节点，它们实际上是已经列出的节点的子节点，在这里提到，这样您就可以在一个步骤中找到它们："
 
 #. type: menuentry
@@ -1520,9 +1477,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:332
-msgid ""
-"Commands to kill large regions of text and syntactic units such as words and "
-"sentences."
+msgid "Commands to kill large regions of text and syntactic units such as words and sentences."
 msgstr ""
 
 #. type: menuentry
@@ -1892,9 +1847,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:383
-msgid ""
-"Truncating lines to fit the screen width instead of continuing them to "
-"multiple screen lines."
+msgid "Truncating lines to fit the screen width instead of continuing them to multiple screen lines."
 msgstr ""
 
 #. type: menuentry
@@ -2009,9 +1962,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:399
-msgid ""
-"Search ignores some distinctions between similar characters, like letter-"
-"case."
+msgid "Search ignores some distinctions between similar characters, like letter-case."
 msgstr ""
 
 #. type: menuentry
@@ -2071,9 +2022,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:410
-msgid ""
-"Commands that grab text into the search string or else edit the search "
-"string."
+msgid "Commands that grab text into the search string or else edit the search string."
 msgstr ""
 
 #. type: menuentry
@@ -2523,8 +2472,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:471
-msgid ""
-"How Emacs protects against simultaneous editing of one file by two users."
+msgid "How Emacs protects against simultaneous editing of one file by two users."
 msgstr ""
 
 #. type: menuentry
@@ -2589,9 +2537,7 @@ msgstr ""
 
 #. type: ifnottex
 #: src/emacs.texi:483
-msgid ""
-"* Auto Reverting the Buffer Menu:: Auto Revert of the Buffer Menu.  * Auto "
-"Reverting Dired:: Auto Revert of Dired buffers."
+msgid "* Auto Reverting the Buffer Menu:: Auto Revert of the Buffer Menu.  * Auto Reverting Dired:: Auto Revert of Dired buffers."
 msgstr ""
 
 #. type: menuentry
@@ -2606,8 +2552,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:491
-msgid ""
-"The file where auto-saved changes are actually made until you save the file."
+msgid "The file where auto-saved changes are actually made until you save the file."
 msgstr ""
 
 #. type: menuentry
@@ -2682,9 +2627,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:503
-msgid ""
-"How to go through the list of all buffers and operate variously on several "
-"of them."
+msgid "How to go through the list of all buffers and operate variously on several of them."
 msgstr ""
 
 #. type: menuentry
@@ -3209,9 +3152,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:576
-msgid ""
-"Fontsets are collections of fonts that cover the whole spectrum of "
-"characters."
+msgid "Fontsets are collections of fonts that cover the whole spectrum of characters."
 msgstr ""
 
 #. type: menuentry
@@ -3246,8 +3187,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:576
-msgid ""
-"You can pick one European character set to use without multibyte characters."
+msgid "You can pick one European character set to use without multibyte characters."
 msgstr ""
 
 #. type: menuentry
@@ -3292,8 +3232,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:583
-msgid ""
-"Each minor mode is a feature you can turn on independently of any others."
+msgid "Each minor mode is a feature you can turn on independently of any others."
 msgstr ""
 
 #. type: menuentry
@@ -3978,9 +3917,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:693
-msgid ""
-"An open-paren or similar opening delimiter starts a defun if it is at the "
-"left margin."
+msgid "An open-paren or similar opening delimiter starts a defun if it is at the left margin."
 msgstr ""
 
 #. type: menuentry
@@ -4090,8 +4027,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:708
-msgid ""
-"Commands for moving up, down and across in the structure of parentheses."
+msgid "Commands for moving up, down and across in the structure of parentheses."
 msgstr ""
 
 #. type: menuentry
@@ -4216,12 +4152,7 @@ msgstr ""
 
 #. type: ifnottex
 #: src/emacs.texi:738
-msgid ""
-"* Fortran Motion:: Moving point by statements or subprograms.  * Fortran "
-"Indent:: Indentation commands for Fortran.  * Fortran Comments:: Inserting "
-"and aligning comments.  * Fortran Autofill:: Auto fill support for Fortran.  "
-"* Fortran Columns:: Measuring columns for valid Fortran.  * Fortran Abbrev:: "
-"Built-in abbrevs for Fortran keywords."
+msgid "* Fortran Motion:: Moving point by statements or subprograms.  * Fortran Indent:: Indentation commands for Fortran.  * Fortran Comments:: Inserting and aligning comments.  * Fortran Autofill:: Auto fill support for Fortran.  * Fortran Columns:: Measuring columns for valid Fortran.  * Fortran Abbrev:: Built-in abbrevs for Fortran keywords."
 msgstr ""
 
 #. type: ifnottex
@@ -4231,11 +4162,7 @@ msgstr ""
 
 #. type: ifnottex
 #: src/emacs.texi:746
-msgid ""
-"* ForIndent Commands:: Commands for indenting and filling Fortran.  * "
-"ForIndent Cont:: How continuation lines indent.  * ForIndent Num:: How line "
-"numbers auto-indent.  * ForIndent Conv:: Conventions you must obey to avoid "
-"trouble.  * ForIndent Vars:: Variables controlling Fortran indent style."
+msgid "* ForIndent Commands:: Commands for indenting and filling Fortran.  * ForIndent Cont:: How continuation lines indent.  * ForIndent Num:: How line numbers auto-indent.  * ForIndent Conv:: Conventions you must obey to avoid trouble.  * ForIndent Vars:: Variables controlling Fortran indent style."
 msgstr ""
 
 #. type: menuentry
@@ -4310,9 +4237,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:765
-msgid ""
-"Various modes for editing Lisp programs, with different facilities for "
-"running the Lisp programs."
+msgid "Various modes for editing Lisp programs, with different facilities for running the Lisp programs."
 msgstr ""
 
 #. type: menuentry
@@ -4407,9 +4332,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:774
-msgid ""
-"An enhanced mode that uses GDB features to implement a graphical debugging "
-"environment."
+msgid "An enhanced mode that uses GDB features to implement a graphical debugging environment."
 msgstr ""
 
 #. type: menuentry
@@ -4534,9 +4457,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:795
-msgid ""
-"Find definitions and references of any function, method, struct, macro, "
-"@dots{} in your program."
+msgid "Find definitions and references of any function, method, struct, macro, @dots{} in your program."
 msgstr ""
 
 #. type: menuentry
@@ -4666,9 +4587,7 @@ msgstr ""
 
 #. type: ifnottex
 #: src/emacs.texi:815
-msgid ""
-"* Miscellaneous VC:: Various other commands and features of VC.  * "
-"Customizing VC:: Variables that change VC's behavior."
+msgid "* Miscellaneous VC:: Various other commands and features of VC.  * Customizing VC:: Variables that change VC's behavior."
 msgstr ""
 
 #. type: menuentry
@@ -4853,11 +4772,7 @@ msgstr ""
 
 #. type: ifnottex
 #: src/emacs.texi:852
-msgid ""
-"* Change Logs and VC:: Generating a change log file from log entries.  * VC "
-"Delete/Rename:: Deleting and renaming version-controlled files.  * Revision "
-"Tags:: Symbolic names for revisions.  * Version Headers:: Inserting version "
-"control headers into working files."
+msgid "* Change Logs and VC:: Generating a change log file from log entries.  * VC Delete/Rename:: Deleting and renaming version-controlled files.  * Revision Tags:: Symbolic names for revisions.  * Version Headers:: Inserting version control headers into working files."
 msgstr ""
 
 #. type: ifnottex
@@ -4867,9 +4782,7 @@ msgstr ""
 
 #. type: ifnottex
 #: src/emacs.texi:858
-msgid ""
-"* General VC Options:: Options that apply to multiple back ends.  * RCS and "
-"SCCS:: Options for RCS and SCCS.  * CVS Options:: Options for CVS."
+msgid "* General VC Options:: Options that apply to multiple back ends.  * RCS and SCCS:: Options for RCS and SCCS.  * CVS Options:: Options for CVS."
 msgstr ""
 
 #. type: menuentry
@@ -4904,9 +4817,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:871
-msgid ""
-"Commands to find where an identifier is defined or referenced, to list "
-"identifiers, etc."
+msgid "Commands to find where an identifier is defined or referenced, to list identifiers, etc."
 msgstr ""
 
 #. type: menuentry
@@ -5006,15 +4917,7 @@ msgstr ""
 
 #. type: ifnottex
 #: src/emacs.texi:898
-msgid ""
-"* Overview of Emerge:: How to start Emerge.  Basic concepts.  * Submodes of "
-"Emerge:: Fast mode vs. Edit mode.  Skip Prefers mode and Auto Advance mode.  "
-"* State of Difference:: You do the merge by specifying state A or B for each "
-"difference.  * Merge Commands:: Commands for selecting a difference, "
-"changing states of differences, etc.  * Exiting Emerge:: What to do when "
-"you've finished the merge.  * Combining in Emerge:: How to keep both "
-"alternatives for a difference.  * Fine Points of Emerge:: Miscellaneous "
-"issues."
+msgid "* Overview of Emerge:: How to start Emerge.  Basic concepts.  * Submodes of Emerge:: Fast mode vs. Edit mode.  Skip Prefers mode and Auto Advance mode.  * State of Difference:: You do the merge by specifying state A or B for each difference.  * Merge Commands:: Commands for selecting a difference, changing states of differences, etc.  * Exiting Emerge:: What to do when you've finished the merge.  * Combining in Emerge:: How to keep both alternatives for a difference.  * Fine Points of Emerge:: Miscellaneous issues."
 msgstr ""
 
 #. type: menuentry
@@ -5094,12 +4997,7 @@ msgstr ""
 
 #. type: ifnottex
 #: src/emacs.texi:918
-msgid ""
-"* Basic Picture:: Basic concepts and simple commands of Picture Mode.  * "
-"Insert in Picture:: Controlling direction of cursor motion after self-"
-"inserting characters.  * Tabs in Picture:: Various features for tab stops "
-"and indentation.  * Rectangles in Picture:: Clearing and superimposing "
-"rectangles."
+msgid "* Basic Picture:: Basic concepts and simple commands of Picture Mode.  * Insert in Picture:: Controlling direction of cursor motion after self-inserting characters.  * Tabs in Picture:: Various features for tab stops and indentation.  * Rectangles in Picture:: Clearing and superimposing rectangles."
 msgstr ""
 
 #. type: menuentry
@@ -5174,8 +5072,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:934
-msgid ""
-"How to copy, rename, print, compress, etc.  either one file or several files."
+msgid "How to copy, rename, print, compress, etc.  either one file or several files."
 msgstr ""
 
 #. type: menuentry
@@ -5420,8 +5317,7 @@ msgstr ""
 
 #. type: ifnottex
 #: src/emacs.texi:961
-msgid ""
-"* Advanced Calendar/Diary Usage:: Advanced Calendar/Diary customization."
+msgid "* Advanced Calendar/Diary Usage:: Advanced Calendar/Diary customization."
 msgstr ""
 
 #. type: menuentry
@@ -5576,15 +5472,7 @@ msgstr ""
 
 #. type: ifnottex
 #: src/emacs.texi:1000
-msgid ""
-"* Calendar Customizing:: Calendar layout and hooks.  * Holiday Customizing:: "
-"Defining your own holidays.  * Mayan Calendar:: Moving to a date specified "
-"in a Mayan calendar.  * Date Display Format:: Changing the format.  * Time "
-"Display Format:: Changing the format.  * Diary Customizing:: Defaults you "
-"can set.  * Non-Gregorian Diary:: Diary entries based on other calendars.  * "
-"Diary Display:: A choice of ways to display the diary.  * Fancy Diary "
-"Display:: Sorting diary entries, using included diary files.  * Sexp Diary "
-"Entries:: More flexible diary entries."
+msgid "* Calendar Customizing:: Calendar layout and hooks.  * Holiday Customizing:: Defining your own holidays.  * Mayan Calendar:: Moving to a date specified in a Mayan calendar.  * Date Display Format:: Changing the format.  * Time Display Format:: Changing the format.  * Diary Customizing:: Defaults you can set.  * Non-Gregorian Diary:: Diary entries based on other calendars.  * Diary Display:: A choice of ways to display the diary.  * Fancy Diary Display:: Sorting diary entries, using included diary files.  * Sexp Diary Entries:: More flexible diary entries."
 msgstr ""
 
 #. type: menuentry
@@ -6344,9 +6232,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:1120
-msgid ""
-"Many Emacs commands examine Emacs variables to decide what to do; by setting "
-"variables, you can control their functioning."
+msgid "Many Emacs commands examine Emacs variables to decide what to do; by setting variables, you can control their functioning."
 msgstr ""
 
 #. type: menuentry
@@ -6356,9 +6242,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:1120
-msgid ""
-"The keymaps say what command each key runs.  By changing them, you can "
-"redefine keys."
+msgid "The keymaps say what command each key runs.  By changing them, you can redefine keys."
 msgstr ""
 
 #. type: menuentry
@@ -6483,9 +6367,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:1142
-msgid ""
-"Hook variables let you specify programs for parts of Emacs to run on "
-"particular occasions."
+msgid "Hook variables let you specify programs for parts of Emacs to run on particular occasions."
 msgstr ""
 
 #. type: menuentry
@@ -6665,9 +6547,7 @@ msgstr ""
 
 #. type: menuentry
 #: src/emacs.texi:1163
-msgid ""
-"Disabling a command means confirmation is required before it can be "
-"executed.  This is done to protect beginners from surprises."
+msgid "Disabling a command means confirmation is required before it can be executed.  This is done to protect beginners from surprises."
 msgstr ""
 
 #. type: menuentry
@@ -7337,13 +7217,7 @@ msgstr ""
 
 #. type: ifnottex
 #: src/emacs.texi:1268
-msgid ""
-"* MS-DOS Keyboard:: Keyboard conventions on MS-DOS.  * MS-DOS Mouse:: Mouse "
-"conventions on MS-DOS.  * MS-DOS Display:: Fonts, frames and display size on "
-"MS-DOS.  * MS-DOS File Names:: File name conventions on MS-DOS.  * MS-DOS "
-"Printing:: Printing specifics on MS-DOS.  * MS-DOS and MULE:: Support for "
-"internationalization on MS-DOS.  * MS-DOS Processes:: Running subprocesses "
-"on MS-DOS."
+msgid "* MS-DOS Keyboard:: Keyboard conventions on MS-DOS.  * MS-DOS Mouse:: Mouse conventions on MS-DOS.  * MS-DOS Display:: Fonts, frames and display size on MS-DOS.  * MS-DOS File Names:: File name conventions on MS-DOS.  * MS-DOS Printing:: Printing specifics on MS-DOS.  * MS-DOS and MULE:: Support for internationalization on MS-DOS.  * MS-DOS Processes:: Running subprocesses on MS-DOS."
 msgstr ""
 
 #. type: unnumbered
@@ -7354,110 +7228,48 @@ msgstr "前言"
 
 #. type: iftex
 #: src/emacs.texi:1280
-msgid ""
-"This manual documents the use and simple customization of the Emacs editor.  "
-"Simple Emacs customizations do not require you to be a programmer, but if "
-"you are not interested in customizing, you can ignore the customization "
-"hints."
+msgid "This manual documents the use and simple customization of the Emacs editor.  Simple Emacs customizations do not require you to be a programmer, but if you are not interested in customizing, you can ignore the customization hints."
 msgstr "本手册记录了Emacs编辑器的使用和简单自定义。简单的Emacs定制不需要您成为程序员，但是如果您对定制不感兴趣，则可以忽略定制提示。"
 
 #. type: iftex
 #: src/emacs.texi:1287
-msgid ""
-"This is primarily a reference manual, but can also be used as a primer.  If "
-"you are new to Emacs, we recommend you start with the integrated, learn-by-"
-"doing tutorial, before reading the manual.  To run the tutorial, start Emacs "
-"and type @kbd{C-h t}.  The tutorial describes commands, tells you when to "
-"try them, and explains the results.  The tutorial is available in several "
-"languages."
-msgstr ""
-"这主要是参考手册，但也可以用作入门手册。如果您是Emacs的新手，我们建议您从综合的“边做边学”教程开始，然后再阅读手册。要运行该教程，请启动Emacs并"
-"输入@kbd {C-h t}。本教程描述了命令，告诉您何时使用它们，并解释了结果。该教程有多种语言版本。"
+msgid "This is primarily a reference manual, but can also be used as a primer.  If you are new to Emacs, we recommend you start with the integrated, learn-by-doing tutorial, before reading the manual.  To run the tutorial, start Emacs and type @kbd{C-h t}.  The tutorial describes commands, tells you when to try them, and explains the results.  The tutorial is available in several languages."
+msgstr "这主要是参考手册，但也可以用作入门手册。如果您是Emacs的新手，我们建议您从综合的“边做边学”教程开始，然后再阅读手册。要运行该教程，请启动Emacs并输入@kbd {C-h t}。本教程描述了命令，告诉您何时使用它们，并解释了结果。该教程有多种语言版本。"
 
 #. type: iftex
 #: src/emacs.texi:1296
-msgid ""
-"On first reading, just skim chapters 1 and 2, which describe the notational "
-"conventions of the manual and the general appearance of the Emacs display "
-"screen.  Note which questions are answered in these chapters, so you can "
-"refer back later.  After reading chapter 4, you should practice the commands "
-"shown there.  The next few chapters describe fundamental techniques and "
-"concepts that are used constantly.  You need to understand them thoroughly, "
-"so experiment with them until you are fluent."
-msgstr ""
-"初读时，只需略读第1章和第2章，它们描述了手册的符号约定以及Emacs显示屏的一般外观。请注意在这些章节中回答了哪些问题，因此您以后可以参考。阅读第4章后"
-"，应练习此处显示的命令。接下来的几章介绍了不断使用的基本技术和概念。您需要彻底了解它们，因此请尝试使用它们直到您流利。"
+msgid "On first reading, just skim chapters 1 and 2, which describe the notational conventions of the manual and the general appearance of the Emacs display screen.  Note which questions are answered in these chapters, so you can refer back later.  After reading chapter 4, you should practice the commands shown there.  The next few chapters describe fundamental techniques and concepts that are used constantly.  You need to understand them thoroughly, so experiment with them until you are fluent."
+msgstr "初读时，只需略读第1章和第2章，它们描述了手册的符号约定以及Emacs显示屏的一般外观。请注意在这些章节中回答了哪些问题，因此您以后可以参考。阅读第4章后，应练习此处显示的命令。接下来的几章介绍了不断使用的基本技术和概念。您需要彻底了解它们，因此请尝试使用它们直到您流利。"
 
 #. type: iftex
 #: src/emacs.texi:1301
-msgid ""
-"Chapters 14 through 19 describe intermediate-level features that are useful "
-"for many kinds of editing.  Chapter 20 and following chapters describe "
-"optional but useful features; read those chapters when you need them."
+msgid "Chapters 14 through 19 describe intermediate-level features that are useful for many kinds of editing.  Chapter 20 and following chapters describe optional but useful features; read those chapters when you need them."
 msgstr "第14章至第19章介绍了对多种编辑有用的中级功能。第20章及其后各章介绍了可选的但有用的功能。需要时阅读这些章节。"
 
 #. type: iftex
 #: src/emacs.texi:1306
-msgid ""
-"Read the Common Problems chapter if Emacs does not seem to be working "
-"properly.  It explains how to cope with several common problems "
-"(@pxref{Lossage,, Dealing with Emacs Trouble}), as well as when and how to "
-"report Emacs bugs (@pxref{Bugs})."
-msgstr ""
-"如果Emacs似乎无法正常工作，请阅读“常见问题”一章。它说明了如何解决几个常见问题（@pxref "
-"{Lossage，处理Emacs故障}），以及何时以及如何报告Emacs错误（@pxref {Bugs}）。"
+msgid "Read the Common Problems chapter if Emacs does not seem to be working properly.  It explains how to cope with several common problems (@pxref{Lossage,, Dealing with Emacs Trouble}), as well as when and how to report Emacs bugs (@pxref{Bugs})."
+msgstr "如果Emacs似乎无法正常工作，请阅读“常见问题”一章。它说明了如何解决几个常见问题（@pxref {Lossage，处理 Emacs 故障}），以及何时以及如何报告 Emacs 错误（@pxref {Bugs}）。"
 
 #. type: iftex
 #: src/emacs.texi:1310
-msgid ""
-"To find the documentation of a particular command, look in the index.  Keys "
-"(character commands) and command names have separate indexes.  There is also "
-"a glossary, with a cross reference for each term."
+msgid "To find the documentation of a particular command, look in the index.  Keys (character commands) and command names have separate indexes.  There is also a glossary, with a cross reference for each term."
 msgstr "要查找特定命令的文档，请查看索引。键（字符命令）和命令名称具有单独的索引。还有一个术语表，每个术语都有交叉参考。"
 
 #. type: iftex
 #: src/emacs.texi:1317
-msgid ""
-"This manual is available as a printed book and also as an Info file.  The "
-"Info file is for reading from Emacs itself, or with the Info program.  Info "
-"is the principal format for documentation in the GNU system.  The Info file "
-"and the printed book contain substantially the same text and are generated "
-"from the same source files, which are also distributed with GNU Emacs."
-msgstr ""
-"该手册既可以作为印刷书籍也可以作为Info文件获得。Info文件用于从Emacs本身或通过Info程序读取。Info是GNU系统中文档编制的主要格式。In"
-"fo文件和印刷书籍基本上包含相同的文本，并且是从相同的源文件生成的，这些源文件也随GNU Emacs一起分发。"
+msgid "This manual is available as a printed book and also as an Info file.  The Info file is for reading from Emacs itself, or with the Info program.  Info is the principal format for documentation in the GNU system.  The Info file and the printed book contain substantially the same text and are generated from the same source files, which are also distributed with GNU Emacs."
+msgstr "该手册既可以作为印刷书籍也可以作为Info文件获得。Info文件用于从Emacs本身或通过Info程序读取。Info是GNU系统中文档编制的主要格式。Info文件和印刷书籍基本上包含相同的文本，并且是从相同的源文件生成的，这些源文件也随GNU Emacs一起分发。"
 
 #. type: iftex
 #: src/emacs.texi:1324
-msgid ""
-"GNU Emacs is a member of the Emacs editor family.  There are many Emacs "
-"editors, all sharing common principles of organization.  For information on "
-"the underlying philosophy of Emacs and the lessons learned from its "
-"development, see @cite{Emacs, the Extensible, Customizable Self-Documenting "
-"Display Editor}, available from @url{https://dspace.mit.edu/"
-"handle/1721.1/5736}."
-msgstr ""
-"GNU "
-"Emacs是Emacs编辑器家族的成员。Emacs编辑器很多，都具有共同的组织原则。有关Emacs的基本原理以及从其开发中学到的经验教训的信息，请参阅@"
-"cite {Emacs，可扩展的，可定制的自文档显示编辑器}，可从@url {https://dspace.mit.edu/handle/1721.1/"
-"5736}。"
+msgid "GNU Emacs is a member of the Emacs editor family.  There are many Emacs editors, all sharing common principles of organization.  For information on the underlying philosophy of Emacs and the lessons learned from its development, see @cite{Emacs, the Extensible, Customizable Self-Documenting Display Editor}, available from @url{https://dspace.mit.edu/handle/1721.1/5736}."
+msgstr "GNU Emacs是Emacs编辑器家族的成员。Emacs编辑器很多，都具有共同的组织原则。有关Emacs的基本原理以及从其开发中学到的经验教训的信息，请参阅@cite {Emacs，可扩展的，可定制的自文档显示编辑器}，可从@url {https://dspace.mit.edu/handle/1721.1/5736}。"
 
 #. type: iftex
 #: src/emacs.texi:1334
-msgid ""
-"This version of the manual is mainly intended for use with GNU Emacs "
-"installed on GNU and Unix systems.  GNU Emacs can also be used on MS-DOS, "
-"Microsoft Windows, and Macintosh systems.  The Info file version of this "
-"manual contains some more information about using Emacs on those systems.  "
-"Those systems use different file name syntax; in addition MS-DOS does not "
-"support all GNU Emacs features.  @xref{Microsoft Windows}, for information "
-"about using Emacs on Windows.  @xref{Mac OS / GNUstep}, for information "
-"about using Emacs on Macintosh (and GNUstep)."
-msgstr ""
-"该手册的主要版本旨在与安装在GNU和Unix系统上的GNU Emacs一起使用。GNU Emacs也可以在MS-DOS，Microsoft "
-"Windows和Macintosh系统上使用。本手册的Info文件版本包含有关在这些系统上使用Emacs的更多信息。这些系统使用不同的文件名语法。此外"
-"，MS-DOS不支持所有GNU Emacs功能。@xref {Microsoft Windows}, 以获取有关在Windows上使用Emacs的信息。@"
-"xref {Mac OS / GNUstep}, 以获取有关在Macintosh（和GNUstep）上使用Emacs的信息。"
+msgid "This version of the manual is mainly intended for use with GNU Emacs installed on GNU and Unix systems.  GNU Emacs can also be used on MS-DOS, Microsoft Windows, and Macintosh systems.  The Info file version of this manual contains some more information about using Emacs on those systems.  Those systems use different file name syntax; in addition MS-DOS does not support all GNU Emacs features.  @xref{Microsoft Windows}, for information about using Emacs on Windows.  @xref{Mac OS / GNUstep}, for information about using Emacs on Macintosh (and GNUstep)."
+msgstr "该手册的主要版本旨在与安装在GNU和Unix系统上的GNU Emacs一起使用。GNU Emacs也可以在MS-DOS，Microsoft Windows和Macintosh系统上使用。本手册的Info文件版本包含有关在这些系统上使用Emacs的更多信息。这些系统使用不同的文件名语法。此外，MS-DOS不支持所有GNU Emacs功能。@xref {Microsoft Windows}, 以获取有关在Windows上使用Emacs的信息。@xref {Mac OS / GNUstep}, 以获取有关在Macintosh（和GNUstep）上使用Emacs的信息。"
 
 #. type: unnumbered
 #: src/emacs.texi:1337
@@ -7467,107 +7279,47 @@ msgstr "发行版"
 
 #. type: Plain text
 #: src/emacs.texi:1352
-msgid ""
-"GNU Emacs is @dfn{free software}; this means that everyone is free to use it "
-"and free to redistribute it under certain conditions.  GNU Emacs is not in "
-"the public domain; it is copyrighted and there are restrictions on its "
-"distribution, but these restrictions are designed to permit everything that "
-"a good cooperating citizen would want to do.  What is not allowed is to try "
-"to prevent others from further sharing any version of GNU Emacs that they "
-"might get from you.  The precise conditions are found in the GNU General "
-"Public License that comes with Emacs and also appears in this "
-"manual@footnote{This manual is itself covered by the GNU Free Documentation "
-"License.  This license is similar in spirit to the General Public License, "
-"but is more suitable for documentation.  @xref{GNU Free Documentation "
-"License}.}.  @xref{Copying}."
-msgstr ""
-"GNU Emacs是@dfn {自由软件}；这意味着每个人都可以自由使用它，并可以在一定条件下自由地重新发行它。GNU "
-"Emacs不属于公共领域；它是受版权保护的，并且对其发行有限制，但这些限制旨在允许好的合作公民想要做的一切。"
-"不允许的是试图阻止其他人进一步分享他们可能从您那里获得的任何版本的GNU Emacs。确切的条件可以在Emacs随附的GNU通用公共许可证中找到，"
-"也可以在此manual @footnote {此手册本身由GNU Free Documentation "
-"License涵盖。该许可证在精神上与通用公共许可证类似，但更适合用于文档。@xref{GNU Free Documentation "
-"License}}中找到。。@xref{Copying}."
+msgid "GNU Emacs is @dfn{free software}; this means that everyone is free to use it and free to redistribute it under certain conditions.  GNU Emacs is not in the public domain; it is copyrighted and there are restrictions on its distribution, but these restrictions are designed to permit everything that a good cooperating citizen would want to do.  What is not allowed is to try to prevent others from further sharing any version of GNU Emacs that they might get from you.  The precise conditions are found in the GNU General Public License that comes with Emacs and also appears in this manual@footnote{This manual is itself covered by the GNU Free Documentation License.  This license is similar in spirit to the General Public License, but is more suitable for documentation.  @xref{GNU Free Documentation License}.}.  @xref{Copying}."
+msgstr "GNU Emacs是@dfn {自由软件}；这意味着每个人都可以自由使用它，并可以在一定条件下自由地重新发行它。GNU Emacs不属于公共领域；它是受版权保护的，并且对其发行有限制，但这些限制旨在允许好的合作公民想要做的一切。不允许的是试图阻止其他人进一步分享他们可能从您那里获得的任何版本的GNU Emacs。确切的条件可以在Emacs随附的GNU通用公共许可证中找到，也可以在此manual @footnote {此手册本身由GNU Free Documentation License涵盖。该许可证在精神上与通用公共许可证类似，但更适合用于文档。@xref{GNU Free Documentation License}}中找到。。@xref{Copying}."
 
 #. type: Plain text
 #: src/emacs.texi:1359
-msgid ""
-"One way to get a copy of GNU Emacs is from someone else who has it.  You "
-"need not ask for our permission to do so, or tell anyone else; just copy "
-"it.  If you have access to the Internet, you can get the latest distribution "
-"version of GNU Emacs by anonymous FTP; see @url{https://www.gnu.org/software/"
-"emacs} on our website for more information."
-msgstr ""
-"获得GNU Emacs副本的一种方式是从其他拥有它的人那里。你不需要征得我们的许可，也不需要告诉任何人，只需拷贝就行了。如果可以访问Internet，"
-"则可以通过匿名FTP获得最新版本的GNU Emacs；有关更多信息，请参见我们网站上的@url {https://www.gnu.org/"
-"software/emacs}。"
+msgid "One way to get a copy of GNU Emacs is from someone else who has it.  You need not ask for our permission to do so, or tell anyone else; just copy it.  If you have access to the Internet, you can get the latest distribution version of GNU Emacs by anonymous FTP; see @url{https://www.gnu.org/software/emacs} on our website for more information."
+msgstr "获得GNU Emacs副本的一种方式是从其他拥有它的人那里。你不需要征得我们的许可，也不需要告诉任何人，只需拷贝就行了。如果可以访问Internet，则可以通过匿名FTP获得最新版本的GNU Emacs；有关更多信息，请参见我们网站上的@url {https://www.gnu.org/software/emacs}。"
 
 #. type: Plain text
 #: src/emacs.texi:1367
-msgid ""
-"You may also receive GNU Emacs when you buy a computer.  Computer "
-"manufacturers are free to distribute copies on the same terms that apply to "
-"everyone else.  These terms require them to give you the full sources, "
-"including whatever changes they may have made, and to permit you to "
-"redistribute the GNU Emacs received from them under the usual terms of the "
-"General Public License.  In other words, the program must be free for you "
-"when you get it, not just free for the manufacturer."
-msgstr ""
-"您还可以在购买计算机时收到GNU "
-"Emacs。计算机制造商可以按照适用于其他所有人的相同条款自由发行副本。这些条款要求他们向您提供完整的源代码，包括他们可能做出的任何更改，"
-"并允许您根据通用公共许可证的通常条款重新分发从他们那里收到的GNU Emacs。换句话说，当您获得程序时，程序必须对您免费，而不仅仅是制造商免费。"
+msgid "You may also receive GNU Emacs when you buy a computer.  Computer manufacturers are free to distribute copies on the same terms that apply to everyone else.  These terms require them to give you the full sources, including whatever changes they may have made, and to permit you to redistribute the GNU Emacs received from them under the usual terms of the General Public License.  In other words, the program must be free for you when you get it, not just free for the manufacturer."
+msgstr "您还可以在购买计算机时收到GNU Emacs。计算机制造商可以按照适用于其他所有人的相同条款自由发行副本。这些条款要求他们向您提供完整的源代码，包括他们可能做出的任何更改，并允许您根据通用公共许可证的通常条款重新分发从他们那里收到的GNU Emacs。换句话说，当您获得程序时，程序必须对您免费，而不仅仅是制造商免费。"
 
 #. type: Plain text
 #: src/emacs.texi:1375
-msgid ""
-"If you find GNU Emacs useful, please @strong{send a donation} to the Free "
-"Software Foundation to support our work.  Donations to the Free Software "
-"Foundation are tax-deductible in the US@.  If you use GNU Emacs at your "
-"workplace, please suggest that the company make a donation.  To donate, see "
-"@url{https://my.fsf.org/donate/}.  For other ways in which you can help, see "
-"@url{https://www.gnu.org/help/help.html}."
-msgstr ""
-"如果您觉得GNU Emacs有用，请向自由软件基金会@strong{捐赠}以支持我们的工作。在美国，对自由软件基金会的捐款是免税的。"
-"如果您在工作场所使用GNU Emacs，请建议公司捐款。要捐款，请参阅@url{https://my.fsf.org/donate/}.  "
-"有关其他帮助方法，请参阅@url {https://www.gnu.org/help/help.html}。"
+msgid "If you find GNU Emacs useful, please @strong{send a donation} to the Free Software Foundation to support our work.  Donations to the Free Software Foundation are tax-deductible in the US@.  If you use GNU Emacs at your workplace, please suggest that the company make a donation.  To donate, see @url{https://my.fsf.org/donate/}.  For other ways in which you can help, see @url{https://www.gnu.org/help/help.html}."
+msgstr "如果您觉得GNU Emacs有用，请向自由软件基金会@strong{捐赠}以支持我们的工作。在美国，对自由软件基金会的捐款是免税的。如果您在工作场所使用GNU Emacs，请建议公司捐款。要捐款，请参阅@url{https://my.fsf.org/donate/}.  有关其他帮助方法，请参阅@url {https://www.gnu.org/help/help.html}。"
 
 #. type: anchor{#1}
 #: src/emacs.texi:1384
 msgid "Printed Books"
-msgstr "Printed Books"
+msgstr ""
 
 #. type: Plain text
 #: src/emacs.texi:1384
-msgid ""
-"We also sell hardcopy versions of this manual and @cite{An Introduction to "
-"Programming in Emacs Lisp}, by Robert J. Chassell.  You can visit our online "
-"store at @url{https://shop.fsf.org/}.  The income from sales goes to support "
-"the foundation's purpose: the development of new free software, and "
-"improvements to our existing programs including GNU Emacs."
-msgstr ""
-"我们还出售该手册的印刷版和Robert J. Chassell的@cite {Emacs Lisp中的编程简介}。您可以通过@url "
-"{https://shop.fsf.org/}访问我们的在线商店。销售收入将用于支持基金会的目标：开发新的自由软件，并改进我们现有的程序，包括GNU "
-"Emacs。"
+msgid "We also sell hardcopy versions of this manual and @cite{An Introduction to Programming in Emacs Lisp}, by Robert J. Chassell.  You can visit our online store at @url{https://shop.fsf.org/}.  The income from sales goes to support the foundation's purpose: the development of new free software, and improvements to our existing programs including GNU Emacs."
+msgstr "我们还出售该手册的印刷版和Robert J. Chassell的@cite {Emacs Lisp中的编程简介}。您可以通过@url {https://shop.fsf.org/}访问我们的在线商店。销售收入将用于支持基金会的目标：开发新的自由软件，并改进我们现有的程序，包括GNU Emacs。"
 
 #. type: Plain text
 #: src/emacs.texi:1387
-msgid ""
-"If you need to contact the Free Software Foundation, see @url{https://www."
-"fsf.org/about/contact/}, or write to"
+msgid "If you need to contact the Free Software Foundation, see @url{https://www.fsf.org/about/contact/}, or write to"
 msgstr "如果您需要联系自由软件基金会，请参阅@url {https://www.fsf.org/about/contact/}，或写信给"
 
 #. type: display
 #: src/emacs.texi:1393
 #, no-wrap
-msgid ""
-"Free Software Foundation\n"
+msgid "Free Software Foundation\n"
 "51 Franklin Street, Fifth Floor\n"
 "Boston, MA 02110-1301\n"
 "USA\n"
 msgstr ""
-"Free Software Foundation\n"
-"51 Franklin Street, Fifth Floor\n"
-"Boston, MA 02110-1301\n"
-"USA\n"
 
 #. type: unnumberedsec
 #: src/emacs.texi:1396 src/emacs.texi:1397
@@ -7577,204 +7329,8 @@ msgstr "致谢"
 
 #. type: iftex
 #: src/emacs.texi:1504
-msgid ""
-"Contributors to GNU Emacs include Jari Aalto, Per Abrahamsen, Tomas "
-"Abrahamsson, Jay K. Adams, Alon Albert, Michael Albinus, Nagy Andras, "
-"Benjamin Andresen, Ralf Angeli, Dmitry Antipov, Joe Arceneaux, Emil Åström, "
-"Miles Bader, David Bakhash, Juanma Barranquero, Eli Barzilay, Thomas "
-"Baumann, Steven L. Baur, Jay Belanger, Alexander L. Belikoff, Thomas "
-"Bellman, Scott Bender, Boaz Ben-Zvi, Sergey Berezin, Stephen Berman, Karl "
-"Berry, Anna M. Bigatti, Ray Blaak, Martin Blais, Jim Blandy, Johan Bockgård, "
-"Jan Böcker, Joel Boehland, Lennart Borgman, Per Bothner, Terrence Brannon, "
-"Frank Bresz, Peter Breton, Emmanuel Briot, Kevin Broadey, Vincent Broman, "
-"Michael Brouwer, David M. Brown, Ken Brown, Stefan Bruda, Daniel Colascione, "
-"Georges Brun-Cottan, Joe Buehler, Scott Byer, Włodek Bzyl, Tino Calancha, "
-"Bill Carpenter, Per Cederqvist, Hans Chalupsky, Chris Chase, Bob Chassell, "
-"Andrew Choi, Chong Yidong, Sacha Chua, Stewart Clamen, James Clark, Mike "
-"Clarkson, Glynn Clements, Andrew Cohen, Daniel Colascione, Christoph Conrad, "
-"Ludovic Courtès, Andrew Csillag, Toby Cubitt, Baoqiu Cui, Doug Cutting, "
-"Mathias Dahl, Julien Danjou, Satyaki Das, Vivek Dasmohapatra, Dan Davison, "
-"Michael DeCorte, Gary Delp, Nachum Dershowitz, Dave Detlefs, Matthieu Devin, "
-"Christophe de Dinechin, Eri Ding, Jan Djärv, Lawrence R. Dodd, Carsten "
-"Dominik, Scott Draves, Benjamin Drieu, Viktor Dukhovni, Jacques Duthen, "
-"Dmitry Dzhus, John Eaton, Rolf Ebert, Carl Edman, David Edmondson, Paul "
-"Eggert, Stephen Eglen, Christian Egli, Torbjörn Einarsson, Tsugutomo Enami, "
-"David Engster, Hans Henrik Eriksen, Michael Ernst, Ata Etemadi, Frederick "
-"Farnbach, Oscar Figueiredo, Fred Fish, Steve Fisk, Karl Fogel, Gary Foster, "
-"Eric S. Fraga, Romain Francoise, Noah Friedman, Andreas Fuchs, Shigeru "
-"Fukaya, Xue Fuqiao, Hallvard Furuseth, Keith Gabryelski, Peter S.  "
-"Galbraith, Kevin Gallagher, Fabián E. Gallina, Kevin Gallo, Juan León Lahoz "
-"García, Howard Gayle, Daniel German, Stephen Gildea, Julien Gilles, David "
-"Gillespie, Bob Glickstein, Deepak Goel, David De La Harpe Golden, Boris "
-"Goldowsky, David Goodger, Chris Gray, Kevin Greiner, Michelangelo Grigni, "
-"Odd Gripenstam, Kai Großjohann, Michael Gschwind, Bastien Guerry, Henry "
-"Guillaume, Dmitry Gutov, Doug Gwyn, Bruno Haible, Ken'ichi Handa, Lars "
-"Hansen, Chris Hanson, Jesper Harder, Alexandru Harsanyi, K. Shane Hartman, "
-"John Heidemann, Jon K. Hellan, Magnus Henoch, Markus Heritsch, Dirk "
-"Herrmann, Karl Heuer, Manabu Higashida, Konrad Hinsen, Anders Holst, Jeffrey "
-"C. Honig, Tassilo Horn, Kurt Hornik, Khaled Hosny, Tom Houlder, Joakim Hove, "
-"Denis Howe, Lars Ingebrigtsen, Andrew Innes, Seiichiro Inoue, Philip "
-"Jackson, Martyn Jago, Pavel Janik, Paul Jarc, Ulf Jasper, Thorsten Jolitz, "
-"Michael K. Johnson, Kyle Jones, Terry Jones, Simon Josefsson, Alexandre "
-"Julliard, Arne Jørgensen, Tomoji Kagatani, Brewster Kahle, Tokuya Kameshima, "
-"Lute Kamstra, Ivan Kanis, David Kastrup, David Kaufman, Henry Kautz, Taichi "
-"Kawabata, Taro Kawagishi, Howard Kaye, Michael Kifer, Richard King, Peter "
-"Kleiweg, Karel Klíč, Shuhei Kobayashi, Pavel Kobyakov, Larry K. Kolodney, "
-"David M. Koppelman, Koseki Yoshinori, Robert Krawitz, Sebastian Kremer, "
-"Ryszard Kubiak, Igor Kuzmin, David Kågedal, Daniel LaLiberte, Karl "
-"Landstrom, Mario Lang, Aaron Larson, James R. Larus, Vinicius Jose Latorre, "
-"Werner Lemberg, Frederic Lepied, Peter Liljenberg, Christian Limpach, Lars "
-"Lindberg, Chris Lindblad, Anders Lindgren, Thomas Link, Juri Linkov, Francis "
-"Litterio, Sergey Litvinov, Leo Liu, Emilio C. Lopes, Martin Lorentzon, Dave "
-"Love, Eric Ludlam, Károly Lőrentey, Sascha Lüdecke, Greg McGary, Roland "
-"McGrath, Michael McNamara, Alan Mackenzie, Christopher J. Madsen, Neil M. "
-"Mager, Artur Malabarba, Ken Manheimer, Bill Mann, Brian Marick, Simon "
-"Marshall, Bengt Martensson, Charlie Martin, Yukihiro Matsumoto, Tomohiro "
-"Matsuyama, David Maus, Thomas May, Will Mengarini, David Megginson, Jimmy "
-"Aguilar Mena, Stefan Merten, Ben A. Mesander, Wayne Mesard, Brad Miller, "
-"Lawrence Mitchell, Richard Mlynarik, Gerd Möllmann, Dani Moncayo, Stefan "
-"Monnier, Keith Moore, Jan Moringen, Morioka Tomohiko, Glenn Morris, Don "
-"Morrison, Diane Murray, Riccardo Murri, Sen Nagata, Erik Naggum, Gergely "
-"Nagy, Nobuyoshi Nakada, Thomas Neumann, Mike Newton, Thien-Thi Nguyen, "
-"Jurgen Nickelsen, Dan Nicolaescu, Hrvoje Nikšić, Jeff Norden, Andrew Norman, "
-"Theresa O'Connor, Kentaro Ohkouchi, Christian Ohler, Kenichi Okada, "
-"Alexandre Oliva, Bob Olson, Michael Olson, Takaaki Ota, Mark Oteiza, Pieter "
-"E. J. Pareit, Ross Patterson, David Pearson, Juan Pechiar, Jeff Peck, Damon "
-"Anton Permezel, Tom Perrine, William M. Perry, Per Persson, Jens Petersen, "
-"Nicolas Petton, Daniel Pfeiffer, Justus Piater, Richard L.  Pieri, Fred "
-"Pierresteguy, François Pinard, Daniel Pittman, Christian Plaunt, Alexander "
-"Pohoyda, David Ponce, Noam Postavsky, Francesco A. Potortì, Michael D. "
-"Prange, Mukesh Prasad, Ken Raeburn, Marko Rahamaa, Ashwin Ram, Eric S. "
-"Raymond, Paul Reilly, Edward M. Reingold, David Reitter, Alex Rezinsky, Rob "
-"Riepel, Lara Rios, Adrian Robert, Nick Roberts, Roland B. Roberts, John "
-"Robinson, Denis B. Roegel, Danny Roozendaal, Sebastian Rose, William "
-"Rosenblatt, Markus Rost, Guillermo J. Rozas, Martin Rudalics, Ivar "
-"Rummelhoff, Jason Rumney, Wolfgang Rupprecht, Benjamin Rutt, Kevin Ryde, "
-"Phil Sainty, James B. Salem, Masahiko Sato, Timo Savola, Jorgen Schäfer, "
-"Holger Schauer, William Schelter, Ralph Schleicher, Gregor Schmid, Michael "
-"Schmidt, Ronald S. Schnell, Philippe Schnoebelen, Jan Schormann, Alex "
-"Schroeder, Stefan Schoef, Rainer Schöpf, Raymond Scholz, Eric Schulte, "
-"Andreas Schwab, Randal Schwartz, Oliver Seidel, Manuel Serrano, Paul Sexton, "
-"Hovav Shacham, Stanislav Shalunov, Marc Shapiro, Richard Sharman, Olin "
-"Shivers, Tibor Šimko, Espen Skoglund, Rick Sladkey, Lynn Slater, Chris "
-"Smith, David Smith, Paul D. Smith, Wilson Snyder, William Sommerfeld, Simon "
-"South, Andre Spiegel, Michael Staats, Thomas Steffen, Ulf Stegemann, Reiner "
-"Steib, Sam Steingold, Ake Stenhoff, Philipp Stephani, Peter Stephenson, Ken "
-"Stevens, Andy Stewart, Jonathan Stigelman, Martin Stjernholm, Kim F.  Storm, "
-"Steve Strassmann, Christopher Suckling, Olaf Sylvester, Naoto Takahashi, "
-"Steven Tamm, Jan Tatarik, João Távora, Luc Teirlinck, Jean-Philippe "
-"Theberge, Jens T.@: Berger Thielemann, Spencer Thomas, Jim Thompson, Toru "
-"Tomabechi, David O'Toole, Markus Triska, Tom Tromey, Eli Tziperman, Daiki "
-"Ueno, Masanobu Umeda, Rajesh Vaidheeswarran, Neil W. Van Dyke, Didier Verna, "
-"Joakim Verona, Ulrik Vieth, Geoffrey Voelker, Johan Vromans, Inge Wallin, "
-"John Paul Wallington, Colin Walters, Barry Warsaw, Christoph Wedler, Ilja "
-"Weis, Zhang Weize, Morten Welinder, Joseph Brian Wells, Rodney Whitby, John "
-"Wiegley, Sascha Wilde, Ed Wilkinson, Mike Williams, Roland Winkler, Bill "
-"Wohler, Steven A. Wood, Dale R. Worley, Francis J. Wright, Felix S. T. Wu, "
-"Tom Wurgler, Yamamoto Mitsuharu, Katsumi Yamaoka, Masatake Yamato, Jonathan "
-"Yavner, Ryan Yeske, Ilya Zakharevich, Milan Zamazal, Victor Zandy, Eli "
-"Zaretskii, Jamie Zawinski, Andrew Zhilin, Shenghuo Zhu, Piotr Zieliński, Ian "
-"T. Zimmermann, Reto Zimmermann, Neal Ziring, Teodor Zlatanov, and Detlev "
-"Zundel."
+msgid "Contributors to GNU Emacs include Jari Aalto, Per Abrahamsen, Tomas Abrahamsson, Jay K. Adams, Alon Albert, Michael Albinus, Nagy Andras, Benjamin Andresen, Ralf Angeli, Dmitry Antipov, Joe Arceneaux, Emil Åström, Miles Bader, David Bakhash, Juanma Barranquero, Eli Barzilay, Thomas Baumann, Steven L. Baur, Jay Belanger, Alexander L. Belikoff, Thomas Bellman, Scott Bender, Boaz Ben-Zvi, Sergey Berezin, Stephen Berman, Karl Berry, Anna M. Bigatti, Ray Blaak, Martin Blais, Jim Blandy, Johan Bockgård, Jan Böcker, Joel Boehland, Lennart Borgman, Per Bothner, Terrence Brannon, Frank Bresz, Peter Breton, Emmanuel Briot, Kevin Broadey, Vincent Broman, Michael Brouwer, David M. Brown, Ken Brown, Stefan Bruda, Daniel Colascione, Georges Brun-Cottan, Joe Buehler, Scott Byer, Włodek Bzyl, Tino Calancha, Bill Carpenter, Per Cederqvist, Hans Chalupsky, Chris Chase, Bob Chassell, Andrew Choi, Chong Yidong, Sacha Chua, Stewart Clamen, James Clark, Mike Clarkson, Glynn Clements, Andrew Cohen, Daniel Colascione, Christoph Conrad, Ludovic Courtès, Andrew Csillag, Toby Cubitt, Baoqiu Cui, Doug Cutting, Mathias Dahl, Julien Danjou, Satyaki Das, Vivek Dasmohapatra, Dan Davison, Michael DeCorte, Gary Delp, Nachum Dershowitz, Dave Detlefs, Matthieu Devin, Christophe de Dinechin, Eri Ding, Jan Djärv, Lawrence R. Dodd, Carsten Dominik, Scott Draves, Benjamin Drieu, Viktor Dukhovni, Jacques Duthen, Dmitry Dzhus, John Eaton, Rolf Ebert, Carl Edman, David Edmondson, Paul Eggert, Stephen Eglen, Christian Egli, Torbjörn Einarsson, Tsugutomo Enami, David Engster, Hans Henrik Eriksen, Michael Ernst, Ata Etemadi, Frederick Farnbach, Oscar Figueiredo, Fred Fish, Steve Fisk, Karl Fogel, Gary Foster, Eric S. Fraga, Romain Francoise, Noah Friedman, Andreas Fuchs, Shigeru Fukaya, Xue Fuqiao, Hallvard Furuseth, Keith Gabryelski, Peter S.  Galbraith, Kevin Gallagher, Fabián E. Gallina, Kevin Gallo, Juan León Lahoz García, Howard Gayle, Daniel German, Stephen Gildea, Julien Gilles, David Gillespie, Bob Glickstein, Deepak Goel, David De La Harpe Golden, Boris Goldowsky, David Goodger, Chris Gray, Kevin Greiner, Michelangelo Grigni, Odd Gripenstam, Kai Großjohann, Michael Gschwind, Bastien Guerry, Henry Guillaume, Dmitry Gutov, Doug Gwyn, Bruno Haible, Ken'ichi Handa, Lars Hansen, Chris Hanson, Jesper Harder, Alexandru Harsanyi, K. Shane Hartman, John Heidemann, Jon K. Hellan, Magnus Henoch, Markus Heritsch, Dirk Herrmann, Karl Heuer, Manabu Higashida, Konrad Hinsen, Anders Holst, Jeffrey C. Honig, Tassilo Horn, Kurt Hornik, Khaled Hosny, Tom Houlder, Joakim Hove, Denis Howe, Lars Ingebrigtsen, Andrew Innes, Seiichiro Inoue, Philip Jackson, Martyn Jago, Pavel Janik, Paul Jarc, Ulf Jasper, Thorsten Jolitz, Michael K. Johnson, Kyle Jones, Terry Jones, Simon Josefsson, Alexandre Julliard, Arne Jørgensen, Tomoji Kagatani, Brewster Kahle, Tokuya Kameshima, Lute Kamstra, Ivan Kanis, David Kastrup, David Kaufman, Henry Kautz, Taichi Kawabata, Taro Kawagishi, Howard Kaye, Michael Kifer, Richard King, Peter Kleiweg, Karel Klíč, Shuhei Kobayashi, Pavel Kobyakov, Larry K. Kolodney, David M. Koppelman, Koseki Yoshinori, Robert Krawitz, Sebastian Kremer, Ryszard Kubiak, Igor Kuzmin, David Kågedal, Daniel LaLiberte, Karl Landstrom, Mario Lang, Aaron Larson, James R. Larus, Vinicius Jose Latorre, Werner Lemberg, Frederic Lepied, Peter Liljenberg, Christian Limpach, Lars Lindberg, Chris Lindblad, Anders Lindgren, Thomas Link, Juri Linkov, Francis Litterio, Sergey Litvinov, Leo Liu, Emilio C. Lopes, Martin Lorentzon, Dave Love, Eric Ludlam, Károly Lőrentey, Sascha Lüdecke, Greg McGary, Roland McGrath, Michael McNamara, Alan Mackenzie, Christopher J. Madsen, Neil M. Mager, Artur Malabarba, Ken Manheimer, Bill Mann, Brian Marick, Simon Marshall, Bengt Martensson, Charlie Martin, Yukihiro Matsumoto, Tomohiro Matsuyama, David Maus, Thomas May, Will Mengarini, David Megginson, Jimmy Aguilar Mena, Stefan Merten, Ben A. Mesander, Wayne Mesard, Brad Miller, Lawrence Mitchell, Richard Mlynarik, Gerd Möllmann, Dani Moncayo, Stefan Monnier, Keith Moore, Jan Moringen, Morioka Tomohiko, Glenn Morris, Don Morrison, Diane Murray, Riccardo Murri, Sen Nagata, Erik Naggum, Gergely Nagy, Nobuyoshi Nakada, Thomas Neumann, Mike Newton, Thien-Thi Nguyen, Jurgen Nickelsen, Dan Nicolaescu, Hrvoje Nikšić, Jeff Norden, Andrew Norman, Theresa O'Connor, Kentaro Ohkouchi, Christian Ohler, Kenichi Okada, Alexandre Oliva, Bob Olson, Michael Olson, Takaaki Ota, Mark Oteiza, Pieter E. J. Pareit, Ross Patterson, David Pearson, Juan Pechiar, Jeff Peck, Damon Anton Permezel, Tom Perrine, William M. Perry, Per Persson, Jens Petersen, Nicolas Petton, Daniel Pfeiffer, Justus Piater, Richard L.  Pieri, Fred Pierresteguy, François Pinard, Daniel Pittman, Christian Plaunt, Alexander Pohoyda, David Ponce, Noam Postavsky, Francesco A. Potortì, Michael D. Prange, Mukesh Prasad, Ken Raeburn, Marko Rahamaa, Ashwin Ram, Eric S. Raymond, Paul Reilly, Edward M. Reingold, David Reitter, Alex Rezinsky, Rob Riepel, Lara Rios, Adrian Robert, Nick Roberts, Roland B. Roberts, John Robinson, Denis B. Roegel, Danny Roozendaal, Sebastian Rose, William Rosenblatt, Markus Rost, Guillermo J. Rozas, Martin Rudalics, Ivar Rummelhoff, Jason Rumney, Wolfgang Rupprecht, Benjamin Rutt, Kevin Ryde, Phil Sainty, James B. Salem, Masahiko Sato, Timo Savola, Jorgen Schäfer, Holger Schauer, William Schelter, Ralph Schleicher, Gregor Schmid, Michael Schmidt, Ronald S. Schnell, Philippe Schnoebelen, Jan Schormann, Alex Schroeder, Stefan Schoef, Rainer Schöpf, Raymond Scholz, Eric Schulte, Andreas Schwab, Randal Schwartz, Oliver Seidel, Manuel Serrano, Paul Sexton, Hovav Shacham, Stanislav Shalunov, Marc Shapiro, Richard Sharman, Olin Shivers, Tibor Šimko, Espen Skoglund, Rick Sladkey, Lynn Slater, Chris Smith, David Smith, Paul D. Smith, Wilson Snyder, William Sommerfeld, Simon South, Andre Spiegel, Michael Staats, Thomas Steffen, Ulf Stegemann, Reiner Steib, Sam Steingold, Ake Stenhoff, Philipp Stephani, Peter Stephenson, Ken Stevens, Andy Stewart, Jonathan Stigelman, Martin Stjernholm, Kim F.  Storm, Steve Strassmann, Christopher Suckling, Olaf Sylvester, Naoto Takahashi, Steven Tamm, Jan Tatarik, João Távora, Luc Teirlinck, Jean-Philippe Theberge, Jens T.@: Berger Thielemann, Spencer Thomas, Jim Thompson, Toru Tomabechi, David O'Toole, Markus Triska, Tom Tromey, Eli Tziperman, Daiki Ueno, Masanobu Umeda, Rajesh Vaidheeswarran, Neil W. Van Dyke, Didier Verna, Joakim Verona, Ulrik Vieth, Geoffrey Voelker, Johan Vromans, Inge Wallin, John Paul Wallington, Colin Walters, Barry Warsaw, Christoph Wedler, Ilja Weis, Zhang Weize, Morten Welinder, Joseph Brian Wells, Rodney Whitby, John Wiegley, Sascha Wilde, Ed Wilkinson, Mike Williams, Roland Winkler, Bill Wohler, Steven A. Wood, Dale R. Worley, Francis J. Wright, Felix S. T. Wu, Tom Wurgler, Yamamoto Mitsuharu, Katsumi Yamaoka, Masatake Yamato, Jonathan Yavner, Ryan Yeske, Ilya Zakharevich, Milan Zamazal, Victor Zandy, Eli Zaretskii, Jamie Zawinski, Andrew Zhilin, Shenghuo Zhu, Piotr Zieliński, Ian T. Zimmermann, Reto Zimmermann, Neal Ziring, Teodor Zlatanov, and Detlev Zundel."
 msgstr ""
-"Contributors to GNU Emacs include Jari Aalto, Per Abrahamsen, Tomas "
-"Abrahamsson, Jay K. Adams, Alon Albert, Michael Albinus, Nagy Andras, "
-"Benjamin Andresen, Ralf Angeli, Dmitry Antipov, Joe Arceneaux, Emil Åström, "
-"Miles Bader, David Bakhash, Juanma Barranquero, Eli Barzilay, Thomas "
-"Baumann, Steven L. Baur, Jay Belanger, Alexander L. Belikoff, Thomas "
-"Bellman, Scott Bender, Boaz Ben-Zvi, Sergey Berezin, Stephen Berman, Karl "
-"Berry, Anna M. Bigatti, Ray Blaak, Martin Blais, Jim Blandy, Johan Bockgård, "
-"Jan Böcker, Joel Boehland, Lennart Borgman, Per Bothner, Terrence Brannon, "
-"Frank Bresz, Peter Breton, Emmanuel Briot, Kevin Broadey, Vincent Broman, "
-"Michael Brouwer, David M. Brown, Ken Brown, Stefan Bruda, Daniel Colascione, "
-"Georges Brun-Cottan, Joe Buehler, Scott Byer, Włodek Bzyl, Tino Calancha, "
-"Bill Carpenter, Per Cederqvist, Hans Chalupsky, Chris Chase, Bob Chassell, "
-"Andrew Choi, Chong Yidong, Sacha Chua, Stewart Clamen, James Clark, Mike "
-"Clarkson, Glynn Clements, Andrew Cohen, Daniel Colascione, Christoph Conrad, "
-"Ludovic Courtès, Andrew Csillag, Toby Cubitt, Baoqiu Cui, Doug Cutting, "
-"Mathias Dahl, Julien Danjou, Satyaki Das, Vivek Dasmohapatra, Dan Davison, "
-"Michael DeCorte, Gary Delp, Nachum Dershowitz, Dave Detlefs, Matthieu Devin, "
-"Christophe de Dinechin, Eri Ding, Jan Djärv, Lawrence R. Dodd, Carsten "
-"Dominik, Scott Draves, Benjamin Drieu, Viktor Dukhovni, Jacques Duthen, "
-"Dmitry Dzhus, John Eaton, Rolf Ebert, Carl Edman, David Edmondson, Paul "
-"Eggert, Stephen Eglen, Christian Egli, Torbjörn Einarsson, Tsugutomo Enami, "
-"David Engster, Hans Henrik Eriksen, Michael Ernst, Ata Etemadi, Frederick "
-"Farnbach, Oscar Figueiredo, Fred Fish, Steve Fisk, Karl Fogel, Gary Foster, "
-"Eric S. Fraga, Romain Francoise, Noah Friedman, Andreas Fuchs, Shigeru "
-"Fukaya, Xue Fuqiao, Hallvard Furuseth, Keith Gabryelski, Peter S.  "
-"Galbraith, Kevin Gallagher, Fabián E. Gallina, Kevin Gallo, Juan León Lahoz "
-"García, Howard Gayle, Daniel German, Stephen Gildea, Julien Gilles, David "
-"Gillespie, Bob Glickstein, Deepak Goel, David De La Harpe Golden, Boris "
-"Goldowsky, David Goodger, Chris Gray, Kevin Greiner, Michelangelo Grigni, "
-"Odd Gripenstam, Kai Großjohann, Michael Gschwind, Bastien Guerry, Henry "
-"Guillaume, Dmitry Gutov, Doug Gwyn, Bruno Haible, Ken'ichi Handa, Lars "
-"Hansen, Chris Hanson, Jesper Harder, Alexandru Harsanyi, K. Shane Hartman, "
-"John Heidemann, Jon K. Hellan, Magnus Henoch, Markus Heritsch, Dirk "
-"Herrmann, Karl Heuer, Manabu Higashida, Konrad Hinsen, Anders Holst, Jeffrey "
-"C. Honig, Tassilo Horn, Kurt Hornik, Khaled Hosny, Tom Houlder, Joakim Hove, "
-"Denis Howe, Lars Ingebrigtsen, Andrew Innes, Seiichiro Inoue, Philip "
-"Jackson, Martyn Jago, Pavel Janik, Paul Jarc, Ulf Jasper, Thorsten Jolitz, "
-"Michael K. Johnson, Kyle Jones, Terry Jones, Simon Josefsson, Alexandre "
-"Julliard, Arne Jørgensen, Tomoji Kagatani, Brewster Kahle, Tokuya Kameshima, "
-"Lute Kamstra, Ivan Kanis, David Kastrup, David Kaufman, Henry Kautz, Taichi "
-"Kawabata, Taro Kawagishi, Howard Kaye, Michael Kifer, Richard King, Peter "
-"Kleiweg, Karel Klíč, Shuhei Kobayashi, Pavel Kobyakov, Larry K. Kolodney, "
-"David M. Koppelman, Koseki Yoshinori, Robert Krawitz, Sebastian Kremer, "
-"Ryszard Kubiak, Igor Kuzmin, David Kågedal, Daniel LaLiberte, Karl "
-"Landstrom, Mario Lang, Aaron Larson, James R. Larus, Vinicius Jose Latorre, "
-"Werner Lemberg, Frederic Lepied, Peter Liljenberg, Christian Limpach, Lars "
-"Lindberg, Chris Lindblad, Anders Lindgren, Thomas Link, Juri Linkov, Francis "
-"Litterio, Sergey Litvinov, Leo Liu, Emilio C. Lopes, Martin Lorentzon, Dave "
-"Love, Eric Ludlam, Károly Lőrentey, Sascha Lüdecke, Greg McGary, Roland "
-"McGrath, Michael McNamara, Alan Mackenzie, Christopher J. Madsen, Neil M. "
-"Mager, Artur Malabarba, Ken Manheimer, Bill Mann, Brian Marick, Simon "
-"Marshall, Bengt Martensson, Charlie Martin, Yukihiro Matsumoto, Tomohiro "
-"Matsuyama, David Maus, Thomas May, Will Mengarini, David Megginson, Jimmy "
-"Aguilar Mena, Stefan Merten, Ben A. Mesander, Wayne Mesard, Brad Miller, "
-"Lawrence Mitchell, Richard Mlynarik, Gerd Möllmann, Dani Moncayo, Stefan "
-"Monnier, Keith Moore, Jan Moringen, Morioka Tomohiko, Glenn Morris, Don "
-"Morrison, Diane Murray, Riccardo Murri, Sen Nagata, Erik Naggum, Gergely "
-"Nagy, Nobuyoshi Nakada, Thomas Neumann, Mike Newton, Thien-Thi Nguyen, "
-"Jurgen Nickelsen, Dan Nicolaescu, Hrvoje Nikšić, Jeff Norden, Andrew Norman, "
-"Theresa O'Connor, Kentaro Ohkouchi, Christian Ohler, Kenichi Okada, "
-"Alexandre Oliva, Bob Olson, Michael Olson, Takaaki Ota, Mark Oteiza, Pieter "
-"E. J. Pareit, Ross Patterson, David Pearson, Juan Pechiar, Jeff Peck, Damon "
-"Anton Permezel, Tom Perrine, William M. Perry, Per Persson, Jens Petersen, "
-"Nicolas Petton, Daniel Pfeiffer, Justus Piater, Richard L.  Pieri, Fred "
-"Pierresteguy, François Pinard, Daniel Pittman, Christian Plaunt, Alexander "
-"Pohoyda, David Ponce, Noam Postavsky, Francesco A. Potortì, Michael D. "
-"Prange, Mukesh Prasad, Ken Raeburn, Marko Rahamaa, Ashwin Ram, Eric S. "
-"Raymond, Paul Reilly, Edward M. Reingold, David Reitter, Alex Rezinsky, Rob "
-"Riepel, Lara Rios, Adrian Robert, Nick Roberts, Roland B. Roberts, John "
-"Robinson, Denis B. Roegel, Danny Roozendaal, Sebastian Rose, William "
-"Rosenblatt, Markus Rost, Guillermo J. Rozas, Martin Rudalics, Ivar "
-"Rummelhoff, Jason Rumney, Wolfgang Rupprecht, Benjamin Rutt, Kevin Ryde, "
-"Phil Sainty, James B. Salem, Masahiko Sato, Timo Savola, Jorgen Schäfer, "
-"Holger Schauer, William Schelter, Ralph Schleicher, Gregor Schmid, Michael "
-"Schmidt, Ronald S. Schnell, Philippe Schnoebelen, Jan Schormann, Alex "
-"Schroeder, Stefan Schoef, Rainer Schöpf, Raymond Scholz, Eric Schulte, "
-"Andreas Schwab, Randal Schwartz, Oliver Seidel, Manuel Serrano, Paul Sexton, "
-"Hovav Shacham, Stanislav Shalunov, Marc Shapiro, Richard Sharman, Olin "
-"Shivers, Tibor Šimko, Espen Skoglund, Rick Sladkey, Lynn Slater, Chris "
-"Smith, David Smith, Paul D. Smith, Wilson Snyder, William Sommerfeld, Simon "
-"South, Andre Spiegel, Michael Staats, Thomas Steffen, Ulf Stegemann, Reiner "
-"Steib, Sam Steingold, Ake Stenhoff, Philipp Stephani, Peter Stephenson, Ken "
-"Stevens, Andy Stewart, Jonathan Stigelman, Martin Stjernholm, Kim F.  Storm, "
-"Steve Strassmann, Christopher Suckling, Olaf Sylvester, Naoto Takahashi, "
-"Steven Tamm, Jan Tatarik, João Távora, Luc Teirlinck, Jean-Philippe "
-"Theberge, Jens T.@: Berger Thielemann, Spencer Thomas, Jim Thompson, Toru "
-"Tomabechi, David O'Toole, Markus Triska, Tom Tromey, Eli Tziperman, Daiki "
-"Ueno, Masanobu Umeda, Rajesh Vaidheeswarran, Neil W. Van Dyke, Didier Verna, "
-"Joakim Verona, Ulrik Vieth, Geoffrey Voelker, Johan Vromans, Inge Wallin, "
-"John Paul Wallington, Colin Walters, Barry Warsaw, Christoph Wedler, Ilja "
-"Weis, Zhang Weize, Morten Welinder, Joseph Brian Wells, Rodney Whitby, John "
-"Wiegley, Sascha Wilde, Ed Wilkinson, Mike Williams, Roland Winkler, Bill "
-"Wohler, Steven A. Wood, Dale R. Worley, Francis J. Wright, Felix S. T. Wu, "
-"Tom Wurgler, Yamamoto Mitsuharu, Katsumi Yamaoka, Masatake Yamato, Jonathan "
-"Yavner, Ryan Yeske, Ilya Zakharevich, Milan Zamazal, Victor Zandy, Eli "
-"Zaretskii, Jamie Zawinski, Andrew Zhilin, Shenghuo Zhu, Piotr Zieliński, Ian "
-"T. Zimmermann, Reto Zimmermann, Neal Ziring, Teodor Zlatanov, and Detlev "
-"Zundel."
 
 #. type: unnumbered
 #: src/emacs.texi:1507
@@ -7784,355 +7340,313 @@ msgstr "介绍"
 
 #. type: Plain text
 #: src/emacs.texi:1514
-msgid ""
-"You are reading about GNU Emacs, the GNU incarnation of the advanced, self-"
-"documenting, customizable, extensible editor Emacs.  (The @samp{G} in"
-msgstr ""
-"您正在阅读关于GNU Emacs的文章，GNU Emacs是高级的、自文档化的、可定制的、可扩展的编辑器Emacs的GNU版本。(The @samp{G}"
-" in"
+msgid "You are reading about GNU Emacs, the GNU incarnation of the advanced, self-documenting, customizable, extensible editor Emacs.  (The @samp{G} in"
+msgstr "您正在阅读关于GNU Emacs的文章，GNU Emacs是高级的、自文档化的、可定制的、可扩展的编辑器Emacs的GNU版本。(The @samp{G} in"
 
 #. type: acronym{#1}
 #: src/emacs.texi:1516
 msgid "GNU, @acronym{GNU}'s Not Unix"
-msgstr "GNU, @acronym{GNU}'s Not Unix"
+msgstr ""
 
 #. type: acronym{#1}
 #: src/emacs.texi:1519
 msgid "GNU, GNU's Not Unix"
-msgstr "GNU, GNU's Not Unix"
+msgstr ""
 
 #. type: Plain text
 #: src/emacs.texi:1521
 msgid "is not silent.)"
-msgstr "is not silent.)"
+msgstr ""
 
 #. type: Plain text
 #: src/emacs.texi:1529
-msgid ""
-"We call Emacs @dfn{advanced} because it can do much more than simple "
-"insertion and deletion of text.  It can control subprocesses, indent "
-"programs automatically, show multiple files at once, edit remote files like "
-"they were local files, and more.  Emacs editing commands operate in terms of "
-"characters, words, lines, sentences, paragraphs, and pages, as well as "
-"expressions and comments in various programming languages."
-msgstr ""
-"我们称Emacs @dfn {advanced}是因为它不仅可以简单地插入和删除文本，还可以做更多的事情。它可以控制子进程，自动缩进程序，一次显示多个文件"
-"，编辑远程文件，就像编辑本地文件一样，等等。Emacs编辑命令根据字符、单词、行、句子、段落和页面以及各种编程语言的表达式和注释进行操作。"
+msgid "We call Emacs @dfn{advanced} because it can do much more than simple insertion and deletion of text.  It can control subprocesses, indent programs automatically, show multiple files at once, edit remote files like they were local files, and more.  Emacs editing commands operate in terms of characters, words, lines, sentences, paragraphs, and pages, as well as expressions and comments in various programming languages."
+msgstr "我们称Emacs @dfn {advanced}是因为它不仅可以简单地插入和删除文本，还可以做更多的事情。它可以控制子进程，自动缩进程序，一次显示多个文件，编辑远程文件，就像编辑本地文件一样，等等。Emacs编辑命令根据字符、单词、行、句子、段落和页面以及各种编程语言的表达式和注释进行操作。"
 
 #. type: Plain text
 #: src/emacs.texi:1534
-msgid ""
-"@dfn{Self-documenting} means that at any time you can use special commands, "
-"known as @dfn{help commands}, to find out what your options are, or to find "
-"out what any command does, or to find all the commands that pertain to a "
-"given topic.  @xref{Help}."
-msgstr ""
-"@dfn {Self-documenting}意味着您可以随时使用特殊命令（称为@dfn "
-"{help命令}）来查找您的选项，或者查找任何命令的功能，或者查找所有与给定主题有关的命令。@xref{帮助}."
+msgid "@dfn{Self-documenting} means that at any time you can use special commands, known as @dfn{help commands}, to find out what your options are, or to find out what any command does, or to find all the commands that pertain to a given topic.  @xref{Help}."
+msgstr "@dfn {Self-documenting}意味着您可以随时使用特殊命令（称为@dfn {help命令}）来查找您的选项，或者查找任何命令的功能，或者查找所有与给定主题有关的命令。@xref{帮助}."
 
 #. type: Plain text
 #: src/emacs.texi:1543
-msgid ""
-"@dfn{Customizable} means that you can easily alter the behavior of Emacs "
-"commands in simple ways.  For instance, if you use a programming language in "
-"which comments start with @samp{<**} and end with @samp{**>}, you can tell "
-"the Emacs comment manipulation commands to use those strings "
-"(@pxref{Comments}).  To take another example, you can rebind the basic "
-"cursor motion commands (up, down, left and right)  to any keys on the "
-"keyboard that you find comfortable.  @xref{Customization}."
-msgstr ""
-"@dfn {Customizable}意味着您可以通过简单的方式轻松地更改Emacs命令的行为。例如，如果您使用一种编程语言，其中注释以@samp "
-"{<**}开头并以@samp {**>}结尾，则可以告诉Emacs的注释操作命令使用这些字符串（@pxref {Comments} "
-"）。再举一个例子，您可以将基本光标移动命令(上、下、左和右)重新绑定到键盘上您觉得舒服的任何键上。@xref{Customization}."
+msgid "@dfn{Customizable} means that you can easily alter the behavior of Emacs commands in simple ways.  For instance, if you use a programming language in which comments start with @samp{<**} and end with @samp{**>}, you can tell the Emacs comment manipulation commands to use those strings (@pxref{Comments}).  To take another example, you can rebind the basic cursor motion commands (up, down, left and right)  to any keys on the keyboard that you find comfortable.  @xref{Customization}."
+msgstr "@dfn {Customizable}意味着您可以通过简单的方式轻松地更改Emacs命令的行为。例如，如果您使用一种编程语言，其中注释以@samp {<**}开头并以@samp {**>}结尾，则可以告诉Emacs的注释操作命令使用这些字符串（@pxref {Comments} ）。再举一个例子，您可以将基本光标移动命令(上、下、左和右)重新绑定到键盘上您觉得舒服的任何键上。@xref{Customization}."
 
 #. type: Plain text
 #: src/emacs.texi:1555
-msgid ""
-"@dfn{Extensible} means that you can go beyond simple customization and "
-"create entirely new commands.  New commands are simply programs written in "
-"the Lisp language, which are run by Emacs's own Lisp interpreter.  Existing "
-"commands can even be redefined in the middle of an editing session, without "
-"having to restart Emacs.  Most of the editing commands in Emacs are written "
-"in Lisp; the few exceptions could have been written in Lisp but use C "
-"instead for efficiency.  Writing an extension is programming, but non-"
-"programmers can use it afterwards.  @xref{Top, Emacs Lisp Intro, Preface, "
-"eintr, An Introduction to Programming in Emacs Lisp}, if you want to learn "
-"Emacs Lisp programming."
-msgstr ""
-"@dfn {Extensible}意味着您可以超越简单的自定义并创建全新的命令。新命令只是用Lisp语言编写的程序，由Emacs自己的Lisp解释器运行。"
-"甚至可以在编辑会话过程中重新定义现有命令，而不必重新启动Emacs。Emacs中的大多数编辑命令都是用Lisp编写的；少数例外可能是用Lisp编写的，但为"
-"了提高效率改用C语言实现。编写扩展就是编程，但非程序员可以在之后使用它。如果您想学习Emacs Lisp编程，请@xref {Top, Emacs "
-"Lisp简介, 序言, eintr, Emacs Lisp编程简介}."
+msgid "@dfn{Extensible} means that you can go beyond simple customization and create entirely new commands.  New commands are simply programs written in the Lisp language, which are run by Emacs's own Lisp interpreter.  Existing commands can even be redefined in the middle of an editing session, without having to restart Emacs.  Most of the editing commands in Emacs are written in Lisp; the few exceptions could have been written in Lisp but use C instead for efficiency.  Writing an extension is programming, but non-programmers can use it afterwards.  @xref{Top, Emacs Lisp Intro, Preface, eintr, An Introduction to Programming in Emacs Lisp}, if you want to learn Emacs Lisp programming."
+msgstr "@dfn {Extensible}意味着您可以超越简单的自定义并创建全新的命令。新命令只是用Lisp语言编写的程序，由Emacs自己的Lisp解释器运行。甚至可以在编辑会话过程中重新定义现有命令，而不必重新启动Emacs。Emacs中的大多数编辑命令都是用Lisp编写的；少数例外可能是用Lisp编写的，但为了提高效率改用C语言实现。编写扩展就是编程，但非程序员可以在之后使用它。如果您想学习Emacs Lisp编程，请@xref {Top, Emacs Lisp简介, 序言, eintr, Emacs Lisp编程简介}."
 
 #. type: include
 #: src/emacs.texi:1556
 #, no-wrap
 msgid "screen.texi"
-msgstr "screen.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1557
 #, no-wrap
 msgid "commands.texi"
-msgstr "commands.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1558
 #, no-wrap
 msgid "entering.texi"
-msgstr "entering.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1559
 #, no-wrap
 msgid "basic.texi"
-msgstr "basic.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1560
 #, no-wrap
 msgid "mini.texi"
-msgstr "mini.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1561
 #, no-wrap
 msgid "m-x.texi"
-msgstr "m-x.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1562
 #, no-wrap
 msgid "help.texi"
-msgstr "help.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1563
 #, no-wrap
 msgid "mark.texi"
-msgstr "mark.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1564
 #, no-wrap
 msgid "killing.texi"
-msgstr "killing.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1565
 #, no-wrap
 msgid "regs.texi"
-msgstr "regs.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1566
 #, no-wrap
 msgid "display.texi"
-msgstr "display.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1567
 #, no-wrap
 msgid "search.texi"
-msgstr "search.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1568
 #, no-wrap
 msgid "fixit.texi"
-msgstr "fixit.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1569
 #, no-wrap
 msgid "kmacro.texi"
-msgstr "kmacro.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1571
 #, no-wrap
 msgid "files.texi"
-msgstr "files.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1572
 #, no-wrap
 msgid "buffers.texi"
-msgstr "buffers.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1573
 #, no-wrap
 msgid "windows.texi"
-msgstr "windows.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1574
 #, no-wrap
 msgid "frames.texi"
-msgstr "frames.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1575
 #, no-wrap
 msgid "mule.texi"
-msgstr "mule.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1576
 #, no-wrap
 msgid "modes.texi"
-msgstr "modes.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1577
 #, no-wrap
 msgid "indent.texi"
-msgstr "indent.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1578
 #, no-wrap
 msgid "text.texi"
-msgstr "text.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1580
 #, no-wrap
 msgid "programs.texi"
-msgstr "programs.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1581
 #, no-wrap
 msgid "building.texi"
-msgstr "building.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1583
 #, no-wrap
 msgid "maintaining.texi"
-msgstr "maintaining.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1584
 #, no-wrap
 msgid "abbrevs.texi"
-msgstr "abbrevs.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1586
 #, no-wrap
 msgid "dired.texi"
-msgstr "dired.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1588
 #, no-wrap
 msgid "calendar.texi"
-msgstr "calendar.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1589
 #, no-wrap
 msgid "sending.texi"
-msgstr "sending.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1590
 #, no-wrap
 msgid "rmail.texi"
-msgstr "rmail.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1592
 #, no-wrap
 msgid "misc.texi"
-msgstr "misc.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1593
 #, no-wrap
 msgid "package.texi"
-msgstr "package.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1594
 #, no-wrap
 msgid "custom.texi"
-msgstr "custom.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1595
 #, no-wrap
 msgid "trouble.texi"
-msgstr "trouble.texi"
+msgstr ""
 
 #. type: appendix
 #: src/emacs.texi:1598
 #, no-wrap
 msgid "GNU GENERAL PUBLIC LICENSE"
-msgstr "GNU GENERAL PUBLIC LICENSE"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1599
 #, no-wrap
 msgid "gpl.texi"
-msgstr "gpl.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1603
 #, no-wrap
 msgid "doclicense.texi"
-msgstr "doclicense.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1605
 #, no-wrap
 msgid "cmdargs.texi"
-msgstr "cmdargs.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1606
 #, no-wrap
 msgid "xresources.texi"
-msgstr "xresources.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1608
 #, no-wrap
 msgid "anti.texi"
-msgstr "anti.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1609
 #, no-wrap
 msgid "macos.texi"
-msgstr "macos.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1611
 #, no-wrap
 msgid "msdos.texi"
-msgstr "msdos.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1612
 #, no-wrap
 msgid "gnu.texi"
-msgstr "gnu.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1613
 #, no-wrap
 msgid "glossary.texi"
-msgstr "glossary.texi"
+msgstr ""
 
 #. type: include
 #: src/emacs.texi:1615
 #, no-wrap
 msgid "ack.texi"
-msgstr "ack.texi"
+msgstr ""
 
 #. type: unnumbered
 #: src/emacs.texi:1623
@@ -8151,3 +7665,4 @@ msgstr "命令行选项索引"
 #, no-wrap
 msgid "Command and Function Index"
 msgstr "命令和功能索引"
+

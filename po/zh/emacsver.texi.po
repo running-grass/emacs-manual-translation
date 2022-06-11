@@ -13,16 +13,6 @@ msgstr ""
 "X-Crowdin-Project: emacs-manual-chinese\n"
 "X-Crowdin-Project-ID: 436220\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /27.1/pot/docstyle.texi.pot\n"
-"X-Crowdin-File-ID: 266\n"
-
-#. type: Plain text
-#: src/docstyle.texi:5
-msgid "@documentencoding UTF-8"
-msgstr ""
-
-#. type: iftex
-#: src/docstyle.texi:18
-msgid "@hyphenation{au-to-mat-i-cal-ly} @hyphenation{spec-i-fied} @hyphenation{work-a-round} @hyphenation{work-a-rounds} @hyphenation{un-marked}"
-msgstr ""
+"X-Crowdin-File: /27.1/pot/emacsver.texi.pot\n"
+"X-Crowdin-File-ID: 272\n"
 
