@@ -1,19 +1,20 @@
-# Chinese translations for PACKAGE package
-# Copyright (C) 2021 Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2021.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-06 19:00+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: zh_Hans\n"
+"PO-Revision-Date: 2021-01-09 06:15\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: emacs-manual-chinese\n"
+"X-Crowdin-Project-ID: 436220\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /27.1/pot/emacs-xtra.texi.pot\n"
+"X-Crowdin-File-ID: 268\n"
 
 #. type: top
 #: src/emacs-xtra.texi:4 src/emacs-xtra.texi:40 src/emacs-xtra.texi:50
@@ -39,20 +40,12 @@ msgstr ""
 
 #. type: quotation
 #: src/emacs-xtra.texi:28
-msgid ""
-"Permission is granted to copy, distribute and/or modify this document under "
-"the terms of the GNU Free Documentation License, Version 1.3 or any later "
-"version published by the Free Software Foundation; with no Invariant "
-"Sections, with the Front-Cover Texts being ``A GNU Manual,'' and with the "
-"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
-"section entitled ``GNU Free Documentation License''."
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, with the Front-Cover Texts being ``A GNU Manual,'' and with the Back-Cover Texts as in (a) below.  A copy of the license is included in the section entitled ``GNU Free Documentation License''."
 msgstr ""
 
 #. type: quotation
 #: src/emacs-xtra.texi:31
-msgid ""
-"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
-"this GNU manual.''"
+msgid "(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify this GNU manual.''"
 msgstr ""
 
 #. type: dircategory
@@ -90,20 +83,12 @@ msgstr ""
 
 #. type: iftex
 #: src/emacs-xtra.texi:61
-msgid ""
-"* Picture Mode:: Editing pictures made up of characters using the quarter-"
-"plane screen model."
+msgid "* Picture Mode:: Editing pictures made up of characters using the quarter-plane screen model."
 msgstr ""
 
 #. type: iftex
 #: src/emacs-xtra.texi:69
-msgid ""
-"* Non-File Buffers:: Auto Reverting non-file buffers.  * Subdir Switches:: "
-"Subdirectory switches in Dired.  * Advanced Calendar/Diary Usage:: Advanced "
-"Calendar/Diary customization.  * Emerge:: A convenient way of merging two "
-"versions of a program.  * Advanced VC Usage:: Advanced VC (version control) "
-"features.  * Fortran:: Fortran mode and its special features.  * MS-DOS:: "
-"Using Emacs on MS-DOS."
+msgid "* Non-File Buffers:: Auto Reverting non-file buffers.  * Subdir Switches:: Subdirectory switches in Dired.  * Advanced Calendar/Diary Usage:: Advanced Calendar/Diary customization.  * Emerge:: A convenient way of merging two versions of a program.  * Advanced VC Usage:: Advanced VC (version control) features.  * Fortran:: Fortran mode and its special features.  * MS-DOS:: Using Emacs on MS-DOS."
 msgstr ""
 
 #. type: appendix
@@ -125,34 +110,17 @@ msgstr ""
 
 #. type: Plain text
 #: src/emacs-xtra.texi:83
-msgid ""
-"This manual contains detailed information about various features that are "
-"too specialized to be included in the printed Emacs manual.  It is intended "
-"to be readable by anyone having a basic knowledge of Emacs.  However, "
-"certain sections may be intended for a more specialized audience, such as "
-"Elisp authors.  This should be clearly pointed out at the beginning of these "
-"sections."
+msgid "This manual contains detailed information about various features that are too specialized to be included in the printed Emacs manual.  It is intended to be readable by anyone having a basic knowledge of Emacs.  However, certain sections may be intended for a more specialized audience, such as Elisp authors.  This should be clearly pointed out at the beginning of these sections."
 msgstr ""
 
 #. type: Plain text
 #: src/emacs-xtra.texi:104
-msgid ""
-"Certain packages (or collections of related features) have their own "
-"manuals, separate from the main Emacs manual.  This manual is intended as a "
-"complement, rather than an alternative, to reading those additional "
-"manuals.  In a nutshell, it is a collection of smaller specialized features "
-"(or extra detail about standard features), too small or too obscure to "
-"justify their own manual, or inclusion in the printed Emacs manual.  The "
-"chapters in this manual are, however, included (at the relevant places) in "
-"the main Emacs manual when it is formatted as an Info document."
+msgid "Certain packages (or collections of related features) have their own manuals, separate from the main Emacs manual.  This manual is intended as a complement, rather than an alternative, to reading those additional manuals.  In a nutshell, it is a collection of smaller specialized features (or extra detail about standard features), too small or too obscure to justify their own manual, or inclusion in the printed Emacs manual.  The chapters in this manual are, however, included (at the relevant places) in the main Emacs manual when it is formatted as an Info document."
 msgstr ""
 
 #. type: Plain text
 #: src/emacs-xtra.texi:108
-msgid ""
-"Sections intended specifically for Elisp programmers can follow the style of "
-"the Elisp manual.  Other sections should follow the style of the Emacs "
-"manual."
+msgid "Sections intended specifically for Elisp programmers can follow the style of the Elisp manual.  Other sections should follow the style of the Emacs manual."
 msgstr ""
 
 #. type: iftex
@@ -218,3 +186,4 @@ msgstr ""
 #, no-wrap
 msgid "doclicense.texi"
 msgstr ""
+

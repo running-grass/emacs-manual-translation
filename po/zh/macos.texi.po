@@ -1,19 +1,20 @@
-# Chinese translations for PACKAGE package
-# Copyright (C) 2021 Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2021.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-06 19:00+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: zh_Hans\n"
+"PO-Revision-Date: 2021-01-09 06:14\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: emacs-manual-chinese\n"
+"X-Crowdin-Project-ID: 436220\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /27.1/pot/macos.texi.pot\n"
+"X-Crowdin-File-ID: 300\n"
 
 #. type: node
 #: src/macos.texi:4
@@ -47,43 +48,22 @@ msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:16
-msgid ""
-"This section describes the peculiarities of using Emacs built with the "
-"GNUstep libraries on GNU/Linux or other operating systems, or on macOS with "
-"native window system support.  On macOS, Emacs can be built either without "
-"window system support, with X11, or with the Cocoa interface; this section "
-"only applies to the Cocoa build.  This does not support versions before "
-"macOS 10.6."
+msgid "This section describes the peculiarities of using Emacs built with the GNUstep libraries on GNU/Linux or other operating systems, or on macOS with native window system support.  On macOS, Emacs can be built either without window system support, with X11, or with the Cocoa interface; this section only applies to the Cocoa build.  This does not support versions before macOS 10.6."
 msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:21
-msgid ""
-"GNUstep is free software; macOS is not.  Because it is a non-free operating "
-"system, macOS denies its users the freedom that every computer user "
-"deserves.  That is an injustice.  For your freedom's sake, we urge you to "
-"switch to a free operating system."
+msgid "GNUstep is free software; macOS is not.  Because it is a non-free operating system, macOS denies its users the freedom that every computer user deserves.  That is an injustice.  For your freedom's sake, we urge you to switch to a free operating system."
 msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:24
-msgid ""
-"We support GNU Emacs on proprietary operating systems because we hope this "
-"taste of freedom will inspire users to escape from them."
+msgid "We support GNU Emacs on proprietary operating systems because we hope this taste of freedom will inspire users to escape from them."
 msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:34
-msgid ""
-"For various historical and technical reasons, Emacs uses the term "
-"@samp{Nextstep} internally, instead of ``Cocoa'' or ``macOS''; for instance, "
-"most of the commands and variables described in this section begin with "
-"@samp{ns-}, which is short for @samp{Nextstep}.  NeXTstep was an application "
-"interface released by NeXT Inc.@: during the 1980s, of which Cocoa is a "
-"direct descendant.  Apart from Cocoa, there is another NeXTstep-style "
-"system: GNUstep, which is free software.  As of this writing, Emacs GNUstep "
-"support is in alpha status (@pxref{GNUstep Support}), but we hope to improve "
-"it in the future."
+msgid "For various historical and technical reasons, Emacs uses the term @samp{Nextstep} internally, instead of ``Cocoa'' or ``macOS''; for instance, most of the commands and variables described in this section begin with @samp{ns-}, which is short for @samp{Nextstep}.  NeXTstep was an application interface released by NeXT Inc.@: during the 1980s, of which Cocoa is a direct descendant.  Apart from Cocoa, there is another NeXTstep-style system: GNUstep, which is free software.  As of this writing, Emacs GNUstep support is in alpha status (@pxref{GNUstep Support}), but we hope to improve it in the future."
 msgstr ""
 
 #. type: node
@@ -144,32 +124,17 @@ msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:53
-msgid ""
-"By default, the @key{Alt} and @key{Option} keys are the same as @key{Meta}.  "
-"The Mac @key{Cmd} key is the same as @key{Super}, and Emacs provides a set "
-"of key bindings using this modifier key that mimic other Mac / GNUstep "
-"applications (@pxref{Mac / GNUstep Events}).  You can change these bindings "
-"in the usual way (@pxref{Key Bindings}).  The modifiers themselves can be "
-"customized; @pxref{Mac / GNUstep Customization}."
+msgid "By default, the @key{Alt} and @key{Option} keys are the same as @key{Meta}.  The Mac @key{Cmd} key is the same as @key{Super}, and Emacs provides a set of key bindings using this modifier key that mimic other Mac / GNUstep applications (@pxref{Mac / GNUstep Events}).  You can change these bindings in the usual way (@pxref{Key Bindings}).  The modifiers themselves can be customized; @pxref{Mac / GNUstep Customization}."
 msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:59
-msgid ""
-"@kbd{S-mouse-1} adjusts the region to the click position, just like "
-"@kbd{mouse-3} (@code{mouse-save-then-kill}); it does not pop up a menu for "
-"changing the default face, as @kbd{S-mouse-1} normally does (@pxref{Text "
-"Scale}).  This change makes Emacs behave more like other Mac / GNUstep "
-"applications."
+msgid "@kbd{S-mouse-1} adjusts the region to the click position, just like @kbd{mouse-3} (@code{mouse-save-then-kill}); it does not pop up a menu for changing the default face, as @kbd{S-mouse-1} normally does (@pxref{Text Scale}).  This change makes Emacs behave more like other Mac / GNUstep applications."
 msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:65
-msgid ""
-"When you open or save files using the menus, or using the @kbd{Cmd-o} and "
-"@kbd{Cmd-S} bindings, Emacs uses graphical file dialogs to read file names.  "
-"However, if you use the regular Emacs key sequences, such as @kbd{C-x C-f}, "
-"Emacs uses the minibuffer to read file names."
+msgid "When you open or save files using the menus, or using the @kbd{Cmd-o} and @kbd{Cmd-S} bindings, Emacs uses graphical file dialogs to read file names.  However, if you use the regular Emacs key sequences, such as @kbd{C-x C-f}, Emacs uses the minibuffer to read file names."
 msgstr ""
 
 #. type: cindex
@@ -180,12 +145,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:73
-msgid ""
-"On GNUstep, in an X-windows environment you need to use @kbd{Cmd-c} instead "
-"of one of the @kbd{C-w} or @kbd{M-w} commands to transfer text to the X "
-"primary selection; otherwise, Emacs will use the clipboard selection.  "
-"Likewise, @kbd{Cmd-y} (instead of @kbd{C-y})  yanks from the X primary "
-"selection instead of the kill-ring or clipboard."
+msgid "On GNUstep, in an X-windows environment you need to use @kbd{Cmd-c} instead of one of the @kbd{C-w} or @kbd{M-w} commands to transfer text to the X primary selection; otherwise, Emacs will use the clipboard selection.  Likewise, @kbd{Cmd-y} (instead of @kbd{C-y})  yanks from the X primary selection instead of the kill-ring or clipboard."
 msgstr ""
 
 #. type: subsection
@@ -202,31 +162,17 @@ msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:87
-msgid ""
-"Many programs which may run under Emacs, like latex or man, depend on the "
-"settings of environment variables.  If Emacs is launched from the shell, it "
-"will automatically inherit these environment variables and its subprocesses "
-"will inherit them from it.  But if Emacs is launched from the Finder it is "
-"not a descendant of any shell, so its environment variables haven't been "
-"set, which often causes the subprocesses it launches to behave differently "
-"than they would when launched from the shell."
+msgid "Many programs which may run under Emacs, like latex or man, depend on the settings of environment variables.  If Emacs is launched from the shell, it will automatically inherit these environment variables and its subprocesses will inherit them from it.  But if Emacs is launched from the Finder it is not a descendant of any shell, so its environment variables haven't been set, which often causes the subprocesses it launches to behave differently than they would when launched from the shell."
 msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:91
-msgid ""
-"For the PATH and MANPATH variables, a system-wide method of setting PATH is "
-"recommended on macOS, using the @file{/etc/paths} files and the @file{/etc/"
-"paths.d} directory."
+msgid "For the PATH and MANPATH variables, a system-wide method of setting PATH is recommended on macOS, using the @file{/etc/paths} files and the @file{/etc/paths.d} directory."
 msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:99
-msgid ""
-"There are a few customization options that are specific to the Nextstep "
-"port.  For example, they affect things such as the modifier keys and the "
-"fullscreen behavior.  To see all such options, use @kbd{M-x customize-group "
-"@key{RET} ns @key{RET}}."
+msgid "There are a few customization options that are specific to the Nextstep port.  For example, they affect things such as the modifier keys and the fullscreen behavior.  To see all such options, use @kbd{M-x customize-group @key{RET} ns @key{RET}}."
 msgstr ""
 
 #. type: subsection
@@ -237,8 +183,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:104
-msgid ""
-"The following variables control the behavior of the actual modifier keys:"
+msgid "The following variables control the behavior of the actual modifier keys:"
 msgstr ""
 
 #. type: item
@@ -305,30 +250,17 @@ msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:134
-msgid ""
-"The value of each variable is either a symbol, describing the key for any "
-"purpose, or a list of the form @code{(:ordinary @var{symbol} :function "
-"@var{symbol} :mouse @var{symbol})}, which describes the modifier when used "
-"with ordinary keys, function keys (that do not produce a character, such as "
-"arrow keys), and mouse clicks."
+msgid "The value of each variable is either a symbol, describing the key for any purpose, or a list of the form @code{(:ordinary @var{symbol} :function @var{symbol} :mouse @var{symbol})}, which describes the modifier when used with ordinary keys, function keys (that do not produce a character, such as arrow keys), and mouse clicks."
 msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:141
-msgid ""
-"If the @var{symbol} is one of @code{control}, @code{meta}, @code{alt}, "
-"@code{super} or @code{hyper}, this describes the Emacs modifier it "
-"represents.  If @var{symbol} is @code{none}, Emacs does not use the key, "
-"which retains its standard behavior.  For instance, the @key{Option} key in "
-"macOS is then used for composing additional characters."
+msgid "If the @var{symbol} is one of @code{control}, @code{meta}, @code{alt}, @code{super} or @code{hyper}, this describes the Emacs modifier it represents.  If @var{symbol} is @code{none}, Emacs does not use the key, which retains its standard behavior.  For instance, the @key{Option} key in macOS is then used for composing additional characters."
 msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:145
-msgid ""
-"The variables for right-hand keys, like @code{ns-right-alternate-modifier}, "
-"may also be set to @code{left}, which means to use the same behavior as the "
-"corresponding left-hand key."
+msgid "The variables for right-hand keys, like @code{ns-right-alternate-modifier}, may also be set to @code{left}, which means to use the same behavior as the corresponding left-hand key."
 msgstr ""
 
 #. type: subsection
@@ -345,8 +277,7 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:153
-msgid ""
-"This variable specifies whether to display the proxy icon in the titlebar."
+msgid "This variable specifies whether to display the proxy icon in the titlebar."
 msgstr ""
 
 #. type: item
@@ -357,9 +288,7 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:158
-msgid ""
-"This variable specifies whether to display a graphical confirmation dialogue "
-"on quitting."
+msgid "This variable specifies whether to display a graphical confirmation dialogue on quitting."
 msgstr ""
 
 #. type: item
@@ -370,10 +299,7 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:164
-msgid ""
-"This variable specifies whether the macOS menu bar is hidden when an Emacs "
-"frame is selected.  If non-nil the menu bar is not shown unless the mouse "
-"pointer is moved near to the top of the screen."
+msgid "This variable specifies whether the macOS menu bar is hidden when an Emacs frame is selected.  If non-nil the menu bar is not shown unless the mouse pointer is moved near to the top of the screen."
 msgstr ""
 
 #. type: item
@@ -384,9 +310,7 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:170
-msgid ""
-"This variable controls whether to use native, or non-native fullscreen.  "
-"Native fullscreen is only available on macOS 10.7 and above."
+msgid "This variable controls whether to use native, or non-native fullscreen.  Native fullscreen is only available on macOS 10.7 and above."
 msgstr ""
 
 #. type: subsection
@@ -408,12 +332,7 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:184
-msgid ""
-"This variable controls whether Emacs ignores the system mousewheel "
-"acceleration.  When nil each `click' of the mousewheel will correspond "
-"exactly with one mousewheel event.  When non-nil, the default, each `click' "
-"may correspond with more than one mousewheel event, depending on the user's "
-"input."
+msgid "This variable controls whether Emacs ignores the system mousewheel acceleration.  When nil each `click' of the mousewheel will correspond exactly with one mousewheel event.  When non-nil, the default, each `click' may correspond with more than one mousewheel event, depending on the user's input."
 msgstr ""
 
 #. type: item
@@ -424,11 +343,7 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:191
-msgid ""
-"This variable controls whether Emacs ignores the system `momentum' when "
-"scrolling using a trackpad.  When non-nil, the default, scrolling rapidly "
-"may result in the buffer continuing to scroll for a short while after the "
-"user has lifted their fingers off the trackpad."
+msgid "This variable controls whether Emacs ignores the system `momentum' when scrolling using a trackpad.  When non-nil, the default, scrolling rapidly may result in the buffer continuing to scroll for a short while after the user has lifted their fingers off the trackpad."
 msgstr ""
 
 #. type: item
@@ -439,19 +354,12 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:199
-msgid ""
-"This variable controls the sensitivity of scrolling with the trackpad.  "
-"Apple trackpads scroll by pixels, not lines, so Emacs converts the system's "
-"pixel values into lines.  When set to a number, this variable sets the "
-"number of pixels Emacs will consider as one line.  When nil or a non-number "
-"the default line height is used."
+msgid "This variable controls the sensitivity of scrolling with the trackpad.  Apple trackpads scroll by pixels, not lines, so Emacs converts the system's pixel values into lines.  When set to a number, this variable sets the number of pixels Emacs will consider as one line.  When nil or a non-number the default line height is used."
 msgstr ""
 
 #. type: table
 #: src/macos.texi:202
-msgid ""
-"Setting a lower number makes the trackpad more sensitive, and a higher "
-"number makes the trackpad less sensitive."
+msgid "Setting a lower number makes the trackpad more sensitive, and a higher number makes the trackpad less sensitive."
 msgstr ""
 
 #. type: subsection
@@ -468,10 +376,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:210
-msgid ""
-"The standard Mac / GNUstep font panel is accessible with @kbd{M-x ns-popup-"
-"font-panel} and will set the default font in the frame most recently used or "
-"clicked on."
+msgid "The standard Mac / GNUstep font panel is accessible with @kbd{M-x ns-popup-font-panel} and will set the default font in the frame most recently used or clicked on."
 msgstr ""
 
 #. type: section
@@ -488,12 +393,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:223
-msgid ""
-"Nextstep applications receive a number of special events which have no X "
-"equivalent.  These are sent as specially defined key events, which do not "
-"correspond to any sequence of keystrokes.  Under Emacs, these key events can "
-"be bound to functions just like ordinary keystrokes.  Here is a list of "
-"these events."
+msgid "Nextstep applications receive a number of special events which have no X equivalent.  These are sent as specially defined key events, which do not correspond to any sequence of keystrokes.  Under Emacs, these key events can be bound to functions just like ordinary keystrokes.  Here is a list of these events."
 msgstr ""
 
 #. type: item
@@ -510,23 +410,12 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:234
-msgid ""
-"This event occurs when another Nextstep application requests that Emacs open "
-"a file.  A typical reason for this would be a user double-clicking a file in "
-"the Finder application.  By default, Emacs responds to this event by opening "
-"a new frame and visiting the file in that frame (@code{ns-find-file}).  As "
-"an exception, if the selected buffer is the @file{*scratch*} buffer, Emacs "
-"visits the file in the selected frame."
+msgid "This event occurs when another Nextstep application requests that Emacs open a file.  A typical reason for this would be a user double-clicking a file in the Finder application.  By default, Emacs responds to this event by opening a new frame and visiting the file in that frame (@code{ns-find-file}).  As an exception, if the selected buffer is the @file{*scratch*} buffer, Emacs visits the file in the selected frame."
 msgstr ""
 
 #. type: table
 #: src/macos.texi:240
-msgid ""
-"You can change how Emacs responds to a @code{ns-open-file} event by changing "
-"the variable @code{ns-pop-up-frames}.  Its default value, @samp{fresh}, is "
-"what we have just described.  A value of @code{t} means to always visit the "
-"file in a new frame.  A value of @code{nil} means to always visit the file "
-"in the selected frame."
+msgid "You can change how Emacs responds to a @code{ns-open-file} event by changing the variable @code{ns-pop-up-frames}.  Its default value, @samp{fresh}, is what we have just described.  A value of @code{t} means to always visit the file in a new frame.  A value of @code{nil} means to always visit the file in the selected frame."
 msgstr ""
 
 #. type: item
@@ -537,10 +426,7 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:245
-msgid ""
-"This event occurs when another application requests that Emacs open a "
-"temporary file.  By default, this is handled by just generating a @code{ns-"
-"open-file} event, the results of which are described above."
+msgid "This event occurs when another application requests that Emacs open a temporary file.  By default, this is handled by just generating a @code{ns-open-file} event, the results of which are described above."
 msgstr ""
 
 #. type: item
@@ -551,11 +437,7 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:251
-msgid ""
-"Some applications, such as ProjectBuilder and gdb, request not only a "
-"particular file, but also a particular line or sequence of lines in the "
-"file.  Emacs handles this by visiting that file and highlighting the "
-"requested line (@code{ns-open-file-select-line})."
+msgid "Some applications, such as ProjectBuilder and gdb, request not only a particular file, but also a particular line or sequence of lines in the file.  Emacs handles this by visiting that file and highlighting the requested line (@code{ns-open-file-select-line})."
 msgstr ""
 
 #. type: item
@@ -566,18 +448,12 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:257
-msgid ""
-"This event occurs when a user drags an object from another application into "
-"an Emacs frame.  The default behavior is to open a file in the window under "
-"the mouse, or to insert text at point of the window under the mouse."
+msgid "This event occurs when a user drags an object from another application into an Emacs frame.  The default behavior is to open a file in the window under the mouse, or to insert text at point of the window under the mouse."
 msgstr ""
 
 #. type: table
 #: src/macos.texi:261
-msgid ""
-"The sending application has some limited ability to decide how Emacs handles "
-"the sent object, but the user may override the default behavior by holding "
-"one or more modifier key."
+msgid "The sending application has some limited ability to decide how Emacs handles the sent object, but the user may override the default behavior by holding one or more modifier key."
 msgstr ""
 
 #. type: item
@@ -588,9 +464,7 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:266
-msgid ""
-"Insert as text in the current buffer.  If the object is a file, this will "
-"insert the filename."
+msgid "Insert as text in the current buffer.  If the object is a file, this will insert the filename."
 msgstr ""
 
 #. type: item
@@ -612,16 +486,12 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:271
-msgid ""
-"Perform the default action for the type.  This can be useful when an "
-"application is overriding the default behavior."
+msgid "Perform the default action for the type.  This can be useful when an application is overriding the default behavior."
 msgstr ""
 
 #. type: table
 #: src/macos.texi:275
-msgid ""
-"The modifier keys listed above are defined by macOS and are unaffected by "
-"user changes to the modifiers in Emacs."
+msgid "The modifier keys listed above are defined by macOS and are unaffected by user changes to the modifiers in Emacs."
 msgstr ""
 
 #. type: item
@@ -632,12 +502,7 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:283
-msgid ""
-"This event occurs when the user selects a font in a Nextstep font panel "
-"(which can be opened with @kbd{Cmd-t}).  The default behavior is to adjust "
-"the font of the selected frame (@code{ns-respond-to-changefont}).  The name "
-"and size of the selected font are stored in the variables @code{ns-input-"
-"font} and @code{ns-input-fontsize}, respectively."
+msgid "This event occurs when the user selects a font in a Nextstep font panel (which can be opened with @kbd{Cmd-t}).  The default behavior is to adjust the font of the selected frame (@code{ns-respond-to-changefont}).  The name and size of the selected font are stored in the variables @code{ns-input-font} and @code{ns-input-fontsize}, respectively."
 msgstr ""
 
 #. type: item
@@ -648,10 +513,7 @@ msgstr ""
 
 #. type: table
 #: src/macos.texi:288
-msgid ""
-"This event occurs when the user logs out and Emacs is still running, or when "
-"``Quit Emacs'' is chosen from the application menu.  The default behavior is "
-"to save all file-visiting buffers."
+msgid "This event occurs when the user logs out and Emacs is still running, or when ``Quit Emacs'' is chosen from the application menu.  The default behavior is to save all file-visiting buffers."
 msgstr ""
 
 #. type: cindex
@@ -662,22 +524,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:300
-msgid ""
-"Emacs also allows users to make use of Nextstep services, via a set of "
-"commands whose names begin with @samp{ns-service-} and end with the name of "
-"the service.  Type @kbd{M-x ns-service-@key{TAB}} to see a list of these "
-"commands.  These functions either operate on marked text (replacing it with "
-"the result) or take a string argument and return the result as a string.  "
-"You can also use the Lisp function @code{ns-perform-service} to pass "
-"arbitrary strings to arbitrary services and receive the results back.  Note "
-"that you may need to restart Emacs to access newly-available services."
+msgid "Emacs also allows users to make use of Nextstep services, via a set of commands whose names begin with @samp{ns-service-} and end with the name of the service.  Type @kbd{M-x ns-service-@key{TAB}} to see a list of these commands.  These functions either operate on marked text (replacing it with the result) or take a string argument and return the result as a string.  You can also use the Lisp function @code{ns-perform-service} to pass arbitrary strings to arbitrary services and receive the results back.  Note that you may need to restart Emacs to access newly-available services."
 msgstr ""
 
 #. type: Plain text
 #: src/macos.texi:306
-msgid ""
-"Emacs can be built and run under GNUstep, but there are still issues to be "
-"addressed.  Interested developers should contact"
+msgid "Emacs can be built and run under GNUstep, but there are still issues to be addressed.  Interested developers should contact"
 msgstr ""
 
 #. type: ifnothtml
@@ -687,7 +539,6 @@ msgstr ""
 
 #. type: ifhtml
 #: src/macos.texi:312
-msgid ""
-"@url{https://lists.gnu.org/mailman/listinfo/emacs-devel, the emacs-devel "
-"mailing list}."
+msgid "@url{https://lists.gnu.org/mailman/listinfo/emacs-devel, the emacs-devel mailing list}."
 msgstr ""
+

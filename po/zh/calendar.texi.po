@@ -1,19 +1,20 @@
-# Chinese translations for PACKAGE package
-# Copyright (C) 2021 Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2021.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: emacs-manual-chinese\n"
 "POT-Creation-Date: 2021-01-06 19:00+0800\n"
-"PO-Revision-Date: 2021-01-06 19:00+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: zh_Hans\n"
+"PO-Revision-Date: 2021-01-11 06:00\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: emacs-manual-chinese\n"
+"X-Crowdin-Project-ID: 436220\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /27.1/pot/calendar.texi.pot\n"
+"X-Crowdin-File-ID: 252\n"
 
 #. type: node
 #: src/calendar.texi:5
@@ -35,36 +36,22 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:14
-msgid ""
-"Emacs provides the functions of a desk calendar, with a diary of planned or "
-"past events.  It also has facilities for managing your appointments, and "
-"keeping track of how much time you spend working on certain projects."
+msgid "Emacs provides the functions of a desk calendar, with a diary of planned or past events.  It also has facilities for managing your appointments, and keeping track of how much time you spend working on certain projects."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:21
-msgid ""
-"To enter the calendar, type @kbd{M-x calendar}.  This displays a three-month "
-"calendar centered on the current month, with point on the current date.  "
-"With a numeric argument, as in @kbd{C-u M-x calendar}, it prompts you for "
-"the month and year to be the center of the three-month calendar.  The "
-"calendar uses its own buffer, whose major mode is Calendar mode."
+msgid "To enter the calendar, type @kbd{M-x calendar}.  This displays a three-month calendar centered on the current month, with point on the current date.  With a numeric argument, as in @kbd{C-u M-x calendar}, it prompts you for the month and year to be the center of the three-month calendar.  The calendar uses its own buffer, whose major mode is Calendar mode."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:26
-msgid ""
-"@kbd{mouse-3} in the calendar brings up a menu of operations on a particular "
-"date; @kbd{mouse-2} brings up a menu of commonly used calendar features that "
-"are independent of any particular date.  To exit the calendar, type @kbd{q}."
+msgid "@kbd{mouse-3} in the calendar brings up a menu of operations on a particular date; @kbd{mouse-2} brings up a menu of commonly used calendar features that are independent of any particular date.  To exit the calendar, type @kbd{q}."
 msgstr ""
 
 #. type: iftex
 #: src/calendar.texi:31
-msgid ""
-"This chapter describes the basic calendar features.  For more advanced "
-"topics, @pxref{Advanced Calendar/Diary Usage,,, emacs-xtra, Specialized "
-"Emacs Features}."
+msgid "This chapter describes the basic calendar features.  For more advanced topics, @pxref{Advanced Calendar/Diary Usage,,, emacs-xtra, Specialized Emacs Features}."
 msgstr ""
 
 #. type: node
@@ -201,8 +188,7 @@ msgstr ""
 
 #. type: ifnottex
 #: src/calendar.texi:48
-msgid ""
-"* Advanced Calendar/Diary Usage:: Advanced Calendar/Diary customization."
+msgid "* Advanced Calendar/Diary Usage:: Advanced Calendar/Diary customization."
 msgstr ""
 
 #. type: section
@@ -219,14 +205,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:62
-msgid ""
-"Calendar mode provides commands to move through the calendar in logical "
-"units of time such as days, weeks, months, and years.  If you move outside "
-"the three months originally displayed, the calendar display scrolls "
-"automatically through time to make the selected date visible.  Moving to a "
-"date lets you view its holidays or diary entries, or convert it to other "
-"calendars; moving by long time periods is also useful simply to scroll the "
-"calendar."
+msgid "Calendar mode provides commands to move through the calendar in logical units of time such as days, weeks, months, and years.  If you move outside the three months originally displayed, the calendar display scrolls automatically through time to make the selected date visible.  Moving to a date lets you view its holidays or diary entries, or convert it to other calendars; moving by long time periods is also useful simply to scroll the calendar."
 msgstr ""
 
 #. type: node
@@ -270,10 +249,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:76
-msgid ""
-"The commands for movement in the calendar buffer parallel the commands for "
-"movement in text.  You can move forward and backward by days, weeks, months, "
-"and years."
+msgid "The commands for movement in the calendar buffer parallel the commands for movement in text.  You can move forward and backward by days, weeks, months, and years."
 msgstr ""
 
 #. type: item
@@ -368,7 +344,7 @@ msgstr ""
 #: src/calendar.texi:96
 #, no-wrap
 msgid "C-f @r{(Calendar mode)}"
-msgstr ""
+msgstr "C-f @r{(Calendar mode)}"
 
 #. type: findex
 #: src/calendar.texi:97
@@ -380,7 +356,7 @@ msgstr ""
 #: src/calendar.texi:98
 #, no-wrap
 msgid "C-b @r{(Calendar mode)}"
-msgstr ""
+msgstr "C-b @r{(Calendar mode)}"
 
 #. type: findex
 #: src/calendar.texi:99
@@ -414,19 +390,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:109
-msgid ""
-"The day and week commands are natural analogues of the usual Emacs commands "
-"for moving by characters and by lines.  Just as @kbd{C-n} usually moves to "
-"the same column in the following line, in Calendar mode it moves to the same "
-"day in the following week.  And @kbd{C-p} moves to the same day in the "
-"previous week."
+msgid "The day and week commands are natural analogues of the usual Emacs commands for moving by characters and by lines.  Just as @kbd{C-n} usually moves to the same column in the following line, in Calendar mode it moves to the same day in the following week.  And @kbd{C-p} moves to the same day in the previous week."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:112
-msgid ""
-"The arrow keys are equivalent to @kbd{C-f}, @kbd{C-b}, @kbd{C-n} and @kbd{C-"
-"p}, just as they normally are in other modes."
+msgid "The arrow keys are equivalent to @kbd{C-f}, @kbd{C-b}, @kbd{C-n} and @kbd{C-p}, just as they normally are in other modes."
 msgstr ""
 
 #. type: kindex
@@ -479,31 +448,17 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:126
-msgid ""
-"The commands for motion by months and years work like those for weeks, but "
-"move a larger distance.  The month commands @kbd{M-@}} and @kbd{M-@{} move "
-"forward or backward by an entire month.  The year commands @kbd{C-x ]} and "
-"@w{@kbd{C-x [}} move forward or backward a whole year."
+msgid "The commands for motion by months and years work like those for weeks, but move a larger distance.  The month commands @kbd{M-@}} and @kbd{M-@{} move forward or backward by an entire month.  The year commands @kbd{C-x ]} and @w{@kbd{C-x [}} move forward or backward a whole year."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:134
-msgid ""
-"The easiest way to remember these commands is to consider months and years "
-"analogous to paragraphs and pages of text, respectively.  But the calendar "
-"movement commands themselves do not quite parallel those for movement "
-"through text: the ordinary Emacs paragraph commands move to the beginning or "
-"end of a paragraph, whereas these month and year commands move by an entire "
-"month or an entire year, keeping the same date within the month or year."
+msgid "The easiest way to remember these commands is to consider months and years analogous to paragraphs and pages of text, respectively.  But the calendar movement commands themselves do not quite parallel those for movement through text: the ordinary Emacs paragraph commands move to the beginning or end of a paragraph, whereas these month and year commands move by an entire month or an entire year, keeping the same date within the month or year."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:139
-msgid ""
-"All these commands accept a numeric argument as a repeat count.  For "
-"convenience, the digit keys and the minus sign specify numeric arguments in "
-"Calendar mode even without the Meta modifier.  For example, @kbd{100 C-f} "
-"moves point 100 days forward from its present location."
+msgid "All these commands accept a numeric argument as a repeat count.  For convenience, the digit keys and the minus sign specify numeric arguments in Calendar mode even without the Meta modifier.  For example, @kbd{100 C-f} moves point 100 days forward from its present location."
 msgstr ""
 
 #. type: subsection
@@ -514,10 +469,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:146
-msgid ""
-"A week (or month, or year) is not just a quantity of days; we think of weeks "
-"(months, years) as starting on particular dates.  So Calendar mode provides "
-"commands to move to the start or end of a week, month or year:"
+msgid "A week (or month, or year) is not just a quantity of days; we think of weeks (months, years) as starting on particular dates.  So Calendar mode provides commands to move to the start or end of a week, month or year:"
 msgstr ""
 
 #. type: kindex
@@ -660,10 +612,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:177
-msgid ""
-"These commands also take numeric arguments as repeat counts, with the repeat "
-"count indicating how many weeks, months, or years to move backward or "
-"forward."
+msgid "These commands also take numeric arguments as repeat counts, with the repeat count indicating how many weeks, months, or years to move backward or forward."
 msgstr ""
 
 #. type: vindex
@@ -692,18 +641,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:186
-msgid ""
-"By default, weeks begin on Sunday.  To make them begin on Monday instead, "
-"set the variable @code{calendar-week-start-day} to 1.  To change which day "
-"headers are highlighted as weekend days, set the variable @code{calendar-"
-"weekend-days}."
+msgid "By default, weeks begin on Sunday.  To make them begin on Monday instead, set the variable @code{calendar-week-start-day} to 1.  To change which day headers are highlighted as weekend days, set the variable @code{calendar-weekend-days}."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:192
-msgid ""
-"Calendar mode provides commands for moving to a particular date specified in "
-"various ways."
+msgid "Calendar mode provides commands for moving to a particular date specified in various ways."
 msgstr ""
 
 #. type: item
@@ -775,11 +718,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:212
-msgid ""
-"@kbd{g d} (@code{calendar-goto-date}) prompts for a year, a month, and a day "
-"of the month, and then moves to that date.  Because the calendar includes "
-"all dates from the beginning of the current era, you must type the year in "
-"its entirety; that is, type @samp{2010}, not @samp{10}."
+msgid "@kbd{g d} (@code{calendar-goto-date}) prompts for a year, a month, and a day of the month, and then moves to that date.  Because the calendar includes all dates from the beginning of the current era, you must type the year in its entirety; that is, type @samp{2010}, not @samp{10}."
 msgstr ""
 
 #. type: kindex
@@ -808,11 +747,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:222
-msgid ""
-"@kbd{g D} (@code{calendar-goto-day-of-year}) prompts for a year and day "
-"number, and moves to that date.  Negative day numbers count backward from "
-"the end of the year.  @kbd{g w} (@code{calendar-iso-goto-week}) prompts for "
-"a year and week number, and moves to that week."
+msgid "@kbd{g D} (@code{calendar-goto-day-of-year}) prompts for a year and day number, and moves to that date.  Negative day numbers count backward from the end of the year.  @kbd{g w} (@code{calendar-iso-goto-week}) prompts for a year and week number, and moves to that week."
 msgstr ""
 
 #. type: kindex
@@ -829,9 +764,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:227
-msgid ""
-"@kbd{o} (@code{calendar-other-month}) prompts for a month and year, then "
-"centers the three-month calendar around that month."
+msgid "@kbd{o} (@code{calendar-other-month}) prompts for a month and year, then centers the three-month calendar around that month."
 msgstr ""
 
 #. type: kindex
@@ -848,8 +781,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:232
-msgid ""
-"You can return to today's date with @kbd{.}@: (@code{calendar-goto-today})."
+msgid "You can return to today's date with @kbd{.}@: (@code{calendar-goto-today})."
 msgstr ""
 
 #. type: section
@@ -866,12 +798,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:242
-msgid ""
-"The calendar display scrolls automatically through time when you move out of "
-"the visible portion.  You can also scroll it manually.  Imagine that the "
-"calendar window contains a long strip of paper with the months on it.  "
-"Scrolling the calendar means moving the strip horizontally, so that new "
-"months become visible in the window."
+msgid "The calendar display scrolls automatically through time when you move out of the visible portion.  You can also scroll it manually.  Imagine that the calendar window contains a long strip of paper with the months on it.  Scrolling the calendar means moving the strip horizontally, so that new months become visible in the window."
 msgstr ""
 
 #. type: item
@@ -916,8 +843,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:252
-msgid ""
-"Scroll forward by three months (@code{calendar-scroll-left-three-months})."
+msgid "Scroll forward by three months (@code{calendar-scroll-left-three-months})."
 msgstr ""
 
 #. type: item
@@ -940,8 +866,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:256
-msgid ""
-"Scroll backward by three months (@code{calendar-scroll-right-three-months})."
+msgid "Scroll backward by three months (@code{calendar-scroll-right-three-months})."
 msgstr ""
 
 #. type: kindex
@@ -970,12 +895,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:267
-msgid ""
-"The most basic calendar scroll commands scroll by one month at a time.  This "
-"means that there are two months of overlap between the display before the "
-"command and the display after.  @kbd{>} scrolls the calendar contents one "
-"month forward in time.  @kbd{<} scrolls the contents one month backwards in "
-"time."
+msgid "The most basic calendar scroll commands scroll by one month at a time.  This means that there are two months of overlap between the display before the command and the display after.  @kbd{>} scrolls the calendar contents one month forward in time.  @kbd{<} scrolls the contents one month backwards in time."
 msgstr ""
 
 #. type: kindex
@@ -1028,22 +948,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:283
-msgid ""
-"The commands @kbd{C-v} and @kbd{M-v} scroll the calendar by an entire "
-"screenful---three months---in analogy with the usual meaning of these "
-"commands.  @kbd{C-v} makes later dates visible and @kbd{M-v} makes earlier "
-"dates visible.  These commands take a numeric argument as a repeat count; in "
-"particular, since @kbd{C-u} multiplies the next command by four, typing "
-"@kbd{C-u C-v} scrolls the calendar forward by a year and typing @kbd{C-u M-"
-"v} scrolls the calendar backward by a year."
+msgid "The commands @kbd{C-v} and @kbd{M-v} scroll the calendar by an entire screenful---three months---in analogy with the usual meaning of these commands.  @kbd{C-v} makes later dates visible and @kbd{M-v} makes earlier dates visible.  These commands take a numeric argument as a repeat count; in particular, since @kbd{C-u} multiplies the next command by four, typing @kbd{C-u C-v} scrolls the calendar forward by a year and typing @kbd{C-u M-v} scrolls the calendar backward by a year."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:287
-msgid ""
-"The function keys @key{PageDown} (or @key{next}) and @key{PageUp} (or "
-"@key{prior}) are equivalent to @kbd{C-v} and @kbd{M-v}, just as they are in "
-"other modes."
+msgid "The function keys @key{PageDown} (or @key{next}) and @key{PageUp} (or @key{prior}) are equivalent to @kbd{C-v} and @kbd{M-v}, just as they are in other modes."
 msgstr ""
 
 #. type: item
@@ -1054,9 +964,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:295
-msgid ""
-"Display the number of days in the current region (@code{calendar-count-days-"
-"region})."
+msgid "Display the number of days in the current region (@code{calendar-count-days-region})."
 msgstr ""
 
 #. type: kindex
@@ -1073,11 +981,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:304
-msgid ""
-"To determine the number of days in a range, set the mark on one date using "
-"@kbd{C-@key{SPC}}, move point to another date, and type @kbd{M-=} "
-"(@code{calendar-count-days-region}).  The numbers of days shown is "
-"@emph{inclusive}; that is, it includes the days specified by mark and point."
+msgid "To determine the number of days in a range, set the mark on one date using @kbd{C-@key{SPC}}, move point to another date, and type @kbd{M-=} (@code{calendar-count-days-region}).  The numbers of days shown is @emph{inclusive}; that is, it includes the days specified by mark and point."
 msgstr ""
 
 #. type: section
@@ -1167,12 +1071,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:331
-msgid ""
-"To display the number of days elapsed since the start of the year, or the "
-"number of days remaining in the year, type the @kbd{p d} command "
-"(@code{calendar-print-day-of-year}).  This displays both of those numbers in "
-"the echo area.  The count of days elapsed includes the selected date.  The "
-"count of days remaining does not include that date."
+msgid "To display the number of days elapsed since the start of the year, or the number of days remaining in the year, type the @kbd{p d} command (@code{calendar-print-day-of-year}).  This displays both of those numbers in the echo area.  The count of days elapsed includes the selected date.  The count of days remaining does not include that date."
 msgstr ""
 
 #. type: kindex
@@ -1189,10 +1088,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:337
-msgid ""
-"If the calendar window text gets corrupted, type @kbd{C-c C-l} "
-"(@code{calendar-redraw}) to redraw it.  (This can only happen if you use non-"
-"Calendar-mode editing commands.)"
+msgid "If the calendar window text gets corrupted, type @kbd{C-c C-l} (@code{calendar-redraw}) to redraw it.  (This can only happen if you use non-Calendar-mode editing commands.)"
 msgstr ""
 
 #. type: kindex
@@ -1203,11 +1099,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:343
-msgid ""
-"In Calendar mode, you can use @key{SPC} (@code{scroll-other-window})  and "
-"@key{DEL} (@code{scroll-other-window-down}) to scroll the other window (if "
-"there is one) up or down, respectively.  This is handy when you display a "
-"list of holidays or diary entries in another window."
+msgid "In Calendar mode, you can use @key{SPC} (@code{scroll-other-window})  and @key{DEL} (@code{scroll-other-window-down}) to scroll the other window (if there is one) up or down, respectively.  This is handy when you display a list of holidays or diary entries in another window."
 msgstr ""
 
 #. type: kindex
@@ -1230,12 +1122,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:352
-msgid ""
-"To exit from the calendar, type @kbd{q} (@code{calendar-exit}).  This buries "
-"all buffers related to the calendar, selecting other buffers.  (If a frame "
-"contains a dedicated calendar window, exiting from the calendar deletes or "
-"iconifies that frame depending on the value of @code{calendar-remove-frame-"
-"by-deleting}.)"
+msgid "To exit from the calendar, type @kbd{q} (@code{calendar-exit}).  This buries all buffers related to the calendar, selecting other buffers.  (If a frame contains a dedicated calendar window, exiting from the calendar deletes or iconifies that frame depending on the value of @code{calendar-remove-frame-by-deleting}.)"
 msgstr ""
 
 #. type: Plain text
@@ -1251,14 +1138,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:368
-msgid ""
-"The Calendar HTML commands produce files of HTML code that contain calendar, "
-"holiday, and diary entries.  Each file applies to one month, and has a name "
-"of the format @file{@var{yyyy}-@var{mm}.html}, where @var{yyyy} and @var{mm} "
-"are the four-digit year and two-digit month, respectively.  The variable "
-"@code{cal-html-directory} specifies the default output directory for the "
-"HTML files.  To prevent holidays from being shown, customize @code{cal-html-"
-"holidays}."
+msgid "The Calendar HTML commands produce files of HTML code that contain calendar, holiday, and diary entries.  Each file applies to one month, and has a name of the format @file{@var{yyyy}-@var{mm}.html}, where @var{yyyy} and @var{mm} are the four-digit year and two-digit month, respectively.  The variable @code{cal-html-directory} specifies the default output directory for the HTML files.  To prevent holidays from being shown, customize @code{cal-html-holidays}."
 msgstr ""
 
 #. type: vindex
@@ -1269,14 +1149,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:377
-msgid ""
-"Diary entries enclosed by @code{<} and @code{>} are interpreted as HTML tags "
-"(for example: this is a diary entry with <font color=''red''>some red text</"
-"font>).  You can change the overall appearance of the displayed HTML pages "
-"(for example, the color of various page elements, header styles) via a "
-"stylesheet @file{cal.css} in the directory containing the HTML files (see "
-"the value of the variable @code{cal-html-css-default} for relevant style "
-"settings)."
+msgid "Diary entries enclosed by @code{<} and @code{>} are interpreted as HTML tags (for example: this is a diary entry with <font color=''red''>some red text</font>).  You can change the overall appearance of the displayed HTML pages (for example, the color of various page elements, header styles) via a stylesheet @file{cal.css} in the directory containing the HTML files (see the value of the variable @code{cal-html-css-default} for relevant style settings)."
 msgstr ""
 
 #. type: kindex
@@ -1304,20 +1177,12 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:387
-msgid ""
-"Generate a calendar file for each month of a year, as well as an index page "
-"(@code{cal-html-cursor-year}).  By default, this command writes files to a "
-"@var{yyyy} subdirectory---if this is altered some hyperlinks between years "
-"will not work."
+msgid "Generate a calendar file for each month of a year, as well as an index page (@code{cal-html-cursor-year}).  By default, this command writes files to a @var{yyyy} subdirectory---if this is altered some hyperlinks between years will not work."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:393
-msgid ""
-"If the variable @code{cal-html-print-day-number-flag} is non-@code{nil}, "
-"then the monthly calendars show the day-of-the-year number.  The variable "
-"@code{cal-html-year-index-cols} specifies the number of columns in the "
-"yearly index page."
+msgid "If the variable @code{cal-html-print-day-number-flag} is non-@code{nil}, then the monthly calendars show the day-of-the-year number.  The variable @code{cal-html-year-index-cols} specifies the number of columns in the yearly index page."
 msgstr ""
 
 #. type: cindex
@@ -1328,10 +1193,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:398
-msgid ""
-"The Calendar @LaTeX{} commands produce a buffer of @LaTeX{} code that prints "
-"as a calendar.  Depending on the command you use, the printed calendar "
-"covers the day, week, month or year that point is in."
+msgid "The Calendar @LaTeX{} commands produce a buffer of @LaTeX{} code that prints as a calendar.  Depending on the command you use, the printed calendar covers the day, week, month or year that point is in."
 msgstr ""
 
 #. type: kindex
@@ -1359,9 +1221,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:406
-msgid ""
-"Generate a sideways-printing one-month calendar (@code{cal-tex-cursor-month-"
-"landscape})."
+msgid "Generate a sideways-printing one-month calendar (@code{cal-tex-cursor-month-landscape})."
 msgstr ""
 
 #. type: item
@@ -1383,9 +1243,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:412
-msgid ""
-"Generate a one-page calendar for one week, with hours (@code{cal-tex-cursor-"
-"week})."
+msgid "Generate a one-page calendar for one week, with hours (@code{cal-tex-cursor-week})."
 msgstr ""
 
 #. type: item
@@ -1396,9 +1254,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:415
-msgid ""
-"Generate a two-page calendar for one week, with hours (@code{cal-tex-cursor-"
-"week2})."
+msgid "Generate a two-page calendar for one week, with hours (@code{cal-tex-cursor-week2})."
 msgstr ""
 
 #. type: item
@@ -1409,9 +1265,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:418
-msgid ""
-"Generate an ISO-style calendar for one week, without hours (@code{cal-tex-"
-"cursor-week-iso})."
+msgid "Generate an ISO-style calendar for one week, without hours (@code{cal-tex-cursor-week-iso})."
 msgstr ""
 
 #. type: item
@@ -1422,9 +1276,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:421
-msgid ""
-"Generate a calendar for one Monday-starting week, with hours (@code{cal-tex-"
-"cursor-week-monday})."
+msgid "Generate a calendar for one Monday-starting week, with hours (@code{cal-tex-cursor-week-monday})."
 msgstr ""
 
 #. type: item
@@ -1435,9 +1287,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:424
-msgid ""
-"Generate a two-page calendar for one week, without hours (@code{cal-tex-"
-"cursor-week2-summary})."
+msgid "Generate a two-page calendar for one week, without hours (@code{cal-tex-cursor-week2-summary})."
 msgstr ""
 
 #. type: item
@@ -1448,9 +1298,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:427
-msgid ""
-"Generate a Filofax-style two-weeks-at-a-glance calendar (@code{cal-tex-"
-"cursor-filofax-2week})."
+msgid "Generate a Filofax-style two-weeks-at-a-glance calendar (@code{cal-tex-cursor-filofax-2week})."
 msgstr ""
 
 #. type: item
@@ -1461,9 +1309,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:430
-msgid ""
-"Generate a Filofax-style one-week-at-a-glance calendar (@code{cal-tex-cursor-"
-"filofax-week})."
+msgid "Generate a Filofax-style one-week-at-a-glance calendar (@code{cal-tex-cursor-filofax-week})."
 msgstr ""
 
 #. type: item
@@ -1485,9 +1331,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:436
-msgid ""
-"Generate a sideways-printing calendar for one year (@code{cal-tex-cursor-"
-"year-landscape})."
+msgid "Generate a sideways-printing calendar for one year (@code{cal-tex-cursor-year-landscape})."
 msgstr ""
 
 #. type: item
@@ -1498,39 +1342,22 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:439
-msgid ""
-"Generate a Filofax-style calendar for one year (@code{cal-tex-cursor-filofax-"
-"year})."
+msgid "Generate a Filofax-style calendar for one year (@code{cal-tex-cursor-filofax-year})."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:446
-msgid ""
-"Some of these commands print the calendar sideways (in landscape mode), so "
-"it can be wider than it is long.  Some of them use Filofax paper size "
-"(3.75in x 6.75in).  All of these commands accept a prefix argument, which "
-"specifies how many days, weeks, months or years to print (starting always "
-"with the selected one)."
+msgid "Some of these commands print the calendar sideways (in landscape mode), so it can be wider than it is long.  Some of them use Filofax paper size (3.75in x 6.75in).  All of these commands accept a prefix argument, which specifies how many days, weeks, months or years to print (starting always with the selected one)."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:456
-msgid ""
-"If the variable @code{cal-tex-holidays} is non-@code{nil} (the default), "
-"then the printed calendars show the holidays in @code{calendar-holidays}.  "
-"If the variable @code{cal-tex-diary} is non-@code{nil} (the default is "
-"@code{nil}), diary entries are included also (in monthly, Filofax, and iso-"
-"week calendars only).  If the variable @code{cal-tex-rules} is non-"
-"@code{nil} (the default is @code{nil}), the calendar displays ruled pages in "
-"styles that have sufficient room.  Consult the documentation of the "
-"individual cal-tex functions to see which calendars support which features."
+msgid "If the variable @code{cal-tex-holidays} is non-@code{nil} (the default), then the printed calendars show the holidays in @code{calendar-holidays}.  If the variable @code{cal-tex-diary} is non-@code{nil} (the default is @code{nil}), diary entries are included also (in monthly, Filofax, and iso-week calendars only).  If the variable @code{cal-tex-rules} is non-@code{nil} (the default is @code{nil}), the calendar displays ruled pages in styles that have sufficient room.  Consult the documentation of the individual cal-tex functions to see which calendars support which features."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:460
-msgid ""
-"You can use the variable @code{cal-tex-preamble-extra} to insert extra "
-"@LaTeX{} commands in the preamble of the generated document if you need to."
+msgid "You can use the variable @code{cal-tex-preamble-extra} to insert extra @LaTeX{} commands in the preamble of the generated document if you need to."
 msgstr ""
 
 #. type: findex
@@ -1541,9 +1368,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:467
-msgid ""
-"The Emacs calendar knows about many major and minor holidays, and can "
-"display them.  You can add your own holidays to the default list."
+msgid "The Emacs calendar knows about many major and minor holidays, and can display them.  You can add your own holidays to the default list."
 msgstr ""
 
 #. type: item
@@ -1560,8 +1385,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:473
-msgid ""
-"Display holidays for the selected date (@code{calendar-cursor-holidays})."
+msgid "Display holidays for the selected date (@code{calendar-cursor-holidays})."
 msgstr ""
 
 #. type: item
@@ -1594,9 +1418,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:480
-msgid ""
-"List all holidays for the displayed three months in another window "
-"(@code{calendar-list-holidays})."
+msgid "List all holidays for the displayed three months in another window (@code{calendar-list-holidays})."
 msgstr ""
 
 #. type: item
@@ -1607,8 +1429,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:483
-msgid ""
-"List all holidays for three months around today's date in another window."
+msgid "List all holidays for three months around today's date in another window."
 msgstr ""
 
 #. type: item
@@ -1642,12 +1463,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:496
-msgid ""
-"To see if any holidays fall on a given date, position point on that date in "
-"the calendar window and use the @kbd{h} command.  Alternatively, click on "
-"that date with @kbd{mouse-3} and then choose @kbd{Holidays} from the menu "
-"that appears.  Either way, this displays the holidays for that date, in the "
-"echo area if they fit there, otherwise in a separate window."
+msgid "To see if any holidays fall on a given date, position point on that date in the calendar window and use the @kbd{h} command.  Alternatively, click on that date with @kbd{mouse-3} and then choose @kbd{Holidays} from the menu that appears.  Either way, this displays the holidays for that date, in the echo area if they fit there, otherwise in a separate window."
 msgstr ""
 
 #. type: kindex
@@ -1682,10 +1498,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:505
-msgid ""
-"To view the distribution of holidays for all the dates shown in the "
-"calendar, use the @kbd{x} command.  This displays the dates that are "
-"holidays in a different face."
+msgid "To view the distribution of holidays for all the dates shown in the calendar, use the @kbd{x} command.  This displays the dates that are holidays in a different face."
 msgstr ""
 
 #. type: iftex
@@ -1700,12 +1513,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:517
-msgid ""
-"The command applies both to the currently visible months and to other months "
-"that subsequently become visible by scrolling.  To turn marking off and "
-"erase the current marks, type @kbd{u}, which also erases any diary marks "
-"(@pxref{Diary}).  If the variable @code{calendar-mark-holidays-flag} is non-"
-"@code{nil}, creating or updating the calendar marks holidays automatically."
+msgid "The command applies both to the currently visible months and to other months that subsequently become visible by scrolling.  To turn marking off and erase the current marks, type @kbd{u}, which also erases any diary marks (@pxref{Diary}).  If the variable @code{calendar-mark-holidays-flag} is non-@code{nil}, creating or updating the calendar marks holidays automatically."
 msgstr ""
 
 #. type: kindex
@@ -1722,30 +1530,17 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:524
-msgid ""
-"To get even more detailed information, use the @kbd{a} command, which "
-"displays a separate buffer containing a list of all holidays in the current "
-"three-month range.  You can use @key{SPC} and @key{DEL} in the calendar "
-"window to scroll that list up and down, respectively."
+msgid "To get even more detailed information, use the @kbd{a} command, which displays a separate buffer containing a list of all holidays in the current three-month range.  You can use @key{SPC} and @key{DEL} in the calendar window to scroll that list up and down, respectively."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:533
-msgid ""
-"The command @kbd{M-x holidays} displays the list of holidays for the current "
-"month and the preceding and succeeding months; this works even if you don't "
-"have a calendar window.  If the variable @code{calendar-view-holidays-"
-"initially-flag} is non-@code{nil}, creating the calendar displays holidays "
-"in this way.  If you want the list of holidays centered around a different "
-"month, use @kbd{C-u M-x holidays}, which prompts for the month and year."
+msgid "The command @kbd{M-x holidays} displays the list of holidays for the current month and the preceding and succeeding months; this works even if you don't have a calendar window.  If the variable @code{calendar-view-holidays-initially-flag} is non-@code{nil}, creating the calendar displays holidays in this way.  If you want the list of holidays centered around a different month, use @kbd{C-u M-x holidays}, which prompts for the month and year."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:537
-msgid ""
-"The holidays known to Emacs include United States holidays and the major "
-"Bahá'í, Chinese, Christian, Islamic, and Jewish holidays; also the solstices "
-"and equinoxes."
+msgid "The holidays known to Emacs include United States holidays and the major Bahá'í, Chinese, Christian, Islamic, and Jewish holidays; also the solstices and equinoxes."
 msgstr ""
 
 #. type: findex
@@ -1756,19 +1551,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:544
-msgid ""
-"The command @kbd{M-x holiday-list} displays the list of holidays for a range "
-"of years.  This function asks you for the starting and stopping years, and "
-"allows you to choose all the holidays or one of several categories of "
-"holidays.  You can use this command even if you don't have a calendar window."
+msgid "The command @kbd{M-x holiday-list} displays the list of holidays for a range of years.  This function asks you for the starting and stopping years, and allows you to choose all the holidays or one of several categories of holidays.  You can use this command even if you don't have a calendar window."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:548
-msgid ""
-"The dates used by Emacs for holidays are based on @emph{current practice}, "
-"not historical fact.  For example Veteran's Day began in 1919, but is shown "
-"in earlier years."
+msgid "The dates used by Emacs for holidays are based on @emph{current practice}, not historical fact.  For example Veteran's Day began in 1919, but is shown in earlier years."
 msgstr ""
 
 #. type: section
@@ -1785,9 +1573,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:555
-msgid ""
-"Special calendar commands can tell you, to within a minute or two, the times "
-"of sunrise and sunset for any date."
+msgid "Special calendar commands can tell you, to within a minute or two, the times of sunrise and sunset for any date."
 msgstr ""
 
 #. type: item
@@ -1804,9 +1590,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:561
-msgid ""
-"Display times of sunrise and sunset for the selected date (@code{calendar-"
-"sunrise-sunset})."
+msgid "Display times of sunrise and sunset for the selected date (@code{calendar-sunrise-sunset})."
 msgstr ""
 
 #. type: item
@@ -1862,32 +1646,17 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:580
-msgid ""
-"Within the calendar, to display the @emph{local times} of sunrise and sunset "
-"in the echo area, move point to the date you want, and type @kbd{S}.  "
-"Alternatively, click @kbd{mouse-3} on the date, then choose @samp{Sunrise/"
-"sunset} from the menu that appears.  The command @kbd{M-x sunrise-sunset} is "
-"available outside the calendar to display this information for today's date "
-"or a specified date.  To specify a date other than today, use @kbd{C-u M-x "
-"sunrise-sunset}, which prompts for the year, month, and day."
+msgid "Within the calendar, to display the @emph{local times} of sunrise and sunset in the echo area, move point to the date you want, and type @kbd{S}.  Alternatively, click @kbd{mouse-3} on the date, then choose @samp{Sunrise/sunset} from the menu that appears.  The command @kbd{M-x sunrise-sunset} is available outside the calendar to display this information for today's date or a specified date.  To specify a date other than today, use @kbd{C-u M-x sunrise-sunset}, which prompts for the year, month, and day."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:586
-msgid ""
-"You can display the times of sunrise and sunset for any location and any "
-"date with @kbd{C-u C-u M-x sunrise-sunset}.  This asks you for a longitude, "
-"latitude, number of minutes difference from Coordinated Universal Time, and "
-"date, and then tells you the times of sunrise and sunset for that location "
-"on that date."
+msgid "You can display the times of sunrise and sunset for any location and any date with @kbd{C-u C-u M-x sunrise-sunset}.  This asks you for a longitude, latitude, number of minutes difference from Coordinated Universal Time, and date, and then tells you the times of sunrise and sunset for that location on that date."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:590
-msgid ""
-"Because the times of sunrise and sunset depend on the location on earth, you "
-"need to tell Emacs your latitude, longitude, and location name before using "
-"these commands.  Here is an example of what to set:"
+msgid "Because the times of sunrise and sunset depend on the location on earth, you need to tell Emacs your latitude, longitude, and location name before using these commands.  Here is an example of what to set:"
 msgstr ""
 
 #. type: vindex
@@ -1911,26 +1680,19 @@ msgstr ""
 #. type: example
 #: src/calendar.texi:598
 #, no-wrap
-msgid ""
-"(setq calendar-latitude 40.1)\n"
+msgid "(setq calendar-latitude 40.1)\n"
 "(setq calendar-longitude -88.2)\n"
 "(setq calendar-location-name \"Urbana, IL\")\n"
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:603
-msgid ""
-"Use one decimal place in the values of @code{calendar-latitude} and "
-"@code{calendar-longitude}."
+msgid "Use one decimal place in the values of @code{calendar-latitude} and @code{calendar-longitude}."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:608
-msgid ""
-"Your time zone also affects the local time of sunrise and sunset.  Emacs "
-"usually gets time zone information from the operating system, but if these "
-"values are not what you want (or if the operating system does not supply "
-"them), you must set them yourself.  Here is an example:"
+msgid "Your time zone also affects the local time of sunrise and sunset.  Emacs usually gets time zone information from the operating system, but if these values are not what you want (or if the operating system does not supply them), you must set them yourself.  Here is an example:"
 msgstr ""
 
 #. type: vindex
@@ -1954,31 +1716,19 @@ msgstr ""
 #. type: example
 #: src/calendar.texi:616
 #, no-wrap
-msgid ""
-"(setq calendar-time-zone -360)\n"
+msgid "(setq calendar-time-zone -360)\n"
 "(setq calendar-standard-time-zone-name \"CST\")\n"
 "(setq calendar-daylight-time-zone-name \"CDT\")\n"
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:627
-msgid ""
-"The value of @code{calendar-time-zone} is the number of minutes difference "
-"between your local standard time and Coordinated Universal Time (Greenwich "
-"time).  The values of @code{calendar-standard-time-zone-name} and "
-"@code{calendar-daylight-time-zone-name} are the abbreviations used in your "
-"time zone.  Emacs displays the times of sunrise and sunset @emph{corrected "
-"for daylight saving time}.  @xref{Daylight Saving}, for how daylight saving "
-"time is determined."
+msgid "The value of @code{calendar-time-zone} is the number of minutes difference between your local standard time and Coordinated Universal Time (Greenwich time).  The values of @code{calendar-standard-time-zone-name} and @code{calendar-daylight-time-zone-name} are the abbreviations used in your time zone.  Emacs displays the times of sunrise and sunset @emph{corrected for daylight saving time}.  @xref{Daylight Saving}, for how daylight saving time is determined."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:632
-msgid ""
-"As a user, you might find it convenient to set the calendar location "
-"variables for your usual physical location in your @file{.emacs} file.  If "
-"you are a system administrator, you may want to set these variables for all "
-"users in a @file{default.el} file.  @xref{Init File}."
+msgid "As a user, you might find it convenient to set the calendar location variables for your usual physical location in your @file{.emacs} file.  If you are a system administrator, you may want to set these variables for all users in a @file{default.el} file.  @xref{Init File}."
 msgstr ""
 
 #. type: section
@@ -2001,10 +1751,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:642
-msgid ""
-"These calendar commands display the dates and times of the phases of the "
-"moon (new moon, first quarter, full moon, last quarter).  This feature is "
-"useful for debugging problems that depend on the phase of the moon."
+msgid "These calendar commands display the dates and times of the phases of the moon (new moon, first quarter, full moon, last quarter).  This feature is useful for debugging problems that depend on the phase of the moon."
 msgstr ""
 
 #. type: item
@@ -2015,9 +1762,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:647
-msgid ""
-"Display the dates and times for all the quarters of the moon for the three-"
-"month period shown (@code{calendar-lunar-phases})."
+msgid "Display the dates and times for all the quarters of the moon for the three-month period shown (@code{calendar-lunar-phases})."
 msgstr ""
 
 #. type: item
@@ -2028,9 +1773,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:650
-msgid ""
-"Display dates and times of the quarters of the moon for three months around "
-"today's date."
+msgid "Display dates and times of the quarters of the moon for three months around today's date."
 msgstr ""
 
 #. type: kindex
@@ -2047,10 +1790,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:657
-msgid ""
-"Within the calendar, use the @kbd{M} command to display a separate buffer of "
-"the phases of the moon for the current three-month range.  The dates and "
-"times listed are accurate to within a few minutes."
+msgid "Within the calendar, use the @kbd{M} command to display a separate buffer of the phases of the moon for the current three-month range.  The dates and times listed are accurate to within a few minutes."
 msgstr ""
 
 #. type: findex
@@ -2061,19 +1801,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:664
-msgid ""
-"Outside the calendar, use the command @kbd{M-x lunar-phases} to display the "
-"list of the phases of the moon for the current month and the preceding and "
-"succeeding months.  For information about a different month, use @kbd{C-u M-"
-"x lunar-phases}, which prompts for the month and year."
+msgid "Outside the calendar, use the command @kbd{M-x lunar-phases} to display the list of the phases of the moon for the current month and the preceding and succeeding months.  For information about a different month, use @kbd{C-u M-x lunar-phases}, which prompts for the month and year."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:668
-msgid ""
-"The dates and times given for the phases of the moon are given in local time "
-"(corrected for daylight saving, when appropriate).  See the discussion in "
-"the previous section.  @xref{Sunrise/Sunset}."
+msgid "The dates and times given for the phases of the moon are given in local time (corrected for daylight saving, when appropriate).  See the discussion in the previous section.  @xref{Sunrise/Sunset}."
 msgstr ""
 
 #. type: section
@@ -2090,22 +1823,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:682
-msgid ""
-"The Emacs calendar displayed is @emph{always} the Gregorian calendar, "
-"sometimes called the New Style calendar, which is used in most of the world "
-"today.  However, this calendar did not exist before the sixteenth century "
-"and was not widely used before the eighteenth century; it did not fully "
-"displace the Julian calendar and gain universal acceptance until the early "
-"twentieth century.  The Emacs calendar can display any month since January, "
-"year 1 of the current era, but the calendar displayed is always the "
-"Gregorian, even for a date at which the Gregorian calendar did not exist."
+msgid "The Emacs calendar displayed is @emph{always} the Gregorian calendar, sometimes called the New Style calendar, which is used in most of the world today.  However, this calendar did not exist before the sixteenth century and was not widely used before the eighteenth century; it did not fully displace the Julian calendar and gain universal acceptance until the early twentieth century.  The Emacs calendar can display any month since January, year 1 of the current era, but the calendar displayed is always the Gregorian, even for a date at which the Gregorian calendar did not exist."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:685
-msgid ""
-"While Emacs cannot display other calendars, it can convert dates to and from "
-"several other calendars."
+msgid "While Emacs cannot display other calendars, it can convert dates to and from several other calendars."
 msgstr ""
 
 #. type: node
@@ -2166,10 +1889,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:705
-msgid ""
-"The Julian calendar, named after Julius Caesar, was the one used in Europe "
-"throughout medieval times, and in many countries up until the nineteenth "
-"century."
+msgid "The Julian calendar, named after Julius Caesar, was the one used in Europe throughout medieval times, and in many countries up until the nineteenth century."
 msgstr ""
 
 #. type: cindex
@@ -2186,10 +1906,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:711
-msgid ""
-"Astronomers use a simple counting of days elapsed since noon, Monday, "
-"January 1, 4713 BC on the Julian calendar.  The number of days elapsed is "
-"called the @dfn{Julian day number} or the @dfn{Astronomical day number}."
+msgid "Astronomers use a simple counting of days elapsed since noon, Monday, January 1, 4713 BC on the Julian calendar.  The number of days elapsed is called the @dfn{Julian day number} or the @dfn{Astronomical day number}."
 msgstr ""
 
 #. type: cindex
@@ -2200,10 +1917,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:716
-msgid ""
-"The Hebrew calendar is used by tradition in the Jewish religion.  The Emacs "
-"calendar program uses the Hebrew calendar to determine the dates of Jewish "
-"holidays.  Hebrew calendar dates begin and end at sunset."
+msgid "The Hebrew calendar is used by tradition in the Jewish religion.  The Emacs calendar program uses the Hebrew calendar to determine the dates of Jewish holidays.  Hebrew calendar dates begin and end at sunset."
 msgstr ""
 
 #. type: cindex
@@ -2214,14 +1928,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:726
-msgid ""
-"The Islamic calendar is used in many predominantly Islamic countries.  Emacs "
-"uses it to determine the dates of Islamic holidays.  There is no universal "
-"agreement in the Islamic world about the calendar; Emacs uses a widely "
-"accepted version, but the precise dates of Islamic holidays often depend on "
-"proclamation by religious authorities, not on calculations.  As a "
-"consequence, the actual dates of observance can vary slightly from the dates "
-"computed by Emacs.  Islamic calendar dates begin and end at sunset."
+msgid "The Islamic calendar is used in many predominantly Islamic countries.  Emacs uses it to determine the dates of Islamic holidays.  There is no universal agreement in the Islamic world about the calendar; Emacs uses a widely accepted version, but the precise dates of Islamic holidays often depend on proclamation by religious authorities, not on calculations.  As a consequence, the actual dates of observance can vary slightly from the dates computed by Emacs.  Islamic calendar dates begin and end at sunset."
 msgstr ""
 
 #. type: cindex
@@ -2232,12 +1939,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:733
-msgid ""
-"The French Revolutionary calendar was created by the Jacobins after the 1789 "
-"revolution, to represent a more secular and nature-based view of the annual "
-"cycle, and to install a 10-day week in a rationalization measure similar to "
-"the metric system.  The French government officially abandoned this calendar "
-"at the end of 1805."
+msgid "The French Revolutionary calendar was created by the Jacobins after the 1789 revolution, to represent a more secular and nature-based view of the annual cycle, and to install a 10-day week in a rationalization measure similar to the metric system.  The French government officially abandoned this calendar at the end of 1805."
 msgstr ""
 
 #. type: cindex
@@ -2248,12 +1950,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:740
-msgid ""
-"The Maya of Central America used three separate, overlapping calendar "
-"systems, the @emph{long count}, the @emph{tzolkin}, and the @emph{haab}.  "
-"Emacs knows about all three of these calendars.  Experts dispute the exact "
-"correlation between the Mayan calendar and our calendar; Emacs uses the "
-"Goodman-Martinez-Thompson correlation in its calculations."
+msgid "The Maya of Central America used three separate, overlapping calendar systems, the @emph{long count}, the @emph{tzolkin}, and the @emph{haab}.  Emacs knows about all three of these calendars.  Experts dispute the exact correlation between the Mayan calendar and our calendar; Emacs uses the Goodman-Martinez-Thompson correlation in its calculations."
 msgstr ""
 
 #. type: cindex
@@ -2270,12 +1967,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:748
-msgid ""
-"The Copts use a calendar based on the ancient Egyptian solar calendar.  "
-"Their calendar consists of twelve 30-day months followed by an extra five-"
-"day period.  Once every fourth year they add a leap day to this extra period "
-"to make it six days.  The Ethiopic calendar is identical in structure, but "
-"has different year numbers and month names."
+msgid "The Copts use a calendar based on the ancient Egyptian solar calendar.  Their calendar consists of twelve 30-day months followed by an extra five-day period.  Once every fourth year they add a leap day to this extra period to make it six days.  The Ethiopic calendar is identical in structure, but has different year numbers and month names."
 msgstr ""
 
 #. type: cindex
@@ -2286,17 +1978,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:762
-msgid ""
-"The Persians use a solar calendar based on a design of Omar Khayyam.  Their "
-"calendar consists of twelve months of which the first six have 31 days, the "
-"next five have 30 days, and the last has 29 in ordinary years and 30 in leap "
-"years.  Leap years occur in a complicated pattern every four or five years.  "
-"The calendar implemented here is the arithmetical Persian calendar "
-"championed by Birashk, based on a 2,820-year cycle.  It differs from the "
-"astronomical Persian calendar, which is based on astronomical events.  As of "
-"this writing the first future discrepancy is projected to occur on March 20, "
-"2025.  It is currently not clear what the official calendar of Iran will be "
-"at that time."
+msgid "The Persians use a solar calendar based on a design of Omar Khayyam.  Their calendar consists of twelve months of which the first six have 31 days, the next five have 30 days, and the last has 29 in ordinary years and 30 in leap years.  Leap years occur in a complicated pattern every four or five years.  The calendar implemented here is the arithmetical Persian calendar championed by Birashk, based on a 2,820-year cycle.  It differs from the astronomical Persian calendar, which is based on astronomical events.  As of this writing the first future discrepancy is projected to occur on March 20, 2025.  It is currently not clear what the official calendar of Iran will be at that time."
 msgstr ""
 
 #. type: cindex
@@ -2307,14 +1989,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:771
-msgid ""
-"The Chinese calendar is a complicated system of lunar months arranged into "
-"solar years.  The years go in cycles of sixty, each year containing either "
-"twelve months in an ordinary year or thirteen months in a leap year; each "
-"month has either 29 or 30 days.  Years, ordinary months, and days are named "
-"by combining one of ten @dfn{celestial stems} with one of twelve "
-"@dfn{terrestrial branches} for a total of sixty names that are repeated in a "
-"cycle of sixty."
+msgid "The Chinese calendar is a complicated system of lunar months arranged into solar years.  The years go in cycles of sixty, each year containing either twelve months in an ordinary year or thirteen months in a leap year; each month has either 29 or 30 days.  Years, ordinary months, and days are named by combining one of ten @dfn{celestial stems} with one of twelve @dfn{terrestrial branches} for a total of sixty names that are repeated in a cycle of sixty."
 msgstr ""
 
 #. type: cindex
@@ -2325,10 +2000,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:776
-msgid ""
-"The Bahá'í calendar system is based on a solar cycle of 19 months with 19 "
-"days each.  The four remaining intercalary days are placed between the 18th "
-"and 19th months."
+msgid "The Bahá'í calendar system is based on a solar cycle of 19 months with 19 days each.  The four remaining intercalary days are placed between the 18th and 19th months."
 msgstr ""
 
 #. type: subsection
@@ -2339,9 +2011,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:782
-msgid ""
-"The following commands describe the selected date (the date at point)  in "
-"various other calendar systems:"
+msgid "The following commands describe the selected date (the date at point)  in various other calendar systems:"
 msgstr ""
 
 #. type: kindex
@@ -2370,9 +2040,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:790
-msgid ""
-"Display the selected date in various other calendars.  (@code{calendar-print-"
-"other-dates})."
+msgid "Display the selected date in various other calendars.  (@code{calendar-print-other-dates})."
 msgstr ""
 
 #. type: findex
@@ -2389,9 +2057,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:794
-msgid ""
-"Display ISO commercial calendar equivalent for selected day (@code{calendar-"
-"iso-print-date})."
+msgid "Display ISO commercial calendar equivalent for selected day (@code{calendar-iso-print-date})."
 msgstr ""
 
 #. type: findex
@@ -2408,8 +2074,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:797
-msgid ""
-"Display Julian date for selected day (@code{calendar-julian-print-date})."
+msgid "Display Julian date for selected day (@code{calendar-julian-print-date})."
 msgstr ""
 
 #. type: findex
@@ -2426,9 +2091,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:801
-msgid ""
-"Display astronomical (Julian) day number for selected day (@code{calendar-"
-"astro-print-day-number})."
+msgid "Display astronomical (Julian) day number for selected day (@code{calendar-astro-print-day-number})."
 msgstr ""
 
 #. type: findex
@@ -2445,8 +2108,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:804
-msgid ""
-"Display Hebrew date for selected day (@code{calendar-hebrew-print-date})."
+msgid "Display Hebrew date for selected day (@code{calendar-hebrew-print-date})."
 msgstr ""
 
 #. type: findex
@@ -2463,8 +2125,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:807
-msgid ""
-"Display Islamic date for selected day (@code{calendar-islamic-print-date})."
+msgid "Display Islamic date for selected day (@code{calendar-islamic-print-date})."
 msgstr ""
 
 #. type: findex
@@ -2481,9 +2142,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:811
-msgid ""
-"Display French Revolutionary date for selected day (@code{calendar-french-"
-"print-date})."
+msgid "Display French Revolutionary date for selected day (@code{calendar-french-print-date})."
 msgstr ""
 
 #. type: findex
@@ -2500,8 +2159,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:815
-msgid ""
-"Display Bahá'í date for selected day (@code{calendar-bahai-print-date})."
+msgid "Display Bahá'í date for selected day (@code{calendar-bahai-print-date})."
 msgstr ""
 
 #. type: findex
@@ -2518,8 +2176,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:819
-msgid ""
-"Display Chinese date for selected day (@code{calendar-chinese-print-date})."
+msgid "Display Chinese date for selected day (@code{calendar-chinese-print-date})."
 msgstr ""
 
 #. type: findex
@@ -2536,8 +2193,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:823
-msgid ""
-"Display Coptic date for selected day (@code{calendar-coptic-print-date})."
+msgid "Display Coptic date for selected day (@code{calendar-coptic-print-date})."
 msgstr ""
 
 #. type: findex
@@ -2554,8 +2210,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:827
-msgid ""
-"Display Ethiopic date for selected day (@code{calendar-ethiopic-print-date})."
+msgid "Display Ethiopic date for selected day (@code{calendar-ethiopic-print-date})."
 msgstr ""
 
 #. type: findex
@@ -2572,8 +2227,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:831
-msgid ""
-"Display Persian date for selected day (@code{calendar-persian-print-date})."
+msgid "Display Persian date for selected day (@code{calendar-persian-print-date})."
 msgstr ""
 
 #. type: findex
@@ -2595,16 +2249,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:846
-msgid ""
-"Otherwise, move point to the date you want to convert, then type the "
-"appropriate command starting with @kbd{p} from the table above.  The prefix "
-"@kbd{p} is a mnemonic for ``print'', since Emacs ``prints'' the equivalent "
-"date in the echo area.  @kbd{p o} displays the date in all forms known to "
-"Emacs.  You can also use @kbd{mouse-3} and then choose @kbd{Other calendars} "
-"from the menu that appears.  This displays the equivalent forms of the date "
-"in all the calendars Emacs understands, in the form of a menu.  (Choosing an "
-"alternative from this menu doesn't actually do anything---the menu is used "
-"only for display.)"
+msgid "Otherwise, move point to the date you want to convert, then type the appropriate command starting with @kbd{p} from the table above.  The prefix @kbd{p} is a mnemonic for ``print'', since Emacs ``prints'' the equivalent date in the echo area.  @kbd{p o} displays the date in all forms known to Emacs.  You can also use @kbd{mouse-3} and then choose @kbd{Other calendars} from the menu that appears.  This displays the equivalent forms of the date in all the calendars Emacs understands, in the form of a menu.  (Choosing an alternative from this menu doesn't actually do anything---the menu is used only for display.)"
 msgstr ""
 
 #. type: subsection
@@ -2615,10 +2260,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:853
-msgid ""
-"You can use the other supported calendars to specify a date to move to.  "
-"This section describes the commands for doing this using calendars other "
-"than Mayan; for the Mayan calendar, see the following section."
+msgid "You can use the other supported calendars to specify a date to move to.  This section describes the commands for doing this using calendars other than Mayan; for the Mayan calendar, see the following section."
 msgstr ""
 
 #. type: kindex
@@ -2701,16 +2343,12 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:870
-msgid ""
-"Move to a date specified in the ISO commercial calendar (@code{calendar-iso-"
-"goto-date})."
+msgid "Move to a date specified in the ISO commercial calendar (@code{calendar-iso-goto-date})."
 msgstr ""
 
 #. type: table
 #: src/calendar.texi:873
-msgid ""
-"Move to a week specified in the ISO commercial calendar (@code{calendar-iso-"
-"goto-week})."
+msgid "Move to a week specified in the ISO commercial calendar (@code{calendar-iso-goto-week})."
 msgstr ""
 
 #. type: item
@@ -2721,9 +2359,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:876
-msgid ""
-"Move to a date specified in the Julian calendar (@code{calendar-julian-goto-"
-"date})."
+msgid "Move to a date specified in the Julian calendar (@code{calendar-julian-goto-date})."
 msgstr ""
 
 #. type: item
@@ -2734,9 +2370,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:879
-msgid ""
-"Move to a date specified with an astronomical (Julian) day number "
-"(@code{calendar-astro-goto-day-number})."
+msgid "Move to a date specified with an astronomical (Julian) day number (@code{calendar-astro-goto-day-number})."
 msgstr ""
 
 #. type: item
@@ -2747,9 +2381,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:882
-msgid ""
-"Move to a date specified in the Bahá'í calendar (@code{calendar-bahai-goto-"
-"date})."
+msgid "Move to a date specified in the Bahá'í calendar (@code{calendar-bahai-goto-date})."
 msgstr ""
 
 #. type: item
@@ -2760,9 +2392,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:885
-msgid ""
-"Move to a date specified in the Hebrew calendar (@code{calendar-hebrew-goto-"
-"date})."
+msgid "Move to a date specified in the Hebrew calendar (@code{calendar-hebrew-goto-date})."
 msgstr ""
 
 #. type: item
@@ -2773,9 +2403,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:888
-msgid ""
-"Move to a date specified in the Islamic calendar (@code{calendar-islamic-"
-"goto-date})."
+msgid "Move to a date specified in the Islamic calendar (@code{calendar-islamic-goto-date})."
 msgstr ""
 
 #. type: item
@@ -2786,9 +2414,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:891
-msgid ""
-"Move to a date specified in the French Revolutionary calendar "
-"(@code{calendar-french-goto-date})."
+msgid "Move to a date specified in the French Revolutionary calendar (@code{calendar-french-goto-date})."
 msgstr ""
 
 #. type: item
@@ -2799,9 +2425,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:894
-msgid ""
-"Move to a date specified in the Chinese calendar (@code{calendar-chinese-"
-"goto-date})."
+msgid "Move to a date specified in the Chinese calendar (@code{calendar-chinese-goto-date})."
 msgstr ""
 
 #. type: item
@@ -2812,9 +2436,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:897
-msgid ""
-"Move to a date specified in the Persian calendar (@code{calendar-persian-"
-"goto-date})."
+msgid "Move to a date specified in the Persian calendar (@code{calendar-persian-goto-date})."
 msgstr ""
 
 #. type: item
@@ -2825,9 +2447,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:900
-msgid ""
-"Move to a date specified in the Coptic calendar (@code{calendar-coptic-goto-"
-"date})."
+msgid "Move to a date specified in the Coptic calendar (@code{calendar-coptic-goto-date})."
 msgstr ""
 
 #. type: item
@@ -2838,19 +2458,12 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:903
-msgid ""
-"Move to a date specified in the Ethiopic calendar (@code{calendar-ethiopic-"
-"goto-date})."
+msgid "Move to a date specified in the Ethiopic calendar (@code{calendar-ethiopic-goto-date})."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:911
-msgid ""
-"These commands ask you for a date on the other calendar, move point to the "
-"Gregorian calendar date equivalent to that date, and display the other "
-"calendar's date in the echo area.  Emacs uses strict completion "
-"(@pxref{Completion Exit}) whenever it asks you to type a month name, so you "
-"don't have to worry about the spelling of Hebrew, Islamic, or French names."
+msgid "These commands ask you for a date on the other calendar, move point to the Gregorian calendar date equivalent to that date, and display the other calendar's date in the echo area.  Emacs uses strict completion (@pxref{Completion Exit}) whenever it asks you to type a month name, so you don't have to worry about the spelling of Hebrew, Islamic, or French names."
 msgstr ""
 
 #. type: findex
@@ -2867,15 +2480,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:923
-msgid ""
-"One common issue concerning the Hebrew calendar is the computation of the "
-"anniversary of a date of death, called a @dfn{yahrzeit}.  The Emacs calendar "
-"includes a facility for such calculations.  If you are in the calendar, the "
-"command @kbd{M-x calendar-hebrew-list-yahrzeits} asks you for a range of "
-"years and then displays a list of the yahrzeit dates for those years for the "
-"date given by point.  If you are not in the calendar, this command first "
-"asks you for the date of death and the range of years, and then displays the "
-"list of yahrzeit dates."
+msgid "One common issue concerning the Hebrew calendar is the computation of the anniversary of a date of death, called a @dfn{yahrzeit}.  The Emacs calendar includes a facility for such calculations.  If you are in the calendar, the command @kbd{M-x calendar-hebrew-list-yahrzeits} asks you for a range of years and then displays a list of the yahrzeit dates for those years for the date given by point.  If you are not in the calendar, this command first asks you for the date of death and the range of years, and then displays the list of yahrzeit dates."
 msgstr ""
 
 #. type: section
@@ -2892,19 +2497,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:934
-msgid ""
-"The Emacs diary keeps track of appointments or other events on a daily "
-"basis, in conjunction with the calendar.  To use the diary feature, you must "
-"first create a diary file containing a list of events and their dates.  Then "
-"Emacs can automatically pick out and display the events for today, for the "
-"immediate future, or for any specified date."
+msgid "The Emacs diary keeps track of appointments or other events on a daily basis, in conjunction with the calendar.  To use the diary feature, you must first create a diary file containing a list of events and their dates.  Then Emacs can automatically pick out and display the events for today, for the immediate future, or for any specified date."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:938
-msgid ""
-"Although you probably will start by creating a diary manually, Emacs "
-"provides a number of commands to let you view, add, and change diary entries."
+msgid "Although you probably will start by creating a diary manually, Emacs provides a number of commands to let you view, add, and change diary entries."
 msgstr ""
 
 #. type: node
@@ -3004,30 +2602,18 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:959
-msgid ""
-"Your @dfn{diary file} is a file that records events associated with "
-"particular dates.  The name of the diary file is specified by the variable "
-"@code{diary-file}.  The default is @file{~/.emacs.d/diary}, though for "
-"compatibility with older versions Emacs will use @file{~/diary} if it exists."
+msgid "Your @dfn{diary file} is a file that records events associated with particular dates.  The name of the diary file is specified by the variable @code{diary-file}.  The default is @file{~/.emacs.d/diary}, though for compatibility with older versions Emacs will use @file{~/diary} if it exists."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:976
-msgid ""
-"Each entry in the diary file describes one event and consists of one or more "
-"lines.  An entry always begins with a date specification at the left "
-"margin.  The rest of the entry is simply text to describe the event.  If the "
-"entry has more than one line, then the lines after the first must begin with "
-"whitespace to indicate they continue a previous entry.  Lines that do not "
-"begin with valid dates and do not continue a preceding entry are ignored.  "
-"Here's an example:"
+msgid "Each entry in the diary file describes one event and consists of one or more lines.  An entry always begins with a date specification at the left margin.  The rest of the entry is simply text to describe the event.  If the entry has more than one line, then the lines after the first must begin with whitespace to indicate they continue a previous entry.  Lines that do not begin with valid dates and do not continue a preceding entry are ignored.  Here's an example:"
 msgstr ""
 
 #. type: example
 #: src/calendar.texi:988
 #, no-wrap
-msgid ""
-"12/22/2015  Twentieth wedding anniversary!\n"
+msgid "12/22/2015  Twentieth wedding anniversary!\n"
 "10/22       Ruth's birthday.\n"
 "* 21, *:    Payday\n"
 "Tuesday--weekly meeting with grad students at 10am\n"
@@ -3041,24 +2627,18 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:993
-msgid ""
-"This example uses extra spaces to align the event descriptions of most of "
-"the entries.  Such formatting is purely a matter of taste."
+msgid "This example uses extra spaces to align the event descriptions of most of the entries.  Such formatting is purely a matter of taste."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:997
-msgid ""
-"You can also use a format where the first line of a diary entry consists "
-"only of the date or day name (with no following blanks or punctuation).  For "
-"example:"
+msgid "You can also use a format where the first line of a diary entry consists only of the date or day name (with no following blanks or punctuation).  For example:"
 msgstr ""
 
 #. type: example
 #: src/calendar.texi:1006
 #, no-wrap
-msgid ""
-"02/11/2012\n"
+msgid "02/11/2012\n"
 "      Bill B. visits Princeton today\n"
 "      2pm Cognitive Studies Committee meeting\n"
 "      2:30-5:30 Liz at Lawrenceville\n"
@@ -3069,9 +2649,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1011
-msgid ""
-"This entry will have a different appearance if you use the simple diary "
-"display"
+msgid "This entry will have a different appearance if you use the simple diary display"
 msgstr ""
 
 #. type: iftex
@@ -3086,19 +2664,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1021
-msgid ""
-"The simple diary display omits the date line at the beginning; only the "
-"continuation lines appear.  This style of entry looks neater when you "
-"display just a single day's entries, but can cause confusion if you ask for "
-"more than one day's entries."
+msgid "The simple diary display omits the date line at the beginning; only the continuation lines appear.  This style of entry looks neater when you display just a single day's entries, but can cause confusion if you ask for more than one day's entries."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1028
-msgid ""
-"Once you have created a diary file, you can use the calendar to view it.  "
-"You can also view today's events outside of Calendar mode.  In the "
-"following, key bindings refer to the Calendar buffer."
+msgid "Once you have created a diary file, you can use the calendar to view it.  You can also view today's events outside of Calendar mode.  In the following, key bindings refer to the Calendar buffer."
 msgstr ""
 
 #. type: item
@@ -3115,8 +2686,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:1034
-msgid ""
-"Display all diary entries for the selected date (@code{diary-view-entries})."
+msgid "Display all diary entries for the selected date (@code{diary-view-entries})."
 msgstr ""
 
 #. type: item
@@ -3138,8 +2708,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:1039
-msgid ""
-"Mark all visible dates that have diary entries (@code{diary-mark-entries})."
+msgid "Mark all visible dates that have diary entries (@code{diary-mark-entries})."
 msgstr ""
 
 #. type: table
@@ -3200,29 +2769,17 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1057
-msgid ""
-"Displaying the diary entries with @kbd{d} shows in a separate buffer the "
-"diary entries for the selected date in the calendar.  The mode line of the "
-"new buffer shows the date of the diary entries.  Holidays are shown either "
-"in the buffer or in the mode line, depending on the display method you choose"
+msgid "Displaying the diary entries with @kbd{d} shows in a separate buffer the diary entries for the selected date in the calendar.  The mode line of the new buffer shows the date of the diary entries.  Holidays are shown either in the buffer or in the mode line, depending on the display method you choose"
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1066
-msgid ""
-"If you specify a numeric argument with @kbd{d}, it shows all the diary "
-"entries for that many successive days.  Thus, @kbd{2 d} displays all the "
-"entries for the selected date and for the following day."
+msgid "If you specify a numeric argument with @kbd{d}, it shows all the diary entries for that many successive days.  Thus, @kbd{2 d} displays all the entries for the selected date and for the following day."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1073
-msgid ""
-"Another way to display the diary entries for a date is to click "
-"@kbd{mouse-3} on the date, and then choose @kbd{Diary entries} from the menu "
-"that appears.  If the variable @code{calendar-view-diary-initially-flag} is "
-"non-@code{nil}, creating the calendar lists the diary entries for the "
-"current date (provided the current date is visible)."
+msgid "Another way to display the diary entries for a date is to click @kbd{mouse-3} on the date, and then choose @kbd{Diary entries} from the menu that appears.  If the variable @code{calendar-view-diary-initially-flag} is non-@code{nil}, creating the calendar lists the diary entries for the current date (provided the current date is visible)."
 msgstr ""
 
 #. type: kindex
@@ -3245,10 +2802,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1080
-msgid ""
-"To get a broader view of which days are mentioned in the diary, use the "
-"@kbd{m} command.  This marks the dates that have diary entries in a "
-"different face."
+msgid "To get a broader view of which days are mentioned in the diary, use the @kbd{m} command.  This marks the dates that have diary entries in a different face."
 msgstr ""
 
 #. type: ifnottex
@@ -3258,13 +2812,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1093
-msgid ""
-"This command applies both to the months that are currently visible and to "
-"those that subsequently become visible after scrolling.  To turn marking off "
-"and erase the current marks, type @kbd{u}, which also turns off holiday "
-"marks (@pxref{Holidays}).  If the variable @code{calendar-mark-diary-entries-"
-"flag} is non-@code{nil}, creating or updating the calendar marks diary dates "
-"automatically."
+msgid "This command applies both to the months that are currently visible and to those that subsequently become visible after scrolling.  To turn marking off and erase the current marks, type @kbd{u}, which also turns off holiday marks (@pxref{Holidays}).  If the variable @code{calendar-mark-diary-entries-flag} is non-@code{nil}, creating or updating the calendar marks diary dates automatically."
 msgstr ""
 
 #. type: vindex
@@ -3275,13 +2823,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1102
-msgid ""
-"To prevent an individual diary entry from being marked in the calendar, "
-"insert the string that @code{diary-nonmarking-symbol} specifies (the default "
-"is @samp{&}) at the beginning of the entry, before the date.  This has no "
-"effect on display of the entry in the diary buffer; it only affects marks on "
-"dates in the calendar.  Nonmarking entries can be useful for generic entries "
-"that would otherwise mark many different dates."
+msgid "To prevent an individual diary entry from being marked in the calendar, insert the string that @code{diary-nonmarking-symbol} specifies (the default is @samp{&}) at the beginning of the entry, before the date.  This has no effect on display of the entry in the diary buffer; it only affects marks on dates in the calendar.  Nonmarking entries can be useful for generic entries that would otherwise mark many different dates."
 msgstr ""
 
 #. type: kindex
@@ -3298,18 +2840,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1107
-msgid ""
-"To see the full diary file, rather than just some of the entries, use the "
-"@kbd{s} command."
+msgid "To see the full diary file, rather than just some of the entries, use the @kbd{s} command."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1113
-msgid ""
-"The command @kbd{M-x diary} displays the diary entries for the current date, "
-"independently of the calendar display, and optionally for the next few days "
-"as well; the variable @code{diary-number-of-entries} specifies how many days "
-"to include."
+msgid "The command @kbd{M-x diary} displays the diary entries for the current date, independently of the calendar display, and optionally for the next few days as well; the variable @code{diary-number-of-entries} specifies how many days to include."
 msgstr ""
 
 #. type: iftex
@@ -3324,9 +2860,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1123
-msgid ""
-"If you put @code{(diary)} in your @file{.emacs} file, this automatically "
-"displays a window with the day's diary entries when you start Emacs."
+msgid "If you put @code{(diary)} in your @file{.emacs} file, this automatically displays a window with the day's diary entries when you start Emacs."
 msgstr ""
 
 #. type: findex
@@ -3343,27 +2877,18 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1131
-msgid ""
-"Some people like to receive email notifications of events in their diary.  "
-"To send such mail to yourself, use the command @kbd{M-x diary-mail-"
-"entries}.  A prefix argument specifies how many days (starting with today) "
-"to check; otherwise, the variable @code{diary-mail-days} says how many days."
+msgid "Some people like to receive email notifications of events in their diary.  To send such mail to yourself, use the command @kbd{M-x diary-mail-entries}.  A prefix argument specifies how many days (starting with today) to check; otherwise, the variable @code{diary-mail-days} says how many days."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1139
-msgid ""
-"Here are some sample diary entries, illustrating different ways of "
-"formatting a date.  The examples all show dates in American order (month, "
-"day, year), but Calendar mode supports European order (day, month, year) and "
-"ISO order (year, month, day) as options."
+msgid "Here are some sample diary entries, illustrating different ways of formatting a date.  The examples all show dates in American order (month, day, year), but Calendar mode supports European order (day, month, year) and ISO order (year, month, day) as options."
 msgstr ""
 
 #. type: example
 #: src/calendar.texi:1146
 #, no-wrap
-msgid ""
-"4/20/12  Switch-over to new tabulation system\n"
+msgid "4/20/12  Switch-over to new tabulation system\n"
 "apr. 25  Start tabulating annual results\n"
 "4/30  Results for April are due\n"
 "*/25  Monthly cycle finishes\n"
@@ -3372,45 +2897,22 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1152
-msgid ""
-"The first entry appears only once, on April 20, 2012.  The second and third "
-"appear every year on the specified dates, and the fourth uses a wildcard "
-"(asterisk) for the month, so it appears on the 25th of every month.  The "
-"final entry appears every week on Friday."
+msgid "The first entry appears only once, on April 20, 2012.  The second and third appear every year on the specified dates, and the fourth uses a wildcard (asterisk) for the month, so it appears on the 25th of every month.  The final entry appears every week on Friday."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1159
-msgid ""
-"You can use just numbers to express a date, as in @samp{@var{month}/"
-"@var{day}} or @samp{@var{month}/@var{day}/@var{year}}.  This must be "
-"followed by a nondigit.  In the date itself, @var{month} and @var{day} are "
-"numbers of one or two digits.  The optional @var{year} is also a number, and "
-"may be abbreviated to the last two digits; that is, you can use "
-"@samp{11/12/2012} or @samp{11/12/12}."
+msgid "You can use just numbers to express a date, as in @samp{@var{month}/@var{day}} or @samp{@var{month}/@var{day}/@var{year}}.  This must be followed by a nondigit.  In the date itself, @var{month} and @var{day} are numbers of one or two digits.  The optional @var{year} is also a number, and may be abbreviated to the last two digits; that is, you can use @samp{11/12/2012} or @samp{11/12/12}."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1168
-msgid ""
-"Dates can also have the form @samp{@var{monthname} @var{day}} or "
-"@samp{@var{monthname} @var{day}, @var{year}}, where the month's name can be "
-"spelled in full or abbreviated (with or without a period).  The preferred "
-"abbreviations for month and day names can be set using the variables "
-"@code{calendar-abbrev-length}, @code{calendar-month-abbrev-array}, and "
-"@code{calendar-day-abbrev-array}.  The default is to use the first three "
-"letters of a name as its abbreviation.  Case is not significant."
+msgid "Dates can also have the form @samp{@var{monthname} @var{day}} or @samp{@var{monthname} @var{day}, @var{year}}, where the month's name can be spelled in full or abbreviated (with or without a period).  The preferred abbreviations for month and day names can be set using the variables @code{calendar-abbrev-length}, @code{calendar-month-abbrev-array}, and @code{calendar-day-abbrev-array}.  The default is to use the first three letters of a name as its abbreviation.  Case is not significant."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1176
-msgid ""
-"A date may be @dfn{generic}; that is, partially unspecified.  Then the entry "
-"applies to all dates that match the specification.  If the date does not "
-"contain a year, it is generic and applies to any year.  Alternatively, "
-"@var{month}, @var{day}, or @var{year} can be @samp{*}; this matches any "
-"month, day, or year, respectively.  Thus, a diary entry @samp{3/*/*} matches "
-"any day in March of any year; so does @samp{march *}."
+msgid "A date may be @dfn{generic}; that is, partially unspecified.  Then the entry applies to all dates that match the specification.  If the date does not contain a year, it is generic and applies to any year.  Alternatively, @var{month}, @var{day}, or @var{year} can be @samp{*}; this matches any month, day, or year, respectively.  Thus, a diary entry @samp{3/*/*} matches any day in March of any year; so does @samp{march *}."
 msgstr ""
 
 #. type: vindex
@@ -3427,21 +2929,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1185
-msgid ""
-"If you prefer the European style of writing dates (in which the day comes "
-"before the month), or the ISO style (in which the order is year, month, "
-"day), type @kbd{M-x calendar-set-date-style} while in the calendar, or "
-"customize the variable @code{calendar-date-style}.  This affects how diary "
-"dates are interpreted, date display, and the order in which some commands "
-"expect their arguments to be given."
+msgid "If you prefer the European style of writing dates (in which the day comes before the month), or the ISO style (in which the order is year, month, day), type @kbd{M-x calendar-set-date-style} while in the calendar, or customize the variable @code{calendar-date-style}.  This affects how diary dates are interpreted, date display, and the order in which some commands expect their arguments to be given."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1190
-msgid ""
-"You can use the name of a day of the week as a generic date which applies to "
-"any date falling on that day of the week.  You can abbreviate the day of the "
-"week as described above, or spell it in full; case is not significant."
+msgid "You can use the name of a day of the week as a generic date which applies to any date falling on that day of the week.  You can abbreviate the day of the week as described above, or spell it in full; case is not significant."
 msgstr ""
 
 #. type: subsection
@@ -3452,11 +2945,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1198
-msgid ""
-"While in the calendar, there are several commands to create diary entries.  "
-"The basic commands are listed here; more sophisticated commands are in the "
-"next section (@pxref{Special Diary Entries}).  Entries can also be based on "
-"non-Gregorian calendars."
+msgid "While in the calendar, there are several commands to create diary entries.  The basic commands are listed here; more sophisticated commands are in the next section (@pxref{Special Diary Entries}).  Entries can also be based on non-Gregorian calendars."
 msgstr ""
 
 #. type: iftex
@@ -3488,9 +2977,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:1210
-msgid ""
-"Add a diary entry for the selected day of the week (@code{diary-insert-"
-"weekly-entry})."
+msgid "Add a diary entry for the selected day of the week (@code{diary-insert-weekly-entry})."
 msgstr ""
 
 #. type: item
@@ -3501,9 +2988,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:1212
-msgid ""
-"Add a diary entry for the selected day of the month (@code{diary-insert-"
-"monthly-entry})."
+msgid "Add a diary entry for the selected day of the month (@code{diary-insert-monthly-entry})."
 msgstr ""
 
 #. type: item
@@ -3514,9 +2999,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:1214
-msgid ""
-"Add a diary entry for the selected day of the year (@code{diary-insert-"
-"yearly-entry})."
+msgid "Add a diary entry for the selected day of the year (@code{diary-insert-yearly-entry})."
 msgstr ""
 
 #. type: kindex
@@ -3533,11 +3016,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1222
-msgid ""
-"You can make a diary entry for a specific date by selecting that date in the "
-"calendar window and typing the @kbd{i d} command.  This command displays the "
-"end of your diary file in another window and inserts the date; you can then "
-"type the rest of the diary entry."
+msgid "You can make a diary entry for a specific date by selecting that date in the calendar window and typing the @kbd{i d} command.  This command displays the end of your diary file in another window and inserts the date; you can then type the rest of the diary entry."
 msgstr ""
 
 #. type: kindex
@@ -3578,49 +3057,27 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1236
-msgid ""
-"If you want to make a diary entry that applies to a specific day of the "
-"week, select that day of the week (any occurrence will do) and type @kbd{i "
-"w}.  This inserts the day-of-week as a generic date; you can then type the "
-"rest of the diary entry.  You can make a monthly diary entry in the same "
-"fashion: select the day of the month, use the @kbd{i m} command, and type "
-"the rest of the entry.  Similarly, you can insert a yearly diary entry with "
-"the @kbd{i y} command."
+msgid "If you want to make a diary entry that applies to a specific day of the week, select that day of the week (any occurrence will do) and type @kbd{i w}.  This inserts the day-of-week as a generic date; you can then type the rest of the diary entry.  You can make a monthly diary entry in the same fashion: select the day of the month, use the @kbd{i m} command, and type the rest of the entry.  Similarly, you can insert a yearly diary entry with the @kbd{i y} command."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1240
-msgid ""
-"All of the above commands make marking diary entries by default.  To make a "
-"nonmarking diary entry, give a prefix argument to the command.  For example, "
-"@kbd{C-u i w} makes a nonmarking weekly diary entry."
+msgid "All of the above commands make marking diary entries by default.  To make a nonmarking diary entry, give a prefix argument to the command.  For example, @kbd{C-u i w} makes a nonmarking weekly diary entry."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1246
-msgid ""
-"When you modify the diary file, be sure to save the file before exiting "
-"Emacs.  Saving the diary file after using any of the above insertion "
-"commands will automatically update the diary marks in the calendar window, "
-"if appropriate.  You can use the command @code{calendar-redraw} to force an "
-"update at any time."
+msgid "When you modify the diary file, be sure to save the file before exiting Emacs.  Saving the diary file after using any of the above insertion commands will automatically update the diary marks in the calendar window, if appropriate.  You can use the command @code{calendar-redraw} to force an update at any time."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1257
-msgid ""
-"In addition to entries based on calendar dates, the diary file can contain "
-"@dfn{sexp entries} for regular events such as anniversaries.  These entries "
-"are based on Lisp expressions (sexps) that Emacs evaluates as it scans the "
-"diary file.  Instead of a date, a sexp entry contains @samp{%%} followed by "
-"a Lisp expression which must begin and end with parentheses.  The Lisp "
-"expression determines which dates the entry applies to."
+msgid "In addition to entries based on calendar dates, the diary file can contain @dfn{sexp entries} for regular events such as anniversaries.  These entries are based on Lisp expressions (sexps) that Emacs evaluates as it scans the diary file.  Instead of a date, a sexp entry contains @samp{%%} followed by a Lisp expression which must begin and end with parentheses.  The Lisp expression determines which dates the entry applies to."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1260
-msgid ""
-"Calendar mode provides commands to insert certain commonly used sexp entries:"
+msgid "Calendar mode provides commands to insert certain commonly used sexp entries:"
 msgstr ""
 
 #. type: item
@@ -3631,9 +3088,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:1265
-msgid ""
-"Add an anniversary diary entry for the selected date (@code{diary-insert-"
-"anniversary-entry})."
+msgid "Add an anniversary diary entry for the selected date (@code{diary-insert-anniversary-entry})."
 msgstr ""
 
 #. type: item
@@ -3644,9 +3099,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:1268
-msgid ""
-"Add a block diary entry for the current region (@code{diary-insert-block-"
-"entry})."
+msgid "Add a block diary entry for the current region (@code{diary-insert-block-entry})."
 msgstr ""
 
 #. type: item
@@ -3657,9 +3110,7 @@ msgstr ""
 
 #. type: table
 #: src/calendar.texi:1271
-msgid ""
-"Add a cyclic diary entry starting at the date (@code{diary-insert-cyclic-"
-"entry})."
+msgid "Add a cyclic diary entry starting at the date (@code{diary-insert-cyclic-entry})."
 msgstr ""
 
 #. type: kindex
@@ -3676,12 +3127,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1280
-msgid ""
-"If you want to make a diary entry that applies to the anniversary of a "
-"specific date, move point to that date and use the @kbd{i a} command.  This "
-"displays the end of your diary file in another window and inserts the "
-"anniversary description; you can then type the rest of the diary entry.  The "
-"entry looks like this:"
+msgid "If you want to make a diary entry that applies to the anniversary of a specific date, move point to that date and use the @kbd{i a} command.  This displays the end of your diary file in another window and inserts the anniversary description; you can then type the rest of the diary entry.  The entry looks like this:"
 msgstr ""
 
 #. type: findex
@@ -3698,20 +3144,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1292
-msgid ""
-"This entry applies to October 31 in any year after 1988; @samp{10 31 1988} "
-"specifies the date.  (If you are using the European or ISO calendar style, "
-"the input order of month, day and year is different.)  The reason this "
-"expression requires a beginning year is that advanced diary functions can "
-"use it to calculate the number of elapsed years."
+msgid "This entry applies to October 31 in any year after 1988; @samp{10 31 1988} specifies the date.  (If you are using the European or ISO calendar style, the input order of month, day and year is different.)  The reason this expression requires a beginning year is that advanced diary functions can use it to calculate the number of elapsed years."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1296
-msgid ""
-"A @dfn{block} diary entry applies to a specified range of consecutive "
-"dates.  Here is a block diary entry that applies to all dates from June 24, "
-"2012 through July 10, 2012:"
+msgid "A @dfn{block} diary entry applies to a specified range of consecutive dates.  Here is a block diary entry that applies to all dates from June 24, 2012 through July 10, 2012:"
 msgstr ""
 
 #. type: findex
@@ -3728,10 +3166,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1306
-msgid ""
-"The @samp{6 24 2012} indicates the starting date and the @samp{7 10 2012} "
-"indicates the stopping date.  (Again, if you are using the European or ISO "
-"calendar style, the input order of month, day and year is different.)"
+msgid "The @samp{6 24 2012} indicates the starting date and the @samp{7 10 2012} indicates the stopping date.  (Again, if you are using the European or ISO calendar style, the input order of month, day and year is different.)"
 msgstr ""
 
 #. type: kindex
@@ -3748,11 +3183,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1313
-msgid ""
-"To insert a block entry, place point and the mark on the two dates that "
-"begin and end the range, and type @kbd{i b}.  This command displays the end "
-"of your diary file in another window and inserts the block description; you "
-"can then type the diary entry."
+msgid "To insert a block entry, place point and the mark on the two dates that begin and end the range, and type @kbd{i b}.  This command displays the end of your diary file in another window and inserts the block description; you can then type the diary entry."
 msgstr ""
 
 #. type: kindex
@@ -3769,11 +3200,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1320
-msgid ""
-"@dfn{Cyclic} diary entries repeat after a fixed interval of days.  To create "
-"one, select the starting date and use the @kbd{i c} command.  The command "
-"prompts for the length of interval, then inserts the entry, which looks like "
-"this:"
+msgid "@dfn{Cyclic} diary entries repeat after a fixed interval of days.  To create one, select the starting date and use the @kbd{i c} command.  The command prompts for the length of interval, then inserts the entry, which looks like this:"
 msgstr ""
 
 #. type: findex
@@ -3790,37 +3217,22 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1331
-msgid ""
-"This entry applies to March 1, 2012 and every 50th day following; @samp{3 1 "
-"2012} specifies the starting date.  (If you are using the European or ISO "
-"calendar style, the input order of month, day and year is different.)"
+msgid "This entry applies to March 1, 2012 and every 50th day following; @samp{3 1 2012} specifies the starting date.  (If you are using the European or ISO calendar style, the input order of month, day and year is different.)"
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1335
-msgid ""
-"All three of these commands make marking diary entries.  To insert a "
-"nonmarking entry, give a prefix argument to the command.  For example, "
-"@kbd{C-u i a} makes a nonmarking anniversary diary entry."
+msgid "All three of these commands make marking diary entries.  To insert a nonmarking entry, give a prefix argument to the command.  For example, @kbd{C-u i a} makes a nonmarking anniversary diary entry."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1340
-msgid ""
-"Marking sexp diary entries in the calendar can be time-consuming, since "
-"every date visible in the calendar window must be individually checked.  So "
-"it's a good idea to make sexp diary entries nonmarking (with @samp{&}) when "
-"possible."
+msgid "Marking sexp diary entries in the calendar can be time-consuming, since every date visible in the calendar window must be individually checked.  So it's a good idea to make sexp diary entries nonmarking (with @samp{&}) when possible."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1346
-msgid ""
-"Another sophisticated kind of sexp entry, a @dfn{floating} diary entry, "
-"specifies a regularly occurring event by offsets specified in days, weeks, "
-"and months.  It is comparable to a crontab entry interpreted by the "
-"@code{cron} utility.  Here is a nonmarking, floating diary entry that "
-"applies to the fourth Thursday in November:"
+msgid "Another sophisticated kind of sexp entry, a @dfn{floating} diary entry, specifies a regularly occurring event by offsets specified in days, weeks, and months.  It is comparable to a crontab entry interpreted by the @code{cron} utility.  Here is a nonmarking, floating diary entry that applies to the fourth Thursday in November:"
 msgstr ""
 
 #. type: findex
@@ -3837,24 +3249,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1361
-msgid ""
-"The 11 specifies November (the eleventh month), the 4 specifies Thursday "
-"(the fourth day of the week, where Sunday is numbered zero), and the second "
-"4 specifies the fourth Thursday (1 would mean ``first'', 2 would mean "
-"``second'', @minus{}2 would mean ``second-to-last'', and so on).  The month "
-"can be a single month or a list of months.  Thus you could change the 11 "
-"above to @samp{'(1 2 3)} and have the entry apply to the last Thursday of "
-"January, February, and March.  If the month is @code{t}, the entry applies "
-"to all months of the year."
+msgid "The 11 specifies November (the eleventh month), the 4 specifies Thursday (the fourth day of the week, where Sunday is numbered zero), and the second 4 specifies the fourth Thursday (1 would mean ``first'', 2 would mean ``second'', @minus{}2 would mean ``second-to-last'', and so on).  The month can be a single month or a list of months.  Thus you could change the 11 above to @samp{'(1 2 3)} and have the entry apply to the last Thursday of January, February, and March.  If the month is @code{t}, the entry applies to all months of the year."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1366
-msgid ""
-"Each of the standard sexp diary entries takes an optional parameter "
-"specifying the name of a face or a single-character string to use when "
-"marking the entry in the calendar.  Most generally, sexp diary entries can "
-"perform arbitrary computations to determine when they apply."
+msgid "Each of the standard sexp diary entries takes an optional parameter specifying the name of a face or a single-character string to use when marking the entry in the calendar.  Most generally, sexp diary entries can perform arbitrary computations to determine when they apply."
 msgstr ""
 
 #. type: iftex
@@ -3893,15 +3293,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1389
-msgid ""
-"If you have a diary entry for an appointment, and that diary entry begins "
-"with a recognizable time of day, Emacs can warn you in advance that an "
-"appointment is pending.  Emacs alerts you to the appointment by displaying a "
-"message in your chosen format, as specified by the variable @code{appt-"
-"display-format}.  If the value of @code{appt-audible} is non-@code{nil}, the "
-"warning includes an audible reminder.  In addition, if @code{appt-display-"
-"mode-line} is non-@code{nil}, Emacs displays the number of minutes to the "
-"appointment on the mode line."
+msgid "If you have a diary entry for an appointment, and that diary entry begins with a recognizable time of day, Emacs can warn you in advance that an appointment is pending.  Emacs alerts you to the appointment by displaying a message in your chosen format, as specified by the variable @code{appt-display-format}.  If the value of @code{appt-audible} is non-@code{nil}, the warning includes an audible reminder.  In addition, if @code{appt-display-mode-line} is non-@code{nil}, Emacs displays the number of minutes to the appointment on the mode line."
 msgstr ""
 
 #. type: vindex
@@ -3924,12 +3316,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1399
-msgid ""
-"If @code{appt-display-format} has the value @code{window}, then the variable "
-"@code{appt-display-duration} controls how long the reminder window is "
-"visible for; and the variables @code{appt-disp-window-function} and "
-"@code{appt-delete-window-function} give the names of functions used to "
-"create and destroy the window, respectively."
+msgid "If @code{appt-display-format} has the value @code{window}, then the variable @code{appt-display-duration} controls how long the reminder window is visible for; and the variables @code{appt-disp-window-function} and @code{appt-delete-window-function} give the names of functions used to create and destroy the window, respectively."
 msgstr ""
 
 #. type: findex
@@ -3940,13 +3327,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1407
-msgid ""
-"To enable appointment notification, type @kbd{M-x appt-activate}.  With a "
-"positive argument, it enables notification; with a negative argument, it "
-"disables notification; with no argument, it toggles.  Enabling notification "
-"also sets up an appointment list for today from the diary file, giving all "
-"diary entries found with recognizable times of day, and reminds you just "
-"before each of them."
+msgid "To enable appointment notification, type @kbd{M-x appt-activate}.  With a positive argument, it enables notification; with a negative argument, it disables notification; with no argument, it toggles.  Enabling notification also sets up an appointment list for today from the diary file, giving all diary entries found with recognizable times of day, and reminds you just before each of them."
 msgstr ""
 
 #. type: Plain text
@@ -3957,8 +3338,7 @@ msgstr ""
 #. type: example
 #: src/calendar.texi:1414
 #, no-wrap
-msgid ""
-"Monday\n"
+msgid "Monday\n"
 "  9:30am Coffee break\n"
 " 12:00pm Lunch\n"
 msgstr ""
@@ -3977,23 +3357,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1426
-msgid ""
-"Then on Mondays, you will be reminded at around 9:20am about your coffee "
-"break and at around 11:50am about lunch.  The variable @code{appt-message-"
-"warning-time} specifies how many minutes (default 12)  in advance to warn "
-"you.  This is a default warning time.  Each appointment can specify a "
-"different warning time by adding a piece matching @code{appt-warning-time-"
-"regexp} (see that variable's documentation for details)."
+msgid "Then on Mondays, you will be reminded at around 9:20am about your coffee break and at around 11:50am about lunch.  The variable @code{appt-message-warning-time} specifies how many minutes (default 12)  in advance to warn you.  This is a default warning time.  Each appointment can specify a different warning time by adding a piece matching @code{appt-warning-time-regexp} (see that variable's documentation for details)."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1432
-msgid ""
-"You can write times in am/pm style (with @samp{12:00am} standing for "
-"midnight and @samp{12:00pm} standing for noon), or 24-hour European/military "
-"style.  You need not be consistent; your diary file can have a mixture of "
-"the two styles.  Times must be at the beginning of diary entries if they are "
-"to be recognized."
+msgid "You can write times in am/pm style (with @samp{12:00am} standing for midnight and @samp{12:00pm} standing for noon), or 24-hour European/military style.  You need not be consistent; your diary file can have a mixture of the two styles.  Times must be at the beginning of diary entries if they are to be recognized."
 msgstr ""
 
 #. type: vindex
@@ -4004,13 +3373,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1440
-msgid ""
-"Emacs updates the appointments list from the diary file automatically just "
-"after midnight.  You can force an update at any time by re-enabling "
-"appointment notification.  Both these actions also display the day's diary "
-"buffer, unless you set @code{appt-display-diary} to @code{nil}.  The "
-"appointments list is also updated whenever the diary file (or a file it "
-"includes; see"
+msgid "Emacs updates the appointments list from the diary file automatically just after midnight.  You can force an update at any time by re-enabling appointment notification.  Both these actions also display the day's diary buffer, unless you set @code{appt-display-diary} to @code{nil}.  The appointments list is also updated whenever the diary file (or a file it includes; see"
 msgstr ""
 
 #. type: iftex
@@ -4025,11 +3388,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1451
-msgid ""
-"is saved.  If you use the Org Mode and keep appointments in your Org agenda "
-"files, you can add those appointments to the list using the @code{org-agenda-"
-"to-appt} command.  @xref{Weekly/daily agenda, Appointment reminders,,org, "
-"The Org Manual}, for more about that command."
+msgid "is saved.  If you use the Org Mode and keep appointments in your Org agenda files, you can add those appointments to the list using the @code{org-agenda-to-appt} command.  @xref{Weekly/daily agenda, Appointment reminders,,org, The Org Manual}, for more about that command."
 msgstr ""
 
 #. type: findex
@@ -4052,11 +3411,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1459
-msgid ""
-"You can also use the appointment notification facility like an alarm clock.  "
-"The command @kbd{M-x appt-add} adds entries to the appointment list without "
-"affecting your diary file.  You delete entries from the appointment list "
-"with @kbd{M-x appt-delete}."
+msgid "You can also use the appointment notification facility like an alarm clock.  The command @kbd{M-x appt-add} adds entries to the appointment list without affecting your diary file.  You delete entries from the appointment list with @kbd{M-x appt-delete}."
 msgstr ""
 
 #. type: subsection
@@ -4067,9 +3422,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1465
-msgid ""
-"You can transfer diary entries between Emacs diary files and a variety of "
-"other formats."
+msgid "You can transfer diary entries between Emacs diary files and a variety of other formats."
 msgstr ""
 
 #. type: vindex
@@ -4080,13 +3433,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1473
-msgid ""
-"You can import diary entries from Outlook-generated appointment messages.  "
-"While viewing such a message in Rmail or Gnus, do @kbd{M-x diary-from-"
-"outlook} to import the entry.  You can make this command recognize "
-"additional appointment message formats by customizing the variable "
-"@code{diary-outlook-formats}.  Other mail clients can set @code{diary-from-"
-"outlook-function} to an appropriate value."
+msgid "You can import diary entries from Outlook-generated appointment messages.  While viewing such a message in Rmail or Gnus, do @kbd{M-x diary-from-outlook} to import the entry.  You can make this command recognize additional appointment message formats by customizing the variable @code{diary-outlook-formats}.  Other mail clients can set @code{diary-from-outlook-function} to an appropriate value."
 msgstr ""
 
 #. type: cindex
@@ -4097,11 +3444,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1480
-msgid ""
-"The icalendar package allows you to transfer data between your Emacs diary "
-"file and iCalendar files, which are defined in @cite{RFC 2445---Internet "
-"Calendaring and Scheduling Core Object Specification (iCalendar)} (as well "
-"as the earlier vCalendar format)."
+msgid "The icalendar package allows you to transfer data between your Emacs diary file and iCalendar files, which are defined in @cite{RFC 2445---Internet Calendaring and Scheduling Core Object Specification (iCalendar)} (as well as the earlier vCalendar format)."
 msgstr ""
 
 #. type: findex
@@ -4112,11 +3455,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1492
-msgid ""
-"The command @code{icalendar-import-buffer} extracts iCalendar data from the "
-"current buffer and adds it to your diary file.  This function is also "
-"suitable for automatic extraction of iCalendar data; for example with the "
-"Rmail mail client one could use:"
+msgid "The command @code{icalendar-import-buffer} extracts iCalendar data from the current buffer and adds it to your diary file.  This function is also suitable for automatic extraction of iCalendar data; for example with the Rmail mail client one could use:"
 msgstr ""
 
 #. type: example
@@ -4133,24 +3472,19 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1500
-msgid ""
-"The command @code{icalendar-import-file} imports an iCalendar file and adds "
-"the results to an Emacs diary file.  For example:"
+msgid "The command @code{icalendar-import-file} imports an iCalendar file and adds the results to an Emacs diary file.  For example:"
 msgstr ""
 
 #. type: example
 #: src/calendar.texi:1504
 #, no-wrap
-msgid ""
-"(icalendar-import-file \"/here/is/calendar.ics\"\n"
+msgid "(icalendar-import-file \"/here/is/calendar.ics\"\n"
 "                       \"/there/goes/ical-diary\")\n"
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1509
-msgid ""
-"You can use an @code{#include} directive to add the import file contents to "
-"the main diary file, if these are different files."
+msgid "You can use an @code{#include} directive to add the import file contents to the main diary file, if these are different files."
 msgstr ""
 
 #. type: iftex
@@ -4177,11 +3511,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1523
-msgid ""
-"Use @code{icalendar-export-file} to interactively export an entire Emacs "
-"diary file to iCalendar format.  To export only a part of a diary file, mark "
-"the relevant area, and call @code{icalendar-export-region}.  In both cases, "
-"Emacs appends the result to the target file."
+msgid "Use @code{icalendar-export-file} to interactively export an entire Emacs diary file to iCalendar format.  To export only a part of a diary file, mark the relevant area, and call @code{icalendar-export-region}.  In both cases, Emacs appends the result to the target file."
 msgstr ""
 
 #. type: section
@@ -4198,12 +3528,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1534
-msgid ""
-"Emacs understands the difference between standard time and daylight saving "
-"time---the times given for sunrise, sunset, solstices, equinoxes, and the "
-"phases of the moon take that into account.  The rules for daylight saving "
-"time vary from place to place and have also varied historically from year to "
-"year.  To do the job properly, Emacs needs to know which rules to use."
+msgid "Emacs understands the difference between standard time and daylight saving time---the times given for sunrise, sunset, solstices, equinoxes, and the phases of the moon take that into account.  The rules for daylight saving time vary from place to place and have also varied historically from year to year.  To do the job properly, Emacs needs to know which rules to use."
 msgstr ""
 
 #. type: vindex
@@ -4220,32 +3545,17 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1545
-msgid ""
-"Some operating systems keep track of the rules that apply to the place where "
-"you are; on these systems, Emacs gets the information it needs from the "
-"system automatically.  If some or all of this information is missing, Emacs "
-"fills in the gaps with the rules currently used in Cambridge, "
-"Massachusetts.  If the resulting rules are not what you want, you can tell "
-"Emacs the rules to use by setting certain variables: @code{calendar-daylight-"
-"savings-starts} and @code{calendar-daylight-savings-ends}."
+msgid "Some operating systems keep track of the rules that apply to the place where you are; on these systems, Emacs gets the information it needs from the system automatically.  If some or all of this information is missing, Emacs fills in the gaps with the rules currently used in Cambridge, Massachusetts.  If the resulting rules are not what you want, you can tell Emacs the rules to use by setting certain variables: @code{calendar-daylight-savings-starts} and @code{calendar-daylight-savings-ends}."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1551
-msgid ""
-"These values should be Lisp expressions that refer to the variable "
-"@code{year}, and evaluate to the Gregorian date on which daylight saving "
-"time starts or (respectively) ends, in the form of a list @code{(@var{month} "
-"@var{day} @var{year})}.  The values should be @code{nil} if your area does "
-"not use daylight saving time."
+msgid "These values should be Lisp expressions that refer to the variable @code{year}, and evaluate to the Gregorian date on which daylight saving time starts or (respectively) ends, in the form of a list @code{(@var{month} @var{day} @var{year})}.  The values should be @code{nil} if your area does not use daylight saving time."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1555
-msgid ""
-"Emacs uses these expressions to determine the starting date of daylight "
-"saving time for the holiday list and for correcting times of day in the "
-"solar and lunar calculations."
+msgid "Emacs uses these expressions to determine the starting date of daylight saving time for the holiday list and for correcting times of day in the solar and lunar calculations."
 msgstr ""
 
 #. type: Plain text
@@ -4256,18 +3566,13 @@ msgstr ""
 #. type: example
 #: src/calendar.texi:1561
 #, no-wrap
-msgid ""
-"(calendar-nth-named-day 2 0 3 year)\n"
+msgid "(calendar-nth-named-day 2 0 3 year)\n"
 "(calendar-nth-named-day 1 0 11 year)\n"
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1569
-msgid ""
-"That is, the second 0th day (Sunday) of the third month (March) in the year "
-"specified by @code{year}, and the first Sunday of the eleventh month "
-"(November) of that year.  If daylight saving time were changed to start on "
-"October 1, you would set @code{calendar-daylight-savings-starts} to this:"
+msgid "That is, the second 0th day (Sunday) of the third month (March) in the year specified by @code{year}, and the first Sunday of the eleventh month (November) of that year.  If daylight saving time were changed to start on October 1, you would set @code{calendar-daylight-savings-starts} to this:"
 msgstr ""
 
 #. type: example
@@ -4278,10 +3583,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1577
-msgid ""
-"If there is no daylight saving time at your location, or if you want all "
-"times in standard time, set @code{calendar-daylight-savings-starts} and "
-"@code{calendar-daylight-savings-ends} to @code{nil}."
+msgid "If there is no daylight saving time at your location, or if you want all times in standard time, set @code{calendar-daylight-savings-starts} and @code{calendar-daylight-savings-ends} to @code{nil}."
 msgstr ""
 
 #. type: vindex
@@ -4292,10 +3594,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1582
-msgid ""
-"The variable @code{calendar-daylight-time-offset} specifies the difference "
-"between daylight saving time and standard time, measured in minutes.  The "
-"value for Cambridge, Massachusetts is 60."
+msgid "The variable @code{calendar-daylight-time-offset} specifies the difference between daylight saving time and standard time, measured in minutes.  The value for Cambridge, Massachusetts is 60."
 msgstr ""
 
 #. type: vindex
@@ -4306,12 +3605,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1591
-msgid ""
-"Finally, the two variables @code{calendar-daylight-savings-starts-time} and "
-"@code{calendar-daylight-savings-ends-time} specify the number of minutes "
-"after midnight local time when the transition to and from daylight saving "
-"time should occur.  For Cambridge, Massachusetts both variables' values are "
-"120."
+msgid "Finally, the two variables @code{calendar-daylight-savings-starts-time} and @code{calendar-daylight-savings-ends-time} specify the number of minutes after midnight local time when the transition to and from daylight saving time should occur.  For Cambridge, Massachusetts both variables' values are 120."
 msgstr ""
 
 #. type: section
@@ -4346,11 +3640,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1604
-msgid ""
-"The timeclock package adds up time intervals, so you can (for instance) keep "
-"track of how much time you spend working on particular projects.  (A more "
-"advanced alternative is to use the Org Mode's facilities for clocking time, "
-"@pxref{Clocking Work Time,,,org, The Org Manual})."
+msgid "The timeclock package adds up time intervals, so you can (for instance) keep track of how much time you spend working on particular projects.  (A more advanced alternative is to use the Org Mode's facilities for clocking time, @pxref{Clocking Work Time,,,org, The Org Manual})."
 msgstr ""
 
 #. type: findex
@@ -4385,20 +3675,12 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1615
-msgid ""
-"Use the @kbd{M-x timeclock-in} command when you start working on a project, "
-"and @kbd{M-x timeclock-out} command when you're done.  Each time you do "
-"this, it adds one time interval to the record of the project.  You can "
-"change to working on a different project with @kbd{M-x timeclock-change}."
+msgid "Use the @kbd{M-x timeclock-in} command when you start working on a project, and @kbd{M-x timeclock-out} command when you're done.  Each time you do this, it adds one time interval to the record of the project.  You can change to working on a different project with @kbd{M-x timeclock-change}."
 msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1620
-msgid ""
-"Once you've collected data from a number of time intervals, you can use "
-"@kbd{M-x timeclock-workday-remaining} to see how much time is left to work "
-"today (assuming a typical average of 8 hours a day), and @kbd{M-x timeclock-"
-"when-to-leave} which will calculate when you're done."
+msgid "Once you've collected data from a number of time intervals, you can use @kbd{M-x timeclock-workday-remaining} to see how much time is left to work today (assuming a typical average of 8 hours a day), and @kbd{M-x timeclock-when-to-leave} which will calculate when you're done."
 msgstr ""
 
 #. type: findex
@@ -4409,11 +3691,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1627
-msgid ""
-"If you want Emacs to display the amount of time left of your workday in the "
-"mode line, either customize the @code{timeclock-mode-line-display} variable "
-"and set its value to @code{t}, or invoke the @kbd{M-x timeclock-mode-line-"
-"display} command."
+msgid "If you want Emacs to display the amount of time left of your workday in the mode line, either customize the @code{timeclock-mode-line-display} variable and set its value to @code{t}, or invoke the @kbd{M-x timeclock-mode-line-display} command."
 msgstr ""
 
 #. type: vindex
@@ -4424,13 +3702,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1635
-msgid ""
-"Terminating the current Emacs session might or might not mean that you have "
-"stopped working on the project and, by default, Emacs asks you.  You can, "
-"however, customize the value of the variable @code{timeclock-ask-before-"
-"exiting} to @code{nil} to avoid the question; then, only an explicit @kbd{M-"
-"x timeclock-out} or @kbd{M-x timeclock-change} will tell Emacs that the "
-"current interval is over."
+msgid "Terminating the current Emacs session might or might not mean that you have stopped working on the project and, by default, Emacs asks you.  You can, however, customize the value of the variable @code{timeclock-ask-before-exiting} to @code{nil} to avoid the question; then, only an explicit @kbd{M-x timeclock-out} or @kbd{M-x timeclock-change} will tell Emacs that the current interval is over."
 msgstr ""
 
 #. type: cindex
@@ -4453,13 +3725,7 @@ msgstr ""
 
 #. type: Plain text
 #: src/calendar.texi:1646
-msgid ""
-"The timeclock functions work by accumulating the data in a file called "
-"@file{~/.emacs.d/timelog}.  You can specify a different name for this file "
-"by customizing the variable @code{timeclock-file}.  If you edit the "
-"timeclock file manually, or if you change the value of any of timeclock's "
-"customizable variables, you should run the command @kbd{M-x timeclock-reread-"
-"log} to update the data in Emacs from the file."
+msgid "The timeclock functions work by accumulating the data in a file called @file{~/.emacs.d/timelog}.  You can specify a different name for this file by customizing the variable @code{timeclock-file}.  If you edit the timeclock file manually, or if you change the value of any of timeclock's customizable variables, you should run the command @kbd{M-x timeclock-reread-log} to update the data in Emacs from the file."
 msgstr ""
 
 #. type: include
@@ -4467,3 +3733,4 @@ msgstr ""
 #, no-wrap
 msgid "cal-xtra.texi"
 msgstr ""
+
